@@ -111,7 +111,8 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h1>How to take part</h1>
+          <!--<h2 class="mb-5" style="font-family:Lilita One">Twitch Stream</h2> -->
+            <h1 style="font-family:Lilita One">How to take part</h1>
             <p class="lead mb-5">#notGDC is a way for people who make games to share ideas, skills and things they love with the international games community.</p>
 
             <div class="row">
@@ -144,6 +145,18 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="content-section bg-dark text-light" style="background-color:#45b38d!important" id="twitch">
+        <div class="content-section-heading text-center">
+          <h2 class="mb-5" style="font-family:Lilita One">Twitch Stream</h2>
+<iframe
+    src="https://player.twitch.tv/?channel=notgdc&parent=notgdc.io&muted=true&autoplay=false"
+    height="450"
+    width="800"
+    allowfullscreen>
+</iframe>
+	</div>
     </section>
 
     <section class="content-section bg-light" id="submissions"><!--style="background-color:#3f527c"-->
@@ -188,9 +201,9 @@
 	  <div class="container">
         <div class="content-section-heading text-center">
 <p class="text-center text-muted small mb-0">
-#notGDC 2023 is hosted by <a href="https://benui.ca/">ben&#x1F331;ui</a>
+#notGDC 2023 is hosted by <a href="https://benui.ca/">ben&#x1F331;ui</a> - you can contact them with problems or questions
 <br>
-#notGDC 2020 was hosted by <a href="https://twitter.com/lucyamorris">Lucy</a> and <a href="https://twitter.com/mtrc">Mike</a> - you can contact either of them with problems or questions.
+#notGDC 2020 was hosted by <a href="https://twitter.com/lucyamorris">Lucy</a> and <a href="https://twitter.com/mtrc">Mike</a>.
 <br>
 The 2020 jam was organised by <a href="https://twitter.com/DesignByCloud">Design By Cloud</a> and the Discord is maintained by <a href="https://twitter.com/lucyamorris">Lucy</a>, <a href="https://twitter.com/itscurlyx">Jacob</a>, <a href="https://twitter.com/vitekim">Mike</a> and <a href="https://twitter.com/DesignByCloud">Michael</a>.
 <br>
