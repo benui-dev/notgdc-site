@@ -1,3 +1,49 @@
-- slug: how-to
-  display: How To
-  color: #ff0000
+# Tags sourced from 2020
+how-to:
+  title: How To
+  background-color: "#ff0000"
+project-management:
+  title: Project Management
+  background-color: "#ff0000"
+game-design:
+  title: Game Design
+  background-color: "#ff0000"
+twitter-thread:
+  title: Twitter Thread
+  background-color: "#ff0000"
+video:
+  title: Video
+  background-color: "#ff0000"
+everything:
+  title: Everything
+  background-color: "#ff0000"
+postmortem:
+  title: Postmortem
+  background-color: "#ff0000"
+wellbeing:
+  title: Wellbeing
+  background-color: "#ff0000"
+the-future:
+  title: The Future
+  background-color: "#ff0000"
+tech:
+  title: Tech
+  background-color: "#ff0000"
+art:
+  title: Art
+  background-color: "#ff0000"
+community:
+  title: Community
+  background-color: "#ff0000"
+business:
+  title: Business
+  background-color: "#ff0000"
+ai:
+  title: Artificial Intelligence
+  background-color: "#ff0000"
+code:
+  title: Code Release
+  background-color: "#ff0000"
+tools:
+  title: Tools
+  background-color: "#ff0000"

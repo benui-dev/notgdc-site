@@ -58,13 +58,13 @@
 <div class="row">
     <div class="col-lg-2"></div>
 <div class="col-lg-2">
-<a class="btn btn-primary js-scroll-trigger btn-block" href="2020/index.html">#notGDC 2020</a>
+<a class="btn btn-primary js-scroll-trigger btn-block" href="/2020/index.html">#notGDC 2020</a>
 </div>
 <div class="col-lg-2">
-<a class="btn btn-primary js-scroll-trigger btn-block" href="2019/index.html">#notGDC 2019</a>
+<a class="btn btn-primary js-scroll-trigger btn-block" href="/2019/index.html">#notGDC 2019</a>
 </div>
 <div class="col-lg-2">
-<a class="btn btn-primary js-scroll-trigger btn-block" href="2018/index.html">#notGDC 2018</a>
+<a class="btn btn-primary js-scroll-trigger btn-block" href="/2018/index.html">#notGDC 2018</a>
 </div>
 <div class="col-lg-2">
 <a class="btn btn-primary js-scroll-trigger" href="https://eigenbom.github.io/notgdc2017/">#notGDC 2017</a>
@@ -78,7 +78,7 @@
 
 
 <div class="col-lg-2">
-<a class="btn btn-primary js-scroll-trigger" href="https://discordapp.com/invite/HxgBRb2">Join Our Discord</a>
+<a class="btn btn-primary js-scroll-trigger" href="https://discord.notgdc.io/">Join Our Discord</a>
 </div>
 
 <div class="col-lg-2">
@@ -138,7 +138,7 @@
             </div>
             <br><br>
             <!--  Write a blog post, make a video, or upload a demo and let us know on Twitter so we can add it to the list!</p> -->
-            <a class="btn btn-light btn-xl js-scroll-trigger btn-special" href="https://docs.google.com/forms/d/e/1FAIpQLScoLHbQXTusJxSran05CTyo_G7vOSCRwxQYylODH547Jp77fg/viewform?usp=sf_link">Click Here To Submit!</a>
+            <a class="btn btn-light btn-xl js-scroll-trigger btn-special" href="https://form.notgdc.io/">Click Here To Submit!</a>
 
             <a class="btn-special btn btn-light btn-xl js-scroll-trigger" href="http://www.twitter.com/notgdc">Ask Us Something</a>
           </div>
@@ -149,7 +149,7 @@
     <section class="content-section bg-light" id="submissions"><!--style="background-color:#3f527c"-->
 <div class="container">
         <div class="content-section-heading text-center">
-          <h2 class="mb-5" style="font-family:Lilita One">2020 #notGDC Submissions!</h2>
+          <h2 class="mb-5" style="font-family:Lilita One">2023 #notGDC Submissions!</h2>
         </div>
         <!--
         <div class="row">
@@ -166,62 +166,42 @@
         -->
 
 
-		{% for submission in data.submissions %}
-		{{ submission.title }}
-		{{ submission.author }}
-		{{ submission.link }}
-		{% endfor %}
-        
-		<!--
+		{% for submission in site.data.submissions.submissions %}
         <div class="row">
         <div class="col-lg-2">
-        <a href="tags/management.html"><span class="badge" style="background-color:#808000; color:#ffffff; font-size:12px">Project Management</span></a><a href="tags/how-to.html"><span class="badge" style="background-color:#800000; color:#ffffff; font-size:12px">How To</span></a>
+		{%- for tag in submission.tags -%}
+<a href="/tags/{{ tag }}"><span class="badge" style="background-color:{{ site.data.tags[tag].background-color }}; color:#ffffff; font-size:12px">{{ site.data.tags[tag].title }}</span></a>
+		{%- endfor -%}
         </div>
         <div class="col-lg-10">
-        <a class="portfolio-item" href=https://auroriax.com/distraction-preventing-software-and-tools/>
-        <h1 style="font-size:1.5rem">Distraction-preventing Software and Tools</h1></a>
-        <p> by <a href="https://twitter.com/Auroriax">Tom Hermans</a></p>
+        <a class="portfolio-item" href="{{ submission.link }}">
+        <h1 style="font-size:1.5rem">{{ submission.title }}</h1></a>
+        <p> by <a href="{{ submission.author_link }}">{{ submission.author }}</a></p>
         </div>
         </div>
-		-->
-        <br>
-
+		{% endfor %}
       </div>
-
-        <!-- <div class="row">
-        <div class="col-lg-2">
-        <span class="badge badge-warning" style="font-size:12px">Game Design</span>
-        </div>
-            <div class="col-lg-10">
-            <a class="portfolio-item" href="#">
-            <h1 style="font-size:1.5rem">Slay The Spire Is A Sandwich</h1></a>
-            <p> by Mike Cook</p>
-            </div>
-        </div>
-        <br>
-      </div> -->
-<p class="text-center text-muted small mb-0">#notGDC 2020 was hosted by <a href="https://twitter.com/lucyamorris">Lucy</a> and <a href="https://twitter.com/mtrc">Mike</a> - you can contact either of them with problems or questions.<br> The jam is organised by <a href="https://twitter.com/DesignByCloud">Design By Cloud</a> and the Discord is maintained by <a href="https://twitter.com/lucyamorris">Lucy</a>, <a href="https://twitter.com/itscurlyx">Jacob</a>, <a href="https://twitter.com/vitekim">Mike</a> and <a href="https://twitter.com/DesignByCloud">Michael</a>.<br> #notGDC is based on ideas from lots of people, including <a href="https://twitter.com/squidinabox/status/176983168027598848">Squid In A Box</a> and <a href="https://eigenbom.github.io/notgdc2017/">Ben Porter</a>.</p>
     </section>
 
-        <!-- <section class="content-section text-center bg-light" id="jam">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h2>Join The Jam</h2>
-            <p class="lead mb-5"><a href="https://twitter.com/viTekiM">@viTekiM</a> and <a href="https://twitter.com/hmaon">@hmaon</a> are organising a game jam for #notGDC! Join up on itch.io and make something awesome between March 19th-26th.</p>
-            <a class="btn btn-dark btn-xl js-scroll-trigger" href="https://itch.io/jam/notgdcjam">Join Up On Itch</a>
-          </div>
-        </div>
-      </div>
-    </section> -->
+    <section class="content-section bg-light" id="footer"><!--style="background-color:#3f527c"-->
+	  <div class="container">
+        <div class="content-section-heading text-center">
+<p class="text-center text-muted small mb-0">
+#notGDC 2023 is hosted by <a href="https://benui.ca/">ben&#x1F331;ui</a>
+<br>
+#notGDC 2020 was hosted by <a href="https://twitter.com/lucyamorris">Lucy</a> and <a href="https://twitter.com/mtrc">Mike</a> - you can contact either of them with problems or questions.
+<br>
+The 2020 jam was organised by <a href="https://twitter.com/DesignByCloud">Design By Cloud</a> and the Discord is maintained by <a href="https://twitter.com/lucyamorris">Lucy</a>, <a href="https://twitter.com/itscurlyx">Jacob</a>, <a href="https://twitter.com/vitekim">Mike</a> and <a href="https://twitter.com/DesignByCloud">Michael</a>.
+<br>
+#notGDC is based on ideas from lots of people, including <a href="https://twitter.com/squidinabox/status/176983168027598848">Squid In A Box</a> and <a href="https://eigenbom.github.io/notgdc2017/">Ben Porter</a>.</p>
 
     <!-- Footer -->
-<!--     <footer class="footer text-center">
+    <footer class="footer text-center">
       <div class="container">
         <ul class="list-inline mb-5">
           <li class="list-inline-item">
             <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-facebook"></i>
+              <i class="icon-social-mastodon"></i>
             </a>
           </li>
           <li class="list-inline-item">
@@ -235,9 +215,8 @@
             </a>
           </li>
         </ul>
-<p class="text-muted small mb-0">Background Image: Luc Legay</p>
       </div>
-    </footer> -->
+    </footer>
 
 
 
