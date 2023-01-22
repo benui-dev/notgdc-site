@@ -7,6 +7,8 @@
   </head>
 
   <body id="page-top">
+{{ jekyll.environment }}
+
 <!--      Navigation
     <a class="menu-toggle rounded" href="#">
       <i class="fa fa-bars"></i>
