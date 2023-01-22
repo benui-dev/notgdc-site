@@ -1,5 +1,11 @@
 submissions:
-  - title: Distraction-preventing Software and Tools
-    author: Tom Hermans
-    link: https://twitter.com/Auroriax
-    tags: [ how-to, management ]
+  - title: Example Talk
+    author: Example Author
+    author_link: https://example-user-link.com/
+    link: https://example-talk-link.com/
+    tags: [ how-to, project-management ]
+  - title: Another Example Talk
+    author: Another Example Author
+    author_link: https://another-example-user-link.com/
+    link: https://another-example-talk-link.com/
+    tags: [ game-design, art ]
