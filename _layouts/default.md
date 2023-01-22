@@ -215,14 +215,14 @@ The 2020 jam was organised by <a href="https://twitter.com/DesignByCloud">Design
     </a>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="/assets/vendor/jquery/jquery.min.js"></script>
-    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ '/assets/vendor/jquery/jquery.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
 
     <!-- Plugin JavaScript -->
 	<!-- Removing this to try just using CSS -->
-    <script src="/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="{{ '/assets/vendor/jquery-easing/jquery.easing.min.js' | relative_url }}"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="/assets/js/stylish-portfolio.min.js"></script>
+    <script src="{{ '/assets/js/stylish-portfolio.min.js' | relative_url }}"></script>
   </body>
 </html>
