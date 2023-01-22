@@ -34,10 +34,10 @@
 
 ### Other
 
-* [ ] Set up notgdc.io email address
+* [x] Set up notgdc.io email address
   * [x] Register
-  * [ ] Wait for DNS to propagate
-  * [ ] Test
+  * [x] Wait for DNS to propagate
+  * [x] Test
 * [ ] Make repo public
 * [x] Update form link
   * [x] Fix https error on form link
