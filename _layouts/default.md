@@ -183,6 +183,7 @@
       </div>
     </section>
 
+	{% include footer.html %}
     <section class="content-section bg-light" id="footer"><!--style="background-color:#3f527c"-->
 	  <div class="container">
         <div class="content-section-heading text-center">
@@ -195,31 +196,6 @@ The 2020 jam was organised by <a href="https://twitter.com/DesignByCloud">Design
 <br>
 #notGDC is based on ideas from lots of people, including <a href="https://twitter.com/squidinabox/status/176983168027598848">Squid In A Box</a> and <a href="https://eigenbom.github.io/notgdc2017/">Ben Porter</a>.</p>
 
-    <!-- Footer -->
-    <footer class="footer text-center">
-      <div class="container">
-        <ul class="list-inline mb-5">
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-mastodon"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="#">
-              <i class="icon-social-github"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-
-
-
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
       <i class="fa fa-angle-up"></i>
@@ -231,12 +207,9 @@ The 2020 jam was organised by <a href="https://twitter.com/DesignByCloud">Design
 
     <!-- Plugin JavaScript -->
 	<!-- Removing this to try just using CSS -->
-    <!-- <script src="/assets/vendor/jquery-easing/jquery.easing.min.js"></script> -->
+    <script src="/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="/assets/js/stylish-portfolio.min.js"></script>
-
-<a rel="me" href="https://mastodon.gamedev.place/@notgdc">Mastodon</a>
-
   </body>
 </html>

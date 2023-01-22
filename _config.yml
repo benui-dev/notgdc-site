@@ -68,6 +68,20 @@ kramdown:
   smart_quotes: ["apos","apos","quot","quot"]
   enable_coderay: false
 
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/notGDC"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mastodon.gamedev.place/@notGDC"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "http://discord.notgdc.io/"
+    - label: "Twitch"
+      icon: "fab fa-fw fa-twitch"
+      url: "https://www.twitch.tv/notGDC"
 
 # Collections
 collections:
