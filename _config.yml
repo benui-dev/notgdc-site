@@ -6,11 +6,12 @@ baseurl: ""
 url: "https://notgdc.io/"
 twitter:
   username: notgdc
-mastodon: @notgdc@mastodon.gamedev.place
+mastodon:
+  username: "@notgdc@mastodon.gamedev.place"
 
 # Site Settings
-locale                   : "en"
-repository               : "benui-dev/personalsite2"
+locale: "en"
+repository: "benui-dev/notgdc-site"
 
 google_site_verification:
 
