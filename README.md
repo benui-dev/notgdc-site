@@ -5,12 +5,15 @@
 
 ### Site Visuals
 
-* [ ] Make new Jekyll system use layout from 2020
-* [ ] Change 2020 theme to use locally-hosted fonts instead of Google
+* [ ] Update CSS so it's not a nightmare to get center-aligned buttons (see all
+  the empty divs being used to force center-alignment
+* [ ] Change theme to use locally-hosted fonts instead of Google
   * [x] Download font convert to woff
   * [ ] Update CSS
 * [ ] Make sure layout works on mobile
 * [ ] Clean up some of the layout stuff from 2020 (see default.md)
+  * [ ] Work out what's going on with the Bootstrap column layout thing.
+  * [ ] It's kind of gross adding center-aligned buttons stuff
   * [ ] Center-aligning buttons
 * [ ] Do pass on page speed optimization https://pagespeed.web.dev/report?url=https%3A%2F%2Fnotgdc.io%2F
 * [ ] Twitch embed
@@ -20,6 +23,7 @@
 * [ ] Change main header image to use text + custom font (not static image)
 * [ ] Integrate new logo (when we have it)
   * [ ] Update favicon
+* [x] Fix 2020 archive to not have links to submissions
 
 
 ### Site Backend / Jekyll
