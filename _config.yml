@@ -78,7 +78,7 @@ footer:
       url: "https://mastodon.gamedev.place/@notGDC"
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
-      url: "http://discord.notgdc.io/"
+      url: "https://discord.notgdc.io/"
     - label: "Twitch"
       icon: "fab fa-fw fa-twitch"
       url: "https://www.twitch.tv/notGDC"
