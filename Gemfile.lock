@@ -21,9 +21,11 @@ GEM
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
     ffi (1.15.5)
+    ffi (1.15.5-x64-mingw-ucrt)
     ffi (1.15.5-x64-mingw32)
     forwardable-extended (2.6.0)
     gemoji (4.0.1)
+    google-protobuf (3.21.12-x64-mingw-ucrt)
     google-protobuf (3.21.12-x64-mingw32)
     google-protobuf (3.21.12-x86_64-darwin)
     html-pipeline (2.14.3)
@@ -77,6 +79,8 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     minitest (5.17.0)
+    nokogiri (1.13.10-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.13.10-x64-mingw32)
       racc (~> 1.4)
     nokogiri (1.13.10-x86_64-darwin)
@@ -95,6 +99,8 @@ GEM
     rouge (3.30.0)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
+    sass-embedded (1.57.1-x64-mingw-ucrt)
+      google-protobuf (~> 3.21)
     sass-embedded (1.57.1-x64-mingw32)
       google-protobuf (~> 3.21)
     sass-embedded (1.57.1-x86_64-darwin)
@@ -111,6 +117,7 @@ GEM
     zeitwerk (2.6.6)
 
 PLATFORMS
+  x64-mingw-ucrt
   x64-mingw32
   x86_64-darwin-20
 

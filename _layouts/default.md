@@ -23,6 +23,7 @@
 
   </style>
 
+<script defer src="{{ '/assets/js/countdown.js' | relative_url }}"></script>
 
 <!-- Bootstrap Core CSS -->
 <link href="{{ '/assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
