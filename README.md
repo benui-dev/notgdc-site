@@ -14,7 +14,7 @@
   * [ ] Center-aligning buttons
 * [ ] Do pass on page speed optimization https://pagespeed.web.dev/report?url=https%3A%2F%2Fnotgdc.io%2F
 * [ ] Twitch embed
-* [ ] Add countdown timer javascript thingy
+* [x] Add countdown timer javascript thingy
 * [ ] Change smooth scrolling to use standalone script
   * [ ] Remove dependency on jQuery
 * [ ] Change main header image to use text + custom font (not static image)
