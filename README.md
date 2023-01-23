@@ -35,6 +35,7 @@
 
 ### Other
 
+* [ ] Fix notgdc.io not having HTTPS (certificate is stuck in processing?)
 * [x] Set up notgdc.io email address
   * [x] Register
   * [x] Wait for DNS to propagate
