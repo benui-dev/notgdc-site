@@ -26,7 +26,7 @@
 
 * [ ] Generate individual pages from tags, list all entries on them
   * [ ] Need to make a custom generator?
-* [ ] Fix 404 not working
+* [x] Fix 404 not working
 
 ### Discord
 
