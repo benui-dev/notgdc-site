@@ -5,7 +5,7 @@
 
 ### Site Visuals
 
-* [ ] Update CSS so it's not a nightmare to get center-aligned buttons (see all
+* [x] Update CSS so it's not a nightmare to get center-aligned buttons (see all
   the empty divs being used to force center-alignment
 * [ ] Change theme to use locally-hosted fonts instead of Google
   * [x] Download font convert to woff
