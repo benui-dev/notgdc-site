@@ -28,9 +28,7 @@
 <link href="{{ '/assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
 
 <!-- Custom Fonts -->
-<link href="{{ '/assets/css/fonts.css' | relative_url }}" rel="stylesheet">
-<link href="{{ '/assets/vendor/font-awesome/css/font-awesome.min.css' | relative_url }}" rel="stylesheet" type="text/css">
-<link href="{{ '/assets/vendor/simple-line-icons/css/simple-line-icons.css' | relative_url }}" rel="stylesheet">
+<!-- <link href="{{ '/assets/vendor/font-awesome/css/font-awesome.min.css' | relative_url }}" rel="stylesheet" type="text/css"> -->
 
 <!-- Custom CSS -->
 <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
@@ -43,7 +41,7 @@
 
 <!--      Navigation
     <a class="menu-toggle rounded" href="#">
-      <i class="fa fa-bars"></i>
+      <i class="far fa-bars"></i>
     </a>
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
