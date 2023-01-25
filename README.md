@@ -11,10 +11,12 @@
   * [x] Download font convert to woff
   * [ ] Update CSS
 * [ ] Make sure layout works on mobile
-* [ ] Clean up some of the layout stuff from 2020 (see default.md)
-  * [ ] Work out what's going on with the Bootstrap column layout thing.
-  * [ ] It's kind of gross adding center-aligned buttons stuff
-  * [ ] Center-aligning buttons
+* [x] Clean up some of the layout stuff from 2020 (see default.md)
+  * [x] Work out what's going on with the Bootstrap column layout thing.
+  * [x] It's kind of gross adding center-aligned buttons stuff
+  * [x] Center-aligning buttons
+    * NOTE: Cleaned up the layout stuff, instead of using the bootstrap columns we just put them all in the same column, effectively "flexbox-wrap"'ing them.
+    * Added some margins so they wrap correctly and don't stuck together
 * [ ] Do pass on page speed optimization https://pagespeed.web.dev/report?url=https%3A%2F%2Fnotgdc.io%2F
 * [ ] Change smooth scrolling to use standalone script
   * [ ] Remove dependency on jQuery
