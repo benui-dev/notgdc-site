@@ -5,7 +5,7 @@
 
 ### Site Visuals
 
-* [ ] Update CSS so it's not a nightmare to get center-aligned buttons (see all
+* [x] Update CSS so it's not a nightmare to get center-aligned buttons (see all
   the empty divs being used to force center-alignment
 * [ ] Change theme to use locally-hosted fonts instead of Google
   * [x] Download font convert to woff
@@ -16,13 +16,13 @@
   * [ ] It's kind of gross adding center-aligned buttons stuff
   * [ ] Center-aligning buttons
 * [ ] Do pass on page speed optimization https://pagespeed.web.dev/report?url=https%3A%2F%2Fnotgdc.io%2F
-* [ ] Twitch embed
-* [x] Add countdown timer javascript thingy
 * [ ] Change smooth scrolling to use standalone script
   * [ ] Remove dependency on jQuery
 * [ ] Change main header image to use text + custom font (not static image)
 * [ ] Integrate new logo (when we have it)
   * [ ] Update favicon
+* [x] Twitch embed
+* [x] Add countdown timer javascript thingy
 * [x] Fix 2020 archive to not have links to submissions
 
 
@@ -39,12 +39,12 @@
 
 ### Other
 
-* [ ] Fix notgdc.io not having HTTPS (certificate is stuck in processing?)
+* [ ] Make repo public
+* [x] Fix notgdc.io not having HTTPS (certificate is stuck in processing?)
 * [x] Set up notgdc.io email address
   * [x] Register
   * [x] Wait for DNS to propagate
   * [x] Test
-* [ ] Make repo public
 * [x] Update form link
   * [x] Fix https error on form link
 * [x] Add YAML snippet to google form results
