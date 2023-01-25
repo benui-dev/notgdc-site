@@ -30,6 +30,10 @@
 
 * [ ] Generate individual pages from tags, list all entries on them
   * [ ] Need to make a custom generator?
+* [ ] Make minimizing .css/.js part of some build step
+  * [ ] Have non-minimized .css in the repo
+  * [ ] Minimize as part of build (custom GitHub action required?)
+  * [ ] Only serve minimized stuff
 * [x] Fix 404 not working
 
 ### Discord
