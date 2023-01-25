@@ -10,7 +10,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="https://fonts.googleapis.com/css?family=Lilita+One|Nunito+Sans:500,700&amp;display=swap" rel="stylesheet">
 <script defer data-domain="notgdc.io" src="https://plausible.io/js/script.js"></script>
 
 <style>
@@ -29,12 +28,13 @@
 <link href="{{ '/assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
 
 <!-- Custom Fonts -->
+<link href="{{ '/assets/css/fonts.css' | relative_url }}" rel="stylesheet">
 <link href="{{ '/assets/vendor/font-awesome/css/font-awesome.min.css' | relative_url }}" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 <link href="{{ '/assets/vendor/simple-line-icons/css/simple-line-icons.css' | relative_url }}" rel="stylesheet">
 
 <!-- Custom CSS -->
-<link href="{{ 'assets/css/stylish-portfolio.min.css' | relative_url }}" rel="stylesheet">
+<link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
+<link href="{{ '/assets/css/stylish-portfolio.min.css' | relative_url }}" rel="stylesheet">
 </head>
 
 <body id="page-top">
