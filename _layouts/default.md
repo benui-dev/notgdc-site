@@ -54,18 +54,20 @@
       </ul>
     </nav> -->
 
-{% if site.footer.links %}
-{% for link in site.footer.links %}
-{% if link.label and link.url %}
-<li><a href="{{ link.url }}" rel="nofollow noopener noreferrer me"><i class="link-icon {{ link.icon | default: 'fas fa-link' }}" aria-hidden="true" style="{{ link.style | default: '' }}"></i>{{ link.label }}</a></li>
-{% endif %}
-{% endfor %}
-{% endif %}
-
-
 <section class="content-section bg-light" id="footer"><!--style="background-color:#3f527c"-->
 <div class="container">
 <div class="content-section-heading text-center">
+{% if site.footer.links %}
+<div class="row">
+<div class="col">
+{% for link in site.footer.links %}
+{% if link.label and link.url %}
+<a href="{{ link.url }}" rel="nofollow noopener noreferrer me"><i class="link-icon mr-2 {{ link.icon | default: 'fas fa-link' }}" aria-hidden="true" style="{{ link.style | default: '' }}"></i>{{ link.label }}</a>
+{% endif %}
+{% endfor %}
+</div>
+</div>
+{% endif %}
 <p class="text-center text-muted small mb-0">
 #notGDC 2023 is hosted by <a href="https://benui.ca/">ben&#x1F331;ui</a> - you can contact them with problems or questions
 <br>
