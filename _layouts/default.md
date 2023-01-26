@@ -75,13 +75,13 @@ The 2020 jam was organised by <a href="https://twitter.com/DesignByCloud">Design
 
 Powered by Jekyll. Hosted on <a href="https://github.com/benui-dev/notgdc-site">GitHub</a>. Analytics by <a href="https://plausible.io/notgdc.io">Plausible.io</a>.
 
+{% comment %}
 <!-- Scroll to Top Button-->
 <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top" aria-label"Scroll to top">
   <i class="fa fa-angle-up"></i>
 </a>
 
 <!-- Bootstrap core JavaScript -->
-{% comment %}
 <script src="{{ '/assets/vendor/jquery/jquery.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
 
