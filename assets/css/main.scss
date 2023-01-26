@@ -38,6 +38,13 @@ $banner-height: 60px;
 	vertical-align: middle;
 }
 
+@media (max-width: 576px) {
+	.banner
+	{
+		font-size: 1.60em;
+	}
+}
+
 h1, h2
 {
 	font-family: "Lilita One", sans-serif;
@@ -60,6 +67,27 @@ h1, h2
 		color: #fff;
 		font-size: 2em;
 		font-family: "Lilita One", sans-serif;
+	}
+}
+
+@media (max-width: 576px) {
+	.masthead
+	{
+		h1
+		{
+			font-size: 8em;
+		}
+		h2
+		{
+			color: #fff;
+			font-size: 2em;
+		}
+		h3
+		{
+			color: #fff;
+			font-size: 1.60em;
+			font-family: "Lilita One", sans-serif;
+		}
 	}
 }
 
