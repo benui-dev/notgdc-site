@@ -5,12 +5,27 @@
 
 ### Site Visuals
 
-* [x] Update CSS so it's not a nightmare to get center-aligned buttons (see all
-  the empty divs being used to force center-alignment
+
+* [ ] Make sure layout works on mobile
+  * [ ] Set simple breakpoints using minimal-mistakes
+* [ ] Clean up CSS
+  * [ ] Remove bootstrap mess
+* [ ] Integrate new logo (when we have it)
+  * [ ] Update favicon
+  * [ ] Update Discord logo
+  * [ ] Update Twitter logo
+  * [ ] Update Mastodon logo
+  * [ ] Update Twitch logo
+* [ ] Add juice to Button on-hover (see terranil.com for example)
+* [ ] Update timer to show reduced info based on time remaining
+  * [ ] Don't show seconds
+  * [ ] Only show minutes if days == 0
+  * [ ] Only show hours if days < 3 && hours > 0
+  * [ ] Only show days if days > 0
+* [x] Update CSS so it's not a nightmare to get center-aligned buttons (see all the empty divs being used to force center-alignment
 * [x] Change theme to use locally-hosted fonts instead of Google
   * [x] Download font convert to woff
   * [x] Update CSS
-* [ ] Make sure layout works on mobile
 * [x] Clean up some of the layout stuff from 2020 (see default.md)
   * [x] Work out what's going on with the Bootstrap column layout thing.
   * [x] It's kind of gross adding center-aligned buttons stuff
@@ -21,8 +36,6 @@
 * [x] Change smooth scrolling to use standalone script
   * [x] Remove dependency on jQuery
 * [x] Change main header image to use text + custom font (not static image)
-* [ ] Integrate new logo (when we have it)
-  * [ ] Update favicon
 * [x] Twitch embed
 * [x] Add countdown timer javascript thingy
 * [x] Fix 2020 archive to not have links to submissions
@@ -32,6 +45,8 @@
 
 * [ ] Generate individual pages from tags, list all entries on them
   * [ ] Need to make a custom generator?
+* [ ] Add cute icons next to each tag
+* [ ] Fix tags not having nice colors
 * [ ] Make minimizing .css/.js part of some build step
   * [ ] Have non-minimized .css in the repo
   * [ ] Minimize as part of build (custom GitHub action required?)
