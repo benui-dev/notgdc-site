@@ -30,7 +30,7 @@ $banner-height: 60px;
 {
 	background-color: $green;
 	border-radius: calc($banner-height/2);
-	height: $banner-height;
+	height: auto;
 
 	color: #fff;
 	font-family: "Lilita One", sans-serif;
@@ -63,9 +63,10 @@ h1, h2
 	}
 }
 
+// linear-gradient(153deg, rgb(4 0 255) 0%, rgb(255 19 19 / 40%) 150%)
 .dropshadow
 {
-	text-shadow: 0 0 10px #e17f20;
+	filter: drop-shadow(2px 2px #333);
 }
 
 .green
