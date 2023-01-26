@@ -27,12 +27,8 @@
 <!-- Bootstrap Core CSS -->
 <link href="{{ '/assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
 
-<!-- Custom Fonts -->
-<!-- <link href="{{ '/assets/vendor/font-awesome/css/font-awesome.min.css' | relative_url }}" rel="stylesheet" type="text/css"> -->
-
 <!-- Custom CSS -->
 <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
-<link href="{{ '/assets/css/stylish-portfolio.min.css' | relative_url }}" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -62,18 +58,18 @@
 <div class="col">
 {% for link in site.footer.links %}
 {% if link.label and link.url %}
-<a href="{{ link.url }}" rel="nofollow noopener noreferrer me"><i class="link-icon mr-2 {{ link.icon | default: 'fas fa-link' }}" aria-hidden="true" style="{{ link.style | default: '' }}"></i>{{ link.label }}</a>
+<a href="{{ link.url }}" rel="nofollow noopener noreferrer me" class="mr-3"><i class="link-icon mr-1 {{ link.icon | default: 'fas fa-link' }}" aria-hidden="true" style="{{ link.style | default: '' }}"></i>{{ link.label }}</a>
 {% endif %}
 {% endfor %}
 </div>
 </div>
 {% endif %}
 <p class="text-center text-muted small mb-0">
-#notGDC 2023 is hosted by <a href="https://benui.ca/">ben&#x1F331;ui</a> - you can contact them with problems or questions
+#notGDC 2023 is hosted by <a href="https://benui.ca/">ben&#x1F331;ui</a>, with huge help from <a href="https://github.com/benui-dev/notgdc-site/graphs/contributors">contributors</a>
 <br>
 #notGDC 2020 was hosted by <a href="https://twitter.com/lucyamorris">Lucy</a> and <a href="https://twitter.com/mtrc">Mike</a>.
 <br>
-The 2020 jam was organised by <a href="https://twitter.com/DesignByCloud">Design By Cloud</a> and the Discord is maintained by <a href="https://twitter.com/lucyamorris">Lucy</a>, <a href="https://twitter.com/itscurlyx">Jacob</a>, <a href="https://twitter.com/vitekim">Mike</a> and <a href="https://twitter.com/DesignByCloud">Michael</a>.
+The 2020 jam was organised by <a href="https://twitter.com/DesignByCloud">Design By Cloud</a> and the Discord was maintained by <a href="https://twitter.com/lucyamorris">Lucy</a>, <a href="https://twitter.com/itscurlyx">Jacob</a>, <a href="https://twitter.com/vitekim">Mike</a> and <a href="https://twitter.com/DesignByCloud">Michael</a>.
 <br>
 #notGDC is based on ideas from lots of people, including <a href="https://twitter.com/squidinabox/status/176983168027598848">Squid In A Box</a> and <a href="https://eigenbom.github.io/notgdc2017/">Ben Porter</a>.</p>
 
