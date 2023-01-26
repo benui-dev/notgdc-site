@@ -5,12 +5,32 @@ if(countdown !== null)
     const nf = new Intl.NumberFormat("en-US", {
         minimumIntegerDigits: 2
     });
-    const countdown_format = countdown.innerText;
-    const NOTGDC_START_DATE = new Date(Date.UTC(2023, 03, 16, 18, 0, 0));
+    const NOTGDC_START_DATE = new Date(Date.UTC(2023, 03, 20, 18, 0, 0));
+    const NOTGDC_END_DATE = new Date(Date.UTC(2023, 03, 24, 18, 0, 0));
+
+    function format_date(days, hours, minutes, seconds)
+    {
+        let countdown_string = "Starts in "
+        if (days > 0)
+        {
+            countdown_string += days + " Days ";
+        }
+        if (days < 3 && hours > 0)
+        {
+            countdown_string += nf.format(hours) + " Hours ";
+        }
+
+        if (days == 0)
+        {
+            countdown_string += nf.format(minutes) + " Minutes ";
+        }
+
+        return countdown_string;
+    }
+
     function update_countdown() {
-        const now_date = new Date();
+        const now_date = new Date(Date.UTC(2023, 03, 25, 18, 0, 0));
         var diff = NOTGDC_START_DATE - now_date;
-    
         if (diff > 0)
         {
             const _MS_PER_SECONDS = 1000;
@@ -18,20 +38,26 @@ if(countdown !== null)
             const _MS_PER_HOUR = _MS_PER_MINUTES * 60;
             const _MS_PER_DAY = _MS_PER_HOUR * 24;
         
-            const days    = Math.floor(diff / _MS_PER_DAY);     diff -= days * _MS_PER_DAY
+            let days    = Math.floor(diff / _MS_PER_DAY);     diff -= days * _MS_PER_DAY
             const hours   = Math.floor(diff / _MS_PER_HOUR);    diff -= hours * _MS_PER_HOUR
             const minutes = Math.floor(diff / _MS_PER_MINUTES); diff -= minutes * _MS_PER_MINUTES
             const seconds = Math.floor(diff / _MS_PER_SECONDS);
-        
-            const countdown_string = countdown_format.replace("{dd}", nf.format(days))
-                                                        .replace("{hh}", nf.format(hours))
-                                                        .replace("{mm}", nf.format(minutes))
-                                                        .replace("{ss}", nf.format(seconds));
-            countdown.innerText = countdown_string;
+
+            
+            countdown.innerText = format_date(days, hours, minutes, seconds);
         }
         else
         {
-            countdown.innerText = "Event's over !"
+            var end_diff = NOTGDC_END_DATE - now_date;
+            if(end_diff > 0)
+            {
+                countdown.innerText = "Event in progress !"
+            }
+            else
+            {
+                // countdown.innerText = "Event's over ! Thanks for joining !"
+                countdown.remove();
+            }
         }
     }
 
