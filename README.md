@@ -7,9 +7,9 @@
 
 * [x] Update CSS so it's not a nightmare to get center-aligned buttons (see all
   the empty divs being used to force center-alignment
-* [ ] Change theme to use locally-hosted fonts instead of Google
+* [x] Change theme to use locally-hosted fonts instead of Google
   * [x] Download font convert to woff
-  * [ ] Update CSS
+  * [x] Update CSS
 * [ ] Make sure layout works on mobile
 * [x] Clean up some of the layout stuff from 2020 (see default.md)
   * [x] Work out what's going on with the Bootstrap column layout thing.
@@ -20,7 +20,7 @@
 * [ ] Do pass on page speed optimization https://pagespeed.web.dev/report?url=https%3A%2F%2Fnotgdc.io%2F
 * [ ] Change smooth scrolling to use standalone script
   * [ ] Remove dependency on jQuery
-* [ ] Change main header image to use text + custom font (not static image)
+* [x] Change main header image to use text + custom font (not static image)
 * [ ] Integrate new logo (when we have it)
   * [ ] Update favicon
 * [x] Twitch embed
@@ -45,7 +45,7 @@
 
 ### Other
 
-* [ ] Make repo public
+* [x] Make repo public
 * [x] Fix notgdc.io not having HTTPS (certificate is stuck in processing?)
 * [x] Set up notgdc.io email address
   * [x] Register
