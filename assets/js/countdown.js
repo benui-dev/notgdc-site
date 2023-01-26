@@ -29,7 +29,7 @@ if(countdown !== null)
     }
 
     function update_countdown() {
-        const now_date = new Date(Date.UTC(2023, 03, 25, 18, 0, 0));
+        const now_date = new Date();
         var diff = NOTGDC_START_DATE - now_date;
         if (diff > 0)
         {
