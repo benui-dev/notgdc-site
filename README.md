@@ -60,6 +60,7 @@
 
 ### Other
 
+* [ ] Fix "www.notgdc.io" with www prefix not working
 * [x] Make repo public
 * [x] Fix notgdc.io not having HTTPS (certificate is stuck in processing?)
 * [x] Set up notgdc.io email address
