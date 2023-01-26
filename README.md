@@ -17,9 +17,9 @@
   * [x] Center-aligning buttons
     * NOTE: Cleaned up the layout stuff, instead of using the bootstrap columns we just put them all in the same column, effectively "flexbox-wrap"'ing them.
     * Added some margins so they wrap correctly and don't stuck together
-* [ ] Do pass on page speed optimization https://pagespeed.web.dev/report?url=https%3A%2F%2Fnotgdc.io%2F
-* [ ] Change smooth scrolling to use standalone script
-  * [ ] Remove dependency on jQuery
+* [x] Do pass on page speed optimization https://pagespeed.web.dev/report?url=https%3A%2F%2Fnotgdc.io%2F
+* [x] Change smooth scrolling to use standalone script
+  * [x] Remove dependency on jQuery
 * [x] Change main header image to use text + custom font (not static image)
 * [ ] Integrate new logo (when we have it)
   * [ ] Update favicon
