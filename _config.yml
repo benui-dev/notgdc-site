@@ -38,11 +38,13 @@ exclude:
   - log
   - node_modules
   - package.json
+  - package-lock.json
   - Rakefile
   - README
   - README.md
   - tmp
   - raw
+  - gulp_install.bat
 keep_files:
   - .git
   - .svn

@@ -62,7 +62,7 @@
 <div class="col">
 {% for link in site.footer.links %}
 {% if link.label and link.url %}
-<a href="{{ link.url }}" rel="nofollow noopener noreferrer me"><i class="link-icon mr-2 {{ link.icon | default: 'fas fa-link' }}" aria-hidden="true" style="{{ link.style | default: '' }}"></i>{{ link.label }}</a>
+<a href="{{ link.url }}" rel="nofollow noopener noreferrer me">{{include icon.html icon=link.icon}}{{ link.label }}</a>
 {% endif %}
 {% endfor %}
 </div>
@@ -81,7 +81,7 @@ Powered by Jekyll. Hosted on <a href="https://github.com/benui-dev/notgdc-site">
 
 <!-- Scroll to Top Button-->
 <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-  <i class="fa fa-angle-up"></i>
+  {{include icons.html icon="angles-up"}}
 </a>
 
 <!-- Bootstrap core JavaScript -->
