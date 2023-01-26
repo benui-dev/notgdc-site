@@ -45,6 +45,8 @@ exclude:
   - tmp
   - raw
   - gulp_install.bat
+  - jekyll_serve.bat
+  - jekyll_build_prod.bat
 keep_files:
   - .git
   - .svn
@@ -73,16 +75,16 @@ kramdown:
 footer:
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
+      icon: "twitter"
       url: "https://twitter.com/notGDC"
     - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
+      icon: "mastodon"
       url: "https://mastodon.gamedev.place/@notGDC"
     - label: "Discord"
-      icon: "fab fa-fw fa-discord"
+      icon: "discord"
       url: "https://discord.notgdc.io/"
     - label: "Twitch"
-      icon: "fab fa-fw fa-twitch"
+      icon: "twitch"
       url: "https://www.twitch.tv/notGDC"
 
 # Collections

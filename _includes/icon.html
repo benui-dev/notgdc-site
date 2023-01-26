@@ -1,1 +1,1 @@
-{%- for icon in site.data.icons -%}{%- if icon.key = include.icon -%}{{icon.html}}{%- endif %}{%- endfor -%}
+{%- for icon in site.data.icons -%}{%- if icon.key == include.icon -%}{{icon.html | replace: "(CLASS_REPLACE)", include.class }}{%- endif %}{%- endfor -%}

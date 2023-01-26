@@ -4,7 +4,7 @@
   "description": "* [x] Update CSS so it's not a nightmare to get center-aligned buttons (see all\r   the empty divs being used to force center-alignment\r * [ ] Change theme to use locally-hosted fonts instead of Google\r   * [x] Download font convert to woff\r   * [ ] Update CSS\r * [ ] Make sure layout works on mobile\r * [x] Clean up some of the layout stuff from 2020 (see default.md)\r   * [x] Work out what's going on with the Bootstrap column layout thing.\r   * [x] It's kind of gross adding center-aligned buttons stuff\r   * [x] Center-aligning buttons\r     * NOTE: Cleaned up the layout stuff, instead of using the bootstrap columns we just put them all in the same column, effectively \"flexbox-wrap\"'ing them.\r     * Added some margins so they wrap correctly and don't stuck together\r * [ ] Do pass on page speed optimization https://pagespeed.web.dev/report?url=https%3A%2F%2Fnotgdc.io%2F\r * [ ] Change smooth scrolling to use standalone script\r   * [ ] Remove dependency on jQuery\r * [ ] Change main header image to use text + custom font (not static image)\r * [ ] Integrate new logo (when we have it)\r   * [ ] Update favicon\r * [x] Twitch embed\r * [x] Add countdown timer javascript thingy\r * [x] Fix 2020 archive to not have links to submissions",
   "main": "index.js",
   "scripts": {
-    "minify": "gulp minify-css minify-js minify-html",
+    "minify": "gulp minify-css minify-js",
     "minify-css": "gulp minify-css",
     "minify-js": "gulp minify-js",
     "minify-html": "gulp minify-html"
@@ -23,5 +23,8 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
   }
 }

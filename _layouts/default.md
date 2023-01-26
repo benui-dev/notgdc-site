@@ -22,13 +22,13 @@
 
   </style>
 
-<script defer src="{{ '/assets/js/countdown.js' | relative_url }}"></script>
+<script defer src="{%- include minified_path.html file='/assets/js/countdown' ext='js' -%}"></script>
 
 <!-- Bootstrap Core CSS -->
 <link href="{{ '/assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
 
 <!-- Custom CSS -->
-<link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
+<link href="{%- include minified_path.html file='/assets/css/main' ext='css' -%}" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -58,7 +58,7 @@
 <div class="col">
 {% for link in site.footer.links %}
 {% if link.label and link.url %}
-<a href="{{ link.url }}" rel="nofollow noopener noreferrer me">{{include icon.html icon=link.icon}}{{ link.label }}</a>
+<a href="{{ link.url }}" rel="nofollow noopener noreferrer me">{%- include icon.html icon=link.icon -%}{{ link.label }}</a>
 {% endif %}
 {% endfor %}
 </div>
@@ -77,7 +77,7 @@ Powered by Jekyll. Hosted on <a href="https://github.com/benui-dev/notgdc-site">
 
 <!-- Scroll to Top Button-->
 <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-  {{include icons.html icon="angles-up"}}
+  {%- include icon.html icon="angles-up" -%}
 </a>
 
 <!-- Bootstrap core JavaScript -->
@@ -89,7 +89,7 @@ Powered by Jekyll. Hosted on <a href="https://github.com/benui-dev/notgdc-site">
 <script src="{{ '/assets/vendor/jquery-easing/jquery.easing.min.js' | relative_url }}"></script>
 
 <!-- Custom scripts for this template -->
-<script src="{{ '/assets/js/stylish-portfolio.min.js' | relative_url }}"></script>
+<script src="{%- include minified_path.html file='/assets/js/stylish-portfolio' ext='js' -%}"></script>
 
 </body>
 </html>
