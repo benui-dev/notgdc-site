@@ -7,6 +7,11 @@
 @import "fontawesome/solid";
 @import "fontawesome/brands";
 
+html
+{
+	scroll-behavior: smooth;
+}
+
 
 .fab {
     font-family: "Font Awesome 6 Brands";
