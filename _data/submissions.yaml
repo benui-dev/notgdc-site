@@ -1,11 +1,832 @@
 submissions:
-  - title: Example Talk
-    author: Example Author
-    author_link: https://example-user-link.com/
-    link: https://example-talk-link.com/
-    tags: [ how-to, project-management ]
-  - title: Another Example Talk
-    author: Another Example Author
-    author_link: https://another-example-user-link.com/
-    link: https://another-example-talk-link.com/
-    tags: [ game-design, art ]
+
+###############################################################################
+# 2023
+ - title: Example Talk
+   author: Example Author
+   author_link: https://example-user-link.com/
+   link: https://example-talk-link.com/
+   tags: [ how-to, project-management ]
+   year: 2023
+ - title: Another Example Talk
+   author: Another Example Author
+   author_link: https://another-example-user-link.com/
+   link: https://another-example-talk-link.com/
+   tags: [ game-design, art ]
+   year: 2023
+
+
+###############################################################################
+# 2022
+
+ - title: "Understanding Unreal's Input Stack"
+   author: "Nicholas Helish"
+   author_link: https://twitter.com/oldsiren 
+   link: https://www.youtube.com/watch?v=MV-uXsM2o0k
+   tags: [ video, unreal ]
+   year: 2022
+ - title: "Creating a UMG/Slate Widget in Unreal Engine"
+   author: "benui"
+   author_link: https://benui.ca/
+   link: https://www.youtube.com/watch?v=oCML-NOTArE
+   tags: [ video, unreal, user-interface ]
+   year: 2022
+ - title: "Multiplayer Best Practices in Unreal Engine"
+   author: "Omid Kiarostami"
+   author_link: https://twitter.com/heyomidk
+   link: https://www.youtube.com/watch?v=UstLLZbkmOQ
+   tags: [ video, unreal, multiplayer ]
+   year: 2022
+ - title: "UMG Layout Techniques for Unreal Engine"
+   author: "Scott Hernandez"
+   author_link: https://twitter.com/superscott597
+   link: https://www.youtube.com/watch?v=kTg2Le6QwrQ
+   tags: [ video, unreal, user-interface ]
+   year: 2022
+ - title: "Unreal Engine 5.0 Enhanced Input Walkthrough"
+   author: "Alex Swaim"
+   author_link: https://twitter.com/phoenixashes
+   link: https://www.youtube.com/watch?v=ROeN1fI69tQ
+   tags: [ video, unreal ]
+   year: 2022
+ - title: "Unreal Overloaded - Soft and Hard References - Primary Assets"
+   author: "Amir Ansari"
+   author_link: https://twitter.com/AmirAnsari09
+   link: https://www.youtube.com/watch?v=giDf4G6Ndk8
+   tags: [ video, unreal ]
+   year: 2022
+ - title: "Designing Games for Commercial Success"
+   author: "Victor D. Goossens"
+   author_link: https://twitter.com/Mr4Goosey
+   link: https://www.youtube.com/watch?v=Giq88_Jl-Jo
+   tags: [ video, business ]
+   year: 2022
+
+###############################################################################
+# 2020
+
+ - title: "Distraction-preventing Software and Tools"
+   author: "Tom Hermans"
+   author_link: https://twitter.com/Auroriax
+   link: https://auroriax.com/distraction-preventing-software-and-tools/
+   tags: [ project-management, how-to ]
+   year: 2020
+ - title: "Your Own Best Enemy"
+   author: "Steve Thornton"
+   author_link: https://twitter.com/_SteveThornton
+   link: https://medium.com/@stethornton6/your-own-best-enemy-6509e5e06879
+   tags: [ game-design, how-to ] 
+   year: 2020
+ - title: "About Desktop Pets & Virtual Companions"
+   author: "Nathalie Lawhead"
+   author_link: https://twitter.com/alienmelon/
+   link: http://www.nathalielawhead.com/candybox/about-desktop-pets-virtual-companions-discussing-the-inhabitants-that-fill-the-void-of-our-digital-spaces
+   tags: [ game-design, postmortem ] 
+   year: 2020
+ - title: "A Guide to Working Remotely (Especially in Games)"
+   author: "Akupara Games"
+   author_link: https://twitter.com/akuparagames
+   link: https://medium.com/@akuparagame/expert-advice-a-guide-to-working-remotely-especially-in-games-11083eba9fc3
+   tags: [ project-management, wellbeing ]
+   year: 2020
+ - title: "A curated collection of Unity tutorials, posts, repos and videos"
+   author: "Stelios Petrakis"
+   author_link: https://twitter.com/stelabouras
+   link: https://unity.stelabouras.com/
+   tags: [ everything, unity ]
+   year: 2020
+ - title: "Notes on Supermash"
+   author: "Mike Cook"
+   author_link: https://twitter.com/mtrc
+   link: http://www.possibilityspace.org/supermash/index.html
+   tags: [ game-design, tech ]
+   year: 2020
+ - title: "HYPERTEC Dev Log"
+   author: "Backyard Giant"
+   author_link: https://twitter.com/backyard_giant
+   link: https://twitter.com/i/events/1177555160517750784
+   tags: [ twitter-thread ]
+   year: 2020
+ - title: "Extra Life Learning"
+   author: "Matt Arnold"
+   author_link: https://twitter.com/m4ttbit
+   link: https://youtu.be/_bKNW-GtZVY
+   tags: [ video, game-design ]
+   year: 2020
+ - title: "Uh Oh! Feeling Myself Being Swallowed by Time!: boredom as a desirable quality in gaming"
+   author: "Sam Machell"
+   author_link: https://twitter.com/browniecove
+   link: https://www.youtube.com/watch?v=cXJZItXmB_Q
+   tags: [ video, the-future ]
+   year: 2020
+ - title: "The Jeff Ramos Quarantine Creative Learning Guide"
+   author: "Jeff Ramos"
+   author_link: https://twitter.com/ohjefframos
+   link: https://docs.google.com/document/d/1o_sl1USRS0ZtKQeqqqvsGDC9jvT0VKBL4dg8cHMPM7U/edit?usp=sharing
+   tags: [everything, how-to ] 
+   year: 2020
+ - title: "Making Random Fun"
+   author: "Aden Webb"
+   author_link: https://twitter.com/webb_aden
+   link: http://backyardgiant.co.uk/papers/makingrandomfun.pdf
+   tags: [ game-design, tech] 
+   year: 2020
+ - title: "Reasons Why pico-8 is the Best"
+   author: "DPS2004"
+   author_link: https://twitter.com/DPS_2004
+   link: https://docs.google.com/presentation/d/1vZLNf1fUMIQVvjkxIE7d8qotE3f06g7jcaI2DYgqJeo/edit?usp=sharing
+   tags: [ game-design ] 
+   year: 2020
+ - title: "Fashion for Games"
+   author: "Giulia Zielasko"
+   author_link: http://twitter.com/gizielasko
+   link: https://docs.google.com/presentation/d/1ys3tLAYMAG2o3teF0fZwUYAhi1IwcEoY1YMCROk5b44
+   tags: [ art, game-design ]
+   year: 2020
+ - title: "Game Jams: A Pretty Excellent Gateway To The Games Industry"
+   author: "Shaun Wall"
+   author_link: https://twitter.com/nomaki
+   link: https://docs.google.com/presentation/d/1m7Wd7_b4_aZVTLbbDCls2-y2E5xfDcrQmybjRjMyDqQ/edit?usp=sharing
+   tags: [community, everything] 
+   year: 2020
+ - title: "Commandos Cone of Sight FX in Unity"
+   author: "Josue Candela"
+   author_link: https://twitter.com/JosCanPer
+   link: https://youtu.be/EOW_sBsoYyY
+   tags: [tech, how-to, video, unity] 
+   year: 2020
+ - title: "How Astroneer creates an enjoyably unsafe space"
+   author: "Aden Webb"
+   author_link: https://twitter.com/webb_aden
+   link: https://www.gamesindustry.biz/articles/2019-08-14-how-astroneer-creates-an-unsafe-space
+   tags: [ game-design ]
+   year: 2020
+ - title: "Less is More - Exploring Optimal User Interface Layouts for Achieving Cognitive Flow in Action Games"
+   author: "Jack Griffiths"
+   author_link: http://backyardgiant.co.uk/papers/lessismore.pdf
+   link: http://backyardgiant.co.uk/papers/lessismore.pdf
+   tags: [ game-design ]
+   year: 2020
+ - title: "anarchy: a PRNG library for PCG"
+   author: "Peter Mawhorter"
+   author_link: https://twitter.com/pmawhorter
+   link: https://solsword.github.io/anarchy/
+   tags: [ code-release, tools ]
+   year: 2020
+ - title: "Think Big On a Small Consoles"
+   author: "Vincentius Madya"
+   author_link: https://twitter.com/GrimProsGames
+   link: https://medium.com/grim-pros/think-big-on-a-small-consoles-59a80f3580de
+   tags: [ business, tech ]
+   year: 2020
+ - title: "GDC Virtual Talks Hub"
+   author: "GDC Speakers"
+   author_link: https://twitter.com/official_gdc
+   link: https://gdconf.com/gdc-2020-virtual-talks?_mc=blog_x_gama_le_x_gdcsf_x_x-119-gdc20
+   tags: [ everything ]
+   year: 2020
+ - title: "Interactive Machine Learning for More Expressive Game Interactions"
+   author: "Carlos Gonzalez Diaz, Phoenix Perry and Rebecca Fiebrink"
+   author_link: https://twitter.com/Carlotes247
+   link: http://ieee-cog.org/2019/papers/paper_256.pdf
+   tags: [ tech, artificial-intelligence ] 
+   year: 2020
+ - title: "How to Make Portals in Unity"
+   author: "Daniel Ilett"
+   author_link: https://twitter.com/daniel_ilett
+   link: https://danielilett.com/2019-12-01-tut4-intro-portals/
+   tags: [ tech, how-to, unity ] 
+   year: 2020
+ - title: "Movement using delegates and events"
+   author: "Luke Parker"
+   author_link: https://twitter.com/mrlparker
+   link: https://mrlparker.com/movement-using-delegates-and-events/
+   tags: [ tech, how-to ] 
+   year: 2020
+ - title: "Making games using quantum computers"
+   author: "James Wootton"
+   author_link: https://twitter.com/decodoku
+   link: https://medium.com/@decodoku/games-computers-and-quantum-84bfdd2c0fe0
+   tags: [ tech, the-future] 
+   year: 2020
+ - title: "Designing Game Communities for Kindness"
+   author: "Victoria Tran"
+   author_link: https://twitter.com/TheVTran
+   link: https://medium.com/kitfox-games/designing-communities-for-kindness-dcfec59c1112?source=friends_link&sk=de84a598f73a8a9fb0ef903d88513066
+   tags: [ community, how-to ] 
+   year: 2020
+
+
+
+###############################################################################
+# 2019
+ - title: "Compeition: What's the Point?"
+   author: "Aitor Iribar"
+   author_link: http://www.twitter.com/hairibar
+   link: http://www.maclean.work/blog/2019/3/23/how-to-stay-sane-when-working-part-time
+   tags: [ game-design ]
+   year: 2019
+ - title: "Research Notes: Playground Game AI"
+   author: "Mike Cook"
+   author_link: http://www.twitter.com/mtrc
+   link: http://www.possibilityspace.org/blog-shonan-2/
+   tags: [ the-future, postmortem ]
+   year: 2019
+ - title: "Research Notes: Improvisational Narrative AI"
+   author: "Mike Cook"
+   author_link: http://www.twitter.com/mtrc
+   link: http://www.possibilityspace.org/blog-shonan-2/
+   tags: [ the-future, postmortem ]
+   year: 2019
+ - title: "How To Stay Sane While Working in games Part Time"
+   author: "Sean MacLean"
+   author_link: http://www.twitter.com/Driadon
+   link: http://www.maclean.work/blog/2019/3/23/how-to-stay-sane-when-working-part-time
+   tags: [ wellbeing ]
+   year: 2019
+ - title: "Sable: Gamemaker for Blind People"
+   author: "Ebon Sky Studios"
+   author_link: http://www.twitter.com/ebonskystudios
+   link: https://www.youtube.com/watch?v=wyAkqGlDIgY
+   tags: [ community, tools, video ]
+   year: 2019
+ - title: "Raspberry Pi Baremetal"
+   author: "Andre Leiradella"
+   author_link: https://twitter.com/leiradel
+   link: https://leiradel.github.io/
+   tags: [ tech ]
+   year: 2019
+ - title: "Finding the Narrative Heartbeat"
+   author: "Hanna Hildebrandt"
+   author_link: https://gamedev.lgbt/@hanna
+   link: https://hannahildebrandt.com/2019/03/20/heartbeat/
+   tags: [ game-design, narrative ]
+   year: 2019
+ - title: "Creating a Passion Project with No Budget"
+   author: "Andy Wood"
+   author_link: https://twitter.com/andreaacw
+   link: https://youtu.be/5m0t1qjSXes
+   tags: [ project-management, video ]
+   year: 2019
+ - title: "Welcoming Players into DATA WING"
+   author: "Dan Vogt"
+   author_link: https://twitter.com/dan_vogt
+   link: https://medium.com/@daniel.j.vogt/welcoming-players-into-data-wing-92c6587091ef?source=friends_link&sk=ed44afaa544c9499cffc7bef99d75c02
+   tags: [ game-design ]
+   year: 2019
+ - title: "The deVoid UI Framework for Unity"
+   author: "Yanko Oliveira"
+   author_link: https://twitter.com/yankooliveira
+   link: https://github.com/yankooliveira/uiframework%20and%20https://github.com/yankooliveira/uiframework_examples
+   tags: [ tech, how-to ]
+   year: 2019
+ - title: "Procedural Level Generation in Skeletal Dance Party 💀"
+   author: "Jesper Tingvall"
+   author_link: https://twitter.com/jesperTingvall
+   link:  https://catalopegames.itch.io/skeletal-dance-party/devlog/72777/skeletal-dance-party-procedural-level-generation
+   tags: [ tech ]
+   year: 2019
+ - title: "City Folk Just Don't Get It - Being a Game Developer in a Rural Community"
+   author: "ALGameDev"
+   author_link: https://twitter.com/ALGameDev
+   link: https://www.youtube.com/watch?v=WMjAC0DPao4
+   tags: [ community, video ]
+   year: 2019
+ - title: "Awesome Game-Science"
+   author: "Aleksandra Jarosz"
+   author_link: http://www.twitter.com/AKJarosz
+   link: https://docs.google.com/presentation/d/1RTWjC3ySp2hGR8-46hsax41GPFbrwiOP7sbuyLnp87U/edit?usp=sharing
+   tags: [ game-design ]
+   year: 2019
+ - title: "Life, Complexity, and Roguelikes"
+   author: "Zeno Rogue"
+   author_link: http://www.twitter.com/ZenoRogue
+   link: https://medium.com/@ZenoRogue/life-complexity-and-roguelikes-d2362ae34ab1
+   tags: [ game-design ]
+   year: 2019
+ - title: "Mother, I'm An Art Game Designer: A Survival Guide."
+   author: "Georg Hobmeier"
+   author_link: http://www.twitter.com/MercuryLegba
+   link: https://twitter.com/MercuryLegba/status/1109119945978380294%20(part%201)%20https://twitter.com/MercuryLegba/status/1109121818487590913%20(part%202)
+   tags: [ game-design ]
+   year: 2019
+ - title: "Elo sucks — better multiplayer rating systems for smaller games"
+   author: "raysplaceinspace"
+   author_link: http://www.twitter.com/raysplacenspace
+   link: https://medium.com/acolytefight/elo-sucks-better-multiplayer-rating-systems-for-smaller-games-8ca588ee652f
+   tags: [ math, game-design, multiplayer ]
+   year: 2019
+ - title: "Accessibility Through Game Design"
+   author: "Brian"
+   author_link: http://www.twitter.com/daisyalesounds
+   link: https://www.youtube.com/watch?v=KiqxkXE-Qd8
+   tags: [ video, game-design ]
+   year: 2019
+ - title: "The World of Blind Gaming"
+   author: "Brian"
+   author_link: http://www.twitter.com/daisyalesounds
+   link: https://www.youtube.com/watch?v=g8omiypHUGc
+   tags: [ video, game-design ]
+   year: 2019
+ - title: "Sneaky Accessibility: Game Design with Intent"
+   author: "Brian"
+   author_link: http://www.twitter.com/daisyalesounds
+   link: https://youtu.be/0qCf2yTYYb8?t=30
+   tags: [ video, game-design  ]
+   year: 2019
+ - title: "Research Notes: AI as Critics, Curators & Friends"
+   author: "Mike Cook"
+   author_link: http://www.twitter.com/mtrc
+   link: http://www.possibilityspace.org/blog-shonan-1/
+   tags: [ the-future, postmortem ]
+   year: 2019
+ - title: "A Game Dev Newbie's Insights on Game Jams"
+   author: "Jem \"artsybarrels\" J. Sarmiento"
+   author_link: http://www.twitter.com/artsybarrels
+   link: https://medium.com/@artsybarrels/a-game-dev-newbies-insights-on-game-jams-4dbbc850beee?source=friends_link&sk=d27d74e17070810797aa13027f040d2e
+   tags: [ wellbeing, community ]
+   year: 2019
+ - title: "Super-Quick UE4 Tutorials"
+   author: "Nick Bell"
+   author_link: https://www.youtube.com/playlist?list=PLYBoMzgVayEbg7W7zhTQQjlMlwDsAsEtc
+   link: https://www.youtube.com/playlist?list=PLYBoMzgVayEbg7W7zhTQQjlMlwDsAsEtc
+   tags: [ video, tech, unreal ]
+   year: 2019
+ - title: "72 Hour Indie Game Development Timelapse in 10 Minutes"
+   author: "ChairGTables"
+   author_link: http://www.twitter.com/ChairGTables
+   link: https://www.youtube.com/watch?v=9yLGYredLIY
+   tags: [ video, game-design ]
+   year: 2019
+ - title: "4 Methods For Low Poly Terrain For Your Game (Using Blender 2.8)"
+   author: "Rog Dolos"
+   author_link: http://www.twitter.com/RogDolos
+   link: https://www.youtube.com/watch?v=Xh9aiMZbQZU 
+   tags: [ how-to, art, video, blender ]
+   year: 2019
+ - title: "How To Survive As A 'Solo Dev'"
+   author: "Damien Crawford"
+   author_link: http://www.twitter.com/DeveloperDamien
+   link: https://www.youtube.com/watch?v=reacu1OG_1M
+   tags: [ project-management, wellbeing, video ]
+   year: 2019
+ - title: "Crossword Puzzles For (Almost) Any Language"
+   author: "Nick Doiron"
+   author_link: http://www.twitter.com/mapmeld
+   link: https://www.youtube.com/watch?v=xyKdWzSZWsc
+   tags: [ how-to, tech, video ]
+   year: 2019
+ - title: "How To Backup Your Games As A Gamedev"
+   author: "Rick Hoppmann"
+   author_link: http://www.twitter.com/tinyruin
+   link: https://www.tinyworlds.org/blog/tutorial-archiving-games
+   tags: [ how-to, project-management  ]
+   year: 2019
+ - title: "Personal Experiences And How They're Shaping My Games"
+   author: "Luke Parker"
+   author_link: http://www.twitter.com/mrlparker
+   link: https://mrlparker.com/personal-experiences-and-how-they-shape-our-games/
+   tags: [ game-design, wellbeing ]
+   year: 2019
+ - title: "Integrate imgui via cimgui With SDL2 + OpenGL 3 In C"
+   author: "Wasin Thonkaew"
+   author_link: http://www.twitter.com/haxpor
+   link: https://blog.wasin.io/2018/10/31/integrate-cimgui-with-sdl2-in-c-code.html
+   tags: [ tech, how-to, programming ]
+   year: 2019
+ - title: "Composing Videogame Music"
+   author: "Chase Bethea"
+   author_link: http://www.twitter.com/chasebethea
+   link: https://www.youtube.com/watch?v=S-noxx3VEMA&t=2120s
+   tags: [ video, music ]
+   year: 2019
+ - title: "Blog to Game Builder"
+   author: "Charlie Francis Cassidy"
+   author_link: http://www.twitter.com/charlietheGfish
+   link: https://github.com/charliethegoldfish/BlogToGameFramework
+   tags: [ code-release ]
+   year: 2019
+ - title: "Creating And Releasing _In My Mind_"
+   author: "Charlie Francis Cassidy"
+   author_link: http://www.twitter.com/charlietheGfish
+   link: http://www.charliethegoldfish.com/blog/2019/3/13/creating-and-releasing-in-my-mind
+   tags: [ postmortem ]
+   year: 2019
+ - title: "Being In Survival Mode Means Being On The Road To Burnout"
+   author: "Rayna Anderson"
+   author_link: http://www.twitter.com/And_Rayna
+   link: https://twitter.com/And_Rayna/status/1103676467005800452
+   tags: [ wellbeing, twitter-thread ]
+   year: 2019
+ - title: "Frame Independent Exponential Approaches"
+   author: "Carlos Jambrina"
+   author_link: http://badladns.com/
+   link: http://badladns.com/stories/exp-approach-info
+   tags: [ tech, how-to ]
+   year: 2019
+ - title: "Dear Men of Gaming: Grow Up"
+   author: "Daniel May"
+   author_link: http://www.twitter.com/gondor_s
+   link: https://criticald4n.wordpress.com/2019/01/07/dear-men-of-gaming-grow-up/
+   tags: [ community ]
+   year: 2019
+
+
+
+###############################################################################
+# 2018
+
+
+ - title: "A Case For Trigger Warnings In Games Exhibition Spaces"
+   tags: [ Events Inclusivity ]
+   author: "adriel beaver"
+   year: 2018
+
+
+ - title: "#notGDC Innopolis University Talks"
+   tags: [ new-ideas, video ]
+   author: "Innopolis Indie GameDev Club"
+   year: 2018
+
+
+ - title: "Prestige Is For People With Money"
+   tags: [ motivation, inclusivity ]
+   author: "Florencia Rumpel"
+   year: 2018
+
+
+ - title: "Postmortem - Dead Girls In Space"
+   tags: [ postmortem, video ]
+   author: "Fenreliania"
+   year: 2018
+
+
+ - title: "Being Bad At Videogames"
+   tags: [ motivation, twitter-thread ]
+   author: "Alison Tam"
+   year: 2018
+
+
+ - title: "Thinking About Your Data"
+   tags: [ programming, design ]
+   author: "Max Cahill"
+   year: 2018
+
+
+ - title: "One Simple UV Trick For Cyclical Shapes With Bends"
+   tags: [ 3D Discovered By A Patt ]
+   author: "Patt"
+   year: 2018
+
+
+ - title: "Tiny Trees Post Mortem"
+   tags: [ postmortem, math ]
+   author: "Michael Perce"
+   year: 2018
+
+
+ - title: "Improving Your Team’s Productivity By Being A Lazy Programmer!"
+   tags: [ Programming Motivation ]
+   author: "Arthur Zeferino"
+   year: 2018
+
+
+ - title: "HLSL Shader Tutorials! (Part 1, Part 2, Part 3)"
+   tags: [ Programming 🎨Shaders 🎨 ]
+   author: "Ronja"
+   year: 2018
+
+
+ - title: "Prodding Gnoggins - Cursor Design In GNOG"
+   tags: [ design ]
+   author: "Nick & KO_OP"
+   year: 2018
+
+
+ - title: "#ThirdWorldGameDevProblems Roundtable"
+   tags: [ motivation, inclusivity ]
+   author: "@purplelilgirl, @karabaos, @le_niccolo, @siduslevis, @h0lycattle & Paolo Jalbuena"
+   year: 2018
+
+
+ - title: "Worlds By Design"
+   tags: [ design, worldbuilding ]
+   author: "Marc Loths"
+   year: 2018
+
+
+ - title: "A (Very) Brief Pre-History Of HTML5 Games"
+   tags: [ programming, history ]
+   author: "Dan Cox"
+   year: 2018
+
+
+ - title: "Porting Bungie's 3D Spasm Library to Three.js"
+   tags: [ programming ]
+   author: "lowlines"
+   year: 2018
+
+
+ - title: "Create a Random Maze Generator using GameMaker"
+   tags: [ tutorial, procedural-generation ]
+   author: "Lucas Nazato"
+   year: 2018
+
+
+ - title: "$1million As An Indie"
+   tags: [ postmortem ]
+   author: "fluffy"
+   year: 2018
+
+
+ - title: "Lovegames Podcast #notGDC Special (Doki Doki Literature Club)"
+   tags: [ Audio ❤️LOVE ❤️ ]
+   author: "Lauren Clinnick and Lucy Morris"
+   year: 2018
+
+
+ - title: "Fifteen Properties At Play"
+   tags: [ New Ideas Design ]
+   author: "Sol"
+   year: 2018
+
+
+ - title: "Putting the ‘Rad’ Back in ‘Radial Menus’"
+   tags: [ UI ️☑️MENUS ☑️ ]
+   author: "Lucy Morris"
+   year: 2018
+
+
+ - title: "Structured Game Development"
+   tags: [ Data New Ideas ]
+   author: "Sean Bouchard"
+   year: 2018
+
+
+ - title: "What I've Learned From Game Design History (Part 1, Part 2)"
+   tags: [ Old New Ideas New Old Ideas ]
+   author: "The Mad Welshman"
+   year: 2018
+
+
+ - title: "Games Need More Balls"
+   tags: [ new-ideas ]
+   author: "Shalune Tyler Main"
+   year: 2018
+
+
+ - title: "Player Counts: False Friends in Games User Research?"
+   tags: [ Analytics ]
+   author: "Gareth Lloyd"
+   year: 2018
+
+
+ - title: "Event And Unity"
+   tags: [ New Ideas ]
+   author: "Chris"
+   year: 2018
+
+
+ - title: "My Changing Perspective On Game Dev"
+   tags: [ Motivation Process ]
+   author: "Karn Bianco"
+   year: 2018
+
+
+ - title: "Why I Make Gay Games w/ Trans Girls"
+   tags: [ Process ]
+   author: "Nadia Nova"
+   year: 2018
+
+
+ - title: "Delegates, Events and UnityEvents in Unity"
+   tags: [ New Ideas ]
+   author: "Juan Alejandro Rodríguez"
+   year: 2018
+
+
+ - title: "Top 10 Gayest Looks In Splatoon 2"
+   tags: [ Art 🎨SPLATOON 🎨 ]
+   author: "Jillian Wakarchuk"
+   year: 2018
+
+
+ - title: "Ways To Keep Calm, Cosy & Organised"
+   tags: [ Motivation  twitter-thread  ]
+   author: "Demi"
+   year: 2018
+
+
+ - title: "Medieval Fantasy Stone Wall Substance Designer Tutorial"
+   tags: [ New Ideas Video ]
+   author: "Ryan Pocock"
+   year: 2018
+
+
+ - title: "Interview With Korina Abbott (Marketing, PR, YouTube)"
+   tags: [ Marketing Audio ]
+   author: "Nick Bell & Edinburgh College GameDev"
+   year: 2018
+
+
+ - title: "10 Mexican Things You Could Make A Game About (That Aren't Dia De Los Muertos)"
+   tags: [ Inclusivity 🇲🇽Mexico 🇲🇽 ]
+   author: "Tess Young"
+   year: 2018
+
+
+ - title: "So You’ve Decided You Want To Make A Diverse Game… Now What?"
+   tags: [ New Ideas Inclusivity ]
+   author: "Alayna Cole and Jess Zammit"
+   year: 2018
+
+
+ - title: "LUV Your UVs"
+   tags: [ New Ideas  twitter-thread  ]
+   author: "Marc Loths"
+   year: 2018
+
+
+ - title: "Ink & Unity - Making A Fake Chat Client"
+   tags: [ Postmortem ]
+   author: "Victoria Smith"
+   year: 2018
+
+
+ - title: "Everything I Learned Making (And Not Making) Cerebrate"
+   tags: [ Postmortem ]
+   author: "Rowan Crawford"
+   year: 2018
+
+
+ - title: "Motivation and Big Projects"
+   tags: [ Motivation ]
+   author: "Nathan Auckett"
+   year: 2018
+
+
+ - title: "How NOT To Run A Crowdfunder"
+   tags: [ Postmortem ]
+   author: "Michelle Chen"
+   year: 2018
+
+
+ - title: "Why Designers Should Learn Animation"
+   tags: [ New Ideas ]
+   author: "Christiaan Moleman"
+   year: 2018
+
+
+ - title: "Game Boy Homebrew"
+   tags: [ New Ideas ]
+   author: "Elias Farhan"
+   year: 2018
+
+
+ - title: "Social VR"
+   tags: [ New Ideas Video ]
+   author: "Murky Mulm"
+   year: 2018
+
+
+ - title: "Choice Is Consequence"
+   tags: [ Theory Video ]
+   author: "Gregory Pellechi"
+   year: 2018
+
+
+ - title: "#ThirdWorldProblems: How To Not Get A Visa"
+   tags: [ inclusivity ]
+   author: "Penny"
+   year: 2018
+
+
+ - title: "Designing 'The Sky House'"
+   tags: [ Postmortem ]
+   author: "Ahmed Khalifa"
+   year: 2018
+
+
+ - title: "Sonic Pi Demo/Tutorial"
+   tags: [ New Ideas Video ]
+   author: "Asentrix Studios"
+   year: 2018
+
+
+ - title: "Continent Generation Postmortem"
+   tags: [ New Ideas Postmortem ]
+   author: "John Arras"
+   year: 2018
+
+
+ - title: "Navigation Filtering And Avoidance"
+   tags: [ New Ideas ]
+   author: "Vikram Saran"
+   year: 2018
+
+
+ - title: "Bees In Videogames 🐝"
+   tags: [ 🐝BEES 🐝 Video ]
+   author: "Sean Oxspring"
+   year: 2018
+
+
+ - title: "Where My Ideas Come From"
+   tags: [ Motivation  twitter-thread  ]
+   author: "Luke Parker"
+   year: 2018
+
+
+ - title: "Beating Procrastination"
+   tags: [ Motivation ]
+   author: "Keano Raubun"
+   year: 2018
+
+
+ - title: "Why Toilets? 🚽"
+   tags: [ New Ideas 🚽Toilets 🚽 ]
+   author: "Steven Harmon"
+   year: 2018
+
+
+ - title: "Continent Generation Preview"
+   tags: [ New Ideas Video ]
+   author: "John Arras"
+   year: 2018
+
+
+ - title: "Feeling Productive While Procrastinating"
+   tags: [ Motivation ]
+   author: "Spencer Saunders"
+   year: 2018
+
+
+ - title: "Slides From Talks I'll Never Submit"
+   tags: [ twitter-thread, 🔥Fire 🔥 ]
+   author: "John Kane"
+   year: 2018
+
+
+
+ - title: "Dynamic vs Static Procedural Generation"
+   link: "https://medium.com/@eigenbom/dynamic-vs-static-procedural-generation-ed3e7a7a68a3#.gcktnmuqm"
+   author: "@eigenbom"
+   year: 2017
+ - title: "MR. POD Ep. 20: Sandy is Going to Miss GDC"
+   author: "@wtfmig"
+   link: "https://www.youtube.com/watch?v=nraubEEqAyc"
+   year: 2017
+ - title: "Preventing Burnout"
+   link: "http://alexhoratiogamedev.blogspot.com.au/2016/12/preventing-burnout.html"
+   author: "@AlexHoratio_"
+   year: 2017
+ - title: "How to Make an Icon using Gimp"
+   link: "https://docs.google.com/document/d/185rrlDM43thsuGvyXuCcAjEZ8YtaWRoYsAtYOeC_btI/"
+   author: "@Tartle_Games"
+   year: 2017
+ - title: "Videogames and Genre"
+   link: "http://ludodissonance.com/post/157777079398/videogames-and-genre-a-brief-rambling"
+   author: "@Sumaleth"
+   year: 2017
+ - title: "Why Presence is the New Frontier of VR Game Design"
+   author: "@aquito"
+   link: "https://virtualrealitypop.com/why-presence-is-the-new-frontier-of-vr-game-design-286c73ebc6fd#.rkr48yv8y"
+   year: 2017
+ - title: "Pitch-Shift is Not Going to Solve All of Your Problems"
+   author: "@zanhulmemusic"
+   link: "http://www.zanderhulmemusic.com/notgdc"
+   year: 2017
+ - title: "What I Learned From Doing Ludum Dare 13 Times in a Row!"
+   author: "@savethejets"
+   link: "http://blog.banyango.com/post/157808495144/what-i-learned-from-doing-ludum-dare-13-times-in-a"
+   year: 2017
+ - title: "Don’t Trust The Engine"
+   author: "@radgeRayden"
+   link: "https://github.com/radgeRayden/blog/issues/1"
+   year: 2017
+ - title: "Mod Support in Unity"
+   author: "@nihilocrat"
+   link: "http://nihilocrat.tumblr.com/post/157890290188/mod-support-in-unity"
+   year: 2017
+ - title: "How a MS Product in Unity May Save Your 3D audio"
+   author: "@jealousaudio"
+   year: 2017
+ - title: "Streamlining Unity Dev with some Hacky Tools"
+   author: "@DuzzOnDrums"
+   year: 2017
+ - title: "Special Presentation"
+   author: "@SunraHeadgear"
+   year: 2017
+ - title: "My Experience Making a Game for YouTubers (and Failing)"
+   author: "@shatley123"
+   year: 2017
+ - title: "Bucket Grids"
+   author: "@1bardesign"
+   year: 2017
+ - title: "How To Make Game Subtitles Better"
+   author: "@_benui"
+   year: 2017
+ - title: "The Problem with Deep Reading Videogames"
+   author: "@Sumaleth"
+   year: 2017
+     
