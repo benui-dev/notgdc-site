@@ -1,10 +1,15 @@
 # notgdc-site
 
+notGDC is a development non-conference, for everyone!
+
+The site runs using Jekyll, and is open-source, in the hope that the project
+continues to be maintained by the community. For ever✨
 
 ## TODO
 
-### Site Visuals
+Look, we're task managing!
 
+### Site Visuals
 
 * [ ] Make sure layout works on mobile
   * [ ] Set simple breakpoints using minimal-mistakes
@@ -16,6 +21,7 @@
   * [ ] Update Twitter logo
   * [ ] Update Mastodon logo
   * [ ] Update Twitch logo
+* [ ] Fix horizontal scroll bar appearing
 * [ ] Add juice to Button on-hover (see terranil.com for example)
 * [x] Update timer to show reduced info based on time remaining
   * [x] Don't show seconds
@@ -43,6 +49,12 @@
 
 ### Site Backend / Jekyll
 
+* [ ] Add historical data to submissions.yaml
+  * [x] 2022
+  * [x] 2020
+  * [x] 2019
+  * [ ] 2018
+  * [ ] 2017
 * [ ] Generate individual pages from tags, list all entries on them
   * [ ] Need to make a custom generator?
 * [ ] Add cute icons next to each tag
@@ -61,6 +73,7 @@
 ### Other
 
 * [ ] Fix "www.notgdc.io" with www prefix not working
+* [ ] 404 event is not being fired when hitting the 404 page??
 * [x] Make repo public
 * [x] Fix notgdc.io not having HTTPS (certificate is stuck in processing?)
 * [x] Set up notgdc.io email address
