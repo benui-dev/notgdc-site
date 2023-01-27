@@ -1,7 +1,7 @@
 <div class="row entry {% for tag in submission.tags %} tag-{{tag}} {% endfor %}">
     <div class="col-lg-2">
         {%- for tag in include.submission.tags -%}
-            <a class="tag-link" href="?tag={{ tag }}#entries"><span class="badge"
+            <a class="tag-link" href="?tag={{ tag }}#submissions"><span class="badge"
                 style="background-color:{{ site.data.tags[tag].background-color }}; color:#ffffff; font-size:12px">{{
                 site.data.tags[tag].title }}</span></a>
             {%- endfor -%}
