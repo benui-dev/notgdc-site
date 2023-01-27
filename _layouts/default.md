@@ -92,6 +92,7 @@ Powered by Jekyll. Hosted on <a href="https://github.com/benui-dev/notgdc-site">
 <!-- Custom scripts for this template -->
 <script src="{%- include minified_path.html file='/assets/js/stylish-portfolio' ext='js' -%}"></script>
 {% endcomment %}
+<script src="{%- include minified_path.html file='/assets/js/tags' ext='js' -%}"></script>
 
 </body>
 </html>

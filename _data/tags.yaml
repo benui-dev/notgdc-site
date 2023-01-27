@@ -47,3 +47,6 @@ code:
 tools:
   title: Tools
   background-color: "#ff0000"
+all:
+  title: All
+  background-color: "#ff0000"

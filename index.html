@@ -114,7 +114,7 @@ a game development non-conference, for everyone!
   <!--style="background-color:#3f527c"-->
   <div class="container">
     <div class="content-section-heading text-center">
-      <h2 class="mb-5" style="font-family:Lilita One">2023 #notGDC Submissions!</h2>
+      <h2 id="entries" class="mb-5" style="font-family:Lilita One">2023 #notGDC Submissions!</h2>
     </div>
     <!--
         <div class="row">
@@ -129,13 +129,27 @@ a game development non-conference, for everyone!
         </div>
         <br>
         -->
-
-
-    {% for submission in site.data.submissions.submissions %}
-    <div class="row">
-      <div class="col-lg-2">
+    <div class="row" style="justify-content:center">
+      {%- assign used_tags = "all" -%}
+      {%- for submission in site.data.submissions.submissions -%}
         {%- for tag in submission.tags -%}
-        <a href="/tags/{{ tag }}"><span class="badge"
+          {%- assign used_tags = used_tags | append: " " | append: tag -%}
+        {%- endfor -%}
+      {%- endfor -%}
+      {%- assign used_tags_array = used_tags | split: " " | uniq | sort-natural -%}
+      {%- for tag in used_tags_array -%}
+      <a class="tag-link" href="?tag={{ tag }}#entries"><span class="badge"
+        style="background-color:{{ site.data.tags[tag].background-color }}; color:#ffffff; font-size:12px">{{
+        site.data.tags[tag].title }}</span></a>
+      {%- endfor -%}
+    </div>
+
+
+    {%- for submission in site.data.submissions.submissions -%}
+    <div class="row entry {% for tag in submission.tags %} tag-{{tag}} {% endfor %}">
+      <div class="col-lg-2" style="flex:auto">
+        {%- for tag in submission.tags -%}
+        <a class="tag-link" href="?tag={{ tag }}#entries"><span class="badge"
             style="background-color:{{ site.data.tags[tag].background-color }}; color:#ffffff; font-size:12px">{{
             site.data.tags[tag].title }}</span></a>
         {%- endfor -%}
@@ -147,6 +161,6 @@ a game development non-conference, for everyone!
         <p> by <a href="{{ submission.author_link }}">{{ submission.author }}</a></p>
       </div>
     </div>
-    {% endfor %}
+    {%- endfor -%}
   </div>
 </section>
