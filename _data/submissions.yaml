@@ -329,7 +329,7 @@ submissions:
    author: "Brian"
    author_link: http://www.twitter.com/daisyalesounds
    link: https://www.youtube.com/watch?v=KiqxkXE-Qd8
-   tags: [ video, game-design ]
+   tags: [ video, game-design, accessibility ]
    year: 2019
  - title: "The World of Blind Gaming"
    author: "Brian"
@@ -341,7 +341,7 @@ submissions:
    author: "Brian"
    author_link: http://www.twitter.com/daisyalesounds
    link: https://youtu.be/0qCf2yTYYb8?t=30
-   tags: [ video, game-design  ]
+   tags: [ video, game-design, accessibility ]
    year: 2019
  - title: "Research Notes: AI as Critics, Curators & Friends"
    author: "Mike Cook"
@@ -782,62 +782,101 @@ submissions:
  - title: "Dynamic vs Static Procedural Generation"
    link: "https://medium.com/@eigenbom/dynamic-vs-static-procedural-generation-ed3e7a7a68a3#.gcktnmuqm"
    author: "@eigenbom"
+   author_link: https://twitter.com/eigenbom
+   tags: [ procedural-generation, programming, tech ]
    year: 2017
  - title: "MR. POD Ep. 20: Sandy is Going to Miss GDC"
    author: "@wtfmig"
+   author_link: https://twitter.com/wtfmig
    link: "https://www.youtube.com/watch?v=nraubEEqAyc"
+   tags: [ video ]
    year: 2017
  - title: "Preventing Burnout"
    link: "http://alexhoratiogamedev.blogspot.com.au/2016/12/preventing-burnout.html"
    author: "@AlexHoratio_"
+   author_link: https://twitter.com/AlexHoratio_
+   tags: [ wellbeing ]
    year: 2017
  - title: "How to Make an Icon using Gimp"
    link: "https://docs.google.com/document/d/185rrlDM43thsuGvyXuCcAjEZ8YtaWRoYsAtYOeC_btI/"
    author: "@Tartle_Games"
+   author_link: https://twitter.com/Tartle_Games
+   tags: [ how-to ]
    year: 2017
  - title: "Videogames and Genre"
    link: "http://ludodissonance.com/post/157777079398/videogames-and-genre-a-brief-rambling"
    author: "@Sumaleth"
+   author_link: https://twitter.com/Sumaleth
    year: 2017
  - title: "Why Presence is the New Frontier of VR Game Design"
    author: "@aquito"
+   author_link: https://twitter.com/aquito
+   tags: [ vr ]
    link: "https://virtualrealitypop.com/why-presence-is-the-new-frontier-of-vr-game-design-286c73ebc6fd#.rkr48yv8y"
    year: 2017
  - title: "Pitch-Shift is Not Going to Solve All of Your Problems"
    author: "@zanhulmemusic"
+   author_link: https://twitter.com/zanhulmemusic
+   tags: [ ]
    link: "http://www.zanderhulmemusic.com/notgdc"
    year: 2017
  - title: "What I Learned From Doing Ludum Dare 13 Times in a Row!"
    author: "@savethejets"
+   author_link: https://twitter.com/savethejets
    link: "http://blog.banyango.com/post/157808495144/what-i-learned-from-doing-ludum-dare-13-times-in-a"
    year: 2017
  - title: "Don’t Trust The Engine"
    author: "@radgeRayden"
+   author_link: https://twitter.com/radgeRayden
+   tags: [ ]
    link: "https://github.com/radgeRayden/blog/issues/1"
    year: 2017
  - title: "Mod Support in Unity"
    author: "@nihilocrat"
+   author_link: https://twitter.com/nihilocrat
+   tags: [ unity, programming ]
    link: "http://nihilocrat.tumblr.com/post/157890290188/mod-support-in-unity"
    year: 2017
  - title: "How a MS Product in Unity May Save Your 3D audio"
    author: "@jealousaudio"
+   author_link: https://twitter.com/jealousaudio
+   link: https://www.jealousaudio.com/chronicles-of-jellis/unityspatialaudio
+   tags: [ audio ]
    year: 2017
  - title: "Streamlining Unity Dev with some Hacky Tools"
    author: "@DuzzOnDrums"
+   author_link: https://twitter.com/DuzzOnDrums
+   link: https://www.youtube.com/watch?v=sNVT7hynBYw
+   tags: [ unity, video, tools ]
    year: 2017
  - title: "Special Presentation"
    author: "@SunraHeadgear"
+   author_link: https://twitter.com/SunraHeadgear
+   link: https://www.youtube.com/watch?v=zYz-mocC_HU
+   tags: [ video ]
    year: 2017
  - title: "My Experience Making a Game for YouTubers (and Failing)"
    author: "@shatley123"
+   author_link: https://twitter.com/shatley123
+   link: https://tristan-shatley.tumblr.com/post/157934962275/my-experience-making-game-for-youtubers-and
+   tags: [ ]
    year: 2017
  - title: "Bucket Grids"
    author: "@1bardesign"
+   author_link: https://twitter.com/1bardesign
+   link: http://www.1bardesign.com/words/?p=2017.001
+   tags: [ ]
    year: 2017
  - title: "How To Make Game Subtitles Better"
    author: "@_benui"
+   author_link: https://twitter.com/_benui
+   link: https://benui.ca/ux/make-game-subtitles-better/
+   tags: [ ui, how-to, accessibility ]
    year: 2017
  - title: "The Problem with Deep Reading Videogames"
    author: "@Sumaleth"
+   author_link: https://twitter.com/Sumaleth
+   link: http://ludodissonance.com/post/157971351418/the-problem-with-deep-reading-videogames
+   tags: [ ]
    year: 2017
-     
+
