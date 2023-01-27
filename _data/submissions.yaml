@@ -17,6 +17,52 @@ submissions:
 
 
 ###############################################################################
+# 2022
+
+ - title: "Understanding Unreal's Input Stack"
+   author: "Nicholas Helish"
+   author_link: https://twitter.com/oldsiren 
+   link: https://www.youtube.com/watch?v=MV-uXsM2o0k
+   tags: [ video, unreal ]
+   year: 2022
+ - title: "Creating a UMG/Slate Widget in Unreal Engine"
+   author: "benui"
+   author_link: https://benui.ca/
+   link: https://www.youtube.com/watch?v=oCML-NOTArE
+   tags: [ video, unreal, user-interface ]
+   year: 2022
+ - title: "Multiplayer Best Practices in Unreal Engine"
+   author: "Omid Kiarostami"
+   author_link: https://twitter.com/heyomidk
+   link: https://www.youtube.com/watch?v=UstLLZbkmOQ
+   tags: [ video, unreal, multiplayer ]
+   year: 2022
+ - title: "UMG Layout Techniques for Unreal Engine"
+   author: "Scott Hernandez"
+   author_link: https://twitter.com/superscott597
+   link: https://www.youtube.com/watch?v=kTg2Le6QwrQ
+   tags: [ video, unreal, user-interface ]
+   year: 2022
+ - title: "Unreal Engine 5.0 Enhanced Input Walkthrough"
+   author: "Alex Swaim"
+   author_link: https://twitter.com/phoenixashes
+   link: https://www.youtube.com/watch?v=ROeN1fI69tQ
+   tags: [ video, unreal ]
+   year: 2022
+ - title: "Unreal Overloaded - Soft and Hard References - Primary Assets"
+   author: "Amir Ansari"
+   author_link: https://twitter.com/AmirAnsari09
+   link: https://www.youtube.com/watch?v=giDf4G6Ndk8
+   tags: [ video, unreal ]
+   year: 2022
+ - title: "Designing Games for Commercial Success"
+   author: "Victor D. Goossens"
+   author_link: https://twitter.com/Mr4Goosey
+   link: https://www.youtube.com/watch?v=Giq88_Jl-Jo
+   tags: [ video, business ]
+   year: 2022
+
+###############################################################################
 # 2020
 
  - title: "Distraction-preventing Software and Tools"
