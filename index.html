@@ -103,7 +103,7 @@ layout: default
   <!--style="background-color:#3f527c"-->
   <div class="container">
     <div class="content-section-heading text-center">
-      <h2 class="mb-5" style="font-family:Lilita One">2023 #notGDC Submissions!</h2>
+      <h2 id="submissions" class="mb-5" style="font-family:Lilita One">2023 #notGDC Submissions!</h2>
     </div>
     <!--
         <div class="row">
@@ -118,7 +118,8 @@ layout: default
         </div>
         <br>
         -->
-
+    {%- assign submissions = site.data.submissions.submissions | where: "year", "2023" -%}
+    {%- include tags.html submissions = submissions -%}
 
     {% for submission in site.data.submissions.submissions %}
 	  {% if submission.year == 2023 %}
