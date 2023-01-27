@@ -7,9 +7,31 @@
             {%- endfor -%}
         </div>
         <div class="col-lg-10">
-        <a class="portfolio-item" href="{{ include.submission.link }}">
-            <h3 style="font-size:1.5rem">{{ include.submission.title }}</h3>
-        </a>
-        <p> by <a href="{{ include.submission.author_link }}">{{ include.submission.author }}</a></p>
+			{% if include.submission.links.size > 1 %}
+				<h3 style="font-size:1.5rem">{{ include.submission.title }}
+					{% for link in include.submission.links %}
+					<a href="{{ link }}">(Part {{ forloop.index }})</a> 
+					{% endfor %}
+				</h3>
+			{% else %}
+				<a class="portfolio-item" href="{{ include.submission.links }}">
+					<h3 style="font-size:1.5rem">{{ include.submission.title }}</h3>
+				</a>
+			{% endif %}
+        <p> by 
+		
+		{% for author in include.submission.authors %}
+			{%- if author.link -%}
+			  <a href="{{ author.link }}">{{ author.name }}</a>
+			{%- else -%}
+			  {{ author.name }}
+			{%- endif -%}
+			{%- if include.submission.authors.size > 1 -%}
+				{%- if forloop.index < include.submission.authors.size -%}
+					,
+				 {% endif %}
+			{%- endif -%}
+		{%- endfor -%}
+		</p>
     </div>
 </div>

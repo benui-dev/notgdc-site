@@ -1,5 +1,14 @@
 submissions:
 
+# OLD FORMAT
+# - title: required
+#   author: required
+#   author_link: optional
+#   link: required
+#   tags: [ array, optional ]
+#   year: required
+#
+# NEW FORMAT, allows multiple links and authors
 # - title: required
 #   authors: [ { name:required, link: optional } ]
 #   links: [ array, required at least 1 ]
@@ -9,13 +18,34 @@ submissions:
 ###############################################################################
 # 2023
 
- - title: Example Talk
-   authors: [ { name:Example Author, link: "https://example-user-link.com/"} ]
-   links: [ "https://example-talk-link.com/" ]
+ - title: One Author
+   authors:
+    - name: "Someone"
+      link: "https://boo-example-user-link.com/"
+   links:
+    - "https://example-talk-link.com/"
+    - "https://example-talk-link.com/"
    tags: [ how-to, project-management ]
    year: 2023
- - title: Another Example Talk
-   authors: [ { name:Another Example Author, link: "https://another-example-user-link.com/"} ]
+ - title: Two authors
+   authors:
+    - name: "Someone"
+      link: "https://boo-example-user-link.com/"
+    - name: "Someone"
+      link: "https://boo-example-user-link.com/"
+   links:
+    - "https://example-talk-link.com/"
+    - "https://example-talk-link.com/"
+   tags: [ how-to, project-management ]
+   year: 2023
+ - title: Three authors
+   authors:
+    - name: "Another Example Author"
+      link: "https://another-example-user-link.com/"
+    - name: "Someone"
+      link: "https://boo-example-user-link.com/"
+    - name: "Someone"
+      link: "https://boo-example-user-link.com/"
    links: [ "https://another-example-talk-link.com/" ]
    tags: [ game-design, art ]
    year: 2023
