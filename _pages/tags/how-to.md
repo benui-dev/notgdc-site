@@ -1,6 +1,6 @@
 ---
-title: "About notGDC"
-permalink: /about/
+title: "How To"
+permalink: /how-to/
 ---
 
 
