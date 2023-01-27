@@ -121,7 +121,9 @@ layout: default
 
 
     {% for submission in site.data.submissions.submissions %}
-	  {% include submission.html submission=submission %}
+	  {% if submission.year == 2023 %}
+	    {% include submission.html submission=submission %}
+	  {% endif %}
     {% endfor %}
   </div>
 </section>
