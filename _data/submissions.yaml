@@ -1,4 +1,7 @@
 submissions:
+
+###############################################################################
+# 2023
  - title: Example Talk
    author: Example Author
    author_link: https://example-user-link.com/
@@ -11,6 +14,166 @@ submissions:
    link: https://another-example-talk-link.com/
    tags: [ game-design, art ]
    year: 2023
+
+
+###############################################################################
+# 2020
+
+ - title: "Distraction-preventing Software and Tools"
+   author: "Tom Hermans"
+   author_link: https://twitter.com/Auroriax
+   link: https://auroriax.com/distraction-preventing-software-and-tools/
+   tags: [ project-management, how-to ]
+   year: 2020
+ - title: "Your Own Best Enemy"
+   author: "Steve Thornton"
+   author_link: https://twitter.com/_SteveThornton
+   link: https://medium.com/@stethornton6/your-own-best-enemy-6509e5e06879
+   tags: [ game-design, how-to ] 
+   year: 2020
+ - title: "About Desktop Pets & Virtual Companions"
+   author: "Nathalie Lawhead"
+   author_link: https://twitter.com/alienmelon/
+   link: http://www.nathalielawhead.com/candybox/about-desktop-pets-virtual-companions-discussing-the-inhabitants-that-fill-the-void-of-our-digital-spaces
+   tags: [ game-design, postmortem ] 
+   year: 2020
+ - title: "A Guide to Working Remotely (Especially in Games)"
+   author: "Akupara Games"
+   author_link: https://twitter.com/akuparagames
+   link: https://medium.com/@akuparagame/expert-advice-a-guide-to-working-remotely-especially-in-games-11083eba9fc3
+   tags: [ project-management, wellbeing ]
+   year: 2020
+ - title: "A curated collection of Unity tutorials, posts, repos and videos"
+   author: "Stelios Petrakis"
+   author_link: https://twitter.com/stelabouras
+   link: https://unity.stelabouras.com/
+   tags: [ everything ]
+   year: 2020
+ - title: "Notes on Supermash"
+   author: "Mike Cook"
+   author_link: https://twitter.com/mtrc
+   link: http://www.possibilityspace.org/supermash/index.html
+   tags: [ game-design, tech ]
+   year: 2020
+ - title: "HYPERTEC Dev Log"
+   author: "Backyard Giant"
+   author_link: https://twitter.com/backyard_giant
+   link: https://twitter.com/i/events/1177555160517750784
+   tags: [ twitter-thread ]
+   year: 2020
+ - title: "Extra Life Learning"
+   author: "Matt Arnold"
+   author_link: https://twitter.com/m4ttbit
+   link: https://youtu.be/_bKNW-GtZVY
+   tags: [ video, game-design ]
+   year: 2020
+ - title: "Uh Oh! Feeling Myself Being Swallowed by Time!: boredom as a desirable quality in gaming"
+   author: "Sam Machell"
+   author_link: https://twitter.com/browniecove
+   link: https://www.youtube.com/watch?v=cXJZItXmB_Q
+   tags: [ video, the-future ]
+   year: 2020
+ - title: "The Jeff Ramos Quarantine Creative Learning Guide"
+   author: "Jeff Ramos"
+   author_link: https://twitter.com/ohjefframos
+   link: https://docs.google.com/document/d/1o_sl1USRS0ZtKQeqqqvsGDC9jvT0VKBL4dg8cHMPM7U/edit?usp=sharing
+   tags: [everything, how-to ] 
+   year: 2020
+ - title: "Making Random Fun"
+   author: "Aden Webb"
+   author_link: https://twitter.com/webb_aden
+   link: http://backyardgiant.co.uk/papers/makingrandomfun.pdf
+   tags: [ game-design, tech] 
+   year: 2020
+ - title: "Reasons Why pico-8 is the Best"
+   author: "DPS2004"
+   author_link: https://twitter.com/DPS_2004
+   link: https://docs.google.com/presentation/d/1vZLNf1fUMIQVvjkxIE7d8qotE3f06g7jcaI2DYgqJeo/edit?usp=sharing
+   tags: [ game-design ] 
+   year: 2020
+ - title: "Fashion for Games"
+   author: "Giulia Zielasko"
+   author_link: http://twitter.com/gizielasko
+   link: https://docs.google.com/presentation/d/1ys3tLAYMAG2o3teF0fZwUYAhi1IwcEoY1YMCROk5b44
+   tags: [ art, game-design ]
+   year: 2020
+ - title: "Game Jams: A Pretty Excellent Gateway To The Games Industry"
+   author: "Shaun Wall"
+   author_link: https://twitter.com/nomaki
+   link: https://docs.google.com/presentation/d/1m7Wd7_b4_aZVTLbbDCls2-y2E5xfDcrQmybjRjMyDqQ/edit?usp=sharing
+   tags: [community, everything] 
+   year: 2020
+ - title: "Commandos Cone of Sight FX in Unity"
+   author: "Josue Candela"
+   author_link: https://twitter.com/JosCanPer
+   link: https://youtu.be/EOW_sBsoYyY
+   tags: [tech, how-to, video] 
+   year: 2020
+ - title: "How Astroneer creates an enjoyably unsafe space"
+   author: "Aden Webb"
+   author_link: https://twitter.com/webb_aden
+   link: https://www.gamesindustry.biz/articles/2019-08-14-how-astroneer-creates-an-unsafe-space
+   tags: [ game-design ]
+   year: 2020
+ - title: "Less is More - Exploring Optimal User Interface Layouts for Achieving Cognitive Flow in Action Games"
+   author: "Jack Griffiths"
+   author_link: http://backyardgiant.co.uk/papers/lessismore.pdf
+   link: http://backyardgiant.co.uk/papers/lessismore.pdf
+   tags: [ game-design ]
+   year: 2020
+ - title: "anarchy: a PRNG library for PCG"
+   author: "Peter Mawhorter"
+   author_link: https://twitter.com/pmawhorter
+   link: https://solsword.github.io/anarchy/
+   tags: [ code-release, tools ]
+   year: 2020
+ - title: "Think Big On a Small Consoles"
+   author: "Vincentius Madya"
+   author_link: https://twitter.com/GrimProsGames
+   link: https://medium.com/grim-pros/think-big-on-a-small-consoles-59a80f3580de
+   tags: [ business, tech ]
+   year: 2020
+ - title: "GDC Virtual Talks Hub"
+   author: "GDC Speakers"
+   author_link: https://twitter.com/official_gdc
+   link: https://gdconf.com/gdc-2020-virtual-talks?_mc=blog_x_gama_le_x_gdcsf_x_x-119-gdc20
+   tags: [ everything ]
+   year: 2020
+ - title: "Interactive Machine Learning for More Expressive Game Interactions"
+   author: "Carlos Gonzalez Diaz, Phoenix Perry and Rebecca Fiebrink"
+   author_link: https://twitter.com/Carlotes247
+   link: http://ieee-cog.org/2019/papers/paper_256.pdf
+   tags: [ tech, artificial-intelligence ] 
+   year: 2020
+ - title: "How to Make Portals in Unity"
+   author: "Daniel Ilett"
+   author_link: https://twitter.com/daniel_ilett
+   link: https://danielilett.com/2019-12-01-tut4-intro-portals/
+   tags: [ tech, how-to ] 
+   year: 2020
+ - title: "Movement using delegates and events"
+   author: "Luke Parker"
+   author_link: https://twitter.com/mrlparker
+   link: https://mrlparker.com/movement-using-delegates-and-events/
+   tags: [ tech, how-to ] 
+   year: 2020
+ - title: "Making games using quantum computers"
+   author: "James Wootton"
+   author_link: https://twitter.com/decodoku
+   link: https://medium.com/@decodoku/games-computers-and-quantum-84bfdd2c0fe0
+   tags: [ tech, the-future] 
+   year: 2020
+ - title: "Designing Game Communities for Kindness"
+   author: "Victoria Tran"
+   author_link: https://twitter.com/TheVTran
+   link: https://medium.com/kitfox-games/designing-communities-for-kindness-dcfec59c1112?source=friends_link&sk=de84a598f73a8a9fb0ef903d88513066
+   tags: [ community, how-to ] 
+   year: 2020
+
+
+
+###############################################################################
+# 2019
  - title: "Compeition: What's the Point?"
    author: "Aitor Iribar"
    tags: [ game-design ]
@@ -36,19 +199,19 @@ submissions:
    author: "Andre Leiradella"
    year: 2019
  - title: "Finding the Narrative Heartbeat"
-   tags: [ Game Design ✍️ Narrative ✍️ ]
+   tags: [  game-design  ✍️ Narrative ✍️ ]
    author: "Aaron Scott Hildebrandt"
    year: 2019
 
 
  - title: "Creating a Passion Project with No Budget"
-   tags: [ Project Management ]
+   tags: [  project-management  ]
    author: "Andy Wood"
    year: 2019
 
 
  - title: "Welcoming Players into DATA WING"
-   tags: [ Game Design ]
+   tags: [  game-design  ]
    author: "Dan Vogt"
    year: 2019
 
@@ -66,7 +229,7 @@ submissions:
 
 
  - title: "City Folk Just Don't Get It - Being a Game Developer in a Rural Community"
-   tags: [ Community ]
+   tags: [ community ]
    author: "ALGameDev"
    year: 2019
 
@@ -78,49 +241,49 @@ submissions:
 
 
  - title: "Life, Complexity, and Roguelikes"
-   tags: [ Game Design ]
+   tags: [  game-design  ]
    author: "Zeno Rogue"
    year: 2019
 
 
  - title: "Mother, I'm An Art Game Designer: A Survival Guide."
-   tags: [ Game Design ]
+   tags: [  game-design  ]
    author: "Georg Hobmeier"
    year: 2019
 
 
  - title: "Elo sucks — better multiplayer rating systems for smaller games"
-   tags: [ 📈 Math(s) 📉 Game Design ]
+   tags: [ 📈 Math(s) 📉  game-design  ]
    author: "raysplaceinspace"
    year: 2019
 
 
  - title: "Accessibility Through Game Design"
-   tags: [ 🎥 Video Game Design ]
+   tags: [ 🎥 Video  game-design  ]
    author: "Brian"
    year: 2019
 
 
  - title: "The World of Blind Gaming"
-   tags: [ 🎥 Video Game Design ]
+   tags: [ 🎥 Video  game-design  ]
    author: "Brian"
    year: 2019
 
 
  - title: "Sneaky Accessibility: Game Design with Intent"
-   tags: [ 🎥 Video Game Design ]
+   tags: [ 🎥 Video  game-design  ]
    author: "Brian"
    year: 2019
 
 
  - title: "Research Notes: AI as Critics, Curators & Friends"
-   tags: [ The Future Postmortem ]
+   tags: [ the-future, postmortem ]
    author: "Mike Cook"
    year: 2019
 
 
  - title: "A Game Dev Newbie's Insights on Game Jams"
-   tags: [ Wellbeing Community ]
+   tags: [ wellbeing community ]
    author: "Jem \"artsybarrels\" J. Sarmiento"
    year: 2019
 
@@ -132,7 +295,7 @@ submissions:
 
 
  - title: "72 Hour Indie Game Development Timelapse in 10 Minutes"
-   tags: [ 🎥 Video Game Design ]
+   tags: [ 🎥 Video  game-design  ]
    author: "ChairGTables"
    year: 2019
 
@@ -144,7 +307,7 @@ submissions:
 
 
  - title: "How To Survive As A 'Solo Dev'"
-   tags: [ Project Management Wellbeing ]
+   tags: [  project-management  wellbeing ]
    author: "Damien Crawford"
    year: 2019
 
@@ -156,13 +319,13 @@ submissions:
 
 
  - title: "How To Backup Your Games As A Gamedev"
-   tags: [ how-to Project Management ]
+   tags: [ how-to  project-management  ]
    author: "Rick Hoppmann"
    year: 2019
 
 
  - title: "Personal Experiences And How They're Shaping My Games"
-   tags: [ Game Design Wellbeing ]
+   tags: [  game-design  wellbeing ]
    author: "Luke Parker"
    year: 2019
 
@@ -174,7 +337,7 @@ submissions:
 
 
  - title: "Ayre - Dev Stream + Commentary by AL Wyvern"
-   tags: [ 🎥 Video Game Design ]
+   tags: [ 🎥 Video  game-design  ]
    author: "here on Thursday 21st, 10pm GMT or watch the archives here."
    year: 2019
 
@@ -198,7 +361,7 @@ submissions:
 
 
  - title: "Being In Survival Mode Means Being On The Road To Burnout"
-   tags: [ Wellbeing Twitter Thread ]
+   tags: [ wellbeing  twitter-thread  ]
    author: "Rayna Anderson"
    year: 2019
 
@@ -216,7 +379,8 @@ submissions:
 
 
 
-
+###############################################################################
+# 2018
 
 
  - title: "A Case For Trigger Warnings In Games Exhibition Spaces"
@@ -394,7 +558,7 @@ submissions:
 
 
  - title: "Ways To Keep Calm, Cosy & Organised"
-   tags: [ Motivation Twitter Thread ]
+   tags: [ Motivation  twitter-thread  ]
    author: "Demi"
    year: 2018
 
@@ -424,7 +588,7 @@ submissions:
 
 
  - title: "LUV Your UVs"
-   tags: [ New Ideas Twitter Thread ]
+   tags: [ New Ideas  twitter-thread  ]
    author: "Marc Loths"
    year: 2018
 
@@ -514,7 +678,7 @@ submissions:
 
 
  - title: "Where My Ideas Come From"
-   tags: [ Motivation Twitter Thread ]
+   tags: [ Motivation  twitter-thread  ]
    author: "Luke Parker"
    year: 2018
 
@@ -544,7 +708,7 @@ submissions:
 
 
  - title: "Slides From Talks I'll Never Submit"
-   tags: [ Twitter Thread 🔥Fire 🔥 ]
+   tags: [ twitter-thread, 🔥Fire 🔥 ]
    author: "John Kane"
    year: 2018
 
