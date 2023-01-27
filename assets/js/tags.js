@@ -1,8 +1,13 @@
-function filterTags()
+function filterTags(in_tags)
 {
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const tags = urlParams.getAll("tag");
+    var urlParams = new URLSearchParams();
+    for(const tag of in_tags)
+    {
+        urlParams.append("tag", tag);
+    }
+    console.log(urlParams.toString())
+    window.history.replaceState(null, null, "?" + urlParams.toString())
+    var tags = in_tags;
     tagsClassString = ""
     for(const tag of tags){
         tagsClassString += "div.tag-" + tag;
@@ -29,5 +34,7 @@ function filterTags()
     }
 
 }
-
-filterTags();
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const tags = urlParams.getAll("tag");
+filterTags(tags);
