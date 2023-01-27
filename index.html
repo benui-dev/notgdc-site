@@ -118,7 +118,8 @@ layout: default
         </div>
         <br>
         -->
-    {%- include tags.html submissions = site.data.submissions.submissions | where: "year", "2023" -%}
+    {%- assign submissions = site.data.submissions.submissions | where: "year", "2023" -%}
+    {%- include tags.html submissions = submissions -%}
 
     {% for submission in site.data.submissions.submissions %}
 	  {% if submission.year == 2023 %}

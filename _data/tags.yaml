@@ -50,3 +50,12 @@ tools:
 all:
   title: All
   background-color: "#ff0000"
+user-interface:
+  title: User Interface
+  background-color: "#ff0000"
+unreal:
+  title: Unreal
+  background-color: "#ff0000"
+multiplayer:
+  title: Multiplayer
+  background-color: "#ff0000"
