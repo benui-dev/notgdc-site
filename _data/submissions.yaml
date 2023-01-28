@@ -616,7 +616,7 @@ submissions:
    tags: [ game-design, art, new-ideas ]
    year: 2018
  - title: "Game Boy Homebrew"
-   authors: [ { name: "Elias Farhan" ] }
+   authors: [ { name: "Elias Farhan" } ]
    links: [ "https://www.youtube.com/watch?v=OKrUnX5qB8o" ]
    tags: [ video ]
    year: 2018
@@ -625,7 +625,7 @@ submissions:
    tags: [ new-ideas, video, vr ]
    year: 2018
  - title: "Choice Is Consequence"
-   authors: [ { name: "Gregory Pellechi" ] ]
+   authors: [ { name: "Gregory Pellechi" } ]
    links: [ "https://www.youtube.com/watch?v=yVkezeb3Y5I" ]
    tags: [ theory, video ]
    year: 2018
