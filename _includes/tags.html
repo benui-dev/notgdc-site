@@ -7,7 +7,7 @@
     {%- assign used_tags = used_tags | split: " " | sort | uniq | join " " -%}
     {%- if include.show-year-tags == true -%}
         {%- for year in site.data.submissions.years -%}
-            {%- assign used_tags = used_tags | rsort | prepend: " " | prepend: year | prepend: " "-%}
+            {%- assign used_tags = used_tags | rsort | prepend: " " | prepend: year | prepend: "year-" -%}
         {%- endfor -%}
     {%- endif -%}
     {%- assign used_tags = used_tags | prepend: "all " -%}
