@@ -265,13 +265,13 @@ submissions:
    year: 2019
  - title: "The deVoid UI Framework for Unity"
    authors: [ { name: "Yanko Oliveira", link: "https://twitter.com/yankooliveira"} ]
-   links: [ "https://github.com/yankooliveira/uiframework%20and%20https://github.com/yankooliveira/uiframework_examples" ]
-   tags: [ tech, how-to ]
+   links: [ "https://github.com/yankooliveira/uiframework", "https://github.com/yankooliveira/uiframework_examples" ]
+   tags: [ tech, how-to, unity, ui ]
    year: 2019
  - title: "Procedural Level Generation in Skeletal Dance Party 💀"
    authors: [ { name: "Jesper Tingvall", link: "https://twitter.com/jesperTingvall"} ]
    links: [  "https://catalopegames.itch.io/skeletal-dance-party/devlog/72777/skeletal-dance-party-procedural-level-generation" ]
-   tags: [ tech ]
+   tags: [ tech, procedural-generation ]
    year: 2019
  - title: "City Folk Just Don't Get It - Being a Game Developer in a Rural Community"
    authors: [ { name: "ALGameDev", link: "https://twitter.com/ALGameDev"} ]
@@ -291,7 +291,7 @@ submissions:
  - title: "Mother, I'm An Art Game Designer: A Survival Guide."
    authors: [ { name: "Georg Hobmeier", link: "http://www.twitter.com/MercuryLegba"} ]
    links: [ "https://twitter.com/MercuryLegba/status/1109119945978380294", "https://twitter.com/MercuryLegba/status/1109121818487590913" ]
-   tags: [ game-design, twitter-thread ]
+   tags: [ game-design, twitter-thread, art ]
    year: 2019
  - title: "Elo sucks — better multiplayer rating systems for smaller games"
    authors: [ { name: "raysplaceinspace", link: "http://www.twitter.com/raysplacenspace"} ]
@@ -299,12 +299,12 @@ submissions:
    tags: [ math, game-design, multiplayer ]
    year: 2019
  - title: "Accessibility Through Game Design"
-   authors: [ { name: "Brian", link: "http://www.twitter.com/daisyalesounds"} ]
+   authors: [ { name: "Brian", link: "http://www.twitter.com/daisyalesounds" } ]
    links: [ "https://www.youtube.com/watch?v=KiqxkXE-Qd8" ]
    tags: [ video, game-design, accessibility ]
    year: 2019
  - title: "The World of Blind Gaming"
-   authors: [ { name: "Brian", link: "http://www.twitter.com/daisyalesounds"} ]
+   authors: [ { name: "Brian", link: "http://www.twitter.com/daisyalesounds" } ]
    links: [ "https://www.youtube.com/watch?v=g8omiypHUGc" ]
    tags: [ video, game-design ]
    year: 2019
@@ -399,11 +399,13 @@ submissions:
 # 2018
 
  - title: "A Case For Trigger Warnings In Games Exhibition Spaces"
-   authors: [ { name: "adriel beaver", link: "https://medium.com/@adrielbeaver/trigger-warnings-games-exhibitions-159550819ab"} ]
+   authors: [ { name: "adriel beaver", } ]
+   links: [ "https://medium.com/@adrielbeaver/trigger-warnings-games-exhibitions-159550819ab" ]
    tags: [ events, inclusivity ]
    year: 2018
  - title: "#notGDC Innopolis University Talks"
-   authors: [ { name: "Innopolis Indie GameDev Club", link: "https://www.youtube.com/watch?v=lUOLaEzO6MU"} ]
+   authors: [ { name: "Innopolis Indie GameDev Club" } ]
+   links: [ "https://www.youtube.com/watch?v=lUOLaEzO6MU" ]
    tags: [ new-ideas, video ]
    year: 2018
  - title: "Prestige Is For People With Money"
@@ -505,7 +507,7 @@ submissions:
    links: [ "https://docs.google.com/presentation/d/1RfWRe8TBnhOsXoQSuA7zHS54tzdgHkh7O4cw7FLP-I8/edit#slide=id.p" ]
    tags: [ new-ideas, game-design ]
    year: 2018
- - title: "Putting the ‘Rad’ Back in ‘Radial Menus’"
+ - title: "Putting the 'Rad' Back in 'Radial Menus'"
    authors: [ { name: "Lucy Morris", link: "https://twitter.com/lucyamorris"} ]
    links: [ "https://medium.com/@lucyamorris/putting-the-rad-back-in-radial-menus-66ea76a39acc" ]
    tags: [ ui ️]
@@ -621,7 +623,8 @@ submissions:
    tags: [ video ]
    year: 2018
  - title: "Social VR"
-   authors: [ { name: "Murky Mulm", link: "https://www.youtube.com/watch?v=eotMsCRJrCc"} ]
+   authors: [ { name: "Murky Mulm" } ]
+   links: [ "https://www.youtube.com/watch?v=eotMsCRJrCc" ]
    tags: [ new-ideas, video, vr ]
    year: 2018
  - title: "Choice Is Consequence"
@@ -645,7 +648,8 @@ submissions:
    tags: [ video ]
    year: 2018
  - title: "Continent Generation Postmortem"
-   authors: [ { name: "John Arras", link: "https://medium.com/@johnarras/continent-generation-3-algorithm-776405e4cba"} ]
+   authors: [ { name: "John Arras" } ]
+   links: [ "https://medium.com/@johnarras/continent-generation-3-algorithm-776405e4cba" ]
    tags: [ new-ideas, postmortem ]
    year: 2018
  - title: "Navigation Filtering And Avoidance"
