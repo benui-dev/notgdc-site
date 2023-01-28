@@ -204,3 +204,10 @@ h2 {
 		background-position: 0 0;
 	}
 }
+
+label
+{
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none; /* Standard syntax */
+}
