@@ -11,22 +11,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script defer data-domain="notgdc.io" src="https://plausible.io/js/script.js"></script>
-
-<style>
-  .btn-special{
-    background-color:#f9b641!important;
-  }
-  .btn-special:hover{
-    background-color:#ffd34e!important;
-  }
-
-  </style>
-
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 <script defer src="{%- include minified_path.html file='/assets/js/countdown' ext='js' -%}"></script>
 
 <!-- Bootstrap Core CSS -->
 <link href="{{ '/assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
-
 <!-- Custom CSS -->
 <link href="{%- include minified_path.html file='/assets/css/main' ext='css' -%}" rel="stylesheet">
 </head>
