@@ -406,7 +406,7 @@ submissions:
  - title: "#notGDC Innopolis University Talks"
    authors: [ { name: "Innopolis Indie GameDev Club" } ]
    links: [ "https://www.youtube.com/watch?v=lUOLaEzO6MU" ]
-   tags: [ new-ideas, video ]
+   tags: [ video ]
    year: 2018
  - title: "Prestige Is For People With Money"
    authors: [ { name: "Florencia Rumpel", link: "https://twitter.com/Rumpelcita"} ]
@@ -505,7 +505,7 @@ submissions:
  - title: "Fifteen Properties At Play"
    authors: [ { name: "Sol", link: "https://twitter.com/spiderflorist"} ]
    links: [ "https://docs.google.com/presentation/d/1RfWRe8TBnhOsXoQSuA7zHS54tzdgHkh7O4cw7FLP-I8/edit#slide=id.p" ]
-   tags: [ new-ideas, game-design ]
+   tags: [ game-design ]
    year: 2018
  - title: "Putting the 'Rad' Back in 'Radial Menus'"
    authors: [ { name: "Lucy Morris", link: "https://twitter.com/lucyamorris"} ]
@@ -515,17 +515,17 @@ submissions:
  - title: "Structured Game Development"
    authors: [ { name: "Sean Bouchard", link: "https://twitter.com/ndef"} ]
    links: [ "https://www.youtube.com/watch?v=jWSUCDKE5Wo" ]
-   tags: [ data, new-ideas, video ]
+   tags: [ data, video ]
    year: 2018
  - title: "What I've Learned From Game Design History (Part 1, Part 2)"
    authors: [ { name: "The Mad Welshman", link: "https://twitter.com/TheMadWelshman"} ]
    links: [ "http://themadwelshman.co.uk/what-ive-learned-from-game-design-history-some-notgdc-advice/", "http://themadwelshman.co.uk/more-learnings-from-game-design-history/" ]
-   tags: [ new-ideas ]
+   tags: [ ]
    year: 2018
  - title: "Games Need More Balls"
    authors: [ { name: "Shalune Tyler Main", link: "https://twitter.com/_shalune/"} ]
    links: [ "https://shalune.wordpress.com/2018/03/22/games-need-more-balls/" ]
-   tags: [ new-ideas ]
+   tags: [ ]
    year: 2018
  - title: "Player Counts: False Friends in Games User Research?"
    authors: [ { name: "Gareth Lloyd", link: "https://twitter.com/GarethLloyd_"} ]
@@ -550,7 +550,7 @@ submissions:
  - title: "Delegates, Events and Unity"
    authors: [ { name: "Juan Alejandro Rodríguez", link: "https://twitter.com/timrodz"} ]
    links: [ "https://paper.dropbox.com/doc/The-utility-of-Delegates-Events-and-UnityEvents-in-Unity.-OhaCIBxdvNEztrhdfXmFG?_tk=share_copylink&auth_redirect=true&first_sign_in=true" ]
-   tags: [ new-ideas ]
+   tags: [ ]
    year: 2018
  - title: "Top 10 Gayest Looks In Splatoon 2"
    authors: [ { name: "Jillian Wakarchuk", link: "https://twitter.com/OrbWitch"} ]
@@ -586,7 +586,7 @@ submissions:
      [ "Jess Zammit", https://twitter.com/zammitjess/ ]
    ]
    links: [ "https://queerlyrepresent.me/resources/articles/making-diverse-games" ]
-   tags: [ new-ideas, inclusivity ]
+   tags: [ inclusivity ]
    year: 2018
  - title: "LUV Your UVs"
    authors: [ { name: "Marc Loths", link: "https://twitter.com/OldLoths"} ]
@@ -615,7 +615,7 @@ submissions:
  - title: "Why Designers Should Learn Animation"
    authors: [ { name: "Christiaan Moleman"} ]
    links: [ "https://www.gamasutra.com/blogs/ChristiaanMoleman/20161102/284551/Why_designers_should_learn_animation.php" ]
-   tags: [ game-design, art, new-ideas ]
+   tags: [ game-design, art ]
    year: 2018
  - title: "Game Boy Homebrew"
    authors: [ { name: "Elias Farhan" } ]
@@ -625,7 +625,7 @@ submissions:
  - title: "Social VR"
    authors: [ { name: "Murky Mulm" } ]
    links: [ "https://www.youtube.com/watch?v=eotMsCRJrCc" ]
-   tags: [ new-ideas, video, vr ]
+   tags: [ video, vr ]
    year: 2018
  - title: "Choice Is Consequence"
    authors: [ { name: "Gregory Pellechi" } ]
@@ -650,12 +650,12 @@ submissions:
  - title: "Continent Generation Postmortem"
    authors: [ { name: "John Arras" } ]
    links: [ "https://medium.com/@johnarras/continent-generation-3-algorithm-776405e4cba" ]
-   tags: [ new-ideas, postmortem ]
+   tags: [ postmortem ]
    year: 2018
  - title: "Navigation Filtering And Avoidance"
    authors: [ { name: "Vikram Saran"} ]
    links: [ "https://www.vikram.codes/blog/ai/03-navigation-filtering-and-avoidance" ]
-   tags: [ new-ideas ]
+   tags: [ ]
    year: 2018
  - title: "Bees In Videogames 🐝"
    authors: [ { name: "Sean Oxspring" } ]
@@ -675,12 +675,12 @@ submissions:
  - title: "Why Toilets? 🚽"
    authors: [ { name: "Steven Harmon" } ]
    links: [ "https://sites.google.com/view/toiletgamestudies/why-toilets?authuser=0" ]
-   tags: [ new-ideas ]
+   tags: [ ]
    year: 2018
  - title: "Continent Generation Preview"
    authors: [ { name: "John Arras" } ]
    links: [ "https://www.youtube.com/watch?v=fbsdavIQf0o" ]
-   tags: [ new-ideas, video ]
+   tags: [ video ]
    year: 2018
  - title: "Feeling Productive While Procrastinating"
    authors: [ { name: "Spencer Saunders" } ]
