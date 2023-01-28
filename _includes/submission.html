@@ -1,15 +1,37 @@
 <div class="row entry {% for tag in submission.tags %} tag-{{tag}} {% endfor %}">
     <div class="col-lg-2">
         {%- for tag in include.submission.tags -%}
-            <a class="tag-link" href="?tag={{ tag }}#submissions"><span class="badge"
+            <a class="tag-link" onclick="return filterTags(['{{tag}}']);" href="#submissions"><span class="badge"
                 style="background-color:{{ site.data.tags[tag].background-color }}; color:#ffffff; font-size:12px">{{
                 site.data.tags[tag].title }}</span></a>
             {%- endfor -%}
         </div>
         <div class="col-lg-10">
-        <a class="portfolio-item" href="{{ include.submission.link }}">
-            <h3 style="font-size:1.5rem">{{ include.submission.title }}</h3>
-        </a>
-        <p> by <a href="{{ include.submission.author_link }}">{{ include.submission.author }}</a></p>
+			{% if include.submission.links.size > 1 %}
+				<h3 style="font-size:1.5rem">{{ include.submission.title }}
+					{% for link in include.submission.links %}
+					<a href="{{ link }}">(Part {{ forloop.index }})</a> 
+					{% endfor %}
+				</h3>
+			{% else %}
+				<a class="portfolio-item" href="{{ include.submission.links }}">
+					<h3 style="font-size:1.5rem">{{ include.submission.title }}</h3>
+				</a>
+			{% endif %}
+        <p> by 
+		
+		{% for author in include.submission.authors %}
+			{%- if author.link -%}
+			  <a href="{{ author.link }}">{{ author.name }}</a>
+			{%- else -%}
+			  {{ author.name }}
+			{%- endif -%}
+			{%- if include.submission.authors.size > 1 -%}
+				{%- if forloop.index < include.submission.authors.size -%}
+					,
+				 {% endif %}
+			{%- endif -%}
+		{%- endfor -%}
+		</p>
     </div>
 </div>
