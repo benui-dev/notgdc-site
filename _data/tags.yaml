@@ -16,11 +16,11 @@ game-design:
   icon: 📚
 twitter-thread:
   title: Twitter Thread
-  background-color: "#ff0000"
+  background-color: "#007bff"
   icon: 🐦
 video:
   title: Video
-  background-color: "#ff0000"
+  background-color: "#343a40"
   icon: 📺
 everything:
   title: Everything
@@ -28,7 +28,7 @@ everything:
   icon: ♾
 postmortem:
   title: Postmortem
-  background-color: "#ff0000"
+  background-color: "#ffc107"
   icon: 💀
 wellbeing:
   title: Wellbeing
@@ -82,7 +82,7 @@ audio:
   icon: 🎶
 programming:
   title: Programming
-  background-color: "#ff0000"
+  background-color: "#343a40"
   icon: ⌨
 analytics:
   title: Analytics
@@ -108,5 +108,9 @@ funny:
   icon: 💩 
 motivation:
   title: Motivation
-  background-color: "#ff0000"
+  background-color: "rgb(40, 167, 69)"
   icon: 🏃
+writing:
+  title: Writing
+  background-color: "rgb(40, 167, 69)"
+  icon: ✍️ 
