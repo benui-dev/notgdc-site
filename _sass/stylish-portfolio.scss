@@ -378,36 +378,37 @@ input[type="checkbox"] {
 .checkbox-wrapper {
     display: grid;
     grid-template-columns: 1em auto;
-    gap: 0.5em;
-    margin:0px;
-    align-content:center;
+    grid-gap: 0.5em;
+    margin: 0;
+    align-content: center;
 }
+
 .tag-link{
-    padding: 0.1em;
-    align-self:center;
-    line-height:0;
-    align-items:center;
-}
-.tag-link>a {
+	color: #fff;
+	font-size: 1.5em;
+    align-items: center;
+    align-self: center;
     line-height: 0;
-    padding:0.4em;
-}
+    padding: 0;
+	margin: 0.5em;
 
-.tag-link>a>.badge, .tag-link>.badge{
-    padding: 0.3em;
-    height: 2.1em;
-    line-height:0;
-    cursor:pointer;
-    align-items:center;
-    display:grid;
-}
-
-.tag-link>a>.badge, 
-a.tag-link>.badge,
-.tag-link>.badge>label{
-    cursor:pointer;
-    padding: 0.3em;
-    align-items:center;
+	a {
+		line-height: 0;
+		padding: 0.4em;
+		&:hover
+		{
+			text-decoration: none;
+		}
+	}
+	.badge{
+		color:#fff;
+		align-items:center;
+		cursor:pointer;
+		display:grid;
+		height: 2.1em;
+		line-height:0;
+		padding: 0.3em;
+	}
 }
 
 #filter-row{

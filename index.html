@@ -119,11 +119,14 @@ layout: default
         <br>
         -->
     {%- assign submissions = site.data.submissions.submissions | where: "year", "2023" -%}
-    {%- include tags.html submissions = submissions -%}
-
-    {% for submission in submissions %}
-	    {% include submission.html submission=submission %}
-    {% endfor %}
+	{% if submissions.size == 0 %}
+		<div class="no-submissions"></div>
+	{% else %}
+		{%- include tags.html submissions = submissions -%}
+		{% for submission in submissions %}
+			{% include submission.html submission=submission %}
+		{% endfor %}
+	{% endif %}
   </div>
 </section>
 

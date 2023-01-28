@@ -5,13 +5,15 @@ html {
 	scroll-behavior: smooth;
 }
 
-  .btn-special{
-    background-color:#f9b641!important;
-  }
-  .btn-special:hover{
-    background-color:#ffd34e!important;
-  }
+@import "fonts";
+@import "stylish-portfolio";
 
+.btn-special{
+  background-color:#f9b641!important;
+}
+.btn-special:hover{
+  background-color:#ffd34e!important;
+}
 
 .fa-lg {
 	font-size: 1.33333333em;
@@ -43,9 +45,6 @@ html {
 	margin-left: 0.2em;
 	margin-right: 0.2em;
 }
-
-@import "fonts";
-@import "stylish-portfolio";
 
 $green : #2becaa;
 
@@ -214,7 +213,8 @@ h2 {
 
 label
 {
-	-webkit-user-select: none; /* Safari */
-	-ms-user-select: none; /* IE 10 and IE 11 */
-	user-select: none; /* Standard syntax */
+	// Fix double-clicking on labels accidentally selecting text
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }

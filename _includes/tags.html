@@ -15,25 +15,17 @@
     <span class="filter-header">Filters:</span>
     {%- for tag in used_tags_array -%}
         {%- if tag == 'all' -%}
-            <a class="tag-link" onclick="filterTags(['all'])" href="#submissions">
-                <span class="badge"
-                    style="background-color:{{ site.data.tags[tag].background-color }}; color:#ffffff; font-size:12px">
-                        All
-                </span>
+            <a class="tag-link badge" onclick="filterTags(['all'])" href="#submissions" style="background-color:{{ site.data.tags[tag].background-color }};">
+                All
             </a>
         {%- else -%}
-        <span class="tag-link">
-            <span class="badge"
-                style="background-color:{{ site.data.tags[tag].background-color }}; color:#ffffff; font-size:12px">
-                <label class="checkbox-wrapper">
-                    <input type="checkbox" class="checkbox-filter" id="checkbox-{{tag}}" value="{{tag}}" onclick="event.stopPropagation();toggleFilters();"/>
-					{%- if site.data.tags[tag].icon -%}
-						{{ site.data.tags[tag].icon }}
-					{%- endif -%}
-                    {{site.data.tags[tag].title}}
-                </label>
-            </span>
-        </span>
+        <label class="tag-link badge checkbox-wrapper" style="background-color:{{ site.data.tags[tag].background-color }};">
+            <input type="checkbox" class="checkbox-filter" id="checkbox-{{tag}}" value="{{tag}}" onclick="event.stopPropagation();toggleFilters();"/>
+            {%- if site.data.tags[tag].icon -%}
+                {{ site.data.tags[tag].icon }}
+            {%- endif -%}
+           {{site.data.tags[tag].title}}
+        </label>
         {%- endif -%}
     </span>
     {%- endfor -%}
