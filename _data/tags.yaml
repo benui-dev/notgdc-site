@@ -106,4 +106,7 @@ funny:
   title: Funny
   background-color: "#ff0000"
   icon: 💩 
-
+motivation:
+  title: Motivation
+  background-color: "#ff0000"
+  icon: 🏃
