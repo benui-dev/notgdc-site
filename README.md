@@ -21,6 +21,8 @@ Look, we're task managing!
   * [ ] Update Twitter logo
   * [ ] Update Mastodon logo
   * [ ] Update Twitch logo
+* [ ] Make it so checkbox filters show a pointer cursor
+  * [ ] Make checkbox filters clickable area match visual bg
 * [ ] Fix horizontal scroll bar appearing
 * [ ] Add juice to Button on-hover (see terranil.com for example)
 * [ ] Add way to see previous year submissions pulling from submissions.yaml 
