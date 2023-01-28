@@ -21,9 +21,11 @@
         {%- else -%}
         <label class="tag-link badge checkbox-wrapper" style="background-color:{{ site.data.tags[tag].background-color }};">
             <input type="checkbox" class="checkbox-filter" id="checkbox-{{tag}}" value="{{tag}}" onclick="event.stopPropagation();toggleFilters();"/>
+            <span class="badge">
             {%- if site.data.tags[tag].icon -%}
                 {{ site.data.tags[tag].icon }}
             {%- endif -%}
+            </span>
            {{site.data.tags[tag].title}}
         </label>
         {%- endif -%}

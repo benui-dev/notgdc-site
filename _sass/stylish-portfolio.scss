@@ -3,23 +3,29 @@ html {
     width: 100%;
     height: 100%;
 }
+
 body {
     font-family: "Nunito Sans";
 }
+
 .btn-xl {
     padding: 1.25rem 2.5rem;
 }
+
 .content-section {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
 }
+
 .content-section-heading h2 {
     font-size: 3rem;
 }
+
 .content-section-heading h3 {
     font-size: 1rem;
     text-transform: uppercase;
 }
+
 h1,
 h2,
 h3,
@@ -28,20 +34,25 @@ h5,
 h6 {
     font-weight: 500;
 }
+
 .text-faded {
     color: rgba(255, 255, 255, 0.7);
 }
+
 .map {
     height: 30rem;
 }
+
 @media (max-width: 992px) {
     .map {
         height: 75%;
     }
 }
+
 .map iframe {
     pointer-events: none;
 }
+
 .scroll-to-top {
     position: fixed;
     right: 15px;
@@ -54,16 +65,20 @@ h6 {
     background: rgba(52, 58, 64, 0.5);
     line-height: 45px;
 }
+
 .scroll-to-top:focus,
 .scroll-to-top:hover {
     color: #fff;
 }
+
 .scroll-to-top:hover {
     background: #343a40;
 }
+
 .scroll-to-top i {
     font-weight: 800;
 }
+
 .masthead {
     min-height: 30rem;
     position: relative;
@@ -72,24 +87,28 @@ h6 {
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: linear-gradient(153deg, rgb(255 19 19 / 40%) 0%, rgb(4 0 255) 150%) , url(/assets/img/repeatingbg-lossy.webp);
+    background: linear-gradient(153deg, rgb(255 19 19 / 40%) 0%, rgb(4 0 255) 150%), url(/assets/img/repeatingbg-lossy.webp);
     background-repeat: no-repeat, repeat;
     background-position: center;
     background-size: 100%, 400px;
 }
+
 .masthead h1 {
     font-size: 4rem;
     margin: 0;
     padding: 0;
 }
+
 @media (min-width: 992px) {
     .masthead {
         height: 100vh;
     }
+
     .masthead h1 {
         font-size: 5.5rem;
     }
 }
+
 #sidebar-wrapper {
     position: fixed;
     z-index: 2;
@@ -105,6 +124,7 @@ h6 {
     background: #b594f3;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .sidebar-nav {
     position: absolute;
     top: 0;
@@ -113,22 +133,26 @@ h6 {
     padding: 0;
     list-style: none;
 }
+
 .sidebar-nav li.sidebar-nav-item a {
     display: block;
     text-decoration: none;
     color: #fff;
     padding: 15px;
 }
+
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
     background: rgba(255, 255, 255, 0.2);
 }
+
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
     text-decoration: none;
 }
-.sidebar-nav > .sidebar-brand {
+
+.sidebar-nav>.sidebar-brand {
     font-size: 1.2rem;
     background: rgba(52, 58, 64, 0.1);
     height: 80px;
@@ -137,13 +161,16 @@ h6 {
     padding-bottom: 15px;
     padding-left: 15px;
 }
-.sidebar-nav > .sidebar-brand a {
+
+.sidebar-nav>.sidebar-brand a {
     color: #fff;
 }
-.sidebar-nav > .sidebar-brand a:hover {
+
+.sidebar-nav>.sidebar-brand a:hover {
     color: #fff;
     background: 0 0;
 }
+
 #sidebar-wrapper.active {
     right: 250px;
     width: 250px;
@@ -153,6 +180,7 @@ h6 {
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
 }
+
 .menu-toggle {
     position: fixed;
     right: 15px;
@@ -165,13 +193,16 @@ h6 {
     line-height: 50px;
     z-index: 999;
 }
+
 .menu-toggle:focus,
 .menu-toggle:hover {
     color: #fff;
 }
+
 .menu-toggle:hover {
     background: #343a40;
 }
+
 .service-icon {
     background-color: #fff;
     color: #b594f3;
@@ -182,6 +213,7 @@ h6 {
     font-size: 2.25rem;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+
 .callout {
     padding: 15rem 0;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0, rgba(255, 255, 255, 0.1) 100%), url(../img/bg-callout.jpg);
@@ -189,12 +221,14 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .callout h2 {
     font-size: 3.5rem;
     font-weight: 700;
     display: block;
     max-width: 30rem;
 }
+
 .portfolio-item {
     display: block;
     position: relative;
@@ -342,15 +376,20 @@ input[type="checkbox"] {
     color: currentColor;
     width: 1.15em;
     height: 1.15em;
-    border: 0.15em solid currentColor;
-    border-radius: 0.15em;
+    border: 0.12em solid currentColor;
+    border-radius: 0.24em;
     transform: translateY(-0.075em);
   
     display: grid;
     place-content: center;
     clear: both;
     align-self:center;
-  }
+
+    + span {
+        margin-left: 5px;
+        display: block;
+    }
+}
   
   input[type="checkbox"]::before {
     content: "";
@@ -363,7 +402,7 @@ input[type="checkbox"] {
     box-shadow: inset 1em 1em #fff;
     /* Windows High Contrast Mode */
     background-color: CanvasText;
-    margin: .1em;
+    margin: 0.1em;
   }
   
   input[type="checkbox"]:checked::before {
@@ -378,46 +417,45 @@ input[type="checkbox"] {
 .checkbox-wrapper {
     display: grid;
     grid-template-columns: 1em auto;
-    grid-gap: 0.5em;
     margin: 0;
     align-content: center;
 }
 
-.tag-link{
+.tag-link {
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 1.2em;
     align-items: center;
     align-self: center;
     line-height: 0;
-    padding: 0;
-	margin: 0.5em;
+    padding: 0.2em;
+	margin: 0.2em;
 
-	a {
-		line-height: 0;
-		padding: 0.4em;
-		&:hover
-		{
-			text-decoration: none;
-		}
-	}
-	.badge{
-		color:#fff;
-		align-items:center;
-		cursor:pointer;
-		display:grid;
-		height: 2.1em;
-		line-height:0;
-		padding: 0.3em;
+    > input[type="checkbox"] {
+        margin-right: 0.1em;
+    }
+
+	&:hover
+	{
+		text-decoration: none;
 	}
 }
+.badge {
+    color: #fff;
+    align-items: center;
+    cursor: pointer;
+    display: grid;
+    height: 2.1em;
+    line-height: 0;
+    padding: 0.3em;
+}
 
-#filter-row{
+#filter-row {
     margin-bottom: 2em;
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
 
-.filter-header{
+.filter-header {
     font-size: .75em;
     font-weight: 700;
     align-self: center;
