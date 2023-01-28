@@ -5,9 +5,13 @@ function filterTags(in_tags)
     {
         urlParams.append("tag", tag);
     }
-    window.history.replaceState(null, null, "?" + urlParams.toString())
+    urlString = urlParams.toString();
+    if(urlString != "")
+    {
+        window.history.replaceState(null, null, "?" + urlParams.toString());
+    }
     var tags = in_tags;
-    tagsClassStringArray = []
+    tagsClassStringArray = [];
 
     var checkBoxes = document.querySelectorAll(".checkbox-filter");
 
