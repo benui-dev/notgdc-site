@@ -1,23 +1,40 @@
+--- 
+# Only the main Sass file needs front matter (the dashes are enough) 
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
----
-
-
-html
-{
+html {
 	scroll-behavior: smooth;
 }
 
 
-.fa-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}
+.fa-lg {
+	font-size: 1.33333333em;
+	line-height: .75em;
+	vertical-align: -15%
+}
+
+.fa-2x {
+	font-size: 2em
+}
+
+.fa-3x {
+	font-size: 3em
+}
+
+.fa-4x {
+	font-size: 4em
+}
+
+.fa-5x {
+	font-size: 5em
+}
 
 .svg-inline--fa {
-    display: inline-block;
-    height: 1em;
-    overflow: visible;
-    vertical-align: -0.125em;
-	margin-left:0.2em;
-	margin-right:0.2em;
+	display: inline-block;
+	height: 1em;
+	overflow: visible;
+	vertical-align: -0.125em;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
 }
 
 @import "fonts";
@@ -26,8 +43,8 @@ html
 $green : #2becaa;
 
 $banner-height: 60px;
-.banner
-{
+
+.banner {
 	background-color: $green;
 	border-radius: calc($banner-height/2);
 	height: auto;
@@ -39,31 +56,29 @@ $banner-height: 60px;
 }
 
 @media (max-width: 576px) {
-	.banner
-	{
+	.banner {
 		font-size: 1.60em;
 	}
 }
 
-h1, h2
-{
+h1,
+h2 {
 	font-family: "Lilita One", sans-serif;
 }
-.masthead
-{
-	h1
-	{
+
+.masthead {
+	h1 {
 		color: #fff;
 		font-size: 12em;
 		letter-spacing: -0.05em;
 	}
-	h2
-	{
+
+	h2 {
 		color: #fff;
 		font-size: 3em;
 	}
-	h3
-	{
+
+	h3 {
 		color: #fff;
 		font-size: 2em;
 		font-family: "Lilita One", sans-serif;
@@ -71,19 +86,17 @@ h1, h2
 }
 
 @media (max-width: 576px) {
-	.masthead
-	{
-		h1
-		{
+	.masthead {
+		h1 {
 			font-size: 8em;
 		}
-		h2
-		{
+
+		h2 {
 			color: #fff;
 			font-size: 2em;
 		}
-		h3
-		{
+
+		h3 {
 			color: #fff;
 			font-size: 1.60em;
 			font-family: "Lilita One", sans-serif;
@@ -92,13 +105,104 @@ h1, h2
 }
 
 // linear-gradient(153deg, rgb(4 0 255) 0%, rgb(255 19 19 / 40%) 150%)
-.dropshadow
-{
+.dropshadow {
 	filter: drop-shadow(2px 2px #333);
 }
 
-.green
-{
+.green {
 	color: $green;
 }
 
+
+/// @NOTE: ngdc-* classes are called to avoid conflict with bootstrap until we can phase it out
+
+.ngdc-btn {
+	font-family: "Nunito Sans";
+	background-color: #57cba3;
+	border: 1px solid #2becaa;
+	border-radius: 0.25rem;
+	color: #fff;
+	vertical-align: middle;
+	text-shadow: 1px 1px hsl(159, 24%, 25%);
+	font-weight: 700;
+	font-size: 1rem;
+	display: inline-block;
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+	line-height: 1.5;
+	transition: background-color 0.10s ease;
+	padding: 0.375rem 0.75rem;
+}
+
+.ngdc-btn:hover,
+.ngdc-btn:focus {
+	background-color: #cbac57;
+	border-color: #ffd34e;
+	text-decoration: none;
+	color: #fff;
+	animation-name: scaling;
+	animation-duration: 0.1s;
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-size: 1rem 1rem;
+}
+
+.ngdc-btn-disabled {
+	pointer-events: none;
+}
+
+.ngdc-ms {
+	margin-top: 0.25rem !important;
+	margin-bottom: 0.25rem !important;
+	margin-right: 0.5rem !important;
+	margin-left: 0.5rem !important;
+}
+
+.btn-xl {
+	padding: 1.25rem 2.5rem;
+}
+
+.btn-light {
+	color: #212529;
+	background-color: #f8f9fa;
+	border-color: #f8f9fa;
+	text-shadow: none;
+}
+
+.btn-light:hover {
+	color: #212529;
+	background-color: #e2e6ea;
+	border-color: #dae0e5;
+}
+
+.btn-light:focus,
+.btn-light.focus {
+	box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+}
+
+.btn-light.disabled,
+.btn-light:disabled {
+	color: #212529;
+	background-color: #f8f9fa;
+	border-color: #f8f9fa;
+}
+
+@keyframes scaling {
+	66% {
+		scale: 1.02;
+		rotate: -2deg;
+	}
+
+	100% {
+		scale: 1;
+		rotate: 0deg;
+	}
+}
+
+@keyframes stripes {
+	from {
+		background-position: 1rem 0;
+	}
+
+	to {
+		background-position: 0 0;
+	}
+}
