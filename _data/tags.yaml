@@ -1,61 +1,109 @@
-# Tags sourced from 2020
-how-to:
-  title: How To
-  background-color: "#ff0000"
-project-management:
-  title: Project Management
-  background-color: "#ff0000"
-game-design:
-  title: Game Design
-  background-color: "#ff0000"
-twitter-thread:
-  title: Twitter Thread
-  background-color: "#ff0000"
-video:
-  title: Video
-  background-color: "#ff0000"
-everything:
-  title: Everything
-  background-color: "#ff0000"
-postmortem:
-  title: Postmortem
-  background-color: "#ff0000"
-wellbeing:
-  title: Wellbeing
-  background-color: "#ff0000"
-the-future:
-  title: The Future
-  background-color: "#ff0000"
-tech:
-  title: Tech
-  background-color: "#ff0000"
-art:
-  title: Art
-  background-color: "#ff0000"
-community:
-  title: Community
-  background-color: "#ff0000"
-business:
-  title: Business
-  background-color: "#ff0000"
-ai:
-  title: Artificial Intelligence
-  background-color: "#ff0000"
-code:
-  title: Code Release
-  background-color: "#ff0000"
-tools:
-  title: Tools
-  background-color: "#ff0000"
 all:
   title: All
   background-color: "#ff0000"
-user-interface:
-  title: User Interface
+  icon: 🌟
+how-to:
+  title: How To
   background-color: "#ff0000"
+  icon: ❓
+project-management:
+  title: Project Management
+  background-color: "#ff0000"
+  icon: 📊
+game-design:
+  title: Game Design
+  background-color: "#ff0000"
+  icon: 📚
+twitter-thread:
+  title: Twitter Thread
+  background-color: "#ff0000"
+  icon: 🐦
+video:
+  title: Video
+  background-color: "#ff0000"
+  icon: 📺
+everything:
+  title: Everything
+  background-color: "#ff0000"
+  icon: ♾
+postmortem:
+  title: Postmortem
+  background-color: "#ff0000"
+  icon: 💀
+wellbeing:
+  title: Wellbeing
+  background-color: "#ff0000"
+  icon: ♥
+the-future:
+  title: The Future
+  background-color: "#ff0000"
+  icon: 🌃
+tech:
+  title: Tech
+  background-color: "#ff0000"
+  icon: 🖥
+art:
+  title: Art
+  background-color: "#ff0000"
+  icon: 🎨
+community:
+  title: Community
+  background-color: "#ff0000"
+  icon: 👥
+business:
+  title: Business
+  background-color: "#ff0000"
+  icon: 👔
+ai:
+  title: AI
+  background-color: "#ff0000"
+  icon: 🧠
+tools:
+  title: Tools
+  background-color: "#ff0000"
+  icon: 🛠
 unreal:
   title: Unreal
   background-color: "#ff0000"
 multiplayer:
   title: Multiplayer
   background-color: "#ff0000"
+events:
+  title: Events
+  background-color: "#ff0000"
+  icon: 📆
+ui:
+  title: User Interface
+  background-color: "#ff0000"
+  icon: 🖱
+audio:
+  title: Audio
+  background-color: "#ff0000"
+  icon: 🎶
+programming:
+  title: Programming
+  background-color: "#ff0000"
+  icon: ⌨
+analytics:
+  title: Analytics
+  background-color: "#ff0000"
+unity:
+  title: Unity
+  background-color: "#ff0000"
+procedural-generation:
+  title: Procedural Generation
+  background-color: "#ff0000"
+  icon: 🗺
+vr:
+  title: VR
+  background-color: "#ff0000"
+  icon: 🥽
+math:
+  title: Math
+  background-color: "#ff0000"
+  icon: 📈
+funny:
+  title: Funny
+  background-color: "#ff0000"
+  icon: 💩 
+

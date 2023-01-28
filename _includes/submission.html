@@ -2,8 +2,11 @@
     <div class="col-lg-2">
         {%- for tag in include.submission.tags -%}
             <a class="tag-link" onclick="return filterTags(['{{tag}}']);" href="#submissions"><span class="badge"
-                style="background-color:{{ site.data.tags[tag].background-color }}; color:#ffffff; font-size:12px">{{
-                site.data.tags[tag].title }}</span></a>
+                style="background-color:{{ site.data.tags[tag].background-color }}; color:#ffffff; font-size:12px">
+				{%- if site.data.tags[tag].icon -%}
+					{{ site.data.tags[tag].icon }}
+				{%- endif -%}
+				{{ site.data.tags[tag].title }}</span></a>
             {%- endfor -%}
         </div>
         <div class="col-lg-10">

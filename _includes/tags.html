@@ -21,6 +21,9 @@
                 style="background-color:{{ site.data.tags[tag].background-color }}; color:#ffffff; font-size:12px">
                 <label class="checkbox-wrapper">
                     <input type="checkbox" class="checkbox-filter" id="checkbox-{{tag}}" value="{{tag}}" onclick=" toggleFilters()"/>
+					{%- if site.data.tags[tag].icon -%}
+						{{ site.data.tags[tag].icon }}
+					{%- endif -%}
                     {{site.data.tags[tag].title}}
                 </label>
             </span>
