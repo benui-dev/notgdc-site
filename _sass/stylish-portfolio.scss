@@ -326,9 +326,7 @@ a:hover {
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5) !important;
 }
-.tag-link{
-    padding: 0.1em;
-}
+
 
 input[type="checkbox"] {
     /* Add if not using autoprefixer */
@@ -384,15 +382,32 @@ input[type="checkbox"] {
     margin:0px;
     align-content:center;
 }
-
+.tag-link{
+    padding: 0.1em;
+    align-self:center;
+    line-height:0;
+    align-items:center;
+}
 .tag-link>a {
-    line-height: normal;
+    line-height: 0;
+    padding:0.4em;
 }
 
 .tag-link>a>.badge, .tag-link>.badge{
-    height: 2em;
-    padding: 0.4em 0.4em;
-    line-height:normal;
+    padding: 0.3em;
+    height: 2.1em;
+    line-height:0;
+    cursor:pointer;
+    align-items:center;
+    display:grid;
+}
+
+.tag-link>a>.badge, 
+a.tag-link>.badge,
+.tag-link>.badge>label{
+    cursor:pointer;
+    padding: 0.3em;
+    align-items:center;
 }
 
 #filter-row{
@@ -407,3 +422,11 @@ input[type="checkbox"] {
     align-self: center;
     margin-right: 0.5em;
 }
+
+.tags-column{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    margin-bottom: 1em;
+}
+

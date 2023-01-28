@@ -121,10 +121,8 @@ layout: default
     {%- assign submissions = site.data.submissions.submissions | where: "year", "2023" -%}
     {%- include tags.html submissions = submissions -%}
 
-    {% for submission in site.data.submissions.submissions %}
-	  {% if submission.year == 2023 %}
+    {% for submission in submissions %}
 	    {% include submission.html submission=submission %}
-	  {% endif %}
     {% endfor %}
   </div>
 </section>

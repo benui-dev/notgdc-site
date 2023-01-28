@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+
+<section class="content-section bg-light" id="submissions">
+  <!--style="background-color:#3f527c"-->
+  <div class="container">
+    <div class="content-section-heading text-center">
+      <h2 id="submissions" class="mb-5" style="font-family:Lilita One">{{page.title}}</h2>
+    </div>
+    
+{{ content }}
+{%- if page.submissions.year != "all" -%}
+  {%- assign submissions = site.data.submissions.submissions | where: "year", page.submissions.year -%}
+  {%- assign show-year-tags = false -%}
+{%- else -%}
+  {%- assign submissions = site.data.submissions.submissions | rsort: "year" -%}
+  {%- assign show-year-tags = true -%}
+{%- endif -%}
+{%- include tags.html submissions=submissions show-year-tags=show-year-tags -%}
+
+{%- for submission in submissions -%}
+    {%- include submission.html submission=submission -%}
+{%- endfor -%}
+
+  </div>
+</section>

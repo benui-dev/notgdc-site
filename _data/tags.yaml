@@ -114,3 +114,21 @@ writing:
   title: Writing
   background-color: "rgb(40, 167, 69)"
   icon: ✍️ 
+2017:
+  title: 2017
+  background-color: "#ff0000"
+2018:
+  title: 2018
+  background-color: "#ff0000"
+2019:
+  title: 2019
+  background-color: "#ff0000"
+2020:
+  title: 2020
+  background-color: "#ff0000"
+2022:
+  title: 2022
+  background-color: "#ff0000"
+2023:
+  title: 2023
+  background-color: "#ff0000"

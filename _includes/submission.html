@@ -1,5 +1,5 @@
 <div class="row entry {% for tag in submission.tags %} tag-{{tag}} {% endfor %}">
-    <div class="col-lg-2">
+    <div class="col-lg-2 tags-column">
         {%- for tag in include.submission.tags -%}
             <a class="tag-link" onclick="return filterTags(['{{tag}}']);" href="#submissions"><span class="badge"
                 style="background-color:{{ site.data.tags[tag].background-color }}; color:#ffffff; font-size:12px">

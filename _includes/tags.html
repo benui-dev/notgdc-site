@@ -1,34 +1,40 @@
 <div class="row" style="justify-content:center" id="filter-row">
-    {%- assign used_tags = "all" -%}
     {%- for submission in include.submissions -%}
         {%- for tag in submission.tags -%}
         {%- assign used_tags = used_tags | append: " " | append: tag -%}
         {%- endfor -%}
     {%- endfor -%}
-    {%- assign used_tags_array = used_tags | split: " " | sort | uniq  -%}
+    {%- assign used_tags = used_tags | split: " " | sort | uniq | join " " -%}
+    {%- if include.show-year-tags == true -%}
+        {%- for year in site.data.submissions.years -%}
+            {%- assign used_tags = used_tags | rsort | prepend: " " | prepend: year | prepend: " "-%}
+        {%- endfor -%}
+    {%- endif -%}
+    {%- assign used_tags = used_tags | prepend: "all " -%}
+    {%- assign used_tags_array = used_tags | split: " " -%}
     <span class="filter-header">Filters:</span>
     {%- for tag in used_tags_array -%}
-    <span class="tag-link">
-            {%- if tag == 'all' -%}
-                <a onclick="filterTags(['all'])" href="#submissions">
-                    <span class="badge"
-                        style="background-color:{{ site.data.tags[tag].background-color }}; color:#ffffff; font-size:12px">
-                            All
-                    </span>
-                </a>
-            {%- else -%}
+        {%- if tag == 'all' -%}
+            <a class="tag-link" onclick="filterTags(['all'])" href="#submissions">
+                <span class="badge"
+                    style="background-color:{{ site.data.tags[tag].background-color }}; color:#ffffff; font-size:12px">
+                        All
+                </span>
+            </a>
+        {%- else -%}
+        <span class="tag-link">
             <span class="badge"
                 style="background-color:{{ site.data.tags[tag].background-color }}; color:#ffffff; font-size:12px">
                 <label class="checkbox-wrapper">
-                    <input type="checkbox" class="checkbox-filter" id="checkbox-{{tag}}" value="{{tag}}" onclick=" toggleFilters()"/>
+                    <input type="checkbox" class="checkbox-filter" id="checkbox-{{tag}}" value="{{tag}}" onclick="event.stopPropagation();toggleFilters();"/>
 					{%- if site.data.tags[tag].icon -%}
 						{{ site.data.tags[tag].icon }}
 					{%- endif -%}
                     {{site.data.tags[tag].title}}
                 </label>
             </span>
-            {%- endif -%}
         </span>
+        {%- endif -%}
     </span>
     {%- endfor -%}
 </div>
