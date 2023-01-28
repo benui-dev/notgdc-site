@@ -1,7 +1,7 @@
 ---
 title: "About notGDC"
 permalink: /about/
-layout: default
+layout: single
 ---
 
 ### 2019
