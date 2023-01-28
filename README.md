@@ -23,6 +23,7 @@ Look, we're task managing!
   * [ ] Update Twitch logo
 * [ ] Fix horizontal scroll bar appearing
 * [ ] Add juice to Button on-hover (see terranil.com for example)
+* [ ] Add way to see previous year submissions pulling from submissions.yaml 
 * [x] Update timer to show reduced info based on time remaining
   * [x] Don't show seconds
   * [x] Only show minutes if days == 0
