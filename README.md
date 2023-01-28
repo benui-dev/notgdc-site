@@ -52,7 +52,7 @@ Look, we're task managing!
 
 ### Site Backend / Jekyll
 
-* [ ] Add historical data to submissions.yaml
+* [x] Add historical data to submissions.yaml
   * [x] 2022
   * [x] 2020
   * [x] 2019
@@ -75,7 +75,7 @@ Look, we're task managing!
 
 ### Other
 
-* [ ] Fix "www.notgdc.io" with www prefix not working
+* [x] Fix "www.notgdc.io" with www prefix not working
 * [ ] 404 event is not being fired when hitting the 404 page??
 * [x] Make repo public
 * [x] Fix notgdc.io not having HTTPS (certificate is stuck in processing?)
