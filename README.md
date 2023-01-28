@@ -54,8 +54,8 @@ Look, we're task managing!
   * [x] 2022
   * [x] 2020
   * [x] 2019
-  * [ ] 2018
-  * [ ] 2017
+  * [x] 2018
+  * [x] 2017
 * [ ] Generate individual pages from tags, list all entries on them
   * [ ] Need to make a custom generator?
 * [ ] Add cute icons next to each tag
