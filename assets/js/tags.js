@@ -5,15 +5,38 @@ function filterTags(in_tags)
     {
         urlParams.append("tag", tag);
     }
-    console.log(urlParams.toString())
     window.history.replaceState(null, null, "?" + urlParams.toString())
     var tags = in_tags;
-    tagsClassString = ""
-    for(const tag of tags){
-        tagsClassString += "div.tag-" + tag;
+    tagsClassStringArray = []
+
+    var checkBoxes = document.querySelectorAll(".checkbox-filter");
+
+    for(checkBox of checkBoxes)
+    {
+        checkBox.checked = false;
     }
+
+    for(const tag of tags){
+        tagsClassStringArray.push("div.tag-" + tag);
+
+        var tagsList = []
+        for(checkBox of checkBoxes)
+        {
+            if(checkBox.value == tag)
+            {
+                if(checkBox.checked != true)
+                {
+                    checkBox.checked = true;
+                }
+            }
+        }
+    }
+    tagsClassString = tagsClassStringArray.join(",");
     allElementsString = "div.entry"
-    entriesToShow = document.querySelectorAll(tagsClassString);
+    entriesToShow = [];
+    if(tagsClassString != ""){
+        entriesToShow = document.querySelectorAll(tagsClassString);
+    }
     if(entriesToShow.length > 0){
         for(entry of document.querySelectorAll(allElementsString))
         {
@@ -28,12 +51,26 @@ function filterTags(in_tags)
     {
         for(entry of document.querySelectorAll(allElementsString))
         {
-            console.log(entry);
             entry.style.display = "Flex";
         }
     }
 
 }
+
+function toggleFilters()
+{
+    var checkBoxes = document.querySelectorAll(".checkbox-filter");
+    var tagsList = []
+    for(checkBox of checkBoxes)
+    {
+        if(checkBox.checked == true)
+        {
+            tagsList.push( checkBox.value);
+        }
+    }
+    filterTags(tagsList);
+}
+
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const tags = urlParams.getAll("tag");

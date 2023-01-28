@@ -329,3 +329,79 @@ a:hover {
 .tag-link{
     padding: 0.1em;
 }
+
+input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: rgba(0,0,0,0.25);
+    /* Not removed via appearance */
+    margin: 0px;
+  
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+  
+    display: grid;
+    place-content: center;
+    clear: both;
+    align-self:center;
+  }
+  
+  input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em #fff;
+    /* Windows High Contrast Mode */
+    background-color: CanvasText;
+    margin: .1em;
+  }
+  
+  input[type="checkbox"]:checked::before {
+    transform: scale(1);
+  }
+  
+  input[type="checkbox"]:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(2px, 0.15em);
+  }
+
+.checkbox-wrapper {
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+    margin:0px;
+    align-content:center;
+}
+
+.tag-link>a {
+    line-height: normal;
+}
+
+.tag-link>a>.badge, .tag-link>.badge{
+    height: 2em;
+    padding: 0.4em 0.4em;
+    line-height:normal;
+}
+
+#filter-row{
+    margin-bottom: 2em;
+}
+
+.filter-header{
+    font-size: .75em;
+    font-weight: 700;
+    align-self: center;
+    margin-right: 0.5em;
+}
