@@ -114,6 +114,10 @@ writing:
   title: Writing
   background-color: "rgb(40, 167, 69)"
   icon: ✍️ 
+data:
+  title: Data
+  background-color: "#ff0000"
+  icon: 📊
 year-2017:
   title: 2017
   background-color: "#ff0000"

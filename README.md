@@ -21,11 +21,20 @@ Look, we're task managing!
   * [ ] Update Twitter logo
   * [ ] Update Mastodon logo
   * [ ] Update Twitch logo
+* [ ] Make checkboxes and tags like 20% bigger
+* [ ] Hide "Read submissions" if there are no submissions yet
+* [ ] Make big juicy buttons for "get involved" listing Discord, Twitter and
+  Mastodon
 * [ ] Make it so checkbox filters show a pointer cursor
   * [ ] Make checkbox filters clickable area match visual bg
 * [ ] Fix horizontal scroll bar appearing
 * [ ] Add juice to Button on-hover (see terranil.com for example)
 * [ ] Add way to see previous year submissions pulling from submissions.yaml 
+* [ ] Make big juicy "none yet" text for when there are no submissions yet
+* [ ] Consolidate URLs with archive
+  * [ ] Remove separate URLs for 2022, 2021 etc.
+  * [ ] Instead there should be a single point of interaction: /archive/?year=blah
+  * [ ] Simple urls like /2022/ should forward to archive
 * [x] Update timer to show reduced info based on time remaining
   * [x] Don't show seconds
   * [x] Only show minutes if days == 0
@@ -62,6 +71,7 @@ Look, we're task managing!
   * [ ] Need to make a custom generator?
 * [ ] Add cute icons next to each tag
 * [ ] Fix tags not having nice colors
+* [ ] Remove tags that don't make any sense
 * [ ] Make minimizing .css/.js part of some build step
   * [ ] Have non-minimized .css in the repo
   * [ ] Minimize as part of build (custom GitHub action required?)

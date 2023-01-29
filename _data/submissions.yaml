@@ -428,7 +428,7 @@ submissions:
  - title: "Thinking About Your Data"
    authors: [ { name: "Max Cahill", link: "https://twitter.com/1bardesign"} ]
    links: [ "https://www.1bardesign.com/words/?p=2018.001" ]
-   tags: [ programming, game-design ]
+   tags: [ programming, game-design, data ]
    year: 2018
  - title: "One Simple UV Trick For Cyclical Shapes With Bends"
    authors: [ { name: "Patt", link: "https://twitter.com/MaddHattPatt"} ]
