@@ -3,8 +3,10 @@ layout: default
 ---
 <!-- Header -->
 <header class="masthead ngdc-flex">
-  <div class="container text-center my-auto">
-
+  <div class="ngdc-container text-center my-auto">
+    <h1 class="dropshadow"><span class="green">not</span>GDC</h1>
+    <h2 class="dropshadow">march 20-24 2023</h2>
+    <br>
     <div class="banner" style="padding-left:13%; padding-right:18%; position:relative">
       <img class="img-fluid" style="position:absolute; left:10%; top:50%; transform: translate(-50%, -40%)"
         src="{{ '/assets/img/tablet-lossy.webp' | relative_url }}" alt="Tablet in cute hand-drawn style" />
@@ -13,27 +15,23 @@ layout: default
       <div>a game development non-conference, for everyone!</div>
     </div>
     <br>
-    <br>
-    <h1 class="dropshadow"><span class="green">not</span>GDC</h1>
-    <h2 class="dropshadow">march 20-24 2023</h2>
-    <br>
-    <div class="text-center">
-      <h3 id="countdown" class="mb-5 dropshadow">Starts in {dd} Days {hh} Hours {mm} Minutes and {ss} Seconds</h3>
+    <div>
+      <h3 id="countdown" class="ngdc-margin-bottom-big dropshadow">Starts in {dd} Days {hh} Hours {mm} Minutes and {ss} Seconds</h3>
     </div>
     <br>
-    <div class="row">
+    <div class="ngdc-row">
       <div class="col">
-        <a class="ngdc-ms ngdc-btn btn-xl js-scroll-trigger" href="#about">Submit Something</a>
-        <a class="ngdc-ms ngdc-btn btn-xl js-scroll-trigger" href="#submissions">Read Submissions</a>
+        <a class=" ngdc-btn btn-xl js-scroll-trigger" href="#about">Submit Something</a>
+        <a class=" ngdc-btn btn-xl js-scroll-trigger" href="#submissions">Read Submissions</a>
       </div>
     </div>
     <br>
     <br>
 
-    <div class="row">
+    <div class="ngdc-row">
       <div class="col">
-        <a class="ngdc-ms ngdc-btn js-scroll-trigger" href="https://discord.notgdc.io/">{%- include icon.html icon="discord" -%}Join the Discord</a>
-        <a class="ngdc-ms ngdc-btn js-scroll-trigger" href="https://wingsfund.me/gdcrelief">GDC Relief Fund</a>
+        <a class=" ngdc-btn js-scroll-trigger" href="https://discord.notgdc.io/">{%- include icon.html icon="discord" -%}Join the Discord</a>
+        <a class=" ngdc-btn js-scroll-trigger" href="https://wingsfund.me/gdcrelief">GDC Relief Fund</a>
       </div>
     </div>
     <br><br>
@@ -43,15 +41,14 @@ layout: default
 
 <!-- About -->
 <section class="content-section bg-dark text-light" style="background-color:#45b38d!important" id="about">
-  <div class="container text-center">
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <!--<h2 class="mb-5" style="font-family:Lilita One">Twitch Stream</h2> -->
-        <h1 style="font-family:Lilita One">How to take part</h1>
-        <p class="lead mb-5">#notGDC is a way for people who make games to share ideas, skills and things they love with
+  <div class="ngdc-container text-center">
+    <div class="ngdc-row">
+      <div class="content-section-heading col-lg-10 mx-auto">
+        <h1>How to take part</h1>
+        <p class="lead ngdc-margin-bottom-big">#notGDC is a way for people who make games to share ideas, skills and things they love with
           the international games community.</p>
 
-        <div class="row">
+        <div class="ngdc-row">
           <div class="col-lg-3 mx-auto">
             {%- include icon.html icon="pencil" class="fa-4x" -%}<br><br>
             <b>Write Something</b><br>
@@ -78,11 +75,11 @@ layout: default
           </div>
         </div>
         <br><br>
-        <p class="ngdc-ms ngdc-btn btn-light btn-xl ngdc-btn-disabled">Submissions open Feb 20</p>
+        <p class=" ngdc-btn btn-light btn-xl ngdc-btn-disabled">Submissions open Feb 20</p>
         {% comment %}
-        <a class="ngdc-ms ngdc-btn btn-light btn-xl js-scroll-trigger btn-special" href="https://form.notgdc.io/">Click Here To Submit!</a>
+        <a class=" ngdc-btn btn-light btn-xl js-scroll-trigger btn-special" href="https://form.notgdc.io/">Click Here To Submit!</a>
         {% endcomment %}
-        <a class="ngdc-ms ngdc-btn btn-light btn-xl js-scroll-trigger btn-special" href="http://www.twitter.com/notgdc">Ask Us Something</a>
+        <a class=" ngdc-btn btn-light btn-xl js-scroll-trigger btn-special" href="http://www.twitter.com/notgdc">Ask Us Something</a>
       </div>
     </div>
   </div>
@@ -90,8 +87,8 @@ layout: default
 
 {% comment %}
 <section class="content-section bg-dark text-light" style="background-color:#45b38d!important" id="twitch">
-  <div class="content-section-heading text-center">
-    <h2 class="mb-5" style="font-family:Lilita One">Twitch Stream</h2>
+  <div class="content-section-heading">
+    <h2>Twitch Stream</h2>
     <iframe src="https://player.twitch.tv/?channel=notgdc&parent=notgdc.io&muted=true&autoplay=false" height="450"
       width="800" allowfullscreen>
     </iframe>
@@ -101,12 +98,12 @@ layout: default
 
 <section class="content-section bg-light" id="submissions">
   <!--style="background-color:#3f527c"-->
-  <div class="container">
-    <div class="content-section-heading text-center">
-      <h2 id="submissions" class="mb-5" style="font-family:Lilita One">2023 #notGDC Submissions!</h2>
+  <div class="ngdc-container">
+    <div class="content-section-heading">
+      <h2 id="submissions">2023 #notGDC Submissions!</h2>
     </div>
     <!--
-        <div class="row">
+        <div class="ngdc-row">
         <div class="col-lg-2">
         <span class="badge badge-success" style="font-size:12px">Motivation</span>
         </div>
@@ -128,16 +125,16 @@ layout: default
 </section>
 
 <section class="content-section bg-dark text-light" style="background-color:#45b38d!important" id="twitch">
-  <div class="content-section-heading text-center">
-    <h2 class="mb-5" style="font-family:Lilita One">Previous Years</h2>
-    <div class="row">
+  <div class="content-section-heading">
+    <h2>Previous Years</h2>
+    <div class="ngdc-row">
       <div class="col">
-        <a class="ngdc-ms ngdc-btn js-scroll-trigger" href="/archive/">#notGDC Archive</a>
-        <a class="ngdc-ms ngdc-btn js-scroll-trigger" href="/2022/">#notGDC 2022</a>
-        <a class="ngdc-ms ngdc-btn js-scroll-trigger" href="/2020/">#notGDC 2020</a>
-        <a class="ngdc-ms ngdc-btn js-scroll-trigger" href="/2019/">#notGDC 2019</a>
-        <a class="ngdc-ms ngdc-btn js-scroll-trigger" href="/2018/">#notGDC 2018</a>
-        <a class="ngdc-ms ngdc-btn js-scroll-trigger" href="/2017/">#notGDC 2017</a>
+        <a class=" ngdc-btn js-scroll-trigger" href="/archive/">#notGDC Archive</a>
+        <a class=" ngdc-btn js-scroll-trigger" href="/2022/">#notGDC 2022</a>
+        <a class=" ngdc-btn js-scroll-trigger" href="/2020/">#notGDC 2020</a>
+        <a class=" ngdc-btn js-scroll-trigger" href="/2019/">#notGDC 2019</a>
+        <a class=" ngdc-btn js-scroll-trigger" href="/2018/">#notGDC 2018</a>
+        <a class=" ngdc-btn js-scroll-trigger" href="/2017/">#notGDC 2017</a>
       </div>
     </div>
   </div>

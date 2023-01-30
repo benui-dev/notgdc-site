@@ -1,4 +1,4 @@
-<div class="row" style="justify-content:center" id="filter-row">
+<div class="ngdc-row" style="justify-content:center" id="filter-row">
     {%- for submission in include.submissions -%}
         {%- for tag in submission.tags -%}
         {%- assign used_tags = used_tags | append: " " | append: tag -%}

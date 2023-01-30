@@ -1,16 +1,17 @@
---- 
-# Only the main Sass file needs front matter (the dashes are enough) 
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
+--- 
 html {
 	scroll-behavior: smooth;
 }
 
-  .btn-special{
-    background-color:#f9b641!important;
-  }
-  .btn-special:hover{
-    background-color:#ffd34e!important;
-  }
+.btn-special {
+	background-color: #f9b641 !important;
+}
+
+.btn-special:hover {
+	background-color: #ffd34e !important;
+}
 
 
 .fa-lg {
@@ -138,6 +139,11 @@ h2 {
 	line-height: 1.5;
 	transition: background-color 0.10s ease;
 	padding: 0.375rem 0.75rem;
+
+	margin-top: 0.25rem !important;
+	margin-bottom: 0.25rem !important;
+	margin-right: 0.5rem !important;
+	margin-left: 0.5rem !important;
 }
 
 .ngdc-btn:hover,
@@ -154,11 +160,8 @@ h2 {
 	pointer-events: none;
 }
 
-.ngdc-ms {
-	margin-top: 0.25rem !important;
-	margin-bottom: 0.25rem !important;
-	margin-right: 0.5rem !important;
-	margin-left: 0.5rem !important;
+.ngdc-margin-bottom-big {
+	margin-bottom: 3rem !important;
 }
 
 .btn-xl {
@@ -212,9 +215,60 @@ h2 {
 	}
 }
 
-label
-{
+label {
 	-webkit-user-select: none; /* Safari */
 	-ms-user-select: none; /* IE 10 and IE 11 */
 	user-select: none; /* Standard syntax */
+}
+
+.ngdc-flex {
+	display: -ms-flexbox !important;
+	display: flex !important;
+}
+
+.ngdc-container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 576px) {
+	.ngdc-container {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.ngdc-container {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.ngdc-container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.ngdc-container {
+		max-width: 1140px;
+	}
+}
+
+@media print {
+	.ngdc-container {
+		min-width: 992px !important;
+	}
+}
+
+.ngdc-row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
 }

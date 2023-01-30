@@ -6,9 +6,9 @@ layout: default
 
 <section class="content-section bg-light" id="content" style="padding-top: 4em;">
   <!--style="background-color:#3f527c"-->
-  <div class="container">
-    <div class="content-section-heading text-center">
-      <h2 id="submissions" class="mb-5" style="font-family:Lilita One">{{page.title}}</h2>
+  <div class="ngdc-container">
+    <div class="content-section-heading">
+      <h2 id="submissions">{{page.title}}</h2>
     </div>
     
 {{ content }}

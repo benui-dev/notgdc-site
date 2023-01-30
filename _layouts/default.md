@@ -40,10 +40,10 @@
     </nav> -->
 
 <section class="content-section bg-light" id="footer"><!--style="background-color:#3f527c"-->
-<div class="container">
-<div class="content-section-heading text-center">
+<div class="ngdc-container">
+<div class="content-section-heading">
 {% if site.footer.links %}
-<div class="row">
+<div class="ngdc-row">
 <div class="col">
 {% for link in site.footer.links %}
 {% if link.label and link.url %}
