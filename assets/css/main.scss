@@ -272,3 +272,43 @@ label {
 	margin-right: -15px;
 	margin-left: -15px;
 }
+
+.ngdc-col, .ngdc-col-auto, .ngdc-col-25p, .ngdc-col-83p {
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.ngdc-col {
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 100%;
+}
+
+.ngdc-col-auto {
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+	width: auto;
+	max-width: none;
+}
+
+.ngdc-col-25p {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+
+.ngdc-col-83p {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+
+.ngdc-small-line {
+	border-top: 1px solid rgb(255, 255, 255);
+}
