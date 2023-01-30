@@ -457,6 +457,35 @@ button.bg-dark:focus {
     background-color: #1d2124 !important;
 }
 
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+a.bg-light:hover,
+a.bg-light:focus,
+button.bg-light:hover,
+button.bg-light:focus {
+    background-color: #dae0e5 !important;
+}
+
 .text-center {
     text-align: center !important;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.rounded {
+  border-radius: 0.25rem !important;
 }

@@ -4,7 +4,7 @@ layout: default
 
 {%- include navigation.html -%}
 
-<section class="content-section bg-light" id="content" style="padding-top: 4em;">
+<section class="content-section bg-light section-padding" id="content">
   <!--style="background-color:#3f527c"-->
   <div class="ngdc-container">
     <div class="content-section-heading">
