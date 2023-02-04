@@ -28,6 +28,9 @@ Look, we're task managing!
 * [ ] Fix deselecting last selected tag still showing "tag=blah" in the URL
 * [ ] Remove explicit "12px" in HTML
 * [ ] Make big juicy "none yet" text for when there are no submissions yet
+* [ ] Fix hover on tags:
+  * [ ] Show border or background change on hover
+  * [ ] Don't show blue underscore on hover
 * [ ] Consolidate URLs with archive
   * [ ] Remove separate URLs for 2022, 2021 etc.
   * [ ] Instead there should be a single point of interaction: /archive/?year=blah
