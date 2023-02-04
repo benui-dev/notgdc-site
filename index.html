@@ -100,20 +100,24 @@ layout: default
   <!--style="background-color:#3f527c"-->
   <div class="ngdc-container">
     <div class="content-section-heading">
-      <h2 id="submissions">2023 #notGDC Submissions!</h2>
+      <h2 id="submissions">2023 #notGDC Submissions</h2>
     </div>
     {%- assign submissions = site.data.submissions.submissions | where: "year", "2023" -%}
+	{% if submissions.size > 0 %}
     {%- include tags.html submissions = submissions -%}
 
     {% for submission in submissions %}
 	    {% include submission.html submission=submission %}
     {% endfor %}
+	{% else %}
+	No submissions yet!
+	{% endif %}
   </div>
 </section>
 
 <section class="content-section bg-dark text-light" style="background-color:#45b38d!important" id="twitch">
   <div class="content-section-heading">
-    <h2>Previous Years</h2>
+    <h2 id="archive">Previous Years</h2>
     <div class="ngdc-row">
       <div class="ngdc-col">
         <a class=" ngdc-btn js-scroll-trigger" href="/archive/">#notGDC Archive</a>

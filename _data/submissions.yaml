@@ -20,32 +20,6 @@ submissions:
 ###############################################################################
 # 2023
 
- - title: One Author
-   authors:
-    - name: "Someone"
-      link: "https://boo-example-user-link.com/"
-   links:
-    - "https://example-talk-link.com/"
-    - "https://example-talk-link.com/"
-   tags: [ how-to, project-management, unreal, community ]
-   year: 2023
- - title: Two authors
-   authors:
-    - name: "Someone"
-      link: "https://boo-example-user-link.com/"
-    - name: "Someone"
-      link: "https://boo-example-user-link.com/"
-   links:
-    - "https://example-talk-link.com/"
-    - "https://example-talk-link.com/"
-   tags: [ how-to, project-management ]
-   year: 2023
- - title: Three authors
-   authors: [ { name: "Another Example Author", link: "https://another-example-user-link.com/" }, { name: "Someone", link: "https://boo-example-user-link.com/" }, { name: "Someone", link: "https://boo-example-user-link.com/" } ]
-   links: [ "https://another-example-talk-link.com/" ]
-   tags: [ game-design, art ]
-   year: 2023
-
 
 ###############################################################################
 # 2022

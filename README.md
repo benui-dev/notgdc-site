@@ -35,6 +35,8 @@ Look, we're task managing!
   * [ ] Remove separate URLs for 2022, 2021 etc.
   * [ ] Instead there should be a single point of interaction: /archive/?year=blah
   * [ ] Simple urls like /2022/ should forward to archive
+* [ ] Work out what is causing the unknown checkbox that is last in the list on
+  the archive page
 * [x] Make it so checkbox filters show a pointer cursor
   * [x] Make checkbox filters clickable area match visual bg
 * [x] Fix horizontal scroll bar appearing
