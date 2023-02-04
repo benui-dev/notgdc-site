@@ -98,7 +98,7 @@ events:
   icon: 📆
 ui:
   title: User Interface
-  background-color: "#ff0000"
+  background-color: "#2a53c9"
   text-color: "#fff"
   icon: 🖱
 audio:
