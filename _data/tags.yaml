@@ -1,138 +1,196 @@
 all:
   title: All
-  background-color: "#ff0000"
+  background-color: "#fff"
+  text-color: "#000"
   icon: 🌟
 how-to:
   title: How To
-  background-color: "#ff0000"
+  background-color: "#ff9a9a"
+  text-color: "#000"
   icon: ❓
 project-management:
   title: Project Management
-  background-color: "#ff0000"
+  background-color: "#ff5a19"
+  text-color: "#fff"
   icon: 📊
 game-design:
   title: Game Design
-  background-color: "#ff0000"
+  background-color: "#65b833"
+  text-color: "#000"
   icon: 📚
 twitter-thread:
   title: Twitter Thread
   background-color: "#007bff"
+  text-color: "#fff"
   icon: 🐦
 video:
   title: Video
   background-color: "#343a40"
+  text-color: "#fff"
   icon: 📺
 everything:
   title: Everything
-  background-color: "#ff0000"
+  background-color: "#fff"
+  text-color: "#000"
   icon: ♾
 postmortem:
   title: Postmortem
-  background-color: "#ffc107"
+  background-color: "#f4e4a5"
+  text-color: "#000"
   icon: 💀
 wellbeing:
   title: Wellbeing
-  background-color: "#ff0000"
+  background-color: "#ee2576"
+  text-color: "#fff"
   icon: ♥
 the-future:
   title: The Future
-  background-color: "#ff0000"
+  background-color: "#6dfff6"
+  text-color: "#000"
   icon: 🌃
 tech:
   title: Tech
-  background-color: "#ff0000"
+  background-color: "#2a7481"
+  text-color: "#fff"
   icon: 🖥
 art:
   title: Art
-  background-color: "#ff0000"
+  background-color: "#dca16c"
+  text-color: "#000"
   icon: 🎨
 community:
   title: Community
-  background-color: "#ff0000"
+  background-color: "#9552f0"
+  text-color: "#fff"
   icon: 👥
 business:
   title: Business
-  background-color: "#ff0000"
+  background-color: "#384699"
+  text-color: "#fff"
+  icon: 👔
+marketing:
+  title: Marketing
+  background-color: "#336ba0"
+  text-color: "#fff"
   icon: 👔
 ai:
   title: AI
-  background-color: "#ff0000"
+  background-color: "#ea90da"
+  text-color: "#fff"
   icon: 🧠
 tools:
   title: Tools
-  background-color: "#ff0000"
+  background-color: "#5a5a5a"
+  text-color: "#fff"
   icon: 🛠
 unreal:
   title: Unreal
-  background-color: "#ff0000"
+  background-color: "#666"
+  text-color: "#fff"
 multiplayer:
   title: Multiplayer
-  background-color: "#ff0000"
+  background-color: "#bf1111"
+  text-color: "#fff"
 events:
   title: Events
-  background-color: "#ff0000"
+  background-color: "#ffbeb1"
+  text-color: "#000"
   icon: 📆
 ui:
   title: User Interface
-  background-color: "#ff0000"
+  background-color: "#2a53c9"
+  text-color: "#fff"
   icon: 🖱
 audio:
   title: Audio
-  background-color: "#ff0000"
+  background-color: "#69337f"
+  text-color: "#fff"
   icon: 🎶
 programming:
   title: Programming
   background-color: "#343a40"
+  text-color: "#fff"
   icon: ⌨
 analytics:
   title: Analytics
-  background-color: "#ff0000"
+  background-color: "#16ad96"
+  text-color: "#fff"
 unity:
   title: Unity
-  background-color: "#ff0000"
+  background-color: "#264f62"
+  text-color: "#fff"
 procedural-generation:
   title: Procedural Generation
-  background-color: "#ff0000"
+  background-color: "#21620d"
+  text-color: "#fff"
   icon: 🗺
 vr:
   title: VR
-  background-color: "#ff0000"
+  background-color: "#333"
+  text-color: "#fff"
   icon: 🥽
 math:
   title: Math
-  background-color: "#ff0000"
+  background-color: "#7d1298"
+  text-color: "#fff"
   icon: 📈
 funny:
   title: Funny
-  background-color: "#ff0000"
+  background-color: "#d6539d"
+  text-color: "#fff"
   icon: 💩 
 motivation:
   title: Motivation
   background-color: "rgb(40, 167, 69)"
+  text-color: "#fff"
   icon: 🏃
 writing:
   title: Writing
   background-color: "rgb(40, 167, 69)"
+  text-color: "#fff"
   icon: ✍️ 
 data:
   title: Data
-  background-color: "#ff0000"
+  background-color: "#74402e"
+  text-color: "#fff"
   icon: 📊
+history:
+  title: History
+  background-color: "#2a7481"
+  text-color: "#fff"
+inclusivity:
+  title: Inclusivity
+  background-color: "#a943bf"
+  text-color: "#fff"
+process:
+  title: Process
+  background-color: "#bcff6d"
+  text-color: "#000"
+accessibility:
+  title: Accessibility
+  background-color: "#3dea9a"
+  text-color: "#000"
 year-2017:
   title: 2017
-  background-color: "#ff0000"
+  background-color: "#a4a6b1"
+  text-color: "#000"
 year-2018:
   title: 2018
-  background-color: "#ff0000"
+  background-color: "#164865"
+  text-color: "#fff"
 year-2019:
   title: 2019
-  background-color: "#ff0000"
+  background-color: "#438fcf"
+  text-color: "#fff"
 year-2020:
   title: 2020
-  background-color: "#ff0000"
+  background-color: "#face48"
+  text-color: "#000"
 year-2022:
   title: 2022
-  background-color: "#ff0000"
+  background-color: "#3b3e50"
+  text-color: "#fff"
 year-2023:
   title: 2023
-  background-color: "#ff0000"
+  background-color: "#a111bb"
+  text-color: "#fff"
