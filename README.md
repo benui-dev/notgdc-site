@@ -11,6 +11,9 @@ Look, we're task managing!
 
 ### Site Visuals
 
+* [ ] Download new fonts, store local
+  * [ ] Fredoka one (header)
+  * [ ] Lexend (body)
 * [ ] Make sure layout works on mobile
   * [ ] Set simple breakpoints using minimal-mistakes
 * [ ] Clean up CSS
