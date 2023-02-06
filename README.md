@@ -11,15 +11,15 @@ Look, we're task managing!
 
 ### Site Visuals
 
+* [ ] Add one of those Twitter card preview thingies, for links
+* [ ] Make the discord card thing have a highlight colour, check out how
+  benui.ca does it
 * [ ] Make sure layout works on mobile
   * [ ] Set simple breakpoints using minimal-mistakes
 * [ ] Clean up CSS
   * [ ] Remove bootstrap mess
 * [ ] Make checkboxes and tags like 20% bigger
-* [ ] Make big juicy buttons for "get involved" listing Discord, Twitter and
-  Mastodon
 * [ ] Remove explicit "12px" in HTML
-* [ ] Make big juicy "none yet" text for when there are no submissions yet
 * [ ] Fix hover on tags:
   * [ ] Show border or background change on hover
   * [ ] Don't show blue underscore on hover
@@ -32,6 +32,9 @@ Look, we're task managing!
 
 #### Done
 
+* [x] Make big juicy "none yet" text for when there are no submissions yet
+* [x] Make big juicy buttons for "get involved" listing Discord, Twitter and
+  Mastodon
 * [x] Hide "Read submissions" if there are no submissions yet
 * [x] Fix deselecting last selected tag still showing "tag=blah" in the URL
 * [x] Download new fonts, store local
