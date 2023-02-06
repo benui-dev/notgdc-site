@@ -56,16 +56,9 @@
 </div>
 </div>
 {% endif %}
-<p class="text-center text-muted small no-margin-bottom">
-#notGDC 2023 is hosted by <a href="https://benui.ca/">ben&#x1F331;ui</a>, with huge help from <a href="https://github.com/benui-dev/notgdc-site/graphs/contributors">contributors</a>
-<br>
-#notGDC 2020 was hosted by <a href="https://twitter.com/lucyamorris">Lucy</a> and <a href="https://twitter.com/mtrc">Mike</a>.
-<br>
-The 2020 jam was organised by <a href="https://twitter.com/DesignByCloud">Design By Cloud</a> and the Discord was maintained by <a href="https://twitter.com/lucyamorris">Lucy</a>, <a href="https://twitter.com/itscurlyx">Jacob</a>, <a href="https://twitter.com/vitekim">Mike</a> and <a href="https://twitter.com/DesignByCloud">Michael</a>.
-<br>
-#notGDC is based on ideas from lots of people, including <a href="https://twitter.com/squidinabox/status/176983168027598848">Squid In A Box</a> and <a href="https://eigenbom.github.io/notgdc2017/">Ben Porter</a>.</p>
-
-Powered by Jekyll. Hosted on <a href="https://github.com/benui-dev/notgdc-site">GitHub</a>. Analytics by <a href="https://plausible.io/notgdc.io">Plausible.io</a>.
+<p class="text-center text-muted small no-margin-bottom">#notGDC is an informal event run entirely by volunteers. Huge thanks to everyone
+who has given their time to help bring it to life. <a href="{% link _pages/about.md %}">Full history of #notGDC</a>.</p>
+<p class="text-center text-muted small no-margin-bottom">Powered by Jekyll. Hosted on <a href="https://github.com/benui-dev/notgdc-site">GitHub</a>. Analytics by <a href="https://plausible.io/notgdc.io">Plausible.io</a>.</p>
 
 {% comment %}
 <!-- Scroll to Top Button-->

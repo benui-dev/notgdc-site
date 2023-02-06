@@ -9,17 +9,17 @@ who has given their time to help bring it to life.
 
 ### 2023
 
-* Organization by [benui](https://benui.ca/)
-* Web by [Sharundaar](https://twitter.com/Sharundaar/), [Ryan DowlingSoka](https://ryandowlingsoka.com/)
-* Branding and art by [Val](https://www.friendlyhello.com/)
-* Community management  by [eva]()
-* Discord moderation by [Jacob](https://twitter.com/_meloki), 
+* Organization by [benui](https://benui.ca/).
+* Web by [Sharundaar](https://twitter.com/Sharundaar/), [Ryan DowlingSoka](https://ryandowlingsoka.com/).
+* Branding and art by [Val](https://www.friendlyhello.com/).
+* Community management  by eva.
+* Discord moderation by [Nia](https://www.linkedin.com/in/niawearn/), [Jacob](https://twitter.com/_meloki).
 
 ### 2020~2018
 
 * Hosted by [Lucy](https://twitter.com/lucyamorris) and [Mike](https://twitter.com/mtrc).
 * Gamejam organised by [Design By Cloud](https://twitter.com/DesignByCloud).
-* Discord was maintained by [Lucy](https://twitter.com/lucyamorris), [Jacob](https://twitter.com/itscurlyx) [Mike](https://twitter.com/vitekim) and [Michael](https://twitter.com/DesignByCloud).
+* Discord was maintained by [Lucy](https://twitter.com/lucyamorris), [Jacob](https://twitter.com/itscurlyx), [Mike](https://twitter.com/vitekim) and [Michael](https://twitter.com/DesignByCloud).
 
 ### 2017
 
