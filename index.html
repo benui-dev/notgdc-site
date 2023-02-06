@@ -32,7 +32,6 @@ layout: default
     <div class="ngdc-row">
       <div class="ngdc-col">
         <a class=" ngdc-btn js-scroll-trigger" href="https://discord.notgdc.io/">{%- include icon.html icon="discord" -%}Join the Discord</a>
-        <a class=" ngdc-btn js-scroll-trigger" href="https://wingsfund.me/gdcrelief">GDC Relief Fund</a>
       </div>
     </div>
     <br><br>
@@ -110,7 +109,7 @@ layout: default
 	    {% include submission.html submission=submission %}
     {% endfor %}
 	{% else %}
-	No submissions yet!
+	<p class="no-submissions">No submissions yet!</p>
 	{% endif %}
   </div>
 </section>
