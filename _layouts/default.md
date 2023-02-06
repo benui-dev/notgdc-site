@@ -69,7 +69,7 @@ Powered by Jekyll. Hosted on <a href="https://github.com/benui-dev/notgdc-site">
 
 {% comment %}
 <!-- Scroll to Top Button-->
-<a class="scroll-to-top rounded js-scroll-trigger" href="#page-top" aria-label="Scroll to top">
+<a class="scroll-to-top rounded " href="#page-top" aria-label="Scroll to top">
   {%- include icon.html icon="angles-up" -%}
 </a>
 
