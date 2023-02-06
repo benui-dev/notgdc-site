@@ -5,8 +5,8 @@ if(countdown !== null)
     const nf = new Intl.NumberFormat("en-US", {
         minimumIntegerDigits: 2
     });
-    const NOTGDC_START_DATE = new Date(Date.UTC(2023, 03, 20, 18, 0, 0));
-    const NOTGDC_END_DATE = new Date(Date.UTC(2023, 03, 24, 18, 0, 0));
+    const NOTGDC_START_DATE = new Date(Date.UTC(2023, 03, 20, 16, 0, 0));
+    const NOTGDC_END_DATE = new Date(Date.UTC(2023, 03, 24, 16, 0, 0));
 
     function format_date(days, hours, minutes, seconds)
     {
