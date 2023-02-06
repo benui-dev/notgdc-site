@@ -12,7 +12,7 @@ who has given their time to help bring it to life.
 * Organization by [benui](https://benui.ca/).
 * Web by [Sharundaar](https://twitter.com/Sharundaar/), [Ryan DowlingSoka](https://ryandowlingsoka.com/).
 * Branding and art by [Val](https://www.friendlyhello.com/).
-* Community management  by eva.
+* Community management  by [Eva Hoerth](https://twitter.com/downtohoerth).
 * Discord moderation by [Nia](https://www.linkedin.com/in/niawearn/), [Jacob](https://twitter.com/_meloki).
 
 ### 2022
