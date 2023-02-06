@@ -10,6 +10,12 @@ function filterTags(in_tags)
     {
         window.history.replaceState(null, null, "?" + urlParams.toString());
     }
+    else
+    {
+        const url_current = new URL(location);
+        url_current.search = ''
+        window.history.replaceState(null,null,url_current.toString());
+    }
     var tags = in_tags;
     tagsClassStringArray = [];
 
