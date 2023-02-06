@@ -25,6 +25,10 @@ Look, we're task managing!
   * [ ] Don't show blue underscore on hover
 * [ ] Work out what is causing the unknown checkbox that is last in the list on
   the archive page
+* [ ] Update tag colour system
+  * [ ] Make it procedural? Some kind of list of colours and then it
+	auto-assigns them?
+  * [ ] Colours should match new site colours
 
 #### Done
 
