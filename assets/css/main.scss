@@ -10,6 +10,7 @@
 $highlight-color: #ff517b;
 $bg-color: #f3f1f9;
 $bg-dark-color: #db4468;
+$bg-light-color: #f3f1f9;
 $link-color: $highlight-color;
 $title-font: "Lexend", sans-serif;
 $body-font: "Lexend", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -576,6 +577,7 @@ input[type="checkbox"] {
 .tag-link>a {
     line-height: 0;
     padding:0.4em;
+    font-size:12px;
 }
 
 .tag-link>a>.badge, .tag-link>.badge{
@@ -584,7 +586,7 @@ input[type="checkbox"] {
     line-height:0;
     cursor:pointer;
     align-items:center;
-    display:grid;
+    display:flex;
 }
 
 .tag-link>a>.badge, 
@@ -616,7 +618,7 @@ a.tag-link>.badge,
 }
 
 .text-light {
-    color: #f8f9fa !important;
+    color: $bg-light-color !important;
 }
 
 a.text-light:hover,
@@ -636,7 +638,7 @@ button.bg-dark:focus {
 }
 
 .bg-light {
-    background-color: #f8f9fa !important;
+    background-color: $bg-light-color !important;
 }
 
 a.bg-light:hover,
@@ -825,8 +827,8 @@ h2 {
 }
 .btn-light {
 	color: #212529;
-	background-color: #f8f9fa;
-	border-color: #f8f9fa;
+	background-color: $bg-light-color;
+	border-color: $bg-light-color;
 	text-shadow: none;
 }
 
@@ -844,8 +846,8 @@ h2 {
 .btn-light.disabled,
 .btn-light:disabled {
 	color: #212529;
-	background-color: #f8f9fa;
-	border-color: #f8f9fa;
+	background-color: $bg-light-color;
+	border-color: $bg-light-color;
 }
 
 @keyframes scaling {
@@ -999,8 +1001,9 @@ label {
 	line-height: 1;
 	text-align: center;
 	white-space: nowrap;
-	vertical-align: baseline;
+	vertical-align: middle;
 	border-radius: $border-radius;
+    border: 2px solid rgba(0, 0, 0, 0);
 }
 
 .badge:empty {
@@ -1010,6 +1013,11 @@ label {
 .btn .badge {
 	position: relative;
 	top: -1px;
+}
+
+
+.badge:hover {
+    border: 2px solid #000;
 }
 
 .no-submissions

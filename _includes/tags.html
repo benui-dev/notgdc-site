@@ -17,14 +17,14 @@
         {%- if tag == 'all' -%}
             <a class="tag-link" onclick="filterTags(['all'])" href="#submissions">
                 <span class="badge"
-                    style="background-color:{{ site.data.tags[tag].background-color }}; color:{{ site.data.tags[tag].text-color }}; font-size:12px">
+                    style="background-color:{{ site.data.tags[tag].background-color }}; color:{{ site.data.tags[tag].text-color }};">
                         All
                 </span>
             </a>
         {%- else -%}
         <span class="tag-link">
             <span class="badge"
-				  style="background-color:{{ site.data.tags[tag].background-color }}; color:{{ site.data.tags[tag].text-color }}; font-size:12px">
+				  style="background-color:{{ site.data.tags[tag].background-color }}; color:{{ site.data.tags[tag].text-color }};">
                 <label class="checkbox-wrapper">
                     <input type="checkbox" class="checkbox-filter" id="checkbox-{{tag}}" value="{{tag}}" onclick="event.stopPropagation();toggleFilters();"/>
 					{%- if site.data.tags[tag].icon -%}
