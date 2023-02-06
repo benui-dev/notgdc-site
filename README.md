@@ -11,35 +11,39 @@ Look, we're task managing!
 
 ### Site Visuals
 
-* [ ] Download new fonts, store local
-  * [ ] Fredoka one (header)
-  * [ ] Lexend (body)
 * [ ] Make sure layout works on mobile
   * [ ] Set simple breakpoints using minimal-mistakes
 * [ ] Clean up CSS
   * [ ] Remove bootstrap mess
-* [ ] Integrate new logo (when we have it)
-  * [ ] Update favicon
-  * [ ] Update Discord logo
-  * [ ] Update Twitter logo
-  * [ ] Update Mastodon logo
-  * [ ] Update Twitch logo
 * [ ] Make checkboxes and tags like 20% bigger
-* [ ] Hide "Read submissions" if there are no submissions yet
 * [ ] Make big juicy buttons for "get involved" listing Discord, Twitter and
   Mastodon
-* [ ] Fix deselecting last selected tag still showing "tag=blah" in the URL
 * [ ] Remove explicit "12px" in HTML
 * [ ] Make big juicy "none yet" text for when there are no submissions yet
 * [ ] Fix hover on tags:
   * [ ] Show border or background change on hover
   * [ ] Don't show blue underscore on hover
-* [ ] Consolidate URLs with archive
-  * [ ] Remove separate URLs for 2022, 2021 etc.
-  * [ ] Instead there should be a single point of interaction: /archive/?year=blah
-  * [ ] Simple urls like /2022/ should forward to archive
 * [ ] Work out what is causing the unknown checkbox that is last in the list on
   the archive page
+
+#### Done
+
+* [x] Hide "Read submissions" if there are no submissions yet
+* [x] Fix deselecting last selected tag still showing "tag=blah" in the URL
+* [x] Download new fonts, store local
+  * [x] Fredoka one (header)
+  * [x] Lexend (body)
+* [x] Consolidate URLs with archive
+  * [x] Remove separate URLs for 2022, 2021 etc.
+  * [x] Instead there should be a single point of interaction: /archive/?year=blah
+  * [x] Simple urls like /2022/ should forward to archive
+* [x] Update the branding in the submissions form
+* [x] Integrate new logo (when we have it)
+  * [x] Update favicon
+  * [x] Update Discord logo
+  * [x] Update Twitter logo
+  * [x] Update Mastodon logo
+  * [x] Update Twitch logo
 * [x] Make it so checkbox filters show a pointer cursor
   * [x] Make checkbox filters clickable area match visual bg
 * [x] Fix horizontal scroll bar appearing
@@ -91,6 +95,7 @@ Look, we're task managing!
 ### Discord
 
 * [ ] Update site links within Discord
+* [ ] Make fancy inline image header thingies for the intro
 
 
 ### Other
