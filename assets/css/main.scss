@@ -11,8 +11,10 @@ $highlight-color: #ff517b;
 $bg-color: #f3f1f9;
 $bg-dark-color: #db4468;
 $link-color: $highlight-color;
-$title-font: "Fredoka", sans-serif;
+$title-font: "Lexend", sans-serif;
 $body-font: "Lexend", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$border-radius: 0.25rem;
 
 html {
   font-family: sans-serif;
@@ -206,7 +208,7 @@ html {
     height: 100%;
 }
 body {
-    font-family: "Lexend";
+    font-family: $body-font;
 }
 .btn-xl {
     padding: 1.25rem 2.5rem;
@@ -221,13 +223,13 @@ body {
 .content-section-heading h2 {
     font-size: 3rem;
     margin-bottom: 3rem;
-    font-family: 'Fredoka';
+    font-family: $title-font;
 }
 .content-section-heading h3 {
     font-size: 1rem;
     text-transform: uppercase;
     margin-bottom: 3rem;
-    font-family: 'Fredok';
+    font-family: $title-font;
 }
 h1,
 h2,
@@ -272,32 +274,6 @@ h6 {
 }
 .scroll-to-top i {
     font-weight: 800;
-}
-.masthead {
-    min-height: 30rem;
-    position: relative;
-    display: table;
-    width: 100%;
-    height: auto;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    background-image: url(/assets/img/repeatingbg-lossy.webp);
-    background-repeat: repeat;
-    background-position: center;
-    //background-size: 100%, 400px;
-}
-.masthead h1 {
-    font-size: 4rem;
-    margin: 0;
-    padding: 0;
-}
-@media (min-width: 992px) {
-    .masthead {
-        height: 100vh;
-    }
-    .masthead h1 {
-        font-size: 5.5rem;
-    }
 }
 #sidebar-wrapper {
     position: fixed;
@@ -689,7 +665,7 @@ button.bg-light:focus {
 }
 
 .rounded {
-  border-radius: 0.25rem !important;
+  border-radius: $border-radius !important;
 }
 
 $green : #2becaa;
@@ -721,10 +697,28 @@ h2 {
 }
 
 .masthead {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url(/assets/img/repeatingbg-lossy.webp);
+    background-repeat: repeat;
+    background-position: center;
+    //background-size: 100%, 400px;
+	img.masthead-logo
+	{
+		max-width: 80%;
+	}
+
 	h1 {
 		color: #000;
-		font-size: 12em;
 		font-weight: 900;
+		font-size: 4rem;
+		margin: 0;
+		padding: 0;
 		//letter-spacing: -0.05em;
 		//-webkit-text-stroke-width: 0.05em;
 		//-webkit-text-stroke-color: #fff;
@@ -736,7 +730,7 @@ h2 {
 	}
 	h3 {
 		color: #000;
-		font-size: 4em;
+		font-size: 3em;
 		font-weight: 700;
 		font-family: $body-font;
 	}
@@ -748,6 +742,15 @@ h2 {
 	}
 }
 
+@media (min-width: 992px) {
+    .masthead {
+        height: 100vh;
+    }
+    .masthead h1 {
+        font-size: 5.5rem;
+    }
+}
+
 @media (max-width: 576px) {
 	.masthead {
 		h1 {
@@ -755,12 +758,10 @@ h2 {
 		}
 
 		h2 {
-			color: #fff;
 			font-size: 2em;
 		}
 
 		h3 {
-			color: #fff;
 			font-size: 1.60em;
 			font-family: $title-font;
 		}
@@ -783,7 +784,7 @@ h2 {
 	font-family: $body-font;
 	background-color: $highlight-color;
 	border: 1px solid lighten($highlight-color, 20%);
-	border-radius: 0.25rem;
+	border-radius: $border-radius;
 	color: #fff;
 	vertical-align: middle;
 	text-shadow: 1px 1px hsl(159, 24%, 25%);
@@ -999,7 +1000,7 @@ label {
 	text-align: center;
 	white-space: nowrap;
 	vertical-align: baseline;
-	border-radius: 0.25rem;
+	border-radius: $border-radius;
 }
 
 .badge:empty {
@@ -1009,4 +1010,20 @@ label {
 .btn .badge {
 	position: relative;
 	top: -1px;
+}
+
+.no-submissions
+{
+	text-align: center;
+	color: #777;
+	background-color: #fafafa;
+	margin: 3em;
+	padding: 3em;
+	border: 3px solid #eee;
+	border-radius: $border-radius;
+}
+
+#countdown
+{
+	margin: 3rem;
 }

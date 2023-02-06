@@ -4,31 +4,33 @@ layout: default
 <!-- Header -->
 <header class="masthead ngdc-flex">
   <div class="ngdc-container text-center margin-auto-y">
-	  <img src="/assets/img/notgdc-logotype.svg" alt="#notGDC 2023, march 20-24, a game development non-conference, for everyone!" />
+	<img class="masthead-logo" src="/assets/img/notgdc-logotype.svg" alt="#notGDC 2023, march 20-24, a game development non-conference, for everyone!" />
 	  <!--
     <h1>#notGDC</h1>
     <h2>2023</h2>
     <h3>march 20-24</h3>
 	<h4>a game development non-conference, <strong>for everyone!</strong></h4>
 	  -->
-	<br/>
-	<br/>
     <div>
       <h3 id="countdown" class="ngdc-margin-bottom-big">Starts in {dd} Days {hh} Hours {mm} Minutes and {ss} Seconds</h3>
     </div>
+<!-- 
     <br>
     <div class="ngdc-row">
       <div class="ngdc-col">
-        <a class=" ngdc-btn btn-xl" href="#about">Submit Something</a>
-		<!-- <a class=" ngdc-btn btn-xl " href="#submissions">Read Submissions</a> -->
+	  <a class=" ngdc-btn btn-xl" href="#about">Submit Something</a>
+		<a class=" ngdc-btn btn-xl " href="#submissions">Read Submissions</a>
       </div>
     </div>
     <br>
     <br>
+-->
 
     <div class="ngdc-row">
       <div class="ngdc-col">
-        <a class=" ngdc-btn " href="https://discord.notgdc.io/">{%- include icon.html icon="discord" -%}Join the Discord</a>
+        <a class="ngdc-btn" href="https://discord.notgdc.io/">{%- include icon.html icon="twitter" -%}Follow on Twitter</a>
+        <a class="ngdc-btn" href="https://mastodon.gamedev.place/@notGDC">{%- include icon.html icon="mastodon" -%}Follow on Mastodon</a>
+        <a class="ngdc-btn" href="https://twitter.com/notGDC">{%- include icon.html icon="discord" -%}Join the Discord</a>
       </div>
     </div>
     <br><br>
@@ -73,9 +75,9 @@ layout: default
         <br><br>
         <p class=" ngdc-btn btn-light btn-xl ngdc-btn-disabled">Submissions open Feb 20</p>
         {% comment %}
-        <a class=" ngdc-btn btn-light btn-xl btn-special " href="https://form.notgdc.io/">Click Here To Submit!</a>
+        <a class="ngdc-btn btn-light btn-xl btn-special" href="https://form.notgdc.io/">Click Here To Submit!</a>
         {% endcomment %}
-        <a class=" ngdc-btn btn-light btn-xl btn-special " href="http://www.twitter.com/notgdc">Ask Us Something</a>
+        <a class="ngdc-btn btn-light btn-xl btn-special" href="http://twitter.com/notGDC">Ask Us Something</a>
       </div>
     </div>
   </div>
@@ -106,7 +108,7 @@ layout: default
 	    {% include submission.html submission=submission %}
     {% endfor %}
 	{% else %}
-	No submissions yet!
+	<p class="no-submissions">Submissions open Feb 20, 2023!</p>
 	{% endif %}
   </div>
 </section>
