@@ -15,7 +15,16 @@ who has given their time to help bring it to life.
 * Community management  by eva.
 * Discord moderation by [Nia](https://www.linkedin.com/in/niawearn/), [Jacob](https://twitter.com/_meloki).
 
-### 2020~2018
+### 2022
+
+* Organization by [benui](https://benui.ca/).
+* Huge community involvement by the [benui discord](https://discord.benui.ca/).
+
+### 2019~2021
+
+A little pandemic break.
+
+### 2018~2020
 
 * Hosted by [Lucy](https://twitter.com/lucyamorris) and [Mike](https://twitter.com/mtrc).
 * Gamejam organised by [Design By Cloud](https://twitter.com/DesignByCloud).
