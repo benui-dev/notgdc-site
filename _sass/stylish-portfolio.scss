@@ -13,12 +13,19 @@ body {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
 }
+.content-section-heading {
+    text-align: center !important;
+}
 .content-section-heading h2 {
     font-size: 3rem;
+    margin-bottom: 3rem;
+    font-family: 'Lilita One';
 }
 .content-section-heading h3 {
     font-size: 1rem;
     text-transform: uppercase;
+    margin-bottom: 3rem;
+    font-family: 'Lilita One';
 }
 h1,
 h2,
@@ -430,3 +437,55 @@ a.tag-link>.badge,
     margin-bottom: 1em;
 }
 
+.text-light {
+    color: #f8f9fa !important;
+}
+
+a.text-light:hover,
+a.text-light:focus {
+    color: #dae0e5 !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+a.bg-dark:hover,
+a.bg-dark:focus,
+button.bg-dark:hover,
+button.bg-dark:focus {
+    background-color: #1d2124 !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+a.bg-light:hover,
+a.bg-light:focus,
+button.bg-light:hover,
+button.bg-light:focus {
+    background-color: #dae0e5 !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.rounded {
+  border-radius: 0.25rem !important;
+}

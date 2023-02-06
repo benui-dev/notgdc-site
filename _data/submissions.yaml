@@ -20,32 +20,6 @@ submissions:
 ###############################################################################
 # 2023
 
- - title: One Author
-   authors:
-    - name: "Someone"
-      link: "https://boo-example-user-link.com/"
-   links:
-    - "https://example-talk-link.com/"
-    - "https://example-talk-link.com/"
-   tags: [ how-to, project-management, unreal, community ]
-   year: 2023
- - title: Two authors
-   authors:
-    - name: "Someone"
-      link: "https://boo-example-user-link.com/"
-    - name: "Someone"
-      link: "https://boo-example-user-link.com/"
-   links:
-    - "https://example-talk-link.com/"
-    - "https://example-talk-link.com/"
-   tags: [ how-to, project-management ]
-   year: 2023
- - title: Three authors
-   authors: [ { name: "Another Example Author", link: "https://another-example-user-link.com/" }, { name: "Someone", link: "https://boo-example-user-link.com/" }, { name: "Someone", link: "https://boo-example-user-link.com/" } ]
-   links: [ "https://another-example-talk-link.com/" ]
-   tags: [ game-design, art ]
-   year: 2023
-
 
 ###############################################################################
 # 2022
@@ -138,12 +112,12 @@ submissions:
  - title: "The Jeff Ramos Quarantine Creative Learning Guide"
    authors: [ { name: "Jeff Ramos", link: "https://twitter.com/ohjefframos"} ]
    links: [ "https://docs.google.com/document/d/1o_sl1USRS0ZtKQeqqqvsGDC9jvT0VKBL4dg8cHMPM7U/edit?usp=sharing" ]
-   tags: [everything, how-to ] 
+   tags: [ everything, how-to ] 
    year: 2020
  - title: "Making Random Fun"
    authors: [ { name: "Aden Webb", link: "https://twitter.com/webb_aden"} ]
    links: [ "http://backyardgiant.co.uk/papers/makingrandomfun.pdf" ]
-   tags: [ game-design, tech] 
+   tags: [ game-design, tech ] 
    year: 2020
  - title: "Reasons Why pico-8 is the Best"
    authors: [ { name: "DPS2004", link: "https://twitter.com/DPS_2004"} ]
@@ -158,12 +132,12 @@ submissions:
  - title: "Game Jams: A Pretty Excellent Gateway To The Games Industry"
    authors: [ { name: "Shaun Wall", link: "https://twitter.com/nomaki"} ]
    links: [ "https://docs.google.com/presentation/d/1m7Wd7_b4_aZVTLbbDCls2-y2E5xfDcrQmybjRjMyDqQ/edit?usp=sharing" ]
-   tags: [community, everything] 
+   tags: [ community, everything ] 
    year: 2020
  - title: "Commandos Cone of Sight FX in Unity"
    authors: [ { name: "Josue Candela", link: "https://twitter.com/JosCanPer"} ]
    links: [ "https://youtu.be/EOW_sBsoYyY" ]
-   tags: [tech, how-to, video, unity] 
+   tags: [ tech, how-to, video, unity ] 
    year: 2020
  - title: "How Astroneer creates an enjoyably unsafe space"
    authors: [ { name: "Aden Webb", link: "https://twitter.com/webb_aden"} ]
@@ -208,7 +182,7 @@ submissions:
  - title: "Making games using quantum computers"
    authors: [ { name: "James Wootton", link: "https://twitter.com/decodoku"} ]
    links: [ "https://medium.com/@decodoku/games-computers-and-quantum-84bfdd2c0fe0" ]
-   tags: [ tech, the-future] 
+   tags: [ tech, the-future ] 
    year: 2020
  - title: "Designing Game Communities for Kindness"
    authors: [ { name: "Victoria Tran", link: "https://twitter.com/TheVTran"} ]
@@ -233,7 +207,7 @@ submissions:
  - title: "Research Notes: Improvisational Narrative AI"
    authors: [ { name: "Mike Cook", link: "http://www.twitter.com/mtrc"} ]
    links: [ "http://www.possibilityspace.org/blog-shonan-2/" ]
-   tags: [ the-future, postmortem ]
+   tags: [ the-future, postmortem, writing ]
    year: 2019
  - title: "How To Stay Sane While Working in games Part Time"
    authors: [ { name: "Sean MacLean", link: "http://www.twitter.com/Driadon"} ]
@@ -253,7 +227,7 @@ submissions:
  - title: "Finding the Narrative Heartbeat"
    authors: [ { name: "Hanna Hildebrandt", link: "https://hannahildebrandt.com/"} ]
    links: [ "https://hannahildebrandt.com/2019/03/20/heartbeat/" ]
-   tags: [ game-design, narrative ]
+   tags: [ game-design, writing ]
    year: 2019
  - title: "Creating a Passion Project with No Budget"
    authors: [ { name: "Andy Wood", link: "https://twitter.com/andreaacw"} ]
@@ -338,7 +312,7 @@ submissions:
  - title: "4 Methods For Low Poly Terrain For Your Game (Using Blender 2.8)"
    authors: [ { name: "Rog Dolos", link: "http://www.twitter.com/RogDolos"} ]
    links: [ "https://www.youtube.com/watch?v=Xh9aiMZbQZU " ]
-   tags: [ how-to, art, video, blender ]
+   tags: [ how-to, art, video ]
    year: 2019
  - title: "How To Survive As A 'Solo Dev'"
    authors: [ { name: "Damien Crawford", link: "http://www.twitter.com/DeveloperDamien"} ]
@@ -428,7 +402,7 @@ submissions:
  - title: "Thinking About Your Data"
    authors: [ { name: "Max Cahill", link: "https://twitter.com/1bardesign"} ]
    links: [ "https://www.1bardesign.com/words/?p=2018.001" ]
-   tags: [ programming, game-design ]
+   tags: [ programming, game-design, data ]
    year: 2018
  - title: "One Simple UV Trick For Cyclical Shapes With Bends"
    authors: [ { name: "Patt", link: "https://twitter.com/MaddHattPatt"} ]
@@ -451,7 +425,7 @@ submissions:
     - "https://ronja-tutorials.tumblr.com/post/172080069592/hlsl-basics"
     - "https://ronja-tutorials.tumblr.com/post/172104877882/basic-unity-shader"
     - "https://ronja-tutorials.tumblr.com/post/172170158512/properties"
-   tags: [ programming, shaders ]
+   tags: [ programming, tech, art ]
    year: 2018
  - title: "Prodding Gnoggins - Cursor Design In GNOG"
    authors: [ { name: "Nick & KO_OP", link: "https://twitter.com/nickfourtimes"} ]
@@ -473,7 +447,7 @@ submissions:
  - title: "Worlds By Design"
    authors: [ { name: "Marc Loths", link: "https://twitter.com/OldLoths"} ]
    links: [ "https://bookofloths.wordpress.com/2018/03/23/worlds-by-design/" ]
-   tags: [ design, worldbuilding ]
+   tags: [ game-design ]
    year: 2018
  - title: "A (Very) Brief Pre-History Of HTML5 Games"
    authors: [ { name: "Dan Cox", link: "https://twitter.com/Videlais"} ]
@@ -522,12 +496,12 @@ submissions:
  - title: "What I've Learned From Game Design History (Part 1, Part 2)"
    authors: [ { name: "The Mad Welshman", link: "https://twitter.com/TheMadWelshman"} ]
    links: [ "http://themadwelshman.co.uk/what-ive-learned-from-game-design-history-some-notgdc-advice/", "http://themadwelshman.co.uk/more-learnings-from-game-design-history/" ]
-   tags: [ ]
+   tags: [ history ]
    year: 2018
  - title: "Games Need More Balls"
    authors: [ { name: "Shalune Tyler Main", link: "https://twitter.com/_shalune/"} ]
    links: [ "https://shalune.wordpress.com/2018/03/22/games-need-more-balls/" ]
-   tags: [ ]
+   tags: [ history ]
    year: 2018
  - title: "Player Counts: False Friends in Games User Research?"
    authors: [ { name: "Gareth Lloyd", link: "https://twitter.com/GarethLloyd_"} ]
@@ -552,7 +526,7 @@ submissions:
  - title: "Delegates, Events and Unity"
    authors: [ { name: "Juan Alejandro Rodríguez", link: "https://twitter.com/timrodz"} ]
    links: [ "https://paper.dropbox.com/doc/The-utility-of-Delegates-Events-and-UnityEvents-in-Unity.-OhaCIBxdvNEztrhdfXmFG?_tk=share_copylink&auth_redirect=true&first_sign_in=true" ]
-   tags: [ ]
+   tags: [ unity ]
    year: 2018
  - title: "Top 10 Gayest Looks In Splatoon 2"
    authors: [ { name: "Jillian Wakarchuk", link: "https://twitter.com/OrbWitch"} ]
@@ -632,7 +606,7 @@ submissions:
  - title: "Choice Is Consequence"
    authors: [ { name: "Gregory Pellechi" } ]
    links: [ "https://www.youtube.com/watch?v=yVkezeb3Y5I" ]
-   tags: [ theory, video ]
+   tags: [ game-design, video ]
    year: 2018
  - title: "#ThirdWorldProblems: How To Not Get A Visa"
    authors: [ { name: "Penny" } ]
@@ -657,7 +631,7 @@ submissions:
  - title: "Navigation Filtering And Avoidance"
    authors: [ { name: "Vikram Saran"} ]
    links: [ "https://www.vikram.codes/blog/ai/03-navigation-filtering-and-avoidance" ]
-   tags: [ ]
+   tags: [ ai ]
    year: 2018
  - title: "Bees In Videogames 🐝"
    authors: [ { name: "Sean Oxspring" } ]
@@ -677,7 +651,7 @@ submissions:
  - title: "Why Toilets? 🚽"
    authors: [ { name: "Steven Harmon" } ]
    links: [ "https://sites.google.com/view/toiletgamestudies/why-toilets?authuser=0" ]
-   tags: [ ]
+   tags: [ history ]
    year: 2018
  - title: "Continent Generation Preview"
    authors: [ { name: "John Arras" } ]
@@ -739,7 +713,7 @@ submissions:
    year: 2017
  - title: "Don’t Trust The Engine"
    authors: [ { name: "@radgeRayden", link: "https://twitter.com/radgeRayden"} ]
-   tags: [ ]
+   tags: [ programming ]
    links: [ "https://github.com/radgeRayden/blog/issues/1" ]
    year: 2017
  - title: "Mod Support in Unity"
@@ -765,7 +739,7 @@ submissions:
  - title: "My Experience Making a Game for YouTubers (and Failing)"
    authors: [ { name: "@shatley123", link: "https://twitter.com/shatley123"} ]
    links: [ "https://tristan-shatley.tumblr.com/post/157934962275/my-experience-making-game-for-youtubers-and" ]
-   tags: [ ]
+   tags: [ video ]
    year: 2017
  - title: "Bucket Grids"
    authors: [ { name: "@1bardesign", link: "https://twitter.com/1bardesign"} ]
@@ -780,6 +754,6 @@ submissions:
  - title: "The Problem with Deep Reading Videogames"
    authors: [ { name: "@Sumaleth", link: "https://twitter.com/Sumaleth"} ]
    links: [ "http://ludodissonance.com/post/157971351418/the-problem-with-deep-reading-videogames" ]
-   tags: [ ]
+   tags: [ history ]
    year: 2017
 

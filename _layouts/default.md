@@ -11,21 +11,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script defer data-domain="notgdc.io" src="https://plausible.io/js/script.js"></script>
-
-<style>
-  .btn-special{
-    background-color:#f9b641!important;
-  }
-  .btn-special:hover{
-    background-color:#ffd34e!important;
-  }
-
-  </style>
-
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 <script defer src="{%- include minified_path.html file='/assets/js/countdown' ext='js' -%}"></script>
-
-<!-- Bootstrap Core CSS -->
-<link href="{{ '/assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
 
 <!-- Custom CSS -->
 <link href="{%- include minified_path.html file='/assets/css/main' ext='css' -%}" rel="stylesheet">
@@ -50,12 +37,12 @@
       </ul>
     </nav> -->
 
-<section class="content-section bg-light" id="footer"><!--style="background-color:#3f527c"-->
-<div class="container">
-<div class="content-section-heading text-center">
+<section class="content-section bg-light" id="footer">
+<div class="ngdc-container">
+<div class="content-section-heading">
 {% if site.footer.links %}
-<div class="row">
-<div class="col">
+<div class="ngdc-row">
+<div class="ngdc-col">
 {% for link in site.footer.links %}
 {% if link.label and link.url %}
 <a href="{{ link.url }}" rel="nofollow noopener noreferrer me">{%- include icon.html icon=link.icon -%}{{ link.label }}</a>
@@ -64,7 +51,7 @@
 </div>
 </div>
 {% endif %}
-<p class="text-center text-muted small mb-0">
+<p class="text-center text-muted small no-margin-bottom">
 #notGDC 2023 is hosted by <a href="https://benui.ca/">ben&#x1F331;ui</a>, with huge help from <a href="https://github.com/benui-dev/notgdc-site/graphs/contributors">contributors</a>
 <br>
 #notGDC 2020 was hosted by <a href="https://twitter.com/lucyamorris">Lucy</a> and <a href="https://twitter.com/mtrc">Mike</a>.
