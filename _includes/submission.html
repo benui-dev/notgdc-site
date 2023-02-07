@@ -42,6 +42,9 @@
 				 {% endif %}
 			{%- endif -%}
 		{%- endfor -%}
+		{%- if include.submission.year -%}
+		<span class="year">({{ include.submission.year }})</span>
+		{%- endif -%}
 		</p>
     </div>
 </div>
