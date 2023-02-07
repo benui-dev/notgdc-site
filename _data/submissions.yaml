@@ -543,11 +543,8 @@ submissions:
    links: [ "https://www.youtube.com/watch?v=wBX6l8RqrT0" ]
    tags: [ art, tech, video ]
    year: 2018
- - title: "Interview With Korina Abbott (Marketing, PR, YouTube)"
-   authors: [ 
-    [ "Nick Bell", https://twitter.com/MrBehemo/ ],
-    [ "Edinburgh College GameDev" ]
-   ]
+ - title: "Interview with Korina Abbott (Marketing, PR, YouTube)"
+   authors: [ { name: "Nick Bell", link: "https://twitter.com/MrBehemo/" }, { name: "Edinburgh College GameDev" } ]
    links: [ "https://twitter.com/MrBehemo/status/976443611775750145" ]
    tags: [ marketing, audio ]
    year: 2018
