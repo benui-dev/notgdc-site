@@ -8,9 +8,13 @@ if(countdown !== null)
     const NOTGDC_START_DATE = new Date(Date.UTC(2023, 02, 20, 16, 0, 0));
     const NOTGDC_END_DATE = new Date(Date.UTC(2023, 02, 24, 16, 0, 0));
 
-    function format_date(days, hours, minutes, seconds)
+    function format_date(weeks, days, hours, minutes, seconds)
     {
-        let countdown_string = "Starts in "
+        let countdown_string = "Starts in ";
+        if (weeks > 0)
+        {
+            countdown_string += weeks + " Weeks and ";
+        }
         if (days > 0)
         {
             countdown_string += days + " Days ";
@@ -37,14 +41,16 @@ if(countdown !== null)
             const _MS_PER_MINUTES = _MS_PER_SECONDS * 60;
             const _MS_PER_HOUR = _MS_PER_MINUTES * 60;
             const _MS_PER_DAY = _MS_PER_HOUR * 24;
+            const _MS_PER_WEEK = _MS_PER_DAY * 7;
         
-            let days    = Math.floor(diff / _MS_PER_DAY);     diff -= days * _MS_PER_DAY
-            const hours   = Math.floor(diff / _MS_PER_HOUR);    diff -= hours * _MS_PER_HOUR
-            const minutes = Math.floor(diff / _MS_PER_MINUTES); diff -= minutes * _MS_PER_MINUTES
+            const weeks   = Math.floor(diff / _MS_PER_WEEK);    diff -= weeks * _MS_PER_WEEK;
+            const days    = Math.floor(diff / _MS_PER_DAY);     diff -= days * _MS_PER_DAY;
+            const hours   = Math.floor(diff / _MS_PER_HOUR);    diff -= hours * _MS_PER_HOUR;
+            const minutes = Math.floor(diff / _MS_PER_MINUTES); diff -= minutes * _MS_PER_MINUTES;
             const seconds = Math.floor(diff / _MS_PER_SECONDS);
 
             
-            countdown.innerText = format_date(days, hours, minutes, seconds);
+            countdown.innerText = format_date(weeks, days, hours, minutes, seconds);
         }
         else
         {

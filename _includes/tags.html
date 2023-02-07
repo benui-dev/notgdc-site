@@ -15,7 +15,7 @@
     <span class="filter-header">Filters:</span>
     {%- for tag in used_tags_array -%}
         {%- if tag == 'all' -%}
-            <a class="tag-link" onclick="filterTags(['all'])" href="#submissions">
+            <a class="tag-link no-underline" onclick="filterTags(['all'])" href="#submissions">
                 <span class="badge"
                     style="background-color:{{ site.data.tags[tag].background-color }}; color:{{ site.data.tags[tag].text-color }};">
                         All
