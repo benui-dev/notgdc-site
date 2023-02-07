@@ -11,14 +11,14 @@
         </div>
         <div class="ngdc-col-83p">
 			{% if include.submission.links.size > 1 %}
-				<h3 style="font-size:1.5rem">{{ include.submission.title }}
+				<h4>{{ include.submission.title }}
 					{% for link in include.submission.links %}
 					<a href="{{ link }}">(Part {{ forloop.index }})</a> 
 					{% endfor %}
-				</h3>
+				</h4>
 			{% else %}
 				<a class="portfolio-item" href="{{ include.submission.links }}">
-					<h3 style="font-size:1.5rem">{{ include.submission.title }}</h3>
+					<h4>{{ include.submission.title }}</h4>
 				</a>
 			{% endif %}
         <p> by 
