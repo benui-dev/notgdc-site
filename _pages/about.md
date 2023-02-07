@@ -11,7 +11,7 @@ who has given their time to help bring it to life.
 
 * Organization by [benui](https://benui.ca/).
 * Web by [Sharundaar](https://twitter.com/Sharundaar/), [Ryan DowlingSoka](https://ryandowlingsoka.com/).
-* Branding and art by [Val](https://www.friendlyhello.com/).
+* Branding and art by [Val](https://twitter.com/friendlyhellooo).
 * Community management  by [Eva Hoerth](https://twitter.com/downtohoerth).
 * Discord moderation by [Nia](https://www.linkedin.com/in/niawearn/), [Jacob](https://twitter.com/_meloki).
 
@@ -22,7 +22,7 @@ who has given their time to help bring it to life.
 
 ### 2019~2021
 
-A little pandemic break.
+* A little pandemic hiatus.
 
 ### 2018~2020
 
