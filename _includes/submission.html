@@ -21,13 +21,13 @@
         </div>
         <div class="ngdc-col-83p submission-entry">
 			{% if include.submission.links.size > 1 %}
-				<h3>{{ include.submission.title }}
+				<h4>{{ include.submission.title }}
 					{% for link in include.submission.links %}
 					<a href="{{ link }}">(Part {{ forloop.index }})</a> 
 					{% endfor %}
-				</h3>
+				</h4>
 			{% else %}
-				<h3><a class="portfolio-item" href="{{ include.submission.links }}">{{ include.submission.title }}</a></h3>
+				<h4><a class="portfolio-item" href="{{ include.submission.links }}">{{ include.submission.title }}</a></h4>
 			{% endif %}
         <p> by 
 		{% for author in include.submission.authors %}

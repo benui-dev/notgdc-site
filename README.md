@@ -20,20 +20,22 @@ Look, we're task managing!
   benui.ca does it
 * [ ] Make sure layout works on mobile
   * [ ] Set simple breakpoints using minimal-mistakes
-* [ ] Clean up CSS
-  * [ ] Remove bootstrap mess
 * [ ] Make checkboxes and tags like 20% bigger
-* [ ] Remove explicit "12px" in HTML
-* [ ] Fix hover on tags:
-  * [ ] Show border or background change on hover
-  * [ ] Don't show blue underscore on hover
 * [ ] Update tag colour system
   * [ ] Make it procedural? Some kind of list of colours and then it
 	auto-assigns them?
   * [ ] Colours should match new site colours
+* [ ] Update tags checkbox to cleanup focus visuals
 
 #### Done
 
+* [x] Update countdown to show number of weeks
+* [x] Clean up CSS
+  * [x] Remove bootstrap mess
+* [x] Remove explicit "12px" in HTML
+* [x] Fix hover on tags:
+  * [x] Show border or background change on hover
+  * [x] Don't show blue underscore on hover
 * [x] Work out what is causing the unknown checkbox that is last in the list on
   the archive page
 * [x] Make big juicy "none yet" text for when there are no submissions yet
