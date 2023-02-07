@@ -50,18 +50,21 @@ function filterTags(in_tags)
     if(entriesToShow.length > 0){
         for(entry of document.querySelectorAll(allElementsString))
         {
-            entry.style.display = "None";
+            entry.classList.add("tag-entry-hide");
+            entry.classList.remove("tag-entry-show");
         }
         for(entry of document.querySelectorAll(tagsClassString))
         {
-            entry.style.display = "Flex";
+            entry.classList.add("tag-entry-show");
+            entry.classList.remove("tag-entry-hide");
         }
     }
     else
     {
         for(entry of document.querySelectorAll(allElementsString))
         {
-            entry.style.display = "Flex";
+            entry.classList.add("tag-entry-show");
+            entry.classList.remove("tag-entry-hide");
         }
     }
 
@@ -73,15 +76,29 @@ function toggleFilters()
     var tagsList = []
     for(checkBox of checkBoxes)
     {
-        if(checkBox.checked == true)
+        if(checkBox.checked == true &&
+            checkBox.value != "all")
         {
-            tagsList.push( checkBox.value);
+            tagsList.push(checkBox.value);
         }
     }
     filterTags(tagsList);
+}
+
+function toggleFilterRow()
+{
+    filter_row = document.querySelector("#filter-row");
+    filter_row.classList.toggle("clicked");
 }
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const tags = urlParams.getAll("tag");
 filterTags(tags);
+window.onscroll = function(){
+      if (window.scrollY > (window.innerHeight * 0.5)) {
+        document.querySelector('.down-arrow').classList.add('fade');
+      } else{
+        document.querySelector('.down-arrow').classList.remove('fade');
+      }
+    };

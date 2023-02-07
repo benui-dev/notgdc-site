@@ -573,119 +573,6 @@ a:hover {
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5) !important;
 }
 
-
-input[type="checkbox"] {
-    /* Add if not using autoprefixer */
-    -webkit-appearance: none;
-    /* Remove most all native input styles */
-    appearance: none;
-    /* For iOS < 15 */
-    background-color: rgba(0, 0, 0, 0.25);
-    /* Not removed via appearance */
-    margin: 0px;
-
-    font: inherit;
-    color: currentColor;
-    width: 1.15em;
-    height: 1.15em;
-    border: 0.15em solid currentColor;
-    border-radius: 0.15em;
-    transform: translateY(-0.075em);
-
-    display: grid;
-    place-content: center;
-    clear: both;
-    align-self: center;
-}
-
-input[type="checkbox"]::before {
-    content: "";
-    width: 0.65em;
-    height: 0.65em;
-    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
-    transform: scale(0);
-    transform-origin: bottom left;
-    transition: 120ms transform ease-in-out;
-    box-shadow: inset 1em 1em #fff;
-    /* Windows High Contrast Mode */
-    background-color: CanvasText;
-    margin: .1em;
-}
-
-input[type="checkbox"]:checked::before {
-    transform: scale(1);
-}
-
-input[type="checkbox"]:focus {
-    outline: max(2px, 0.15em) solid currentColor;
-    outline-offset: max(2px, 0.15em);
-}
-
-.checkbox-wrapper {
-    display: grid;
-    grid-template-columns: 1em auto;
-    gap: 0.5em;
-    margin: 0px;
-    align-content: center;
-}
-
-.tag-link {
-    padding: 0.1em;
-    align-self: center;
-    line-height: 0;
-    align-items: center;
-}
-
-.tag-link>a {
-    line-height: 0;
-    padding: 0.4em;
-    font-size: 12px;
-}
-
-.tag-link>a>.badge,
-.tag-link>.badge {
-    padding: 0.3em;
-    height: 2.1em;
-    line-height: 0;
-    cursor: pointer;
-    align-items: center;
-    display: flex;
-	background-color: #eee;
-	border-color: #aaa;
-	color: #777;
-}
-
-.tag-link>a>.badge,
-a.tag-link>.badge,
-.tag-link>.badge>label {
-    cursor: pointer;
-    padding: 0.3em;
-    align-items: center;
-}
-a.tag-link:hover {
-	text-decoration: none;
-}
-
-#filter-row {
-    margin-bottom: 2em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-}
-
-.filter-header {
-    font-size: .75em;
-    font-weight: 700;
-    align-self: center;
-    margin-right: 0.5em;
-}
-
-.tags-column {
-    display: inline-flex;
-    flex-wrap: wrap;
-    align-self: flex-start;
-    margin-bottom: 1em;
-}
-
 .text-light {
     color: $bg-light-color  !important;
 }
@@ -697,6 +584,11 @@ a.text-light:focus {
 
 .bg-dark {
     background-color: $bg-dark-color  !important;
+    text-shadow: 2px 2px 2px maroon;
+}
+
+.svg-bg-dark{
+    filter:drop-shadow(2px 2px 2px rgba(128, 0, 0, 0.302));
 }
 
 a.bg-dark:hover,
@@ -774,8 +666,8 @@ h2 {
     display: table;
     width: 100%;
     height: auto;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     background-image: url(/assets/img/repeatingbg.webp);
     background-repeat: repeat;
     background-position: center;
@@ -1137,3 +1029,203 @@ label {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 }
+
+.ngdc-bottom-center{
+    position:absolute;
+    bottom: 1em;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.down-arrow{
+    opacity:65%;
+    transition: 0.5s all ease-out;
+}
+
+.anim-pulse-down {
+    animation: anim-pulse-down 2s ease-out infinite;
+  }
+@keyframes anim-pulse-down {
+    /*20%, 50%, 80%,*/ 50% {transform: translateY(0);}
+    0% {transform: translateY(-.5em);}
+    0%,100% {opacity: 0%;}
+    35% {opacity: 65%}
+    75% {opacity: 65%}
+}
+
+.fade {
+    opacity:0 !important;
+    transition: 1s all ease-out;
+}
+
+/* #region tags */
+
+input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: rgba(0, 0, 0, 0.25);
+    /* Not removed via appearance */
+    margin: 0px;
+
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+
+    display: grid;
+    place-content: center;
+    clear: both;
+    align-self: center;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em #fff;
+    /* Windows High Contrast Mode */
+    background-color: CanvasText;
+    margin: .1em;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+input[type="checkbox"]:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(2px, 0.15em);
+}
+
+
+
+.checkbox-wrapper {
+    display: grid;
+    //grid-template-columns: 1em auto;
+    gap: 0.5em;
+    margin: 0px;
+    align-content: center;
+}
+.tag-link>input[type="checkbox"]{
+    width: 0px;
+    height: 0px;
+    visibility: collapse;
+}
+
+.tag-link {
+    padding: 0.1em;
+    align-self: center;
+    line-height: 0;
+    align-items: center;
+}
+
+.tag-link>a {
+    line-height: 0;
+    padding: 0.4em;
+    font-size: 12px;
+}
+
+.tag-link>a>.badge,
+.tag-link>.badge {
+    padding: 0.3em;
+    height: 2.1em;
+    line-height: 0;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+	background-color: #eee;
+	border-color: #aaa;
+	color: #777;
+    margin:2px;
+}
+
+.checkbox-filter:checked + .badge {
+    border-color: $highlight-color;
+    background-color: $bg-dark-color;
+    color: white;
+}
+
+.tag-link>a>.badge,
+a.tag-link>.badge,
+.tag-link>.badge>label {
+    cursor: pointer;
+    padding: 0.3em;
+    align-items: center;
+}
+a.tag-link:hover {
+	text-decoration: none;
+}
+
+#filter-row {
+    margin-bottom: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.filter-header {
+    font-size: .75em;
+    font-weight: 700;
+    align-self: center;
+    margin-right: 0.5em;
+}
+
+.tags-column {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    margin-bottom: 1em;
+}
+
+// tags show-hide animations
+
+.tag-entry-show {
+    opacity: 100%;
+    transition: .2s all ease;
+    max-height: 500px;
+    transform: translateX(0px);
+}
+
+.tag-entry-hide {
+    opacity: 0%;
+    transition: .2s all ease;
+    max-height: 0px;
+    transform: translateX(-100px);
+}
+
+.tag-link-count {
+    background: rgba(0,0,0,.3);
+    border-radius:5px;
+    padding-left: .2em;
+    padding-right: .2em;
+    margin-left: .2em;
+    color: white;
+}
+
+#filter-row-collapsed {
+    display: none;
+    padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 600px){
+    #filter-row{
+        display: none;
+    }
+    #filter-row.clicked {
+        display: flex;
+    }
+    #filter-row-collapsed {
+        display: flex;
+    }
+}
+
+/* #endregion */
