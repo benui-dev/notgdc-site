@@ -11,7 +11,7 @@ $highlight-color: #ff517b;
 $bg-color: #f3f1f9;
 $bg-dark-color: #db4468;
 $bg-light-color: #f3f1f9;
-$link-color: $highlight-color;
+$link-color: $bg-dark-color;
 $title-font: "Lexend", sans-serif;
 $body-font: "Lexend", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
@@ -76,6 +76,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	line-height: 1.2;
 	color: inherit;
+
+	a {
+		color: #343a40;
+	}
 }
 
 h1 {
@@ -587,6 +591,9 @@ input[type="checkbox"] {
     cursor:pointer;
     align-items:center;
     display:flex;
+	background-color: #eee;
+	border-color: #aaa;
+	color: #777;
 }
 
 .tag-link>a>.badge, 
@@ -595,6 +602,9 @@ a.tag-link>.badge,
     cursor:pointer;
     padding: 0.3em;
     align-items:center;
+}
+a.tag-link:hover {
+	text-decoration: none;
 }
 
 #filter-row{
@@ -996,9 +1006,9 @@ label {
 .badge {
 	display: inline-block;
 	padding: 0.25em 0.4em;
-	font-size: 75%;
-	font-weight: 700;
-	line-height: 1;
+	//font-size: 75%;
+	//font-weight: 700;
+	//line-height: 1;
 	text-align: center;
 	white-space: nowrap;
 	vertical-align: middle;
@@ -1029,6 +1039,15 @@ label {
 	padding: 3em;
 	border: 3px solid #eee;
 	border-radius: $border-radius;
+}
+
+
+.submission-entry
+{
+	h3
+	{
+		margin-bottom: 0;
+	}
 }
 
 #countdown

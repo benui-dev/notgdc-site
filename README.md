@@ -11,6 +11,10 @@ Look, we're task managing!
 
 ### Site Visuals
 
+* [ ] Remove colours from all tags apart from years
+  * [ ] Make non-year ones a standard light grey bg, keep icons
+* [ ] Secondary salmon for links #db4468
+* [ ] Submission title color #343a40
 * [ ] Add one of those Twitter card preview thingies, for links
 * [ ] Make the discord card thing have a highlight colour, check out how
   benui.ca does it

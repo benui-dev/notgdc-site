@@ -1,175 +1,114 @@
 all:
   title: All
-  background-color: "#fff"
-  text-color: "#000"
   icon: 🌟
 how-to:
   title: How To
-  background-color: "#ff9a9a"
-  text-color: "#000"
   icon: ❓
 project-management:
-  title: Project Management
-  background-color: "#ff5a19"
-  text-color: "#fff"
+  title: Proj. Mgmt.
+  tooltip: Project Management
   icon: 📊
 game-design:
   title: Game Design
-  background-color: "#65b833"
-  text-color: "#000"
   icon: 📚
 twitter-thread:
   title: Twitter Thread
-  background-color: "#007bff"
-  text-color: "#fff"
   icon: 🐦
 video:
   title: Video
-  background-color: "#343a40"
-  text-color: "#fff"
   icon: 📺
 everything:
   title: Everything
-  background-color: "#fff"
-  text-color: "#000"
   icon: ♾
 postmortem:
   title: Postmortem
-  background-color: "#f4e4a5"
-  text-color: "#000"
   icon: 💀
 wellbeing:
   title: Wellbeing
-  background-color: "#ee2576"
-  text-color: "#fff"
-  icon: ♥
+  icon: ❤
 the-future:
   title: The Future
-  background-color: "#6dfff6"
-  text-color: "#000"
   icon: 🌃
 tech:
   title: Tech
-  background-color: "#2a7481"
-  text-color: "#fff"
   icon: 🖥
 art:
   title: Art
-  background-color: "#dca16c"
-  text-color: "#000"
   icon: 🎨
 community:
   title: Community
-  background-color: "#9552f0"
-  text-color: "#fff"
   icon: 👥
 business:
   title: Business
-  background-color: "#384699"
-  text-color: "#fff"
   icon: 👔
 marketing:
   title: Marketing
-  background-color: "#336ba0"
-  text-color: "#fff"
   icon: 👔
 ai:
   title: AI
-  background-color: "#ea90da"
-  text-color: "#fff"
   icon: 🧠
 tools:
   title: Tools
-  background-color: "#5a5a5a"
-  text-color: "#fff"
   icon: 🛠
 unreal:
   title: Unreal
-  background-color: "#666"
-  text-color: "#fff"
+  icon: 🎣
 multiplayer:
   title: Multiplayer
-  background-color: "#bf1111"
-  text-color: "#fff"
+  icon: 🎾
 events:
   title: Events
-  background-color: "#ffbeb1"
-  text-color: "#000"
   icon: 📆
 ui:
-  title: User Interface
-  background-color: "#2a53c9"
-  text-color: "#fff"
+  title: UI
+  tooltip: User Interface
   icon: 🖱
 audio:
   title: Audio
-  background-color: "#69337f"
-  text-color: "#fff"
   icon: 🎶
 programming:
   title: Programming
-  background-color: "#343a40"
-  text-color: "#fff"
   icon: ⌨
 analytics:
   title: Analytics
-  background-color: "#16ad96"
-  text-color: "#fff"
+  icon: 
 unity:
   title: Unity
-  background-color: "#264f62"
-  text-color: "#fff"
+  icon: ☕
 procedural-generation:
-  title: Procedural Generation
-  background-color: "#21620d"
-  text-color: "#fff"
+  title: Proc. Gen.
+  tooltip: Procedural Generation
   icon: 🗺
 vr:
   title: VR
-  background-color: "#333"
-  text-color: "#fff"
   icon: 🥽
 math:
   title: Math
-  background-color: "#7d1298"
-  text-color: "#fff"
   icon: 📈
 funny:
   title: Funny
-  background-color: "#d6539d"
-  text-color: "#fff"
   icon: 💩 
 motivation:
   title: Motivation
-  background-color: "rgb(40, 167, 69)"
-  text-color: "#fff"
   icon: 🏃
 writing:
   title: Writing
-  background-color: "rgb(40, 167, 69)"
-  text-color: "#fff"
   icon: ✍️ 
 data:
   title: Data
-  background-color: "#74402e"
-  text-color: "#fff"
   icon: 📊
 history:
   title: History
-  background-color: "#2a7481"
-  text-color: "#fff"
+  icon: 🏛
 inclusivity:
   title: Inclusivity
-  background-color: "#a943bf"
-  text-color: "#fff"
+  icon: 💕
 process:
   title: Process
-  background-color: "#bcff6d"
-  text-color: "#000"
+  icon: 🏭
 accessibility:
   title: Accessibility
-  background-color: "#3dea9a"
-  text-color: "#000"
+  icon: ♿
 year-2017:
   title: 2017
   background-color: "#a4a6b1"
@@ -192,5 +131,5 @@ year-2022:
   text-color: "#fff"
 year-2023:
   title: 2023
-  background-color: "#a111bb"
-  text-color: "#fff"
+  background-color: "#ff517b"
+  text-color: "#000"
