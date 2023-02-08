@@ -26,18 +26,29 @@ function filterTags(in_tags)
         filter.classList.remove("filter-enabled");
     }
 
-    for(const tag of tags){
-        tagsClassStringArray.push("div.tag-" + tag);
+    if(tags.length > 0)
+    {    
+        for(const tag of tags){
+            tagsClassStringArray.push("div.tag-" + tag);
 
-        var tagsList = []
-        for(filter of filterItems)
-        {
-            if(filter.attributes['value'].value == tag)
+            var tagsList = []
+            for(filter of filterItems)
             {
-                filter.classList.add("filter-enabled");
+                if(filter.attributes['value'].value == tag)
+                {
+                    filter.classList.add("filter-enabled");
+                }
             }
         }
     }
+    else
+    {
+        allFilter = document.querySelector("#filter-toggle-all");
+        console.log(allFilter);
+        allFilter.classList.add("filter-enabled");
+    }
+
+
     tagsClassString = tagsClassStringArray.join(",");
     allElementsString = "div.entry"
     entriesToShow = [];
@@ -73,7 +84,10 @@ function toggleFilters()
     var tagsList = []
     for(filter of filters)
     {
-        tagsList.push(filter.attributes['value'].value);
+        if(filter.attributes['value'].value != 'all')
+        {
+            tagsList.push(filter.attributes['value'].value);
+        }
     }
     filterTags(tagsList);
 }
