@@ -983,6 +983,22 @@ label {
     display: none;
 }
 
+.inline-tag {
+	align-items: center;
+	color: #777;
+	cursor: pointer;
+	display: flex;
+	font-weight: 500;
+	height: 2.1em;
+	line-height: 0;
+	margin: 0;
+	padding: 2px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	font-size: 80%;
+}
+
 .btn .badge {
     position: relative;
     top: -1px;
@@ -999,10 +1015,15 @@ label {
 
 .submission-entry
 {
-	h3
+	h4
 	{
-		margin-bottom: 0;
+		//margin-bottom: 0;
+		a
+		{
+			text-decoration: underline;
+		}
 	}
+	margin-bottom: 2em;
 }
 
 #countdown
