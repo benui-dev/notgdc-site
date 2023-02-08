@@ -11,15 +11,12 @@ project-management:
 game-design:
   title: Game Design
   icon: 📚
-twitter-thread:
-  title: Twitter Thread
+social-thread:
+  title: Thread
   icon: 🐦
 video:
   title: Video
   icon: 📺
-everything:
-  title: Everything
-  icon: ♾
 postmortem:
   title: Postmortem
   icon: 💀
@@ -41,9 +38,6 @@ community:
 business:
   title: Business
   icon: 👔
-marketing:
-  title: Marketing
-  icon: 👔
 ai:
   title: AI
   icon: 🧠
@@ -56,9 +50,6 @@ unreal:
 multiplayer:
   title: Multiplayer
   icon: 🎾
-events:
-  title: Events
-  icon: 📆
 ui:
   title: UI
   tooltip: User Interface
@@ -69,9 +60,6 @@ audio:
 programming:
   title: Programming
   icon: ⌨
-analytics:
-  title: Analytics
-  icon: 
 unity:
   title: Unity
   icon: ☕
@@ -85,12 +73,6 @@ vr:
 math:
   title: Math
   icon: 📈
-funny:
-  title: Funny
-  icon: 💩 
-motivation:
-  title: Motivation
-  icon: 🏃
 writing:
   title: Writing
   icon: ✍️ 
