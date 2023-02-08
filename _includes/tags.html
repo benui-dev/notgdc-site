@@ -23,16 +23,15 @@
     {%- for tag in used_tags_array -%}
 
         <span class="tag-link">
-            <input type="checkbox" class="checkbox-filter" id="checkbox-{{tag}}" value="{{tag}}" name="{{tag}}"
-            
-                {%- if tag != 'all' -%} 
-                onclick="toggleFilters();"
-                {%- else -%}
-                onclick="filterTags([]);"
-                {%- endif -%}/>
-            <label class="badge"
+            <!--<input type="checkbox" class="checkbox-filter" id="checkbox-{{tag}}"/>-->
+            <label class="badge filter-item filter-toggle"
 				  style="background-color:{{ site.data.tags[tag].background-color }}; color:{{ site.data.tags[tag].text-color }};"
-                  for="checkbox-{{tag}}">
+                  value="{{tag}}" name="{{tag}}"
+                  {%- if tag != 'all' -%} 
+                  onclick="toggleFilter(this);"
+                  {%- else -%}
+                  onclick="filterTags([]);"
+                  {%- endif -%}>
                 <span class="checkbox-wrapper">
 					<span class="tag-link-title">
                     {%- if site.data.tags[tag].icon -%}

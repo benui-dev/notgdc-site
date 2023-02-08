@@ -19,25 +19,22 @@ function filterTags(in_tags)
     var tags = in_tags;
     tagsClassStringArray = [];
 
-    var checkBoxes = document.querySelectorAll(".checkbox-filter");
+    var filterItems = document.querySelectorAll(".filter-item");
 
-    for(checkBox of checkBoxes)
+    for(filter of filterItems)
     {
-        checkBox.checked = false;
+        filter.classList.remove("filter-enabled");
     }
 
     for(const tag of tags){
         tagsClassStringArray.push("div.tag-" + tag);
 
         var tagsList = []
-        for(checkBox of checkBoxes)
+        for(filter of filterItems)
         {
-            if(checkBox.value == tag)
+            if(filter.attributes['value'].value == tag)
             {
-                if(checkBox.checked != true)
-                {
-                    checkBox.checked = true;
-                }
+                filter.classList.add("filter-enabled");
             }
         }
     }
@@ -72,15 +69,11 @@ function filterTags(in_tags)
 
 function toggleFilters()
 {
-    var checkBoxes = document.querySelectorAll(".checkbox-filter");
+    var filters = document.querySelectorAll(".filter-toggle.filter-enabled");
     var tagsList = []
-    for(checkBox of checkBoxes)
+    for(filter of filters)
     {
-        if(checkBox.checked == true &&
-            checkBox.value != "all")
-        {
-            tagsList.push(checkBox.value);
-        }
+        tagsList.push(filter.attributes['value'].value);
     }
     filterTags(tagsList);
 }
@@ -89,6 +82,12 @@ function toggleFilterRow()
 {
     filter_row = document.querySelector("#filter-row");
     filter_row.classList.toggle("clicked");
+}
+
+function toggleFilter(filter)
+{
+    filter.classList.toggle("filter-enabled");
+    toggleFilters();
 }
 
 const queryString = window.location.search;

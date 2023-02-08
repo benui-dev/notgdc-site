@@ -1060,55 +1060,6 @@ label {
 
 /* #region tags */
 
-input[type="checkbox"] {
-    /* Add if not using autoprefixer */
-    -webkit-appearance: none;
-    /* Remove most all native input styles */
-    appearance: none;
-    /* For iOS < 15 */
-    background-color: rgba(0, 0, 0, 0.25);
-    /* Not removed via appearance */
-    margin: 0px;
-
-    font: inherit;
-    color: currentColor;
-    width: 1.15em;
-    height: 1.15em;
-    border: 0.15em solid currentColor;
-    border-radius: 0.15em;
-    transform: translateY(-0.075em);
-
-    display: grid;
-    place-content: center;
-    clear: both;
-    align-self: center;
-}
-
-input[type="checkbox"]::before {
-    content: "";
-    width: 0.65em;
-    height: 0.65em;
-    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
-    transform: scale(0);
-    transform-origin: bottom left;
-    transition: 120ms transform ease-in-out;
-    box-shadow: inset 1em 1em #fff;
-    /* Windows High Contrast Mode */
-    background-color: CanvasText;
-    margin: .1em;
-}
-
-input[type="checkbox"]:checked::before {
-    transform: scale(1);
-}
-
-input[type="checkbox"]:focus {
-    outline: max(2px, 0.15em) solid currentColor;
-    outline-offset: max(2px, 0.15em);
-}
-
-
-
 .checkbox-wrapper {
     display: grid;
     //grid-template-columns: 1em auto;
@@ -1116,12 +1067,6 @@ input[type="checkbox"]:focus {
     margin: 0px;
     align-content: center;
 }
-.tag-link>input[type="checkbox"]{
-    width: 0px;
-    height: 0px;
-    visibility: collapse;
-}
-
 .tag-link {
     padding: 0.1em;
     align-self: center;
@@ -1147,12 +1092,7 @@ input[type="checkbox"]:focus {
 	border-color: #aaa;
 	color: #777;
     margin:2px;
-}
-
-.checkbox-filter:checked + .badge {
-    border-color: $highlight-color;
-    background-color: $bg-dark-color;
-    color: white;
+    font-weight: 500;
 }
 
 .tag-link>a>.badge,
@@ -1185,6 +1125,23 @@ a.tag-link:hover {
     align-self: flex-start;
     margin-bottom: 1em;
 }
+
+// @ben @sharundaar - mess with this to add color to the sidebar tags.
+.filter-enabled{
+    //border-color: mix($highlight-color, #aaa, 60%) !important;
+    //background-color: mix($bg-dark-color,#eee,60%) !important;
+    //background-color: $bg-dark-color !important;
+    color: $bg-dark-color !important;
+    border-color: $highlight-color !important;
+}
+
+.filter-enabled.filter-toggle {
+    border-color: $highlight-color !important;
+    background-color: $bg-dark-color !important;
+    color: white !important;
+}
+
+
 
 // tags show-hide animations
 

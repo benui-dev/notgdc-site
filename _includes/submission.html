@@ -1,7 +1,7 @@
 <div class="ngdc-row entry {% for tag in submission.tags %} tag-{{tag}} {% endfor %} tag-year-{{submission.year}}">
     <div class="ngdc-col-16p tags-column">
         {%- for tag in include.submission.tags -%}
-            <a class="tag-link" onclick="return filterTags(['{{tag}}']);" href="#submissions"><span class="badge"
+            <a class="tag-link" onclick="return filterTags(['{{tag}}']);" href="#submissions"><span class="badge filter-item" value="{{tag}}"
 				{%- if site.data.tags[tag].background-color or site.data.tags[tag].text-color -%}
                 style="
 				{%- if site.data.tags[tag].background-color != "" -%}
