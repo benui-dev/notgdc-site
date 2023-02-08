@@ -25,12 +25,11 @@ function filterTags(in_tags)
     {
         filter.classList.remove("filter-enabled");
     }
-
+    
     if(tags.length > 0)
     {    
-        for(const tag of tags){
-            tagsClassStringArray.push("div.tag-" + tag);
-
+        for( const tag of tags)
+        {
             var tagsList = []
             for(filter of filterItems)
             {
@@ -40,11 +39,29 @@ function filterTags(in_tags)
                 }
             }
         }
+
+        var years = tags.filter( tag => tag.startsWith("year") );
+        var others = tags.filter( tag => !tag.startsWith("year"));
+        if( others.length > 0)
+        {
+            for(const tag of others)
+            {
+                var classString = "div.tag-" + tag;
+                tagsClassStringArray.push(classString);
+            }
+        }
+        else
+        {
+            for(const tag of years)
+            {
+                var classString = "div.tag-" + tag;
+                tagsClassStringArray.push(classString);
+            }
+        }
     }
     else
     {
         allFilter = document.querySelector("#filter-toggle-all");
-        console.log(allFilter);
         allFilter.classList.add("filter-enabled");
     }
 
@@ -63,8 +80,23 @@ function filterTags(in_tags)
         }
         for(entry of document.querySelectorAll(tagsClassString))
         {
-            entry.classList.add("tag-entry-show");
-            entry.classList.remove("tag-entry-hide");
+            if( years.length > 0 )
+            {
+                for(const year of years)
+                {
+                    if(entry.classList.contains("tag-"+year))
+                    {
+                        entry.classList.add("tag-entry-show");
+                        entry.classList.remove("tag-entry-hide");
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                entry.classList.add("tag-entry-show");
+                entry.classList.remove("tag-entry-hide");
+            }
         }
     }
     else

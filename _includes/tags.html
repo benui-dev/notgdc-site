@@ -13,7 +13,8 @@
     {%- endfor -%}
     {%- assign used_tags = used_tags | split: " " | sort | uniq | join " " -%}
     {%- if include.show-year-tags == true -%}
-        {%- for year in site.data.submissions.years -%}
+        {%- assign years = include.submissions | sort: "year" | map: "year" | uniq -%}
+        {%- for year in years -%}
             {%- assign used_tags = used_tags | rsort | prepend: " " | prepend: year | prepend: "year-" -%}
         {%- endfor -%}
     {%- endif -%}
