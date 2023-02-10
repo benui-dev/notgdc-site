@@ -3,7 +3,7 @@ email: notgdc@notgdc.io
 description: >-
   A game development non-conference, for everyone!
 baseurl: ""
-url: "https://notgdc.io/"
+url: "https://notgdc.io"
 twitter:
   username: notgdc
 mastodon:
@@ -12,8 +12,6 @@ mastodon:
 # Site Settings
 locale: "en"
 repository: "benui-dev/notgdc-site"
-
-google_site_verification:
 
 # Reading Files
 include:
@@ -56,6 +54,11 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+
+# Open Graph/Twitter default site image
+social:
+  type: Organization
+og_image: "/assets/site-logo.png"
 
 
 # Markdown Processing
