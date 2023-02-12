@@ -11,13 +11,13 @@ Look, we're task managing!
 
 ### Site Visuals
 
-* [ ] Add one of those Twitter card preview thingies, for links
-* [ ] Make the discord card thing have a highlight colour, check out how
-  benui.ca does it
 * [ ] Add an "external link" symbol next to submission links
 
 #### Done
 
+* [x] Add one of those Twitter card preview thingies, for links
+* [x] Make the discord card thing have a highlight colour, check out how
+  benui.ca does it
 * [x] Make sure layout works on mobile
   * [x] Set simple breakpoints using minimal-mistakes
 * [x] Remove colours from all tags apart from years
