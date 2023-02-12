@@ -1203,6 +1203,9 @@ a.tag-link:hover {
     transition: .2s all ease;
     max-height: 0px;
     transform: translateX(-100px);
+    visibility: collapse;
+    margin: 0;
+    padding: 0;
 }
 
 .tag-link-count {
