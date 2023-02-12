@@ -52,7 +52,7 @@
 <div class="ngdc-col">
 {% for link in site.footer.links %}
 {% if link.label and link.url %}
-<a href="{{ link.url }}" rel="nofollow noopener noreferrer me">{%- include icon.html icon=link.icon -%}{{ link.label }}</a>
+<a href="{{ link.url }}" class="wrap-full" rel="nofollow noopener noreferrer me">{%- include icon.html icon=link.icon -%}{{ link.label }}</a>
 {% endif %}
 {% endfor %}
 </div>
