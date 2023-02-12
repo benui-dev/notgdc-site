@@ -1208,6 +1208,13 @@ a.tag-link:hover {
     padding: 0;
 }
 
+
+@media (max-width: 576px) {
+    .tag-entry-show,.tag-entry-hide {
+        transition: unset;
+    }
+}
+
 .tag-link-count {
     background: rgba(0,0,0,.3);
     border-radius:5px;
