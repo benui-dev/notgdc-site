@@ -14,6 +14,7 @@ Look, we're task managing!
 * [ ] Add one of those Twitter card preview thingies, for links
 * [ ] Make the discord card thing have a highlight colour, check out how
   benui.ca does it
+* [ ] Add an "external link" symbol next to submission links
 
 #### Done
 
