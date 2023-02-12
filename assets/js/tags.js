@@ -62,7 +62,10 @@ function filterTags(in_tags)
     else
     {
         allFilter = document.querySelector("#filter-toggle-all");
-        allFilter.classList.add("filter-enabled");
+        if(allFilter)
+        {
+            allFilter.classList.add("filter-enabled");
+        }
     }
 
 
