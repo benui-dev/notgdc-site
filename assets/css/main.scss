@@ -905,6 +905,12 @@ label {
     // margin-left: -15px;
 }
 
+.padding-y-small-screen
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .ngdc-col,
 .ngdc-col-25p,
 .ngdc-col-83p,
@@ -925,6 +931,11 @@ label {
 }
 
 @media (min-width: 992px) {
+    .padding-y-small-screen {
+        padding-top: unset;
+        padding-bottom: unset;
+    }
+    
     .ngdc-col-25p {
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
