@@ -11,24 +11,24 @@ Look, we're task managing!
 
 ### Site Visuals
 
-* [ ] Remove colours from all tags apart from years
-  * [ ] Make non-year ones a standard light grey bg, keep icons
-* [ ] Secondary salmon for links #db4468
-* [ ] Submission title color #343a40
 * [ ] Add one of those Twitter card preview thingies, for links
 * [ ] Make the discord card thing have a highlight colour, check out how
   benui.ca does it
-* [ ] Make sure layout works on mobile
-  * [ ] Set simple breakpoints using minimal-mistakes
-* [ ] Make checkboxes and tags like 20% bigger
-* [ ] Update tag colour system
-  * [ ] Make it procedural? Some kind of list of colours and then it
-	auto-assigns them?
-  * [ ] Colours should match new site colours
-* [ ] Update tags checkbox to cleanup focus visuals
 
 #### Done
 
+* [x] Make sure layout works on mobile
+  * [x] Set simple breakpoints using minimal-mistakes
+* [x] Remove colours from all tags apart from years
+  * [x] Make non-year ones a standard light grey bg, keep icons
+* [x] Secondary salmon for links #db4468
+* [x] Submission title color #343a40
+* [x] Make checkboxes and tags like 20% bigger
+* [x] Update tag colour system
+  * [x] Make it procedural? Some kind of list of colours and then it
+	auto-assigns them?
+  * [x] Colours should match new site colours
+* [x] Update tags checkbox to cleanup focus visuals
 * [x] Update countdown to show number of weeks
 * [x] Clean up CSS
   * [x] Remove bootstrap mess

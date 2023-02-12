@@ -1037,6 +1037,13 @@ label {
 	margin-bottom: 2em;
 }
 
+@media (max-width: 992px) {
+    .submission-entry
+    {
+        flex-wrap: wrap-reverse;
+    }
+}
+
 .wrap-full
 {
     white-space: pre;
