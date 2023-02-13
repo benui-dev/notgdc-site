@@ -62,7 +62,10 @@ function filterTags(in_tags)
     else
     {
         allFilter = document.querySelector("#filter-toggle-all");
-        allFilter.classList.add("filter-enabled");
+        if(allFilter)
+        {
+            allFilter.classList.add("filter-enabled");
+        }
     }
 
 
@@ -140,10 +143,13 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const tags = urlParams.getAll("tag");
 filterTags(tags);
-window.onscroll = function(){
-      if (window.scrollY > (window.innerHeight * 0.5)) {
-        document.querySelector('.down-arrow').classList.add('fade');
-      } else{
-        document.querySelector('.down-arrow').classList.remove('fade');
-      }
-    };
+window.onscroll = function () {
+    const down_arrow = document.querySelector('.down-arrow');
+    if (down_arrow) {
+        if (window.scrollY > (window.innerHeight * 0.5)) {
+            down_arrow.classList.add('fade');
+        } else {
+            down_arrow.classList.remove('fade');
+        }
+    }
+};

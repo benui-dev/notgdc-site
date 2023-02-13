@@ -85,7 +85,7 @@ submissions:
  - title: "A curated collection of Unity tutorials, posts, repos and videos"
    authors: [ { name: "Stelios Petrakis", link: "https://twitter.com/stelabouras"} ]
    links: [ "https://unity.stelabouras.com/" ]
-   tags: [ everything, unity ]
+   tags: [ unity ]
    year: 2020
  - title: "Notes on Supermash"
    authors: [ { name: "Mike Cook", link: "https://twitter.com/mtrc"} ]
@@ -95,7 +95,7 @@ submissions:
  - title: "HYPERTEC Dev Log"
    authors: [ { name: "Backyard Giant", link: "https://twitter.com/backyard_giant"} ]
    links: [ "https://twitter.com/i/events/1177555160517750784" ]
-   tags: [ twitter-thread ]
+   tags: [ social-thread ]
    year: 2020
  - title: "Extra Life Learning"
    authors: [ { name: "Matt Arnold", link: "https://twitter.com/m4ttbit"} ]
@@ -110,7 +110,7 @@ submissions:
  - title: "The Jeff Ramos Quarantine Creative Learning Guide"
    authors: [ { name: "Jeff Ramos", link: "https://twitter.com/ohjefframos"} ]
    links: [ "https://docs.google.com/document/d/1o_sl1USRS0ZtKQeqqqvsGDC9jvT0VKBL4dg8cHMPM7U/edit?usp=sharing" ]
-   tags: [ everything, how-to ] 
+   tags: [ how-to ] 
    year: 2020
  - title: "Making Random Fun"
    authors: [ { name: "Aden Webb", link: "https://twitter.com/webb_aden"} ]
@@ -130,7 +130,7 @@ submissions:
  - title: "Game Jams: A Pretty Excellent Gateway To The Games Industry"
    authors: [ { name: "Shaun Wall", link: "https://twitter.com/nomaki"} ]
    links: [ "https://docs.google.com/presentation/d/1m7Wd7_b4_aZVTLbbDCls2-y2E5xfDcrQmybjRjMyDqQ/edit?usp=sharing" ]
-   tags: [ community, everything ] 
+   tags: [ community ] 
    year: 2020
  - title: "Commandos Cone of Sight FX in Unity"
    authors: [ { name: "Josue Candela", link: "https://twitter.com/JosCanPer"} ]
@@ -160,7 +160,7 @@ submissions:
  - title: "GDC Virtual Talks Hub"
    authors: [ { name: "GDC Speakers", link: "https://twitter.com/official_gdc"} ]
    links: [ "https://gdconf.com/gdc-2020-virtual-talks?_mc=blog_x_gama_le_x_gdcsf_x_x-119-gdc20" ]
-   tags: [ everything ]
+   tags: [ tech ]
    year: 2020
  - title: "Interactive Machine Learning for More Expressive Game Interactions"
    authors: [ { name: "Carlos Gonzalez Diaz, Phoenix Perry and Rebecca Fiebrink", link: "https://twitter.com/Carlotes247"} ]
@@ -265,7 +265,7 @@ submissions:
  - title: "Mother, I'm An Art Game Designer: A Survival Guide."
    authors: [ { name: "Georg Hobmeier", link: "http://www.twitter.com/MercuryLegba"} ]
    links: [ "https://twitter.com/MercuryLegba/status/1109119945978380294", "https://twitter.com/MercuryLegba/status/1109121818487590913" ]
-   tags: [ game-design, twitter-thread, art ]
+   tags: [ game-design, social-thread, art ]
    year: 2019
  - title: "Elo sucks — better multiplayer rating systems for smaller games"
    authors: [ { name: "raysplaceinspace", link: "http://www.twitter.com/raysplacenspace"} ]
@@ -355,7 +355,7 @@ submissions:
  - title: "Being In Survival Mode Means Being On The Road To Burnout"
    authors: [ { name: "Rayna Anderson", link: "http://www.twitter.com/And_Rayna"} ]
    links: [ "https://twitter.com/And_Rayna/status/1103676467005800452" ]
-   tags: [ wellbeing, twitter-thread ]
+   tags: [ wellbeing, social-thread ]
    year: 2019
  - title: "Frame Independent Exponential Approaches"
    authors: [ { name: "Carlos Jambrina", link: "http://badladns.com/"} ]
@@ -375,7 +375,7 @@ submissions:
  - title: "A Case For Trigger Warnings In Games Exhibition Spaces"
    authors: [ { name: "adriel beaver", } ]
    links: [ "https://medium.com/@adrielbeaver/trigger-warnings-games-exhibitions-159550819ab" ]
-   tags: [ events, inclusivity ]
+   tags: [ inclusivity ]
    year: 2018
  - title: "#notGDC Innopolis University Talks"
    authors: [ { name: "Innopolis Indie GameDev Club" } ]
@@ -385,7 +385,7 @@ submissions:
  - title: "Prestige Is For People With Money"
    authors: [ { name: "Florencia Rumpel", link: "https://twitter.com/Rumpelcita"} ]
    links: [ "https://www.mata.juegos/en/2018/03/prestige-is-for-people-with-money/ " ]
-   tags: [ motivation, inclusivity ]
+   tags: [ wellbeing, inclusivity ]
    year: 2018
  - title: "Postmortem - Dead Girls In Space"
    authors: [ { name: "Fenreliania", link: "https://twitter.com/Fenreliania"} ]
@@ -395,7 +395,7 @@ submissions:
  - title: "Being Bad At Videogames"
    authors: [ { name: "Alison Tam", link: "https://twitter.com/TheTamSlam"} ]
    links: [ "https://twitter.com/TheTamSlam/status/977175078164054016" ]
-   tags: [ motivation, twitter-thread ]
+   tags: [ wellbeing, social-thread ]
    year: 2018
  - title: "Thinking About Your Data"
    authors: [ { name: "Max Cahill", link: "https://twitter.com/1bardesign"} ]
@@ -415,7 +415,7 @@ submissions:
  - title: "Improving Your Team’s Productivity By Being A Lazy Programmer!"
    authors: [ { name: "Arthur Zeferino", link: "https://twitter.com/TubaZef"} ]
    links: [ "https://medium.com/@TubaZef/improving-your-teams-productivity-by-being-a-lazy-programmer-fd06853a4a7" ]
-   tags: [ programming, motivation ]
+   tags: [ programming, wellbeing ]
    year: 2018
  - title: "HLSL Shader Tutorials!"
    authors: [ { name: "Ronja", link: "https://twitter.com/axoila"} ]
@@ -440,7 +440,7 @@ submissions:
        { name: "Paolo Jalbuena" }
    ]
    links: [ "https://twitter.com/notgdc/status/977103909780054016" ]
-   tags: [ motivation, inclusivity ]
+   tags: [ wellbeing, inclusivity ]
    year: 2018
  - title: "Worlds By Design"
    authors: [ { name: "Marc Loths", link: "https://twitter.com/OldLoths"} ]
@@ -504,7 +504,7 @@ submissions:
  - title: "Player Counts: False Friends in Games User Research?"
    authors: [ { name: "Gareth Lloyd", link: "https://twitter.com/GarethLloyd_"} ]
    links: [ "https://medium.com/@garethlloyd/player-counts-false-friends-in-games-user-research-2e8855986452" ]
-   tags: [ analytics ]
+   tags: [ data ]
    year: 2018
  - title: "Event and Unity"
    authors: [ { name: "Chris", link: "https://twitter.com/damagefilter"} ]
@@ -514,12 +514,12 @@ submissions:
  - title: "My Changing Perspective On Game Dev"
    authors: [ { name: "Karn Bianco", link: "https://twitter.com/Spydarlee"} ]
    links: [ "http://karnbianco.co.uk/blog/2018/03/22/my-changing-perspective-on-game-dev/" ]
-   tags: [ motivation, process ]
+   tags: [ wellbeing ]
    year: 2018
  - title: "Why I Make Gay Games w/ Trans Girls"
    authors: [ { name: "Nadia Nova", link: "https://twitter.com/littanana"} ]
    links: [ "https://medium.com/@littanana/why-i-make-gay-games-52126156ecd5" ]
-   tags: [ process ]
+   tags: [ inclusivity ]
    year: 2018
  - title: "Delegates, Events and Unity"
    authors: [ { name: "Juan Alejandro Rodríguez", link: "https://twitter.com/timrodz"} ]
@@ -534,7 +534,7 @@ submissions:
  - title: "Ways To Keep Calm, Cosy & Organised"
    authors: [ { name: "Demi", link: "https://twitter.com/idlemurmurs"} ]
    links: [ "https://twitter.com/idlemurmurs/status/975493610429808640" ]
-   tags: [ motivation, twitter-thread  ]
+   tags: [ wellbeing, social-thread  ]
    year: 2018
  - title: "Medieval Fantasy Stone Wall Substance Designer Tutorial"
    authors: [ { name: "Ryan Pocock", link: "https://twitter.com/autumnpioneer"} ]
@@ -544,7 +544,7 @@ submissions:
  - title: "Interview with Korina Abbott (Marketing, PR, YouTube)"
    authors: [ { name: "Nick Bell", link: "https://twitter.com/MrBehemo/" }, { name: "Edinburgh College GameDev" } ]
    links: [ "https://twitter.com/MrBehemo/status/976443611775750145" ]
-   tags: [ marketing, audio ]
+   tags: [ business, audio ]
    year: 2018
  - title: "10 Mexican Things You Could Make A Game About (That Aren't Dia De Los Muertos)"
    authors: [ { name: "Tess Young", link: "https://twitter.com/TheChicMonster"} ]
@@ -562,7 +562,7 @@ submissions:
  - title: "LUV Your UVs"
    authors: [ { name: "Marc Loths", link: "https://twitter.com/OldLoths"} ]
    links: [ "https://twitter.com/OldLoths/status/976258827191382016" ]
-   tags: [ twitter-thread, art, tech ]
+   tags: [ social-thread, art, tech ]
    year: 2018
  - title: "Ink & Unity - Making A Fake Chat Client"
    authors: [ { name: "Victoria Smith", link: "https://twitter.com/theladyvictoria/status/976173537907167236"} ]
@@ -576,7 +576,7 @@ submissions:
  - title: "Motivation and Big Projects"
    authors: [ { name: "Nathan Auckett" } ] 
    links: [ "https://medium.com/@NathanAuckett/motivationandbigprojects-4f3eec5481c5" ]
-   tags: [ motivation ]
+   tags: [ wellbeing ]
    year: 2018
  - title: "How NOT To Run A Crowdfunder"
    authors: [ { name: "Michelle Chen", link: "https://twitter.com/purplelilgirl"} ]
@@ -631,17 +631,17 @@ submissions:
  - title: "Bees In Videogames 🐝"
    authors: [ { name: "Sean Oxspring" } ]
    links: [ "https://www.youtube.com/watch?v=BODbDO5wn0U" ]
-   tags: [ video, funny ]
+   tags: [ video ]
    year: 2018
  - title: "Where My Ideas Come From"
    authors: [ { name: "Luke Parker", link: "https://twitter.com/MrLParker"} ]
    links: [ "https://twitter.com/MrLParker/status/974571431760711680" ]
-   tags: [ motivation, twitter-thread  ]
+   tags: [ wellbeing, social-thread  ]
    year: 2018
  - title: "Beating Procrastination"
    authors: [ { name: "Keano Raubun" } ]
    links: [ "https://medium.com/@xArcky/beating-procrastination-how-i-kept-working-on-my-passion-project-66463f65ccec" ]
-   tags: [ motivation ]
+   tags: [ wellbeing ]
    year: 2018
  - title: "Why Toilets? 🚽"
    authors: [ { name: "Steven Harmon" } ]
@@ -656,12 +656,12 @@ submissions:
  - title: "Feeling Productive While Procrastinating"
    authors: [ { name: "Spencer Saunders" } ]
    links: [ "https://docs.google.com/document/d/199RXl1qwVIEzkGk4TVb7A9Waajj07kQfeCUmLJ3ffTI/edit" ]
-   tags: [ motivation ]
+   tags: [ wellbeing ]
    year: 2018
  - title: "Slides From Talks I'll Never Submit"
    authors: [ { name: "John Kane", link: "https://twitter.com/gritfish/"} ]
    links: [ "https://twitter.com/gritfish/status/879968862690623488" ]
-   tags: [ twitter-thread ]
+   tags: [ social-thread ]
    year: 2018
 
 

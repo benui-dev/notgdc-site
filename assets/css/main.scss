@@ -917,6 +917,12 @@ label {
     // margin-left: -15px;
 }
 
+.padding-y-small-screen
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .ngdc-col,
 .ngdc-col-25p,
 .ngdc-col-83p,
@@ -937,6 +943,11 @@ label {
 }
 
 @media (min-width: 992px) {
+    .padding-y-small-screen {
+        padding-top: unset;
+        padding-bottom: unset;
+    }
+    
     .ngdc-col-25p {
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
@@ -995,6 +1006,22 @@ label {
     display: none;
 }
 
+.inline-tag {
+	align-items: center;
+	color: #777;
+	cursor: pointer;
+	display: flex;
+	font-weight: 500;
+	height: 2.1em;
+	line-height: 0;
+	margin: 0;
+	padding: 2px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	font-size: 80%;
+}
+
 .btn .badge {
     position: relative;
     top: -1px;
@@ -1002,7 +1029,7 @@ label {
 
 
 .badge:hover {
-    border: 2px solid #000;
+    border: 2px solid $link-color !important;
 }
 
 .no-underline:hover {
@@ -1011,10 +1038,27 @@ label {
 
 .submission-entry
 {
-	h3
+	h4
 	{
-		margin-bottom: 0;
+		//margin-bottom: 0;
+		a
+		{
+			text-decoration: underline;
+		}
 	}
+	margin-bottom: 2em;
+}
+
+@media (max-width: 992px) {
+    .submission-entry
+    {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+.wrap-full
+{
+    white-space: pre;
 }
 
 #countdown
@@ -1171,6 +1215,16 @@ a.tag-link:hover {
     transition: .2s all ease;
     max-height: 0px;
     transform: translateX(-100px);
+    visibility: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (max-width: 576px) {
+    .tag-entry-show,.tag-entry-hide {
+        transition: unset;
+    }
 }
 
 .tag-link-count {
