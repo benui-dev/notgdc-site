@@ -181,11 +181,13 @@ textarea {
 }
 
 .fa-half-x{
-    font-size: 0.5em
+    font-size: 0.5em;
+    transform: translateY(-.125em)
 }
 
 .fa-third-x{
-    font-size: 0.66em
+    font-size: 0.66em;
+    transform: translateY(-.125em)
 }
 
 .fa-1x {
@@ -433,7 +435,7 @@ h6 {
     position: relative;
     overflow: hidden;
     max-width: 530px;
-    margin: auto auto 1rem;
+    //margin: auto auto 1rem;
 }
 
 .portfolio-item .caption {
@@ -1049,10 +1051,23 @@ label {
 	margin-bottom: 2em;
 }
 
+
+.tags-column {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    margin-bottom: 1em;
+    flex-direction: row-reverse;
+}
+
 @media (max-width: 992px) {
     .submission-entry
     {
         flex-wrap: wrap-reverse;
+    }
+    .tags-column
+    {
+        flex-direction: unset;
     }
 }
 
@@ -1084,6 +1099,11 @@ label {
 	color: $text-light;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
+}
+
+.external-link-icon {
+	color: $text-light;
+    padding-left:0.125em;
 }
 
 .ngdc-bottom-center{
@@ -1175,12 +1195,6 @@ a.tag-link:hover {
     margin-right: 0.5em;
 }
 
-.tags-column {
-    display: inline-flex;
-    flex-wrap: wrap;
-    align-self: flex-start;
-    margin-bottom: 1em;
-}
 
 // @ben @sharundaar - mess with this to add color to the sidebar tags.
 .filter-enabled{

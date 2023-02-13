@@ -23,16 +23,16 @@
 			{% if include.submission.links.size > 1 %}
 				<h4>{{ include.submission.title }}
 					{% for link in include.submission.links %}
-					<a href="{{ link }}">(Part {{ forloop.index }} {%- include icon.html icon="up-right-from-square" class="fa-third-x"-%})</a> 
+					<a href="{{ link }}">(Part {{ forloop.index }} {%- include icon.html icon="up-right-from-square" class="fa-third-x text-muted external-link-icon"-%})</a> 
 					{% endfor %}
 				</h4>
 			{% else %}
-				<h4><a class="portfolio-item" href="{{ include.submission.links }}">{{ include.submission.title }} {%- include icon.html icon="up-right-from-square"  class="fa-third-x"-%}</a></h4>
+				<h4><a class="portfolio-item" href="{{ include.submission.links }}">{{ include.submission.title }} {%- include icon.html icon="up-right-from-square"  class="fa-third-x text-muted external-link-icon"-%}</a></h4>
 			{% endif %}
         <p> by 
 		{% for author in include.submission.authors %}
 			{%- if author.link -%}
-			  <a href="{{ author.link }}">{{ author.name }} {%- include icon.html icon="up-right-from-square" class="fa-third-x"-%}</a>
+			  <a href="{{ author.link }}">{{ author.name }} {%- include icon.html icon="up-right-from-square" class="fa-third-x text-muted external-link-icon"-%}</a>
 			{%- else -%}
 			  {{ author.name }}
 			{%- endif -%}
