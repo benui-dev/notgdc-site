@@ -1023,6 +1023,9 @@ label {
 	white-space: nowrap;
 	font-size: 80%;
 }
+.inline-tag:hover {
+    color: $highlight-color;
+}
 
 .btn .badge {
     position: relative;
@@ -1203,6 +1206,9 @@ a.tag-link:hover {
     //background-color: $bg-dark-color !important;
     color: $bg-dark-color !important;
     border-color: $highlight-color !important;
+}
+.filter-enabled:hover{
+    color: $highlight-color !important;
 }
 
 .filter-enabled.filter-toggle {
