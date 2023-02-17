@@ -1,10 +1,10 @@
 ---
-title: "About notGDC"
+title: "About #notGDC"
 permalink: /about/
 layout: single
 ---
 
-notGDC is an informal event run entirely by volunteers. Huge thanks to everyone
+#notGDC is an informal event run entirely by volunteers. Huge thanks to everyone
 who has given their time to help bring it to life. 
 
 ### 2023
