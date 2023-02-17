@@ -11,7 +11,7 @@ layout: single
 
 ### Where does #notGDC take place?
 
-#notGDC is happening all online, March 20-24th 2023. Submissions we receive will be uploaded manually to the [notgdc.io]({% link index.html %}#submissions) during that time. 
+#notGDC is happening all online, March 20-24th 2023. Submissions we receive will be uploaded manually to [notgdc.io]({% link index.html %}#submissions) during that time. 
 
 
 ### Is #notGDC affiliated with GDC?
@@ -30,7 +30,9 @@ The goal of #notGDC is to showcase knowledge and perspectives from people of all
 
 #notGDC comes to life through submissions from game devs like you, so if you have something you want to share, an idea you’ve been sitting on, or a lesson you wish you knew early on in your game-making journey, we encourage you to submit to our archive this year!
 
-Submit a talk/video/rant/article using the [Google Form](https://form.notgdc.io/)
+{% comment %}
+Submit a talk/video/rant/article using the [Google Form](https://form.notgdc.io/).
+{% endcomment %}
 
 
 ### What kind of things can I submit?
@@ -61,6 +63,12 @@ We accept all kinds of submission formats. In the past we’ve received:
 Feel free to get creative with it!
 
 
+### Can I do a live stream presentation?
+
+We are considering hosting some live talks on Discord and Twitch. If you're
+interested, come chat in the [{%- include icon.html icon="discord" -%}Discord](https://discord.notgdc.io/)!
+
+
 ### Can I submit something that multiple people worked on?
 
 Yep! You can list out all contributors in the submission form and we’ll credit everyone in the archive. 
@@ -73,7 +81,7 @@ Submissions close on the last day of #notGDC: Friday, March 24th 2023.
 
 ## Where will my submission go?
 
-#notGDC submissions are uploaded to the 2023 #notGDC archive from March 20-24th 2023. The archive is always free to visit! We also share some submissions over on our Twitter and our Mastodon.
+#notGDC submissions are uploaded to the [2023 #notGDC archive]({% link _pages/2023.md %}) from March 20-24th 2023. The archive is always free to visit! We also share some submissions over on our [{%- include icon.html icon="twitter" -%}Twitter](https://twitter.com/notGDC) and our [{%- include icon.html icon="mastodon" -%}Mastodon](https://mastodon.gamedev.place/@notGDC).
 
 
 ## Do you accept submissions in languages other than English? 
@@ -83,9 +91,9 @@ Yes! We encourage submissions in any language.
 
 ## How else can I participate beyond submitting something? 
 
-- Join the [#notGDC Discord](https://discord.notgdc.io/)
+- Join the [#notGDC {%- include icon.html icon="discord" -%}Discord](https://discord.notgdc.io/)
 - Check out submissions at [#notGDC 2023](https://notgdc.io/2023/) (from March 20-24th 2023)
-- Follow along on [Twitter](https://twitter.com/search?q=%23notGDC) and Mastodon by following the hashtag #notGDC
+- Follow along on [{%- include icon.html icon="twitter" -%}Twitter](https://twitter.com/search?q=%23notGDC) and {%- include icon.html icon="mastodon" -%}Mastodon by following the hashtag #notGDC
 - Tell your friends!
 
 
@@ -96,7 +104,7 @@ Yes! We encourage submissions in any language.
 
 ## I have more questions! Who do I contact?
 
-You can ask us questions on Twitter @notGDC or send us an email at notgdc@notgdc.io
+You can ask us questions on {%- include icon.html icon="twitter" -%}Twitter [@notGDC](https://twitter.com/notGDC) or send us an email at [notgdc@notgdc.io](mailto:notgdc@notgdc.io).
 
 
 
