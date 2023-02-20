@@ -19,12 +19,12 @@ if(countdown !== null)
         {
             countdown_string += days + " Days ";
         }
-        if (days < 3 && hours > 0)
+        if (days < 3 && hours > 0 && weeks == 0)
         {
             countdown_string += nf.format(hours) + " Hours ";
         }
 
-        if (days == 0)
+        if (days == 0 && weeks == 0)
         {
             countdown_string += nf.format(minutes) + " Minutes ";
         }
