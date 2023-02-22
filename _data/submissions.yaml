@@ -17,6 +17,26 @@ submissions:
 
 ###############################################################################
 # 2023
+ - title: "How To Solo Dev Sustainably"
+   authors: [ { name: "Devon Wiersma", link: "https://www.devonwiersma.games/" } ]
+   links: [ "https://www.youtube.com/watch?v=DFMAOzbE4Fc" ]
+   tags: [ video,wellbeing ]
+   year: 2023
+ - title: "How to Use Graffiti Effectively In Games"
+   authors: [ { name: "Devon Wiersma", link: "https://www.devonwiersma.games/" } ]
+   links: [ "https://www.youtube.com/watch?v=8brOyLCFsgw" ]
+   tags: [ video,art ]
+   year: 2023
+ - title: "A Reference Guide to Custom Blueprint Nodes (Unreal Engine)"
+   authors: [ { name: "Citrus", link: "https://unrealist.org/" } ]
+   links: [ "https://unrealist.org/custom-blueprint-nodes/" ]
+   tags: [ unreal,how-to,programming ]
+   year: 2023
+ - title: "Core, Focus and Power - A game design methodology"
+   authors: [ { name: "Adrian Novell", link: "https://twitter.com/adriannovell" } ]
+   links: [ "https://www.gamedeveloper.com/design/core-focus-power---a-game-design-methodology" ]
+   tags: [ game-design ]
+   year: 2023
 
 
 ###############################################################################
