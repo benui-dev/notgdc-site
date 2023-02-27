@@ -1,17 +1,9 @@
 submissions:
 
-# OLD FORMAT
-# - title: required
-#   author: required
-#   author_link: optional
-#   link: required
-#   tags: [ array, optional ]
-#   year: required
-#
-# NEW FORMAT, allows multiple links and authors
+# FORMAT
 # - title: required
 #   authors: [ { name:required, link: optional } ]
-#   links: [ array, required at least 1 ]
+#   links: [ array, requires at least 1 ]
 #   tags: [ array, optional ]
 #   year: required
 
