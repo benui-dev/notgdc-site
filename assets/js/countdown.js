@@ -10,10 +10,6 @@ if(countdown !== null)
     function format_date(weeks, days, hours, minutes, seconds)
     {
         let countdown_string = "Starts in ";
-        weeks = 0;
-        days = 0;
-        hours = 1;
-        minutes = 1;
         if (weeks > 0)
         {
             countdown_string += weeks + (weeks > 1 ? " Weeks " : " Week ");
