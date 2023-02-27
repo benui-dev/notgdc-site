@@ -3,7 +3,6 @@ let countdown = document.getElementById('countdown');
 if(countdown !== null)
 {
     const nf = new Intl.NumberFormat("en-US", {
-        minimumIntegerDigits: 2
     });
     const NOTGDC_START_DATE = new Date(Date.UTC(2023, 02, 20, 16, 0, 0));
     const NOTGDC_END_DATE = new Date(Date.UTC(2023, 02, 24, 16, 0, 0));
@@ -11,22 +10,26 @@ if(countdown !== null)
     function format_date(weeks, days, hours, minutes, seconds)
     {
         let countdown_string = "Starts in ";
+        weeks = 0;
+        days = 0;
+        hours = 1;
+        minutes = 1;
         if (weeks > 0)
         {
-            countdown_string += weeks + " Weeks and ";
+            countdown_string += weeks + (weeks > 1 ? " Weeks " : " Week ");
         }
         if (days > 0)
         {
-            countdown_string += days + " Days ";
+            countdown_string += (weeks > 0 ? " and " : "") + days + ( days > 1 ? " Days " : " Day ");
         }
         if (days < 3 && hours > 0 && weeks == 0)
         {
-            countdown_string += nf.format(hours) + " Hours ";
+            countdown_string += nf.format(hours) + (hours > 1 ? " Hours " : " Hour ");
         }
 
         if (days == 0 && weeks == 0)
         {
-            countdown_string += nf.format(minutes) + " Minutes ";
+            countdown_string += nf.format(minutes) + (minutes > 1 ? " Minutes " : " Minute ");
         }
 
         return countdown_string;
