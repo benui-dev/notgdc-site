@@ -37,6 +37,11 @@ submissions:
    links: [ "https://www.gamedeveloper.com/design/core-focus-power---a-game-design-methodology" ]
    tags: [ game-design ]
    year: 2023
+ - title: "Liminal Space Mechanics: Breaking the Fourth Wall"
+   authors: [ { name: "Steven Harmon", link: "http://www.stevenharmongames.com/" } ]
+   links: [ "https://youtu.be/7pooYgu8A0k" ]
+   tags: [ video, game-design, unity ]
+   year: 2023
 
 
 ###############################################################################
