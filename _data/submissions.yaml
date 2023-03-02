@@ -44,6 +44,11 @@ submissions:
    links: [ "https://docs.google.com/presentation/d/18Ho2aBrUvVlAPx89P0QYFdOktfF2uIGq/edit?usp=sharing&ouid=112790899828379417347&rtpof=true&sd=true" ]
    tags: [ programming ]
    year: 2023
+ - title: "An article about common mistakes made by beginner game designers and developers and how to avoid them."
+   authors: [ { name: "Artyom \"Tricky Fat Cat\" Volkov", link: "https://twitter.com/tricky_fat_cat" } ]
+   links: [ "https://medium.com/@tricky_fat_cat/game-design-sins-ad20dd65e643" ]
+   tags: [ game-design ]
+   year: 2023
 
 
 ###############################################################################
