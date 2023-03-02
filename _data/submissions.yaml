@@ -39,6 +39,11 @@ submissions:
    links: [ "https://protowlf.com/unreal/unreal-stencil-lights/" ]
    tags: [ unreal, art, programming ]
    year: 2023
+ - title: "A Practical Guide to Being Less Awful at Programming"
+   authors: [ { name: "Alex Darby", link: "https://twitter.com/darbotron" } ]
+   links: [ "https://docs.google.com/presentation/d/18Ho2aBrUvVlAPx89P0QYFdOktfF2uIGq/edit?usp=sharing&ouid=112790899828379417347&rtpof=true&sd=true" ]
+   tags: [ programming ]
+   year: 2023
 
 
 ###############################################################################
