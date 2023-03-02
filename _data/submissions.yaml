@@ -34,6 +34,11 @@ submissions:
    links: [ "https://youtu.be/7pooYgu8A0k" ]
    tags: [ video, game-design, unity ]
    year: 2023
+ - title: "GameCube-Style Stencil Lights in Unreal"
+   authors: [ { name: "PROTO", link: "https://twitter.com/protowlf" } ]
+   links: [ "https://protowlf.com/unreal/unreal-stencil-lights/" ]
+   tags: [ unreal,art,programming ]
+   year: 2023"
 
 
 ###############################################################################
