@@ -1307,3 +1307,48 @@ table.schedule
 		}
 	}
 }
+
+div.grid-schedule
+{
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: auto auto;
+
+	div.day
+	{
+		font-weight: bold;
+	}
+	div.time
+	{
+		color: #666;
+	}
+	div.inline-day
+	{
+		display: block;
+		margin-top: 1em;
+		font-weight: bold;
+	}
+	div.head
+	{
+		background-color: #eee;
+		display: none;
+	}
+	div.cell
+	{
+	}
+}
+
+@media screen and (min-width:768px) {
+	div.grid-schedule
+	{
+		grid-template-columns: auto 18% 18% 18% 18% 18%;
+		div.head
+		{
+			display: cell;
+		}
+		div.inline-day
+		{
+			display: none;
+		}
+	}
+}
