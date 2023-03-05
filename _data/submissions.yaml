@@ -49,6 +49,21 @@ submissions:
    links: [ "https://medium.com/@tricky_fat_cat/game-design-sins-ad20dd65e643" ]
    tags: [ game-design ]
    year: 2023
+ - title: "Life After Grad: Unhinged Talks"
+   authors: [ { name: "Steven Harmon", link: "http://www.stevenharmongames.com/" } ]
+   links: [ "https://youtu.be/yRmYNZq5-lU" ]
+   tags: [ video, art, game-design ]
+   year: 2023
+ - title: "Hunkering Down for the Long Haul: From Jam to Final Development"
+   authors: [ { name: "Doug Terhune, Jamie Whitmarsh, Christina Terhune, Colin Henry, Yina Wang", link: "https://www.sweetandpowersauce.com/" } ]
+   links: [ "https://juzek.itch.io/elowens-light/devlog/496904/hunkering-down-for-the-long-haul-from-jam-to-final-development" ]
+   tags: [ game-design, process, wellbeing ]
+   year: 2023
+ - title: "Less Calls, Less Materials, More Unreal"
+   authors: [ { name: "Dramatic Iceberg, Leonardo Assom", link: "https://twitter.com/DramaticIceberg" } ]
+   links: [ "https://dev.epicgames.com/community/learning/tutorials/e96E/unreal-engine-material-draw-calls-optimization-system-uv-matrix-atlas-id" ]
+   tags: [ unreal, art, programming ]
+   year: 2023
 
 
 ###############################################################################
