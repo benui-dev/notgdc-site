@@ -1286,6 +1286,10 @@ table.schedule
 	border-collapse: collapse;
 	tr
 	{
+		&:nth-child(2n)
+		{
+			background-color: #ccc;
+		}
 		td
 		{
 			min-height: 2em;
@@ -1306,5 +1310,12 @@ table.schedule
 			}
 		}
 	}
+}
+
+table.mobile
+{
+}
+table.desktop
+{
 }
 

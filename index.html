@@ -116,7 +116,7 @@ title: "#notGDC 2023"
     </div>
 	Come talk to us on Discord to ask about giving a talk!
 
-	<table class="schedule">
+	<table class="schedule desktop">
 		<tr>
 		<th></th>
 		{% for day in site.data.schedule.entries %}
@@ -134,7 +134,7 @@ title: "#notGDC 2023"
 		{% endfor %}
 	</table>
 
-	<div class="inline-schedule">
+	<div class="schedule mobile">
 		{% for day in site.data.schedule.entries %}
 		<h3 class="inline-day">{{ day.text }}</h3>
 		<table>
