@@ -1276,3 +1276,34 @@ a.tag-link:hover {
 }
 
 /* #endregion */
+
+table.schedule
+{
+	width: 100%;
+
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	tr
+	{
+		td
+		{
+			min-height: 2em;
+			text-align: center;
+			vertical-align: center;
+		}
+		th
+		{
+			border-bottom: 1px solid #555;
+			text-align: center;
+
+			&.time
+			{
+			}
+			&.day
+			{
+				width: 18%;
+			}
+		}
+	}
+}
