@@ -1,0 +1,58 @@
+
+time_slots:
+- 9am
+- 10am
+- 11am
+- 12am
+
+entries:
+- text: Monday 20 March
+  slots:
+  - title: Something
+    author: author
+  - title: another talk
+    author: some
+  - title: blah
+    author: third slot
+  - title: Something
+    author: author
+- text: Tuesday 21 March
+  slots:
+  - title: Something
+    author: author
+  - title: Something
+    author: author
+  - title: Something
+    author: author
+  - title: Something
+    author: author
+- text: Wednesday 22 March
+  slots:
+  - title: Something
+    author: author
+  - title: Something
+    author: author
+  - title: Something
+    author: author
+  - title: Something
+    author: author
+- text: Thursday 23 March
+  slots:
+  - title: Something
+    author: author
+  - title: Something
+    author: author
+  - title: Something
+    author: author
+  - title: Something
+    author: author
+- text: Friday 24 March
+  slots:
+  - title: Something
+    author: author
+  - title: Something
+    author: author
+  - title: Something
+    author: author
+  - title: Something
+    author: author

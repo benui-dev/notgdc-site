@@ -115,81 +115,37 @@ title: "#notGDC 2023"
       <h2 id="schedule">Schedule</h2>
     </div>
 	Come talk to us on Discord to ask about giving a talk!
-	<!--
+
 	<table class="schedule">
 		<tr>
-			<th class="time"></th>
-			<th class="day">Monday<br/>March 20</th>
-			<th class="day">Tuesday<br/>March 21</th>
-			<th class="day">Wednesday<br/>March 22</th>
-			<th class="day">Thursday<br/>March 23</th>
-			<th class="day">Friday<br/>March 24</th>
+		<th></th>
+		{% for day in site.data.schedule.entries %}
+		<th class="head day">{{ day.text }}</th>
+		{% endfor %}
 		</tr>
+
+		{% for index in (0..3) %}
 		<tr>
-			<td>9am PST</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
+			<td class="time">{{ site.data.schedule.time_slots[index] }}</td>
+			{% for entry in site.data.schedule.entries %}
+			<td>{{ entry.slots[index].title }} - {{ entry.slots[index].author }}</td>
+			{% endfor %}
 		</tr>
-		<tr>
-			<td>10am PST</td>
-			<td>Avoiding Burnout<br/>Marlon Wiebe</td>
-			<td>-</td>
-			<td>-</td>
-			<td>UI: Know, Do, Feel<br/>benui</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>11am PST</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>12pm PST</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>1pm PST</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
+		{% endfor %}
 	</table>
-	-->
 
-	<div class="grid-schedule">
-			<div class="head time"></div>
-			<div class="head day">Monday<br/>March 20</div>
-			<div class="head day">Tuesday<br/>March 21</div>
-			<div class="head day">Wednesday<br/>March 22</div>
-			<div class="head day">Thursday<br/>March 23</div>
-			<div class="head day">Friday<br/>March 24</div>
-
-			<div class="inline-day">Monday<br/>March 20</div>
-			<div class="cell time">9am PST</div>
-			<div class="cell">-</div>
-			<div class="cell">-</div>
-			<div class="cell">-</div>
-			<div class="cell">-</div>
-			<div class="cell">-</div>
-			<div class="inline-day">Tuesday<br/>March 21</div>
-			<div class="cell time">10am PST</div>
-			<div class="cell">Avoiding Burnout<br/>Marlon Wiebe</div>
-			<div class="cell">-</div>
-			<div class="cell">-</div>
-			<div class="cell">UI: Know, Do, Feel<br/>benui</div>
-			<div class="cell">-</div>
+	<div class="inline-schedule">
+		{% for day in site.data.schedule.entries %}
+		<h3 class="inline-day">{{ day.text }}</h3>
+		<table>
+			{% for index in (0..3) %}
+			<tr>
+				<td class="head day">{{ site.data.schedule.time_slots[index] }}</td>
+				<td class="cell">{{ day.slots[index].title }} - {{ day.slots[index].author }}</td>
+			</tr>
+			{% endfor %}
+		</table>
+		{% endfor %}
 	</div>
 
   </div>
