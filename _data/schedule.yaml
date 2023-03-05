@@ -1,9 +1,9 @@
 
-time_slots:
-- 9am
-- 10am
-- 11am
-- 12am
+time_slots: # Time entered in hour UTC
+- "17"
+- "18"
+- "19"
+- "20"
 
 entries:
 - text: Monday 20 March

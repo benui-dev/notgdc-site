@@ -140,7 +140,7 @@ title: "#notGDC 2023"
 		<table>
 			{% for index in (0..3) %}
 			<tr>
-				<td class="head day">{{ site.data.schedule.time_slots[index] }}</td>
+				<td class="head day time" id>{{ site.data.schedule.time_slots[index] }}</td>
 				<td class="cell">{{ day.slots[index].title }} - {{ day.slots[index].author }}</td>
 			</tr>
 			{% endfor %}
