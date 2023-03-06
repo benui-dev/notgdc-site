@@ -8,14 +8,12 @@ time_slots: # Time entered in hour UTC
 entries:
 - text: Monday 20 March
   slots:
-  - title: Something
-    author: author
-  - title: another talk
-    author: some
-  - title: blah
-    author: third slot
-  - title: Something
-    author: author
+  - title: "-"
+  - title: "Something"
+    author: "Marlon Wiebe"
+  - title: "-"
+  - title: "-"
+  - title: "-"
 - text: Tuesday 21 March
   slots:
   - title: Something

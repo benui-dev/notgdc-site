@@ -128,7 +128,11 @@ title: "#notGDC 2023"
 		<tr>
 			<td class="time">{{ site.data.schedule.time_slots[index] }}</td>
 			{% for entry in site.data.schedule.entries %}
+			{% if entry.slots[index].author %}
 			<td>{{ entry.slots[index].title }} - {{ entry.slots[index].author }}</td>
+			{% else %}
+			<td>-</td>
+			{% endif %}
 			{% endfor %}
 		</tr>
 		{% endfor %}
@@ -141,6 +145,7 @@ title: "#notGDC 2023"
 			{% for index in (0..3) %}
 			<tr>
 				<td class="head day time" id>{{ site.data.schedule.time_slots[index] }}</td>
+			{% if entry.slots[index].author %}
 				<td class="cell">{{ day.slots[index].title }} - {{ day.slots[index].author }}</td>
 			</tr>
 			{% endfor %}
