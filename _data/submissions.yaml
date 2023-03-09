@@ -64,6 +64,16 @@ submissions:
    links: [ "https://dev.epicgames.com/community/learning/tutorials/e96E/unreal-engine-material-draw-calls-optimization-system-uv-matrix-atlas-id" ]
    tags: [ unreal, art, programming ]
    year: 2023
+ - title: "The Ultimate Unity Developer's Toolkit: 10 Unity Tools/Libraries to Save You Time and Money"
+   authors: [ { name: "Antonio Miceli, Mega Power Games", link: "https://twitter.com/megapower_games" } ]
+   links: [ "https://youtu.be/U4uDknX0KdA" ]
+   tags: [ unity, video ]
+   year: 2023
+ - title: "Know, Do, Feel: A framework for thinking about UI"
+   authors: [ { name: "ben🌱ui", link: "https://benui.ca" } ]
+   links: [ "https://benui.ca/ux/know-do-feel/?utm_medium=site&utm_source=notgdc" ]
+   tags: [ ui ]
+   year: 2023
 
 
 ###############################################################################
