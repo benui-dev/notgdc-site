@@ -65,8 +65,7 @@ Feel free to get creative with it!
 
 ### Can I do a live stream presentation?
 
-We are considering hosting some live talks on Discord and Twitch. If you're
-interested, come chat in the [{%- include icon.html icon="discord" -%}Discord](https://discord.notgdc.io/)!
+Yes! We are running live talks on Discord this year! Check out the <a href="https://docs.google.com/spreadsheets/d/1o7NaKm_rlT3spANVOmxQPYyb7zpO6eIWUHLGGaSBFKI/edit#gid=0">current schedule</a>, and come chat on [{%- include icon.html icon="discord" -%}Discord](https://discord.notgdc.io/) to book your slot!
 
 
 ### Can I submit something that multiple people worked on?
@@ -92,7 +91,8 @@ Yes! We encourage submissions in any language.
 ## How else can I participate beyond submitting something? 
 
 - Join the [#notGDC {%- include icon.html icon="discord" -%}Discord](https://discord.notgdc.io/)
-- Check out submissions at [#notGDC 2023](https://notgdc.io/2023/) (from March 20-24th 2023)
+- Check out submissions at [#notGDC 2023](https://notgdc.io/2023/)
+- Watch the live stream on [{%- include icon.html icon="twitch" -%}Twitch](https://twitch.tv/notgdc) from March 20-24th 2023
 - Follow along on [{%- include icon.html icon="twitter" -%}Twitter](https://twitter.com/search?q=%23notGDC) and {%- include icon.html icon="mastodon" -%}Mastodon by following the hashtag #notGDC
 - Tell your friends!
 
