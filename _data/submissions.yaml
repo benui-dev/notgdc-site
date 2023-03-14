@@ -74,6 +74,16 @@ submissions:
    links: [ "https://benui.ca/ux/know-do-feel/?utm_medium=site&utm_source=notgdc" ]
    tags: [ ui ]
    year: 2023
+ - title: "Social VR & Gender Exploration: An open survey of VR users who have explored gender identity and expression in social VR"
+   authors: [ { name: "Zach Deocadiz", link: "http://twitter.com/zkdeocadiz" } ]
+   links: [ "https://medium.com/@zkdeocadiz/social-vr-gender-exploration-7be09b62b1ad?source=friends_link&sk=7c841f37e0b01c2e70e83abe1117f2ab" ]
+   tags: [ inclusivity, community ]
+   year: 2023
+ - title: "Applying post-import settings to assets with python in Unreal."
+   authors: [ { name: "Ryan DowlingSoka", link: "https://ryandowlingsoka.com" } ]
+   links: [ "https://github.com/Ryan-DowlingSoka/ImporterRules" ]
+   tags: [ programming, unreal, tools ]
+   year: 2023
 
 
 ###############################################################################
