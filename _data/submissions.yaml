@@ -59,6 +59,11 @@ submissions:
    links: [ "https://juzek.itch.io/elowens-light/devlog/496904/hunkering-down-for-the-long-haul-from-jam-to-final-development" ]
    tags: [ game-design, process, wellbeing ]
    year: 2023
+ - title: "The Effects of Perceived Scarcity on Video Gamers' Purchase Behaviours: A Proposed Gamer-Narcissism Scarcity Matrix"
+   authors: [ { name: "Patrick Day-Childs", link: "https://www.linkedin.com/in/patrick-day-childs-custard-trout/" } ]
+   links: [ "https://drive.google.com/file/d/1tQwK3h7lh9wNZarRpACXSLEwLSnKBAKV/view?usp=sharing" ]
+   tags: [ business, math ]
+   year: 2023
  - title: "Less Calls, Less Materials, More Unreal"
    authors: [ { name: "Dramatic Iceberg, Leonardo Assom", link: "https://twitter.com/DramaticIceberg" } ]
    links: [ "https://dev.epicgames.com/community/learning/tutorials/e96E/unreal-engine-material-draw-calls-optimization-system-uv-matrix-atlas-id" ]
@@ -73,6 +78,16 @@ submissions:
    authors: [ { name: "ben🌱ui", link: "https://benui.ca" } ]
    links: [ "https://benui.ca/ux/know-do-feel/?utm_medium=site&utm_source=notgdc" ]
    tags: [ ui ]
+   year: 2023
+ - title: "Teaching the Game Loop: A Teaching Tip for High School Game Design Educators"
+   authors: [ { name: "Matt Arnold", link: "https://mattarnold.codehs.me/" } ]
+   links: [ "https://readwritecode.blog/teaching-the-game-loop-4c264398384" ]
+   tags: [ how-to,programming ]
+   year: 2023
+ - title: "Tiny Game Engines: Intro to Fantasy Consoles"
+   authors: [ { name: "Matt Arnold", link: "https://mattarnold.codehs.me/" } ]
+   links: [ "https://readwritecode.blog/tiny-game-engines-561e3396a599" ]
+   tags: [ programming ]
    year: 2023
  - title: "Social VR & Gender Exploration: An open survey of VR users who have explored gender identity and expression in social VR"
    authors: [ { name: "Zach Deocadiz", link: "http://twitter.com/zkdeocadiz" } ]
