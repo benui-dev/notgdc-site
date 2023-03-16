@@ -82,7 +82,7 @@ submissions:
  - title: "Teaching the Game Loop: A Teaching Tip for High School Game Design Educators"
    authors: [ { name: "Matt Arnold", link: "https://mattarnold.codehs.me/" } ]
    links: [ "https://readwritecode.blog/teaching-the-game-loop-4c264398384" ]
-   tags: [ how-to,programming ]
+   tags: [ how-to, programming ]
    year: 2023
  - title: "Tiny Game Engines: Intro to Fantasy Consoles"
    authors: [ { name: "Matt Arnold", link: "https://mattarnold.codehs.me/" } ]
@@ -98,6 +98,11 @@ submissions:
    authors: [ { name: "Ryan DowlingSoka", link: "https://ryandowlingsoka.com" } ]
    links: [ "https://github.com/Ryan-DowlingSoka/ImporterRules" ]
    tags: [ programming, unreal, tools ]
+   year: 2023
+ - title: "Game Jams: A Pretty Excellent Gateway To The Games Industry"
+   authors: [ { name: "Shaun Wall", link: "https://twitter.com/nomaki" } ]
+   links: [ "https://docs.google.com/presentation/d/1m7Wd7_b4_aZVTLbbDCls2-y2E5xfDcrQmybjRjMyDqQ/edit" ]
+   tags: [ community, process ]
    year: 2023
 
 
