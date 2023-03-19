@@ -104,6 +104,21 @@ submissions:
    links: [ "https://docs.google.com/presentation/d/1m7Wd7_b4_aZVTLbbDCls2-y2E5xfDcrQmybjRjMyDqQ/edit" ]
    tags: [ community, process ]
    year: 2023
+ - title: "Basic Async/Await in Unity C#!"
+   authors: [ { name: "@EstebanGameDev", link: "https://twitter.com/EstebanGamedev" } ]
+   links: [ "https://happyfails.dev/basic-asyncawait-in-unity-c" ]
+   tags: [ unity, programming, how-to ]
+   year: 2023
+ - title: "Customer Aversion to the Metaverse"
+   authors: [ { name: "Patrick Day-Childs (Custard Trout)", link: "https://www.linkedin.com/in/patrick-day-childs-custard-trout/" } ]
+   links: [ "https://youtu.be/ImOagUwRIWo" ]
+   tags: [ video ]
+   year: 2023
+ - title: "Organic Marketing Proven Practices for Indie Games"
+   authors: [ { name: "Rafael Smeers Moraes", link: "https://twitter.com/RafaelSmeers" } ]
+   links: [ "https://rsmeers.medium.com/organic-marketing-proven-practices-indie-games-6823c03d09d2" ]
+   tags: [ business, process ]
+   year: 2023
 
 
 ###############################################################################
