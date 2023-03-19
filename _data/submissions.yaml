@@ -59,10 +59,65 @@ submissions:
    links: [ "https://juzek.itch.io/elowens-light/devlog/496904/hunkering-down-for-the-long-haul-from-jam-to-final-development" ]
    tags: [ game-design, process, wellbeing ]
    year: 2023
+ - title: "The Effects of Perceived Scarcity on Video Gamers' Purchase Behaviours: A Proposed Gamer-Narcissism Scarcity Matrix"
+   authors: [ { name: "Patrick Day-Childs", link: "https://www.linkedin.com/in/patrick-day-childs-custard-trout/" } ]
+   links: [ "https://drive.google.com/file/d/1tQwK3h7lh9wNZarRpACXSLEwLSnKBAKV/view?usp=sharing" ]
+   tags: [ business, math ]
+   year: 2023
  - title: "Less Calls, Less Materials, More Unreal"
    authors: [ { name: "Dramatic Iceberg, Leonardo Assom", link: "https://twitter.com/DramaticIceberg" } ]
    links: [ "https://dev.epicgames.com/community/learning/tutorials/e96E/unreal-engine-material-draw-calls-optimization-system-uv-matrix-atlas-id" ]
    tags: [ unreal, art, programming ]
+   year: 2023
+ - title: "The Ultimate Unity Developer's Toolkit: 10 Unity Tools/Libraries to Save You Time and Money"
+   authors: [ { name: "Antonio Miceli, Mega Power Games", link: "https://twitter.com/megapower_games" } ]
+   links: [ "https://youtu.be/U4uDknX0KdA" ]
+   tags: [ unity, video ]
+   year: 2023
+ - title: "Know, Do, Feel: A framework for thinking about UI"
+   authors: [ { name: "ben🌱ui", link: "https://benui.ca" } ]
+   links: [ "https://benui.ca/ux/know-do-feel/?utm_medium=site&utm_source=notgdc" ]
+   tags: [ ui ]
+   year: 2023
+ - title: "Teaching the Game Loop: A Teaching Tip for High School Game Design Educators"
+   authors: [ { name: "Matt Arnold", link: "https://mattarnold.codehs.me/" } ]
+   links: [ "https://readwritecode.blog/teaching-the-game-loop-4c264398384" ]
+   tags: [ how-to, programming ]
+   year: 2023
+ - title: "Tiny Game Engines: Intro to Fantasy Consoles"
+   authors: [ { name: "Matt Arnold", link: "https://mattarnold.codehs.me/" } ]
+   links: [ "https://readwritecode.blog/tiny-game-engines-561e3396a599" ]
+   tags: [ programming ]
+   year: 2023
+ - title: "Social VR & Gender Exploration: An open survey of VR users who have explored gender identity and expression in social VR"
+   authors: [ { name: "Zach Deocadiz", link: "http://twitter.com/zkdeocadiz" } ]
+   links: [ "https://medium.com/@zkdeocadiz/social-vr-gender-exploration-7be09b62b1ad?source=friends_link&sk=7c841f37e0b01c2e70e83abe1117f2ab" ]
+   tags: [ inclusivity, community ]
+   year: 2023
+ - title: "Applying post-import settings to assets with python in Unreal."
+   authors: [ { name: "Ryan DowlingSoka", link: "https://ryandowlingsoka.com" } ]
+   links: [ "https://github.com/Ryan-DowlingSoka/ImporterRules" ]
+   tags: [ programming, unreal, tools ]
+   year: 2023
+ - title: "Game Jams: A Pretty Excellent Gateway To The Games Industry"
+   authors: [ { name: "Shaun Wall", link: "https://twitter.com/nomaki" } ]
+   links: [ "https://docs.google.com/presentation/d/1m7Wd7_b4_aZVTLbbDCls2-y2E5xfDcrQmybjRjMyDqQ/edit" ]
+   tags: [ community, process ]
+   year: 2023
+ - title: "Basic Async/Await in Unity C#!"
+   authors: [ { name: "@EstebanGameDev", link: "https://twitter.com/EstebanGamedev" } ]
+   links: [ "https://happyfails.dev/basic-asyncawait-in-unity-c" ]
+   tags: [ unity, programming, how-to ]
+   year: 2023
+ - title: "Customer Aversion to the Metaverse"
+   authors: [ { name: "Patrick Day-Childs (Custard Trout)", link: "https://www.linkedin.com/in/patrick-day-childs-custard-trout/" } ]
+   links: [ "https://youtu.be/ImOagUwRIWo" ]
+   tags: [ video ]
+   year: 2023
+ - title: "Organic Marketing Proven Practices for Indie Games"
+   authors: [ { name: "Rafael Smeers Moraes", link: "https://twitter.com/RafaelSmeers" } ]
+   links: [ "https://rsmeers.medium.com/organic-marketing-proven-practices-indie-games-6823c03d09d2" ]
+   tags: [ business, process ]
    year: 2023
  - title: "FFT Ocean Flipbook : How to create & sample one using Blender & UE"
    authors: [ { name: "Ghislain GIRARDOT", link: "https://twitter.com/GhislainGir" } ]
