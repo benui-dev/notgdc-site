@@ -64,6 +64,11 @@ submissions:
    links: [ "https://dev.epicgames.com/community/learning/tutorials/e96E/unreal-engine-material-draw-calls-optimization-system-uv-matrix-atlas-id" ]
    tags: [ unreal, art, programming ]
    year: 2023
+ - title: "FFT Ocean Flipbook : How to create & sample one using Blender & UE"
+   authors: [ { name: "Ghislain GIRARDOT", link: "https://twitter.com/GhislainGir" } ]
+   links: [ "https://www.youtube.com/watch?v=rV6TJ7YDJY8" ]
+   tags: [ video, unreal, programming ]
+   year: 2023
 
 
 ###############################################################################
