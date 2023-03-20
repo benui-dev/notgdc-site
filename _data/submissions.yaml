@@ -29,6 +29,11 @@ submissions:
    links: [ "https://www.gamedeveloper.com/design/core-focus-power---a-game-design-methodology" ]
    tags: [ game-design ]
    year: 2023
+ - title: "Designing Animation for the Cinematic Simultaneous Turn Based Tactics Game Phantom Brigade"
+   authors: [ { name: "Pete Thorneycroft", link: "https://twitter.com/pete_anim" } ]
+   links: [ "https://docs.google.com/presentation/d/e/2PACX-1vQVdBS6GOX2NwFpa2YKukbqee-yrEyMYJkFd8SaJGpiqCKnGjAg6gcmkSkmgeLX1Un8EpcSP9DbjplN/pub?start=false&loop=false#slide=id.g221aeeccf97_0_258" ]
+   tags: [ art ]
+   year: 2023
  - title: "Liminal Space Mechanics: Breaking the Fourth Wall"
    authors: [ { name: "Steven Harmon", link: "http://www.stevenharmongames.com/" } ]
    links: [ "https://youtu.be/7pooYgu8A0k" ]
