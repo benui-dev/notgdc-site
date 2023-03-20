@@ -139,6 +139,16 @@ submissions:
    links: [ "https://vorixo.github.io/devtricks/non-destructive-synced-net-clock/" ]
    tags: [ unreal, multiplayer, programming ]
    year: 2023
+ - title: "Gameplay Engineer Designing for Live Service Games in Unreal Engine"
+   authors: [ { name: "Nicholas Helish", link: "https://twitter.com/yawlighthouse" } ]
+   links: [ "https://github.com/YawLighthouse/NotGDC_2023" ]
+   tags: [ unreal, programming ]
+   year: 2023
+ - title: "Creation and possibilities of a non-Euclidean engine"
+   authors: [ { name: "Jose L. Redondo Tello", link: "https://jose-tello.github.io/TelloEngine/" } ]
+   links: [ "https://docs.google.com/presentation/d/1ZiG89eEXS9kBiv-_NBxjpJm7VybpG2VNYdsOl-1DwTk/edit?usp=sharing" ]
+   tags: [ programming, math ]
+   year: 2023
 
 
 ###############################################################################
