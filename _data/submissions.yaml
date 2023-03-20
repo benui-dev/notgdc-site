@@ -124,6 +124,21 @@ submissions:
    links: [ "https://www.youtube.com/watch?v=rV6TJ7YDJY8" ]
    tags: [ video, unreal, programming ]
    year: 2023
+ - title: "When Games Idolize Busywork"
+   authors: [ { name: "Fabian Fischer", link: "https://twitter.com/Ludokultur" } ]
+   links: [ "https://fischerdesign.medium.com/when-games-idolize-busywork-8454bfe769ff" ]
+   tags: [ game-design ]
+   year: 2023
+ - title: "An Example of a Progressive Indie Design Philosophy"
+   authors: [ { name: "Fabian Fischer", link: "https://twitter.com/Ludokultur" } ]
+   links: [ "https://twitter.com/Ludokultur/status/1590003852753129472" ]
+   tags: [ social-thread,game-design ]
+   year: 2023
+ - title: "Unreal Engine - A non-destructive and better synced network clock"
+   authors: [ { name: "Alvaro Jover", link: "https://twitter.com/vorixo" } ]
+   links: [ "https://vorixo.github.io/devtricks/non-destructive-synced-net-clock/" ]
+   tags: [ unreal, multiplayer, programming ]
+   year: 2023
 
 
 ###############################################################################
