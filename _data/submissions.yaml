@@ -164,6 +164,16 @@ submissions:
    links: [ "https://www.youtube.com/watch?v=zpLHAxHvKyc" ]
    tags: [ video, wellbeing, process ]
    year: 2023
+ - title: "What Makes A Music Scene"
+   authors: [ { name: "Matthew Bofenkamp", link: "twitter.com/matthewbofen" } ]
+   links: [ "https://youtu.be/YaxTzamca_o" ]
+   tags: [ video, audio, history ]
+   year: 2023
+ - title: "Disabling obsolete shadow casters in Unreal"
+   authors: [ { name: "Hauke Thiessen", link: "https://www.artstation.com/haukethiessen/profile" } ]
+   links: [ "https://www.artstation.com/blogs/haukethiessen/jY8B/tutorial-disabling-obsolete-shadow-casters-in-unreal" ]
+   tags: [ unreal, art, programming ]
+   year: 2023
 
 
 ###############################################################################
