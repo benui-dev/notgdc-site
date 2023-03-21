@@ -159,6 +159,11 @@ submissions:
    links: [ "https://sharundaar.github.io/a-quick-dive-in-unreal-windows-contextual-commands.html" ]
    tags: [ programming, unreal ]
    year: 2023
+ - title: "Burnout in Gave Dev! A #notGDC conference live talk"
+   authors: [ { name: "Marlon Wiebe", link: "https://twitter.com/mr_m_wiebe/" } ]
+   links: [ "https://www.youtube.com/watch?v=zpLHAxHvKyc" ]
+   tags: [ video, wellbeing, process ]
+   year: 2023
 
 
 ###############################################################################
