@@ -99,9 +99,9 @@ submissions:
    links: [ "https://medium.com/@zkdeocadiz/social-vr-gender-exploration-7be09b62b1ad?source=friends_link&sk=7c841f37e0b01c2e70e83abe1117f2ab" ]
    tags: [ inclusivity, community ]
    year: 2023
- - title: "Applying post-import settings to assets with python in Unreal."
+ - title: "Applying post-import settings to assets with in unreal, with python, c++ or blueprints!"
    authors: [ { name: "Ryan DowlingSoka", link: "https://ryandowlingsoka.com" } ]
-   links: [ "https://github.com/Ryan-DowlingSoka/ImporterRules" ]
+   links: [ "https://ryandowlingsoka.com/unreal/post-asset-import-rules/" ]
    tags: [ programming, unreal, tools ]
    year: 2023
  - title: "Game Jams: A Pretty Excellent Gateway To The Games Industry"
