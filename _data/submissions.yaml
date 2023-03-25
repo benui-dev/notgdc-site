@@ -184,11 +184,6 @@ submissions:
    links: [ "https://twitter.com/lisyarus/status/1318605976786919424" ]
    tags: [ math, programming ]
    year: 2023
- - title: "Agile in GameDev - quick overview"
-   authors: [ { name: "Nick Filonchik", link: "https://www.linkedin.com/in/nikolai-filonchik/" } ]
-   links: [ "https://youtu.be/3wjmplfWm9I" ]
-   tags: [ video ]
-   year: 2023
  - title: "Yui A Declarative UI library for Löve engine"
    authors: [ { name: "Lorenzo Cogotti, the 1414 Code Forge", link: "https://doublefourteen.io" } ]
    links: [ "https://doublefourteen.io/presentations/notgdc-2023/" ]
