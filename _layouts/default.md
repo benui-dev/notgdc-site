@@ -17,7 +17,6 @@
 
 <script defer data-domain="notgdc.io" src="https://plausible.io/js/script.js"></script>
 <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
-<script defer src="{%- include minified_path.html file='/assets/js/countdown' ext='js' -%}"></script>
 <script defer src="{%- include minified_path.html file='/assets/js/schedule' ext='js' -%}"></script>
 
 <!-- Custom CSS -->
