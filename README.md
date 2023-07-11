@@ -89,10 +89,10 @@ Look, we're task managing!
 
 ### Site Backend / Jekyll
 
-* [ ] Make minimizing .css/.js part of some build step
-  * [ ] Have non-minimized .css in the repo
-  * [ ] Minimize as part of build (custom GitHub action required?)
-  * [ ] Only serve minimized stuff
+* [x] Make minimizing .css/.js part of some build step
+  * [x] Have non-minimized .css in the repo
+  * [x] Minimize as part of build (custom GitHub action required?)
+  * [x] Only serve minimized stuff
 * [x] Generate individual pages from tags, list all entries on them
   * [x] Need to make a custom generator?
 * [x] Add cute icons next to each tag
