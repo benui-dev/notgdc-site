@@ -174,43 +174,6 @@ textarea {
     background-color: #ffd34e !important;
 }
 
-
-.fa-lg {
-    font-size: 1.33333333em;
-    line-height: .75em;
-    vertical-align: -15%
-}
-
-.fa-half-x{
-    font-size: 0.5em;
-    transform: translateY(-.125em)
-}
-
-.fa-third-x{
-    font-size: 0.66em;
-    transform: translateY(-.125em)
-}
-
-.fa-1x {
-    font-size: 1em
-}
-
-.fa-2x {
-    font-size: 2em
-}
-
-.fa-3x {
-    font-size: 3em
-}
-
-.fa-4x {
-    font-size: 4em
-}
-
-.fa-5x {
-    font-size: 5em
-}
-
 .svg-inline--fa {
     display: inline-block;
     height: 1em;
@@ -690,7 +653,7 @@ h2 {
     //background-size: 100%, 400px;
     img.masthead-logo {
         max-width: 80%;
-        background-color: $bg-light-color;
+        //background-color: $bg-light-color;
     }
 
     h1 {

@@ -1,23 +1,27 @@
 ---
 layout: default
-title: "#notGDC 2023"
+title: "#notGDC 2024"
 ---
 <!-- Header -->
 <header class="masthead ngdc-flex">
   <div class="ngdc-container text-center margin-auto-y">
-	<img class="masthead-logo" src="/assets/img/notgdc-logotype.svg" alt="#notGDC 2023, march 20-24, a game development non-conference, for everyone!" />
+	  <img class="masthead-logo" src="/assets/img/notgdc-logotype-2024.svg" alt="#notGDC 2024, march 18-22, a game development non-conference, for everyone!" />
 
     <div>
-      <h3 class="ngdc-margin-bottom-big">Thank you everyone for attending!<br><br>Go check all the <a href="#submissions">submissions</a> to see what people made!</h3>
+      <h3 id="countdown" class="ngdc-margin-bottom-big"></h3>
     </div>
 
     {% comment %}
+    <div>
+      <h3 class="ngdc-margin-bottom-big">Thank you everyone for attending!<br><br>Go check all the <a href="#submissions">submissions</a> to see what people made!</h3>
+    </div>
+    {% endcomment %}
+
     <div class="ngdc-row ngdc-margin-bottom-big">
       <div class="ngdc-col">
         <a class="ngdc-btn btn-light btn-xl btn-special" href="https://form.notgdc.io/">Click Here To Submit!</a>
       </div>
     </div>
-    {% endcomment %}
 
     <div class="ngdc-row">
       <div class="ngdc-col">
@@ -73,7 +77,6 @@ title: "#notGDC 2023"
         </div>
         <br><br>
 		<a class="ngdc-btn btn-xl" href="{% link _pages/faq.md %}">FAQ</a>
-		<a class="ngdc-btn btn-xl" href="#schedule">Live Schedule</a>
         <a class="ngdc-btn btn-light btn-xl btn-special" href="https://form.notgdc.io/">Click Here To Submit!</a>
         <a class="ngdc-btn btn-light btn-xl" href="http://twitter.com/notGDC">Ask Us Something</a>
       </div>
@@ -92,6 +95,7 @@ title: "#notGDC 2023"
 </section>
 {% endcomment %}
 
+{% comment %}
 <section class="content-section bg-light" id="schedule">
   <div class="ngdc-container">
     <div class="content-section-heading">
@@ -102,14 +106,14 @@ title: "#notGDC 2023"
 	<p>Check out the <a href="https://docs.google.com/spreadsheets/d/1o7NaKm_rlT3spANVOmxQPYyb7zpO6eIWUHLGGaSBFKI/edit#gid=0">current schedule</a>, and come chat on <a href="https://discord.notgdc.io/">{%- include icon.html icon="discord" -%}Discord</a> to book your slot!</p>
   </div>
 </section>
-
+{% endcomment %}
 
 <section class="content-section bg-light">
   <div class="ngdc-container">
     <div class="content-section-heading">
-      <h2 id="submissions">2023 #notGDC Submissions</h2>
+      <h2 id="submissions">2024 #notGDC Submissions</h2>
     </div>
-    {%- assign submissions = site.data.submissions.submissions | where: "year", "2023" -%}
+    {%- assign submissions = site.data.submissions.submissions | where: "year", "2024" -%}
 	{% if submissions.size > 0 %}
     {%- include tags.html submissions = submissions -%}
 
@@ -127,12 +131,13 @@ title: "#notGDC 2023"
     <h2 id="archive">Previous Years</h2>
     <div class="ngdc-row">
       <div class="ngdc-col">
-        <a class=" ngdc-btn " href="/archive/">#notGDC Archive</a>
-        <a class=" ngdc-btn " href="/2022/">2022</a>
-        <a class=" ngdc-btn " href="/2020/">2020</a>
-        <a class=" ngdc-btn " href="/2019/">2019</a>
-        <a class=" ngdc-btn " href="/2018/">2018</a>
-        <a class=" ngdc-btn " href="/2017/">2017</a>
+        <a class="ngdc-btn" href="/archive/">#notGDC Archive</a>
+        <a class="ngdc-btn" href="/2023/">2023</a>
+        <a class="ngdc-btn" href="/2022/">2022</a>
+        <a class="ngdc-btn" href="/2020/">2020</a>
+        <a class="ngdc-btn" href="/2019/">2019</a>
+        <a class="ngdc-btn" href="/2018/">2018</a>
+        <a class="ngdc-btn" href="/2017/">2017</a>
       </div>
     </div>
   </div>

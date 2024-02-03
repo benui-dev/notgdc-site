@@ -11,7 +11,7 @@ layout: single
 
 ### Where does #notGDC take place?
 
-#notGDC is happening all online, March 20-24th 2023. Submissions we receive will be uploaded manually to [notgdc.io]({% link index.html %}#submissions) during that time. 
+#notGDC is happening all online, March 18-22nd 2024. Submissions we receive will be uploaded manually to [notgdc.io]({% link index.html %}#submissions) during that time. 
 
 
 ### Is #notGDC affiliated with GDC?
@@ -75,12 +75,12 @@ Yep! You can list out all contributors in the submission form and we’ll credit
 
 ## When do submissions close?
 
-Submissions close on the last day of #notGDC: Friday, March 24th 2023. 
+Submissions close on the last day of #notGDC: Friday, March 22th 2024. 
 
 
 ## Where will my submission go?
 
-#notGDC submissions are uploaded to the [2023 #notGDC archive]({% link _pages/2023.md %}) from March 20-24th 2023. The archive is always free to visit! We also share some submissions over on our [{%- include icon.html icon="twitter" -%}Twitter](https://twitter.com/notGDC) and our [{%- include icon.html icon="mastodon" -%}Mastodon](https://mastodon.gamedev.place/@notGDC).
+#notGDC submissions are uploaded to the [2024 #notGDC archive]({% link _pages/2024.md %}) from March 18-22th 2024. The archive is always free to visit! We also share some submissions over on our [{%- include icon.html icon="twitter" -%}Twitter](https://twitter.com/notGDC) and our [{%- include icon.html icon="mastodon" -%}Mastodon](https://mastodon.gamedev.place/@notGDC).
 
 
 ## Do you accept submissions in languages other than English? 
@@ -91,8 +91,7 @@ Yes! We encourage submissions in any language.
 ## How else can I participate beyond submitting something? 
 
 - Join the [#notGDC {%- include icon.html icon="discord" -%}Discord](https://discord.notgdc.io/)
-- Check out submissions at [#notGDC 2023](https://notgdc.io/2023/)
-- Watch the live stream on [{%- include icon.html icon="twitch" -%}Twitch](https://twitch.tv/notgdc) from March 20-24th 2023
+- Check out submissions at [#notGDC 2024](https://notgdc.io/2024/)
 - Follow along on [{%- include icon.html icon="twitter" -%}Twitter](https://twitter.com/search?q=%23notGDC) and {%- include icon.html icon="mastodon" -%}Mastodon by following the hashtag #notGDC
 - Tell your friends!
 
