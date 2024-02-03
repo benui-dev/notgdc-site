@@ -16,7 +16,7 @@ if(countdown !== null)
         }
         if (days > 0)
         {
-            countdown_string += (weeks > 0 ? " and " : "") + days + ( days > 1 ? " Days " : " Day ");
+            countdown_string += (weeks > 0 ? "and " : "") + days + ( days > 1 ? " Days " : " Day ");
         }
         if (days < 3 && hours > 0 && weeks == 0)
         {
@@ -66,6 +66,7 @@ if(countdown !== null)
         }
     }
 
-    setInterval(update_countdown, 1000);
+    // Don't update dynamically come on
+    //setInterval(update_countdown, 1000);
     update_countdown();
 }
