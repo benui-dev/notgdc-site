@@ -19,7 +19,7 @@ title: "#notGDC 2024"
 
     <div class="ngdc-row ngdc-margin-bottom-big">
       <div class="ngdc-col">
-        <a class="ngdc-btn btn-light btn-xl btn-special" href="https://form.notgdc.io/">Click Here To Submit!</a>
+        <a class="ngdc-btn btn-light btn-xl btn-special" href="{% link _pages/form.md %}">Click Here To Submit!</a>
       </div>
     </div>
 
@@ -77,7 +77,7 @@ title: "#notGDC 2024"
         </div>
         <br><br>
 		<a class="ngdc-btn btn-xl" href="{% link _pages/faq.md %}">FAQ</a>
-        <a class="ngdc-btn btn-light btn-xl btn-special" href="https://form.notgdc.io/">Click Here To Submit!</a>
+        <a class="ngdc-btn btn-light btn-xl btn-special" href="{% link _pages/form.md %}">Click Here To Submit!</a>
         <a class="ngdc-btn btn-light btn-xl" href="http://twitter.com/notGDC">Ask Us Something</a>
       </div>
     </div>
@@ -121,7 +121,7 @@ title: "#notGDC 2024"
 	    {% include submission.html submission=submission %}
     {% endfor %}
 	{% else %}
-	<p class="no-submissions">Submissions started ! Go to <a href="https://form.notgdc.io/">https://form.notgdc.io/</a> to submit your #notGDC content !</p>
+	<p class="no-submissions">Submissions started ! Go to <a href="{% link _pages/form.md %}">{% link _pages/form.md %}</a> to submit your #notGDC content !</p>
 	{% endif %}
   </div>
 </section>

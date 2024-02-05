@@ -31,7 +31,7 @@ The goal of #notGDC is to showcase knowledge and perspectives from people of all
 #notGDC comes to life through submissions from game devs like you, so if you have something you want to share, an idea you’ve been sitting on, or a lesson you wish you knew early on in your game-making journey, we encourage you to submit to our archive this year!
 
 {% comment %}
-Submit a talk/video/rant/article using the [Google Form](https://form.notgdc.io/).
+Submit a talk/video/rant/article using the [Submissions Form]({% link _pages/form.md %}).
 {% endcomment %}
 
 
@@ -39,7 +39,7 @@ Submit a talk/video/rant/article using the [Google Form](https://form.notgdc.io/
 
 #notGDC is your chance to share something you’re passionate about! It could be something educational, something personal, something fun. It could be as simple as a Twitter thread or as in depth as a tutorial. In prior years we’ve had folks submit things ranging from “How to Make Game Subtitles Better” to “Top 10 Gayest Looks In Splatoon 2”. 
 
-For examples of past submissions you can check out the [#notGDC Archive](https://notgdc.io/archive/).
+For examples of past submissions you can check out the [#notGDC Archive]({% link _pages/archive.md %}).
 
 We do not accept submissions that involve NSFW content, NFT promotion, or subjects that are otherwise deemed to be harmful by the #notGDC organizers. 
 
