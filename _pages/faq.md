@@ -62,11 +62,13 @@ We accept all kinds of submission formats. In the past we’ve received:
 
 Feel free to get creative with it!
 
+{% comment %}
 
 ### Can I do a live stream presentation?
 
 Yes! We are running live talks on Discord this year! Check out the <a href="https://docs.google.com/spreadsheets/d/1o7NaKm_rlT3spANVOmxQPYyb7zpO6eIWUHLGGaSBFKI/edit#gid=0">current schedule</a>, and come chat on [{%- include icon.html icon="discord" -%}Discord](https://discord.notgdc.io/) to book your slot!
 
+{% endcomment %}
 
 ### Can I submit something that multiple people worked on?
 
@@ -103,10 +105,4 @@ Yes! We encourage submissions in any language.
 
 ## I have more questions! Who do I contact?
 
-You can ask us questions on {%- include icon.html icon="twitter" -%}Twitter [@notGDC](https://twitter.com/notGDC) or send us an email at [notgdc@notgdc.io](mailto:notgdc@notgdc.io).
-
-
-
-
-
-
+You can ask us questions on [{%- include icon.html icon="twitter" -%}Twitter](https://twitter.com/notGDC), [{%- include icon.html icon="mastodon" -%}Mastodon](https://mastodon.gamedev.place/@notGDC) or send us an email at [notgdc@notgdc.io](mailto:notgdc@notgdc.io).
