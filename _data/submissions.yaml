@@ -1,11 +1,26 @@
 submissions:
 
 # FORMAT
-# - title: required
-#   authors: [ { name:required, link: optional } ]
-#   links: [ array, requires at least 1 ]
-#   tags: [ array, optional ]
-#   year: required
+# - title: string required
+#   authors: [ { name: string required, link: string optional } ]
+#   links: [ array of strings, requires at least 1 ]
+#   tags: [ array of strings, optional ] (must be part of tags.yaml)
+#   year: integer required
+
+###############################################################################
+# 2024
+
+ - title: "Tutorial - Adjusting Texture Sizes by Sharpness in Unreal"
+   authors: [ { name: "Hauke Thießen", link: "https://www.artstation.com/haukethiessen" } ]
+   links: [ "https://www.artstation.com/blogs/haukethiessen/dzzbm/tutorial-adjusting-texture-sizes-by-sharpness-in-unreal" ]
+   tags: [ art,how-to,tech ]
+   year: 2024
+ - title: "Behaviour Trees versus State Machines"
+   authors: [ { name: "Queen Of Squiggles", link: "https://blobfox.coffee/@queenofsquiggles" } ]
+   links: [ "https://queenofsquiggles.github.io/guides/fsm-vs-bt/" ]
+   tags: [ ai,how-to ]
+   year: 2024
+
 
 ###############################################################################
 # 2023
