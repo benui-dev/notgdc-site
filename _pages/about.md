@@ -11,10 +11,9 @@ who has given their time to help bring it to life.
 
 {% include year-credits/credits-2023.md %}
 
-
 ### 2022
 
-{% include year-credits/credits-2023.md %}
+{% include year-credits/credits-2022.md %}
 
 ### 2018--2020
 
