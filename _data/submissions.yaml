@@ -10,7 +10,7 @@ submissions:
 ###############################################################################
 # 2024
 
- - title: "Tutorial - Adjusting Texture Sizes by Sharpness in Unreal"
+ - title: "Adjusting Texture Sizes by Sharpness in Unreal"
    authors: [ { name: "Hauke Thießen", link: "https://www.artstation.com/haukethiessen" } ]
    links: [ "https://www.artstation.com/blogs/haukethiessen/dzzbm/tutorial-adjusting-texture-sizes-by-sharpness-in-unreal" ]
    tags: [ art,how-to,tech ]
@@ -19,6 +19,11 @@ submissions:
    authors: [ { name: "Queen Of Squiggles", link: "https://blobfox.coffee/@queenofsquiggles" } ]
    links: [ "https://queenofsquiggles.github.io/guides/fsm-vs-bt/" ]
    tags: [ ai,how-to ]
+   year: 2024
+ - title: "Asynchronously Reading Render Targets Using Fences (In Unreal)"
+   authors: [ { name: "EPICGameGuy", link: "https://nicholas477.github.io/" } ]
+   links: [ "https://nicholas477.github.io/blog/2023/reading-rt/" ]
+   tags: [ programming,tech,art ]
    year: 2024
 
 
