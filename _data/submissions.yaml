@@ -25,6 +25,16 @@ submissions:
    links: [ "https://nicholas477.github.io/blog/2023/reading-rt/" ]
    tags: [ programming,tech,art ]
    year: 2024
+ - title: "Perforce for Unreal: A Beginner's Guide"
+   authors: [ { name: "Lars Thießen", link: "https://mastodon.gamedev.place/@LarsThiessen" } ]
+   links: [ "https://marvelius.github.io/larst-of-us/2024/02/06/Perforce-for-Unreal-A-Beginner's-Guide.html" ]
+   tags: [ tech,unreal ]
+   year: 2024
+ - title: "Game Jam Insights"
+   authors: [ { name: "Hexenwerk", link: "https://mastodon.gamedev.place/@hexenwerk" } ]
+   links: [ "https://medium.com/@hexenwerk/game-jam-insights-7386af975116" ]
+   tags: [ community ]
+   year: 2024
 
 
 ###############################################################################
