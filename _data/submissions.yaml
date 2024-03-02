@@ -39,12 +39,12 @@ submissions:
    authors: [ { name: "Artyom \"Tricky Fat Cat\" Volkov", link: "https://linktr.ee/tricky_fat_cat" } ]
    links: [ "https://medium.com/@tricky_fat_cat/clean-game-design-principles-8000ffdd48e1" ]
    tags: [ game-design ]
-   year: 2024"
+   year: 2024
  - title: "Toon Shading for Visual Effects Flipbooks"
    authors: [ { name: "Mitch McClellan", link: "https://mastodon.gamedev.place/@iamhand" } ]
    links: [ "https://mitchmcclellan.com/2D-toon-shading-for-vfx-flipbooks/" ]
    tags: [ art,tech ]
-   year: 2024"
+   year: 2024
 
 
 ###############################################################################
