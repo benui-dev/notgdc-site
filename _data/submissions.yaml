@@ -45,6 +45,11 @@ submissions:
    links: [ "https://mitchmcclellan.com/2D-toon-shading-for-vfx-flipbooks/" ]
    tags: [ art,tech ]
    year: 2024
+ - title: "Model View ViewModel for Game Devs"
+   authors: [ { name: "Milton Candelero", link: "https://twitter.com/MiltonCandelero" } ]
+   links: [ "https://miltoncandelero.github.io/unreal-viewmodel" ]
+   tags: [ ui,programming ]
+   year: 2024
 
 
 ###############################################################################
