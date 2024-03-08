@@ -50,6 +50,11 @@ submissions:
    links: [ "https://miltoncandelero.github.io/unreal-viewmodel" ]
    tags: [ ui,programming ]
    year: 2024
+ - title: "Thinking in Patterns, using software design patterns in game development"
+   authors: [ { name: "MrLParker", link: "https://mastodon.gamedev.place/@mrlparker" } ]
+   links: [ "https://ko-fi.com/Post/Thinking-in-Patterns-1-K3K3PIJZC" ]
+   tags: [ programming,game-design ]
+   year: 2024
 
 
 ###############################################################################
