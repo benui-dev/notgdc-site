@@ -55,6 +55,16 @@ submissions:
    links: [ "https://ko-fi.com/Post/Thinking-in-Patterns-1-K3K3PIJZC" ]
    tags: [ programming,game-design ]
    year: 2024
+ - title: "Postmortem but not really - Hazuki Dies: She Has No Name Demo"
+   authors: [ { name: "ChairGTables", link: "https://twitter.com/chairgtables" } ]
+   links: [ "https://www.youtube.com/watch?v=hSGmvm3uMUs" ]
+   tags: [ video,process ]
+   year: 2024
+ - title: """If And Only If: Exploring Conditional Logic in Interactive Fiction"""
+   authors: [ { name: "Grim Baccaris", link: "https://twitter.com/gcbaccaris" } ]
+   links: [ "https://gcbaccaris.itch.io/if" ]
+   tags: [ writing ]
+   year: 2024
 
 
 ###############################################################################
