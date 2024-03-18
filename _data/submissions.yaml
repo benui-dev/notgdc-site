@@ -60,7 +60,7 @@ submissions:
    links: [ "https://www.youtube.com/watch?v=hSGmvm3uMUs" ]
    tags: [ video,process ]
    year: 2024
- - title: """If And Only If: Exploring Conditional Logic in Interactive Fiction"""
+ - title: "\"If And Only If: Exploring Conditional Logic in Interactive Fiction\""
    authors: [ { name: "Grim Baccaris", link: "https://twitter.com/gcbaccaris" } ]
    links: [ "https://gcbaccaris.itch.io/if" ]
    tags: [ writing ]
