@@ -65,6 +65,31 @@ submissions:
    links: [ "https://gcbaccaris.itch.io/if" ]
    tags: [ writing ]
    year: 2024
+ - title: "How to think about history in your games"
+   authors: [ { name: "James 'Jubal' Baillie", link: "https://hcommons.org/members/jubalbarca/" } ]
+   links: [ "https://exilian.co.uk/forum/index.php?topic=6845.msg154214#msg154214" ]
+   tags: [ writing,history ]
+   year: 2024
+ - title: "Automate the Boring Parts - a practical guide to building your own helpful tools in Unity "
+   authors: [ { name: "Markus Hofer", link: "https://markus.hofer.rocks" } ]
+   links: [ "https://markus.hofer.rocks/automate-the-boring-parts" ]
+   tags: [ process,tools ]
+   year: 2024
+ - title: "Falling blocks: Games about dropping things"
+   authors: [ { name: "Callum Deery", link: "https://twitter.com/@CallumDeery2" } ]
+   links: [ "https://itch.io/blog/699958/falling-blocks-games-about-dropping-things" ]
+   tags: [ game-design ]
+   year: 2024
+ - title: "The most common mistake I see in gamedev: Exiting pre-production before the game is good enough"
+   authors: [ { name: "C.T. Matthews", link: "https://ctmatthews.com/" } ]
+   links: [ "https://ctmatthews.com/blog/dont-exit-pre-production-too-early/" ]
+   tags: [ process,postmortem,game-design ]
+   year: 2024
+ - title: "Should you keep making games?"
+   authors: [ { name: "Felipe Mullen", link: "https://twitter.com/pixelbyindex" } ]
+   links: [ "https://ind3x.games/blog/should-we-keep-making-games" ]
+   tags: [ game-design,process ]
+   year: 2024
 
 
 ###############################################################################
