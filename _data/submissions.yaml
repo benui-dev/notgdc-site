@@ -90,6 +90,16 @@ submissions:
    links: [ "https://ind3x.games/blog/should-we-keep-making-games" ]
    tags: [ game-design,process ]
    year: 2024
+ - title: "How to organize Game Jam for your team"
+   authors: [ { name: "Nick Filonchik", link: "https://www.linkedin.com/in/nick-filonchik" } ]
+   links: [ "https://youtu.be/yGYHp4XSI7M" ]
+   tags: [ community,how-to ]
+   year: 2024
+ - title: "#NotGDC Game Automated Testing Roundtable"
+   authors: [ { name: "Henry Golding and Roundtable Contributors", link: "https://lophuslabs.com" } ]
+   links: [ "https://www.youtube.com/watch?v=oi7Tx8Jmvdo" ]
+   tags: [ tools ]
+   year: 2024
 
 
 ###############################################################################
