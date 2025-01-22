@@ -4,8 +4,8 @@ description: >-
   A game development non-conference, for everyone!
 baseurl: ""
 url: "https://notgdc.io"
-twitter:
-  username: notgdc
+bsky:
+  username: "https://bsky.app/profile/notgdc.bsky.social/"
 mastodon:
   username: "@notgdc@mastodon.gamedev.place"
 
@@ -74,9 +74,9 @@ kramdown:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "twitter"
-      url: "https://twitter.com/notGDC"
+    - label: "Bluesky"
+      icon: "bluesky"
+      url: "https://bsky.app/profile/notgdc.bsky.social/"
     - label: "Mastodon"
       icon: "mastodon"
       url: "https://mastodon.gamedev.place/@notGDC"

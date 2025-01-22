@@ -5,11 +5,13 @@ title: "#notGDC 2024"
 <!-- Header -->
 <header class="masthead ngdc-flex">
   <div class="ngdc-container text-center margin-auto-y">
-	  <img class="masthead-logo" src="/assets/img/notgdc-logotype-2024.svg" alt="#notGDC 2024, march 18-22, a game development non-conference, for everyone!" />
+	  <img class="masthead-logo ngdc-margin-bottom-big" src="/assets/img/notgdc-logotype-2024.svg" alt="#notGDC 2024, march 18-22, a game development non-conference, for everyone!" />
 
+    {% comment %}
     <div>
       <h3 id="countdown" class="ngdc-margin-bottom-big"></h3>
     </div>
+	{% endcomment %}
 
     {% comment %}
     <div>
@@ -17,15 +19,17 @@ title: "#notGDC 2024"
     </div>
     {% endcomment %}
 
+{% comment %}
     <div class="ngdc-row ngdc-margin-bottom-big">
       <div class="ngdc-col">
         <a class="ngdc-btn btn-light btn-xl btn-special" href="{% link _pages/form.md %}">Click Here To Submit!</a>
       </div>
     </div>
+{% endcomment %}
 
     <div class="ngdc-row">
       <div class="ngdc-col">
-        <a class="ngdc-btn" href="https://twitter.com/notGDC">{%- include icon.html icon="twitter" -%}Follow on Twitter</a>
+        <a class="ngdc-btn" href="https://bsky.app/profile/notgdc.bsky.social/">{%- include icon.html icon="bluesky" -%}Follow on Bluesky</a>
         <a class="ngdc-btn" href="https://mastodon.gamedev.place/@notGDC">{%- include icon.html icon="mastodon" -%}Follow on Mastodon</a>
         <a class="ngdc-btn" href="https://discord.notgdc.io/">{%- include icon.html icon="discord" -%}Join the Discord</a>
       </div>
@@ -54,7 +58,7 @@ title: "#notGDC 2024"
             {%- include icon.html icon="pencil" class="fa-4x svg-bg-dark" -%}<br><br>
             <b>Write Something</b><br>
             <hr class="ngdc-small-line">
-            Pen us a blog, an essay, a love letter, a research paper, or mix up a great thread on Twitter.
+            Pen us a blog, an essay, a love letter, a research paper, or mix up a great thread on social media.
           </div>
           <div class="ngdc-col-25p margin-auto-x padding-y-small-screen">
             {%- include icon.html icon="microphone" class="fa-4x svg-bg-dark" -%}<br><br>
@@ -77,8 +81,11 @@ title: "#notGDC 2024"
         </div>
         <br><br>
 		<a class="ngdc-btn btn-xl" href="{% link _pages/faq.md %}">FAQ</a>
-        <a class="ngdc-btn btn-light btn-xl btn-special" href="{% link _pages/form.md %}">Click Here To Submit!</a>
         <a class="ngdc-btn btn-light btn-xl" href="http://twitter.com/notGDC">Ask Us Something</a>
+
+{% comment %}
+        <a class="ngdc-btn btn-light btn-xl btn-special" href="{% link _pages/form.md %}">Click Here To Submit!</a>
+{% endcomment %}
       </div>
     </div>
   </div>
@@ -93,9 +100,7 @@ title: "#notGDC 2024"
     </iframe>
   </div>
 </section>
-{% endcomment %}
 
-{% comment %}
 <section class="content-section bg-light" id="schedule">
   <div class="ngdc-container">
     <div class="content-section-heading">
