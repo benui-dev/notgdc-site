@@ -1239,3 +1239,96 @@ a.tag-link:hover {
 }
 
 /* #endregion */
+
+// 2023 theme
+$logo-border-thickness: 15px;
+$logo-border-radius: 15px;
+$logo-shadow-offset: 10px;
+$text-outline-size: 20px;
+$flag-border-radius: 10px;
+
+$logo-primary: #db4468;
+$logo-secondary: #fff;
+$logo-tertiary: #000;
+
+.logo-2024
+{
+	--logo-primary: #db4468;
+	--logo-secondary: #fff;
+	--logo-tertiary: #000;
+}
+
+.logo-2023
+{
+	--logo-primary: #00ff00;
+	--logo-secondary: #ff00ff;
+	--logo-tertiary: #0000ff;
+	--button-bg: ;
+	--button-outline:
+}
+
+.page-2020
+{
+	--button-bg: #57cba3;
+}
+
+.page-2019
+{
+	--button-bg: #564588;
+}
+
+.logo
+{
+	//transform: skew(-5deg, 0deg);
+	h1.name
+	{
+		border: $logo-border-thickness solid var(--logo-tertiary);
+		border-radius: $logo-border-radius;
+		padding: .15em .8em;
+		color: var(--logo-tertiary);
+		background-color: var(--logo-primary);
+		text-stroke: $text-outline-size var(--logo-secondary);
+		-webkit-text-stroke: $text-outline-size $logo-secondary;
+		paint-order: stroke fill;
+		font-size: 6em;
+		box-shadow: -$logo-shadow-offset $logo-shadow-offset 0 0 $logo-tertiary;
+		margin: 0;
+    	font-family: "Fredoka";
+		font-weight: bold;
+		display: inline-block;
+	}
+	h2.logo-year
+	{
+		background-color: $logo-tertiary;
+		color: $logo-secondary;
+		font-size: 4.8em;
+		clip-path: polygon( (-$logo-shadow-offset) -10px,
+			calc(100%) -10px,
+			calc(100%) 5px,
+			calc(100% - 10px) 50%,
+			calc(100%) calc(100% - 5px),
+			calc(100%) calc(100% + 10px),
+			-10px calc(100% + 10px));
+		outline: auto solid $logo-tertiary;
+		border-radius: $flag-border-radius;
+		box-shadow: -$logo-shadow-offset $logo-shadow-offset 0 0 $highlight-color;
+    	font-family: "Fredoka";
+		font-weight: bold;
+		display: inline-block;
+		vertical-align: top;
+		padding: 0.15rem .9em;
+		transform: translateX(-20px) translateY(-15px);
+	}
+	h3.date
+	{
+		color: $logo-tertiary;
+		vertical-align: bottom;
+		font-weight: bold;
+	}
+	h3.subtitle
+	{
+    	font-family: "Fredoka";
+		font-weight: 200;
+		font-size: 2em;
+	}
+}

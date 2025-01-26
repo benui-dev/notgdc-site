@@ -1,0 +1,21 @@
+{% assign theme = 'default' %}
+{% if include.theme %}
+{% assign theme = include.theme %}
+{% endif %}
+
+{% assign year = '2025' %}
+{% if include.year %}
+{% assign year = include.year %}
+{% endif %}
+
+{% assign date = 'march 19&ndash;24' %}
+{% if include.date %}
+{% assign date = include.date %}
+{% endif %}
+
+<div class="logo logo-{{ theme }}">
+<h1 class="name">#notGDC</h1>
+<h2 class="logo-year">{{ year }}</h2>
+<h3 class="date">{{ date }}</h3>
+<h3 class="subtitle">a game development non-conference, for <strong>everyone!</strong></h3>
+</div>
