@@ -734,6 +734,7 @@ submissions:
    links: [ "http://dancox.me/2018/notgdc/" ]
    tags: [ programming, history ]
    year: 2018
+   broken_link: true
  - title: "Porting Bungie's 3D Spasm Library to Three.js"
    authors: [ { name: "lowlines", link: "https://twitter.com/lowlines"} ]
    links: [ "https://lowlidev.com.au/blog/articles/porting-spasm-to-threejs/" ]
@@ -798,6 +799,7 @@ submissions:
    links: [ "http://karnbianco.co.uk/blog/2018/03/22/my-changing-perspective-on-game-dev/" ]
    tags: [ wellbeing ]
    year: 2018
+   broken_link: true
  - title: "Why I Make Gay Games w/ Trans Girls"
    authors: [ { name: "Nadia Nova", link: "https://twitter.com/littanana"} ]
    links: [ "https://medium.com/@littanana/why-i-make-gay-games-52126156ecd5" ]
@@ -808,6 +810,7 @@ submissions:
    links: [ "https://paper.dropbox.com/doc/The-utility-of-Delegates-Events-and-UnityEvents-in-Unity.-OhaCIBxdvNEztrhdfXmFG?_tk=share_copylink&auth_redirect=true&first_sign_in=true" ]
    tags: [ unity ]
    year: 2018
+   broken_link: true
  - title: "Top 10 Gayest Looks In Splatoon 2"
    authors: [ { name: "Jillian Wakarchuk", link: "https://twitter.com/OrbWitch"} ]
    links: [ "https://docs.google.com/presentation/d/1QM4HwSYPAsovE7IoOxcIfgxGGk2_N_hLeAasHaZ3vtI/edit#slide=id.p" ]
@@ -828,6 +831,7 @@ submissions:
    links: [ "https://twitter.com/MrBehemo/status/976443611775750145" ]
    tags: [ business, audio ]
    year: 2018
+   broken_link: true
  - title: "10 Mexican Things You Could Make A Game About (That Aren't Dia De Los Muertos)"
    authors: [ { name: "Tess Young", link: "https://twitter.com/TheChicMonster"} ]
    links: [ "https://www.patreon.com/posts/17587494" ]
@@ -846,15 +850,18 @@ submissions:
    links: [ "https://twitter.com/OldLoths/status/976258827191382016" ]
    tags: [ social-thread, art, tech ]
    year: 2018
+   broken_link: true
  - title: "Ink & Unity - Making A Fake Chat Client"
    authors: [ { name: "Victoria Smith", link: "https://twitter.com/theladyvictoria/status/976173537907167236"} ]
    links: [ "https://www.victoriasmith.co.nz/ink-unity-making-a-fake-chat-client/" ]
    tags: [ postmortem ]
    year: 2018
+   broken_link: true
  - title: "Everything I Learned Making (And Not Making) Cerebrate"
    authors: [ { name: "Rowan Crawford", link: "http://ludodissonance.com/post/172063067578/everything-i-learned-making-and-not-making"} ]
    tags: [ postmortem ]
    year: 2018
+   broken_link: true
  - title: "Motivation and Big Projects"
    authors: [ { name: "Nathan Auckett" } ] 
    links: [ "https://medium.com/@NathanAuckett/motivationandbigprojects-4f3eec5481c5" ]
@@ -905,6 +912,7 @@ submissions:
    links: [ "https://medium.com/@johnarras/continent-generation-3-algorithm-776405e4cba" ]
    tags: [ postmortem ]
    year: 2018
+   broken_link: true
  - title: "Navigation Filtering And Avoidance"
    authors: [ { name: "Vikram Saran"} ]
    links: [ "https://www.vikram.codes/blog/ai/03-navigation-filtering-and-avoidance" ]
@@ -920,6 +928,7 @@ submissions:
    links: [ "https://twitter.com/MrLParker/status/974571431760711680" ]
    tags: [ wellbeing, social-thread  ]
    year: 2018
+   broken_link: true
  - title: "Beating Procrastination"
    authors: [ { name: "Keano Raubun" } ]
    links: [ "https://medium.com/@xArcky/beating-procrastination-how-i-kept-working-on-my-passion-project-66463f65ccec" ]
@@ -930,6 +939,7 @@ submissions:
    links: [ "http://www.toiletgamestudies.org/" ]
    tags: [ history ]
    year: 2018
+   broken_link: true
  - title: "Continent Generation Preview"
    authors: [ { name: "John Arras" } ]
    links: [ "https://www.youtube.com/watch?v=fbsdavIQf0o" ]
@@ -945,6 +955,7 @@ submissions:
    links: [ "https://twitter.com/gritfish/status/879968862690623488" ]
    tags: [ social-thread ]
    year: 2018
+   broken_link: true
 
 
 ###############################################################################
@@ -970,10 +981,12 @@ submissions:
    authors: [ { name: "@Tartle_Games", link: "https://twitter.com/Tartle_Games"} ]
    tags: [ how-to ]
    year: 2017
+   broken_link: true
  - title: "Videogames and Genre"
    links: [ "http://ludodissonance.com/post/157777079398/videogames-and-genre-a-brief-rambling" ]
    authors: [ { name: "@Sumaleth", link: "https://twitter.com/Sumaleth"} ]
    year: 2017
+   broken_link: true
  - title: "Why Presence is the New Frontier of VR Game Design"
    authors: [ { name: "@aquito", link: "https://twitter.com/aquito"} ]
    tags: [ vr ]
@@ -984,15 +997,18 @@ submissions:
    tags: [ audio ]
    links: [ "http://www.zanderhulmemusic.com/notgdc" ]
    year: 2017
+   broken_link: true
  - title: "What I Learned From Doing Ludum Dare 13 Times in a Row!"
    authors: [ { name: "@savethejets", link: "https://twitter.com/savethejets"} ]
    links: [ "http://blog.banyango.com/post/157808495144/what-i-learned-from-doing-ludum-dare-13-times-in-a" ]
    year: 2017
+   broken_link: true
  - title: "Don’t Trust The Engine"
    authors: [ { name: "@radgeRayden", link: "https://twitter.com/radgeRayden"} ]
    tags: [ programming ]
    links: [ "https://github.com/radgeRayden/blog/issues/1" ]
    year: 2017
+   broken_link: true
  - title: "Mod Support in Unity"
    authors: [ { name: "@nihilocrat", link: "https://twitter.com/nihilocrat"} ]
    tags: [ unity, programming ]
@@ -1013,11 +1029,13 @@ submissions:
    links: [ "https://www.youtube.com/watch?v=zYz-mocC_HU" ]
    tags: [ video ]
    year: 2017
+   broken_link: true
  - title: "My Experience Making a Game for YouTubers (and Failing)"
    authors: [ { name: "@shatley123", link: "https://twitter.com/shatley123"} ]
    links: [ "https://tristan-shatley.tumblr.com/post/157934962275/my-experience-making-game-for-youtubers-and" ]
    tags: [ video ]
    year: 2017
+   broken_link: true
  - title: "Bucket Grids"
    authors: [ { name: "@1bardesign", link: "https://twitter.com/1bardesign"} ]
    links: [ "http://www.1bardesign.com/words/?p=2017.001" ]
@@ -1033,4 +1051,5 @@ submissions:
    links: [ "http://ludodissonance.com/post/157971351418/the-problem-with-deep-reading-videogames" ]
    tags: [ history ]
    year: 2017
+   broken_link: true
 
