@@ -3,9 +3,10 @@ submissions:
 # FORMAT
 # - title: string required
 #   authors: [ { name: string required, link: string optional } ]
-#   links: [ array of strings, requires at least 1 ]
-#   tags: [ array of strings, optional ] (must be part of tags.yaml)
+#   links: [ array of strings requires at least 1 ]
+#   tags: [ array of strings optional ] (must be part of tags.yaml)
 #   year: integer required
+#   broken_link: boolean optional
 
 ###############################################################################
 # 2024
@@ -206,7 +207,7 @@ submissions:
    year: 2023
  - title: "Basic Async/Await in Unity C#!"
    authors: [ { name: "@EstebanGameDev", link: "https://twitter.com/EstebanGamedev" } ]
-   links: [ "https://happyfails.dev/basic-asyncawait-in-unity-c" ]
+   links: [ "https://estebangamedev.hashnode.dev/basic-asyncawait-in-unity-c" ]
    tags: [ unity, programming, how-to ]
    year: 2023
  - title: "Customer Aversion to the Metaverse"
@@ -274,6 +275,7 @@ submissions:
    links: [ "https://eddiebreeg.ddns.net/posts/chill-hlsl/" ]
    tags: [ art, tech, math ]
    year: 2023
+   broken_link: true
  - title: "Beginner-friendly guide to a simple 2D physics engine"
    authors: [ { name: "Nikita Lisitsa", link: "https://lisyarus.github.io/blog/about" } ]
    links: [ "https://twitter.com/lisyarus/status/1318605976786919424" ]
@@ -379,6 +381,7 @@ submissions:
    links: [ "https://twitter.com/i/events/1177555160517750784" ]
    tags: [ social-thread ]
    year: 2020
+   broken_link: true
  - title: "Extra Life Learning"
    authors: [ { name: "Matt Arnold", link: "https://twitter.com/m4ttbit"} ]
    links: [ "https://youtu.be/_bKNW-GtZVY" ]
@@ -399,6 +402,7 @@ submissions:
    links: [ "http://backyardgiant.co.uk/papers/makingrandomfun.pdf" ]
    tags: [ game-design, tech ] 
    year: 2020
+   broken_link: true
  - title: "Reasons Why pico-8 is the Best"
    authors: [ { name: "DPS2004", link: "https://twitter.com/DPS_2004"} ]
    links: [ "https://docs.google.com/presentation/d/1vZLNf1fUMIQVvjkxIE7d8qotE3f06g7jcaI2DYgqJeo/edit?usp=sharing" ]
@@ -429,6 +433,7 @@ submissions:
    links: [ "http://backyardgiant.co.uk/papers/lessismore.pdf" ]
    tags: [ game-design ]
    year: 2020
+   broken_link: true
  - title: "anarchy: a PRNG library for PCG"
    authors: [ { name: "Peter Mawhorter", link: "https://twitter.com/pmawhorter"} ]
    links: [ "https://solsword.github.io/anarchy/" ]
@@ -438,11 +443,6 @@ submissions:
    authors: [ { name: "Vincentius Madya", link: "https://twitter.com/GrimProsGames"} ]
    links: [ "https://medium.com/grim-pros/think-big-on-a-small-consoles-59a80f3580de" ]
    tags: [ business, tech ]
-   year: 2020
- - title: "GDC Virtual Talks Hub"
-   authors: [ { name: "GDC Speakers", link: "https://twitter.com/official_gdc"} ]
-   links: [ "https://gdconf.com/gdc-2020-virtual-talks?_mc=blog_x_gama_le_x_gdcsf_x_x-119-gdc20" ]
-   tags: [ tech ]
    year: 2020
  - title: "Interactive Machine Learning for More Expressive Game Interactions"
    authors: [ { name: "Carlos Gonzalez Diaz, Phoenix Perry and Rebecca Fiebrink", link: "https://twitter.com/Carlotes247"} ]
@@ -474,7 +474,7 @@ submissions:
 ###############################################################################
 # 2019
 
- - title: "Compeition: What's the Point?"
+ - title: "Competition: What's the Point?"
    authors: [ { name: "Aitor Iribar", link: "http://www.twitter.com/hairibar"} ]
    links: [ "http://www.maclean.work/blog/2019/3/23/how-to-stay-sane-when-working-part-time" ]
    tags: [ game-design ]
@@ -486,7 +486,7 @@ submissions:
    year: 2019
  - title: "Research Notes: Improvisational Narrative AI"
    authors: [ { name: "Mike Cook", link: "http://www.twitter.com/mtrc"} ]
-   links: [ "http://www.possibilityspace.org/blog-shonan-2/" ]
+   links: [ "http://www.possibilityspace.org/blog-shonan-3/" ]
    tags: [ the-future, postmortem, writing ]
    year: 2019
  - title: "How To Stay Sane While Working in games Part Time"
@@ -509,6 +509,7 @@ submissions:
    links: [ "https://hannahildebrandt.com/2019/03/20/heartbeat/" ]
    tags: [ game-design, writing ]
    year: 2019
+   broken_link: true
  - title: "Creating a Passion Project with No Budget"
    authors: [ { name: "Andy Wood", link: "https://twitter.com/andreaacw"} ]
    links: [ "https://youtu.be/5m0t1qjSXes" ]
@@ -534,6 +535,7 @@ submissions:
    links: [ "https://www.youtube.com/watch?v=WMjAC0DPao4" ]
    tags: [ community, video ]
    year: 2019
+   broken_link: true
  - title: "Awesome Game-Science"
    authors: [ { name: "Aleksandra Jarosz", link: "http://www.twitter.com/AKJarosz"} ]
    links: [ "https://docs.google.com/presentation/d/1RTWjC3ySp2hGR8-46hsax41GPFbrwiOP7sbuyLnp87U/edit?usp=sharing" ]
@@ -549,6 +551,7 @@ submissions:
    links: [ "https://twitter.com/MercuryLegba/status/1109119945978380294", "https://twitter.com/MercuryLegba/status/1109121818487590913" ]
    tags: [ game-design, social-thread, art ]
    year: 2019
+   broken_link: true
  - title: "Elo sucks — better multiplayer rating systems for smaller games"
    authors: [ { name: "raysplaceinspace", link: "http://www.twitter.com/raysplacenspace"} ]
    links: [ "https://medium.com/acolytefight/elo-sucks-better-multiplayer-rating-systems-for-smaller-games-8ca588ee652f" ]
@@ -609,6 +612,7 @@ submissions:
    links: [ "https://www.tinyworlds.org/blog/tutorial-archiving-games" ]
    tags: [ how-to, project-management  ]
    year: 2019
+   broken_link: true
  - title: "Personal Experiences And How They're Shaping My Games"
    authors: [ { name: "Luke Parker", link: "http://www.twitter.com/mrlparker"} ]
    links: [ "https://mrlparker.com/personal-experiences-and-how-they-shape-our-games/" ]
@@ -619,6 +623,7 @@ submissions:
    links: [ "https://blog.wasin.io/2018/10/31/integrate-cimgui-with-sdl2-in-c-code.html" ]
    tags: [ tech, how-to, programming ]
    year: 2019
+   broken_link: true
  - title: "Composing Videogame Music"
    authors: [ { name: "Chase Bethea", link: "http://www.twitter.com/chasebethea"} ]
    links: [ "https://www.youtube.com/watch?v=S-noxx3VEMA&t=2120s" ]
@@ -639,6 +644,7 @@ submissions:
    links: [ "https://twitter.com/And_Rayna/status/1103676467005800452" ]
    tags: [ wellbeing, social-thread ]
    year: 2019
+   broken_link: true
  - title: "Frame Independent Exponential Approaches"
    authors: [ { name: "Carlos Jambrina", link: "http://badladns.com/"} ]
    links: [ "http://badladns.com/stories/exp-approach-info" ]
@@ -649,6 +655,7 @@ submissions:
    links: [ "https://criticald4n.wordpress.com/2019/01/07/dear-men-of-gaming-grow-up/" ]
    tags: [ community ]
    year: 2019
+   broken_link: true
 
 
 ###############################################################################
@@ -679,6 +686,7 @@ submissions:
    links: [ "https://twitter.com/TheTamSlam/status/977175078164054016" ]
    tags: [ wellbeing, social-thread ]
    year: 2018
+   broken_link: true
  - title: "Thinking About Your Data"
    authors: [ { name: "Max Cahill", link: "https://twitter.com/1bardesign"} ]
    links: [ "https://www.1bardesign.com/words/?p=2018.001" ]
@@ -689,6 +697,7 @@ submissions:
    links: [ "https://twitter.com/MaddHattPatt/status/977351603157110784" ]
    tags: [ tech ]
    year: 2018
+   broken_link: true
  - title: "Tiny Trees Post Mortem"
    authors: [ { name: "Michael Perce", link: "https://growtinytrees.wordpress.com/2018/03/23/tiny-trees-post-mortem/"} ]
    links: [ "https://growtinytrees.wordpress.com/2018/03/23/tiny-trees-post-mortem/" ]
@@ -724,6 +733,7 @@ submissions:
    links: [ "https://twitter.com/notgdc/status/977103909780054016" ]
    tags: [ wellbeing, inclusivity ]
    year: 2018
+   broken_link: true
  - title: "Worlds By Design"
    authors: [ { name: "Marc Loths", link: "https://twitter.com/OldLoths"} ]
    links: [ "https://bookofloths.wordpress.com/2018/03/23/worlds-by-design/" ]
