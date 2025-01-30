@@ -4,10 +4,6 @@ description: >-
   a game development non-conference, for everyone!
 baseurl: ""
 url: "https://notgdc.io"
-bsky:
-  username: "https://bsky.app/profile/notgdc.bsky.social/"
-mastodon:
-  username: "@notgdc@mastodon.gamedev.place"
 
 # Site Settings
 locale: "en"
@@ -76,7 +72,7 @@ footer:
   links:
     - label: "Bluesky"
       icon: "bluesky"
-      url: "https://bsky.app/profile/notgdc.bsky.social/"
+      url: "https://bsky.app/profile/notgdc.io/"
     - label: "Mastodon"
       icon: "mastodon"
       url: "https://mastodon.gamedev.place/@notGDC"

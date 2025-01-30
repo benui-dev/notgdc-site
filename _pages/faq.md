@@ -90,7 +90,7 @@ Submissions close on the last day of #notGDC.
 
 ## Where will my submission go?
 
-#notGDC submissions are uploaded to the [#notGDC archive]({% link _pages/archive.md %}) during #notGDC. The archive is always free to visit! We also share some submissions on [{%- include icon.html icon="bluesky" -%}Bluesky](https://bsky.app/profile/notgdc.bsky.social), [{%- include icon.html icon="mastodon" -%}Mastodon](https://mastodon.gamedev.place/@notGDC) and on [{%- include icon.html icon="discord" -%}Discord](https://discord.notgdc.io/)
+#notGDC submissions are uploaded to the [#notGDC archive]({% link _pages/archive.md %}) during #notGDC. The archive is always free to visit! We also share some submissions on [{%- include icon.html icon="bluesky" -%}Bluesky](https://bsky.app/profile/notgdc.io), [{%- include icon.html icon="mastodon" -%}Mastodon](https://mastodon.gamedev.place/@notGDC) and on [{%- include icon.html icon="discord" -%}Discord](https://discord.notgdc.io/)
 
 
 ## Do you accept submissions in languages other than English? 
@@ -119,4 +119,4 @@ You betcha, here's the [Presskit]({% link _pages/presskit.md %}).
 
 ## I have more questions! Who do I contact?
 
-You can ask us questions on [{%- include icon.html icon="bluesky" -%}Bluesky](https://bsky.app/profile/notgdc.bsky.social), [{%- include icon.html icon="mastodon" -%}Mastodon](https://mastodon.gamedev.place/@notGDC) or send us an email at [notgdc@notgdc.io](mailto:notgdc@notgdc.io).
+You can ask us questions on [{%- include icon.html icon="bluesky" -%}Bluesky](https://bsky.app/profile/notgdc.io), [{%- include icon.html icon="mastodon" -%}Mastodon](https://mastodon.gamedev.place/@notGDC) or send us an email at [notgdc@notgdc.io](mailto:notgdc@notgdc.io).
