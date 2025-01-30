@@ -20,7 +20,7 @@ $body-font: "Lexend", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
 
 /** Each year has its own theme. When creating a new year, copy a previous year and change any variables. */
 
-.theme-default
+body
 {
 	--logo-primary: #db4468;
 	--logo-secondary: #fff;
@@ -28,10 +28,14 @@ $body-font: "Lexend", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
 	--button-bg: #ff00ff;
 	--button-border: #00ff00;
 	--bg-color: #f3f1f9;
+
 	$highlight-color: #ff517b;
 	--highlight-color: #{$highlight-color};
-	--highlight-color-light: lighten(#{$highlight-color}, 20%);
- 	--highlight-color-lightest: lighten(#{$highlight-color}, 80%);
+	$highlight-color-light: lighten($highlight-color, 20%);
+	--highlight-color-light: #{$highlight-color-light};
+ 	$highlight-color-lightest: lighten($highlight-color, 80%);
+ 	--highlight-color-lightest: #{$highlight-color-lightest};
+
 	--bg-dark-color: #db4468;
 	--bg-dark-color-hover: #1d2124;
 	--bg-light-color: #f3f1f9;
@@ -47,12 +51,15 @@ $body-font: "Lexend", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
 {
 	$highlight-color: #99ff00;
 	--highlight-color: #{$highlight-color};
-	--highlight-color-light: lighten(#{$highlight-color}, 20%);
- 	--highlight-color-lightest: lighten(#{$highlight-color}, 80%);
+	$highlight-color-light: lighten($highlight-color, 20%);
+	--highlight-color-light: #{$highlight-color-light};
+ 	$highlight-color-lightest: lighten($highlight-color, 80%);
+ 	--highlight-color-lightest: #{$highlight-color-lightest};
 
 	$link-color: #db4468;
 	--link-color: #{$link-color};
-	--link-color-hover: lighten(#{$link-color}, 10%);
+	$link-color-hover: lighten($link-color, 10%);
+	--link-color-hover: #{$link-color-hover};
 
     --masthead-background-image: url(/assets/img/repeatingbg.webp);
     --masthead-background-repeat: repeat;
@@ -100,22 +107,59 @@ $body-font: "Lexend", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
     border-color: #ba9106 !important;
 }
 
+.theme-2022
+{
+	$highlight-color: #4cf580;
+	--highlight-color: {$highlight-color};
+	$highlight-color-light: lighten($highlight-color, 20%);
+	--highlight-color-light: #{$highlight-color-light};
+	$highlight-color-lightest: lighten($highlight-color, 80%);
+ 	--highlight-color-lightest: #{$highlight-color-lightest};
+
+	$link-color: #4cf580;
+	--link-color: #{$link-color};
+	$link-color-hover: lighten($link-color, 10%);
+	--link-color-hover: #{$link-color-hover};
+
+	$text-color: #eeeeee;
+	--text-color: #{$text-color};
+	$text-light-color: lighten($text-color, 60%);
+	--text-light-color: $text-light-color;
+
+	--btn-light-text: #212529
+
+	--btn-special-bg: #f9b641;
+	--btn-special-bg-hover: #ffd34e;
+
+    --masthead-background-image: url(/assets/img/2022/repeatingbg.webp);
+	--masthead-background-color: #0d0d0d;
+    --masthead-background-repeat: repeat;
+    --masthead-background-position: center;
+
+	--bg-dark-color: #0d0d0d;
+	--bg-dark-color-hover: #1d2124;
+	--bg-light-color: #1a1a1a;
+}
+
 .theme-2020
 {
 	--bg-dark-color: #45b38d;
 
 	$highlight-color: #57cba3;
-	--highlight-color: #{$highlight-color};
-	--highlight-color-light: lighten(#{$highlight-color}, 20%);
- 	--highlight-color-lightest: lighten(#{$highlight-color}, 80%);
+	--highlight-color: {$highlight-color};
+	$highlight-color-light: lighten($highlight-color, 20%);
+	--highlight-color-light: #{$highlight-color-light};
+	$highlight-color-lightest: lighten($highlight-color, 80%);
+ 	--highlight-color-lightest: #{$highlight-color-lightest};
 
-	$link-color: #db4468;
+	$link-color: #57cba3;
 	--link-color: #{$link-color};
 	--link-color-hover: lighten(#{$link-color}, 10%);
 
 	$text-color: #000;
 	--text-color: #{$text-color};
-	--text-light-color: lighten(#{$text-color}, 60%);
+	$text-light-color: lighten($text-color, 60%);
+	--text-light-color: $text-light-color;
 
 	--btn-light-text: #212529
 
@@ -123,6 +167,7 @@ $body-font: "Lexend", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
 	--btn-special-bg-hover: #ffd34e;
 
     --masthead-background-image: url(/assets/img/2020/repeatingbg.webp);
+	--masthead-background-color: #ffd34e;
     --masthead-background-repeat: repeat;
     --masthead-background-position: center;
 	--masthead-background-size: 400px;
@@ -144,16 +189,21 @@ $body-font: "Lexend", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
 .theme-2019
 {
 	$highlight-color: #564588;
-	--highlight-color: $highlight-color;
-	--highlight-color-light: lighten($highlight-color, 20%);
- 	--highlight-color-lightest: lighten($highlight-color, 80%);
+	--highlight-color: #{$highlight-color};
+	$highlight-color-light: lighten($highlight-color, 20%);
+	--highlight-color-light: #{$highlight-color-light};
+ 	$highlight-color-lightest: lighten($highlight-color, 80%);
+ 	--highlight-color-lightest: #{$highlight-color-lightest};
 
 	--bg-dark-color: #383f76;
 	--link-color: #7a6ba2;
 	--masthead-background-image: url(/assets/img/2019/bg-masthead.webp);
+	--masthead-background-color: #3f608d;
     --masthead-background-repeat: no-repeat;
     --masthead-background-position: center;
 	--masthead-background-size: cover;
+
+	--border-radius: 0;
 }
 
 .theme-2017
@@ -163,6 +213,15 @@ $body-font: "Lexend", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
 	--bg-dark-color: linear-gradient(#373737, #212121);
 	--bg-dark-image: linear-gradient(#373737, #212121);
 	--link-color: #007edf;
+
+	$highlight-color: #555;
+	--highlight-color: #{$highlight-color};
+	$highlight-color-light: lighten($highlight-color, 20%);
+	--highlight-color-light: #{$highlight-color-light};
+ 	$highlight-color-lightest: lighten($highlight-color, 80%);
+ 	--highlight-color-lightest: #{$highlight-color-lightest};
+
+	--border-radius: 0;
 
 	--text-color: #222222;
 }
@@ -399,170 +458,6 @@ body {
     font-family: $title-font;
 }
 
-.text-faded {
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.map {
-    height: 30rem;
-}
-
-@media (max-width: 992px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
-
-.scroll-to-top {
-    position: fixed;
-    right: 15px;
-    bottom: 15px;
-    display: none;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    color: #fff;
-    background: rgba(52, 58, 64, 0.5);
-    line-height: 45px;
-}
-
-.scroll-to-top:focus,
-.scroll-to-top:hover {
-    color: #fff;
-}
-
-.scroll-to-top:hover {
-    background: #343a40;
-}
-
-.scroll-to-top i {
-    font-weight: 700;
-}
-
-#sidebar-wrapper {
-    position: fixed;
-    z-index: 2;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-    transform: translateX(250px);
-    background: #b594f3;
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.sidebar-nav {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.sidebar-nav li.sidebar-nav-item a {
-    display: block;
-    text-decoration: none;
-    color: #fff;
-    padding: 15px;
-}
-
-.sidebar-nav li a:hover {
-    text-decoration: none;
-    color: #fff;
-    background: rgba(255, 255, 255, 0.2);
-}
-
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-    text-decoration: none;
-}
-
-.sidebar-nav>.sidebar-brand {
-    font-size: 1.2rem;
-    background: rgba(52, 58, 64, 0.1);
-    height: 80px;
-    line-height: 50px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-}
-
-.sidebar-nav>.sidebar-brand a {
-    color: #fff;
-}
-
-.sidebar-nav>.sidebar-brand a:hover {
-    color: #fff;
-    background: 0 0;
-}
-
-#sidebar-wrapper.active {
-    right: 250px;
-    width: 250px;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-.menu-toggle {
-    position: fixed;
-    right: 15px;
-    top: 15px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    color: #fff;
-    background: rgba(52, 58, 64, 0.5);
-    line-height: 50px;
-    z-index: 999;
-}
-
-.menu-toggle:focus,
-.menu-toggle:hover {
-    color: #fff;
-}
-
-.menu-toggle:hover {
-    background: #343a40;
-}
-
-.service-icon {
-    background-color: #fff;
-    color: #b594f3;
-    height: 7rem;
-    width: 7rem;
-    display: block;
-    line-height: 7.5rem;
-    font-size: 2.25rem;
-    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-.callout {
-    padding: 15rem 0;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0, rgba(255, 255, 255, 0.1) 100%), url(../img/bg-callout.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.callout h2 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    display: block;
-    max-width: 30rem;
-}
-
 .portfolio-item {
     display: block;
     position: relative;
@@ -655,18 +550,6 @@ footer.footer .social-link:hover {
     text-decoration: none;
 }
 
-.bg-primary {
-    background-color: #b594f3 !important;
-}
-
-.text-primary {
-    color: #b594f3 !important;
-}
-
-.text-secondary {
-    color: #ecb807 !important;
-}
-
 .hr {
     height: 12px;
     border: 0;
@@ -688,7 +571,7 @@ a.text-light:focus {
     text-shadow: 2px 2px 2px maroon;
 }
 
-.svg-bg-dark{
+.svg-bg-dark {
     filter:drop-shadow(2px 2px 2px rgba(128, 0, 0, 0.302));
 }
 
@@ -738,6 +621,7 @@ h2 {
 }
 
 .screen-fill {
+    min-height: 30rem;
     position: relative;
     display: table;
     width: 100%;
@@ -745,14 +629,10 @@ h2 {
 }
 
 .masthead {
-    min-height: 30rem;
-    //position: relative;
-    //display: table;
-    //width: 100%;
-    //height: auto;
     padding-top: 3rem;
     padding-bottom: 3rem;
     background-image: var(--masthead-background-image);
+    background-color: var(--masthead-background-color);
     background-repeat: var(--masthead-background-repeat);
     background-position: var(--masthead-background-position);
     background-size: var(--masthead-background-size);
@@ -796,7 +676,7 @@ h2 {
 }
 
 @media (min-width: 992px) {
-    .masthead {
+    .screen-fill {
         min-height: 100vh;
     }
 
@@ -860,6 +740,15 @@ h2 {
     color: #fff;
     animation-name: scaling;
     animation-duration: 0.1s;
+}
+
+.current_page {
+	border: 0;
+	background-color: var(--highlight-color);
+    box-shadow: none;
+    text-decoration: none;
+    color: #fff;
+    pointer-events: none;
 }
 
 .ngdc-btn-disabled {
