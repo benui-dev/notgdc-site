@@ -21,6 +21,7 @@ og_image: "/assets/site-logo.png"
 # Reading Files
 include:
   - .htaccess
+  - .well-known/atproto-did
   - _pages
 exclude:
   - "*.sublime-project"
