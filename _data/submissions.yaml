@@ -261,7 +261,7 @@ submissions:
    tags: [ video, wellbeing, process ]
    year: 2023
  - title: "What Makes A Music Scene"
-   authors: [ { name: "Matthew Bofenkamp", link: "twitter.com/matthewbofen" } ]
+   authors: [ { name: "Matthew Bofenkamp", link: "https://twitter.com/matthewbofen" } ]
    links: [ "https://youtu.be/YaxTzamca_o" ]
    tags: [ video, audio, history ]
    year: 2023
