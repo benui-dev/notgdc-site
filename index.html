@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "#notGDC 2024"
+title: "#notGDC 2025"
+theme: "2025"
 ---
-<!-- Header -->
-<header class="masthead ngdc-flex">
+<header class="masthead screen-fill ngdc-flex">
   <div class="ngdc-container text-center margin-auto-y">
 	  <img class="masthead-logo ngdc-margin-bottom-big" src="/assets/img/notgdc-logotype-2024.svg" alt="#notGDC 2024, march 18-22, a game development non-conference, for everyone!" />
 
@@ -46,7 +46,6 @@ title: "#notGDC 2024"
   </div>
 </header>
 
-<!-- About -->
 <section class="content-section bg-dark text-light soft-dropshadow-text" id="about">
   <div class="ngdc-container text-center">
     <div class="ngdc-row">
@@ -60,7 +59,7 @@ title: "#notGDC 2024"
             {%- include icon.html icon="pencil" class="fa-4x svg-bg-dark" -%}<br><br>
             <b>Write Something</b><br>
             <hr class="ngdc-small-line">
-            Pen us a blog, an essay, a love letter, a research paper, or mix up a great thread on social media.
+            Pen us a blog, an essay, a love letter, a research paper, anything you like!
           </div>
           <div class="ngdc-col-25p margin-auto-x padding-y-small-screen">
             {%- include icon.html icon="microphone" class="fa-4x svg-bg-dark" -%}<br><br>
@@ -118,9 +117,9 @@ title: "#notGDC 2024"
 <section class="content-section bg-light">
   <div class="ngdc-container">
     <div class="content-section-heading">
-      <h2 id="submissions">2024 #notGDC Submissions</h2>
+      <h2 id="submissions">2025 #notGDC Submissions</h2>
     </div>
-    {%- assign submissions = site.data.submissions.submissions | where: "year", "2024" -%}
+    {%- assign submissions = site.data.submissions.submissions | where: "year", "2025" -%}
 	{% if submissions.size > 0 %}
     {%- include tags.html submissions = submissions -%}
 
@@ -136,17 +135,6 @@ title: "#notGDC 2024"
 <section class="content-section bg-dark text-light soft-dropshadow-text">
   <div class="content-section-heading">
     <h2 id="archive">All Years</h2>
-    <div class="ngdc-row">
-      <div class="ngdc-col">
-        <a class="ngdc-btn" href="/archive/">Full Archive</a>
-        <a class="ngdc-btn" href="/2024/">2024</a>
-        <a class="ngdc-btn" href="/2023/">2023</a>
-        <a class="ngdc-btn" href="/2022/">2022</a>
-        <a class="ngdc-btn" href="/2020/">2020</a>
-        <a class="ngdc-btn" href="/2019/">2019</a>
-        <a class="ngdc-btn" href="/2018/">2018</a>
-        <a class="ngdc-btn" href="/2017/">2017</a>
-      </div>
-    </div>
+{%- include navigation_inner.html -%}
   </div>
 </section>

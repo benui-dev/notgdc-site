@@ -1,4 +1,4 @@
-#notGDC 2020 was hosted by [Lucy](https://twitter.com/lucyamorris) and [Mike](https://twitter.com/mtrc). And the jam was organised by [Design By Cloud](https://twitter.com/DesignByCloud) and the Discord was maintained by [Lucy](https://twitter.com/lucyamorris), <a href="https://twitter.com/itscurlyx">Jacob</a>, <a href="https://twitter.com/vitekim">Mike</a> and <a href="https://twitter.com/DesignByCloud">Michael</a>.
+#notGDC from 2017&ndash;2020 was hosted by [Lucy](https://twitter.com/lucyamorris) and [Mike](https://twitter.com/mtrc). The jam was organised by [Design By Cloud](https://twitter.com/DesignByCloud) and the Discord was maintained by [Lucy](https://twitter.com/lucyamorris), <a href="https://twitter.com/itscurlyx">Jacob</a>, <a href="https://twitter.com/vitekim">Mike</a> and <a href="https://twitter.com/DesignByCloud">Michael</a>.
 
 * Hosted by [Lucy](https://twitter.com/lucyamorris) and [Mike](https://twitter.com/mtrc).
 * Gamejam organised by [Design By Cloud](https://twitter.com/DesignByCloud).

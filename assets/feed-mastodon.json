@@ -20,11 +20,13 @@ layout: none
 	{% endunless %}
 	{% endfor %}
 
-	{% assign all_array = all_submissions | split: "|" %}
+	{% assign all_array = all_submissions | split: "|" | shuffle: 1 %}
     "origin": [
-        "#all{n % {{ all_array.size }}}#"
+        "#notgdc#"
     ],
+	"notgdc": [
     {%- for entry in all_array -%}
-    "all{{forloop.index0}}":{{ entry | jsonify }}{% if forloop.last == false %},{% endif %}
+    {{ entry | jsonify }}{% if forloop.last == false %},{% endif %}
     {% endfor %}
+	]
 }

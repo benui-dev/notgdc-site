@@ -25,7 +25,7 @@
 <meta content="#ff517b" data-react-helmet="true" name="theme-color" />
 </head>
 
-<body id="page-top">
+<body id="page-top" class="theme-{{ page.theme }}">
 
 {{ content }}
 

@@ -1,16 +1,26 @@
 ---
 layout: default
+theme: default
 ---
 
 {%- include navigation.html -%}
 
-<section class="content-section bg-light section-padding" id="submissions">
+<section class="content-section masthead section-padding" id="about">
   <div class="ngdc-container">
+	{% if page.title %}
+	{% unless page.hide_title %}
     <div class="content-section-heading">
-      <h2 id="submissions">{{page.title}}</h2>
+      <h2>{{ page.title }}</h2>
     </div>
+	{% endunless %}
+	{% endif %}
 
     {{ content }}
+  </div>
+</section>
+
+<section class="content-section bg-light section-padding" id="submissions">
+  <div class="ngdc-container">
     {%- if page.submissions.year != "all" -%}
       {%- assign submissions = site.data.submissions.submissions | where: "year", page.submissions.year -%}
       {%- assign show-year-tags = false -%}

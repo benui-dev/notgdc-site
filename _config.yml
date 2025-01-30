@@ -1,7 +1,7 @@
 title: "#notGDC"
 email: notgdc@notgdc.io
 description: >-
-  A game development non-conference, for everyone!
+  a game development non-conference, for everyone!
 baseurl: ""
 url: "https://notgdc.io"
 bsky:
@@ -90,17 +90,12 @@ footer:
       icon: "twitch"
       url: "https://www.twitch.tv/notGDC"
 
+
 # Collections
 collections:
   tags:
     output: true
     permalink: /:collection/:path/
-    order:
-     - industries-of-titan.md
-     - vampyr.md
-     - monster-boy.md
-     - nova-111.md
-     - ia-vt.md
 
 
 # Defaults
@@ -111,6 +106,12 @@ defaults:
       type: pages
     values:
       layout: default
+  # global defaults
+  - scope:
+      path: ""
+    values:
+      theme: default
+      hide_title: false
 
 # Sass/SCSS
 sass:

@@ -37,7 +37,7 @@ Submit a talk/video/rant/article using the [Submissions Form]({% link _pages/for
 
 ### What kind of things can I submit?
 
-#notGDC is your chance to share something you’re passionate about! It could be something educational, something personal, something fun. It could be as simple as a social media thread or as in depth as a tutorial. In prior years we’ve had folks submit things ranging from “How to Make Game Subtitles Better” to “Top 10 Gayest Looks In Splatoon 2”. 
+#notGDC is your chance to share something you’re passionate about! It could be something educational, something personal, something fun. It could be as simple as a short post or as in-depth as a multi-part tutorial. In prior years we’ve had folks submit things ranging from “How to Make Game Subtitles Better” to “Top 10 Gayest Looks In Splatoon 2”. 
 
 For examples of past submissions you can check out the [#notGDC Archive]({% link _pages/archive.md %}).
 
@@ -52,15 +52,17 @@ As many as your heart desires.💖
 ### What formats do you accept?
 
 We accept all kinds of submission formats. In the past we’ve received:
-- Social media threads (Bluesky, Mastodon)
 - Presentations (Google Slides etc.)
 - Blog posts 
 - YouTube videos
 - Twitch streams 
 - Code samples
 - Voice recordings
+- Social media threads
 
 Feel free to get creative with it!
+
+If you can, try to post it somewhere that will still be available in a few years, so people will still be able to read it for #notGDC 2030!
 
 {% comment %}
 
@@ -70,6 +72,7 @@ Yes! We are running live talks on Discord this year! Check out the <a href="http
 
 {% endcomment %}
 
+
 ### Can I submit something that multiple people worked on?
 
 Yep! You can list out all contributors in the submission form and we’ll credit everyone in the archive. 
@@ -77,12 +80,12 @@ Yep! You can list out all contributors in the submission form and we’ll credit
 
 ## When do submissions close?
 
-Submissions close on the last day of #notGDC: Friday, March 22th 2024. 
+Submissions close on the last day of #notGDC. 
 
 
 ## Where will my submission go?
 
-#notGDC submissions are uploaded to the [2024 #notGDC archive]({% link _pages/2024.md %}) from March 18-22th 2024. The archive is always free to visit! We also share some submissions over on our [{%- include icon.html icon="bluesky" -%}Bluesky](https://bsky.app/profile/notgdc.bsky.social) and our [{%- include icon.html icon="mastodon" -%}Mastodon](https://mastodon.gamedev.place/@notGDC).
+#notGDC submissions are uploaded to the [#notGDC archive]({% link _pages/archive.md %}) during #notGDC. The archive is always free to visit! We also share some submissions on [{%- include icon.html icon="bluesky" -%}Bluesky](https://bsky.app/profile/notgdc.bsky.social), [{%- include icon.html icon="mastodon" -%}Mastodon](https://mastodon.gamedev.place/@notGDC) and on [{%- include icon.html icon="discord" -%}Discord](https://discord.notgdc.io/)
 
 
 ## Do you accept submissions in languages other than English? 
@@ -95,6 +98,7 @@ Yes! We encourage submissions in any language.
 - Join the [#notGDC {%- include icon.html icon="discord" -%}Discord](https://discord.notgdc.io/)
 - Check out submissions at [#notGDC 2024](https://notgdc.io/2024/)
 - Follow along on [{%- include icon.html icon="bluesky" -%}Bluesky](https://bsky.app/search?q=%23notGDC) and {%- include icon.html icon="mastodon" -%}Mastodon by following the hashtag #notGDC
+- Help with the [site on GitHub](https://github.com/benui-dev/notgdc-site/)
 - Tell your friends!
 
 
@@ -106,3 +110,4 @@ Yes! We encourage submissions in any language.
 ## I have more questions! Who do I contact?
 
 You can ask us questions on [{%- include icon.html icon="bluesky" -%}Bluesky](https://bsky.app/profile/notgdc.bsky.social), [{%- include icon.html icon="mastodon" -%}Mastodon](https://mastodon.gamedev.place/@notGDC) or send us an email at [notgdc@notgdc.io](mailto:notgdc@notgdc.io).
+

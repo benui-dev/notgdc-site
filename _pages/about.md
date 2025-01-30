@@ -7,6 +7,10 @@ layout: single
 #notGDC is an informal event run entirely by volunteers. Huge thanks to everyone
 who has given their time to help bring it to life. 
 
+### 2025
+
+{% include year-credits/credits-2025.md %}
+
 ### 2023--2024
 
 {% include year-credits/credits-2023.md %}
@@ -24,3 +28,8 @@ who has given their time to help bring it to life.
 notGDC is based on ideas from lots of people, including [Squid In A Box](https://twitter.com/squidinabox/status/176983168027598848) and [Ben Porter](https://eigenbom.github.io/notgdc2017/).
 
 
+Way back in 2012 squid in a box posted on Twitter:
+
+> Maybe we should have our own #NotGDC right here on Twitter. If you are at #GDC you aren't invited. This is not for you.
+
+In 2017 Ben Porter hosted [notgdc2017](https://eigenbom.github.io/notgdc2017/)
