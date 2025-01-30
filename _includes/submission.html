@@ -23,7 +23,7 @@
 			{% if include.submission.links.size > 1 %}
 				<h4>{{ include.submission.title }}
 					{% for link in include.submission.links %}
-					<a href="{{ link }}"{% if include.submission.broken_link %}class="broken_link"{% endif %}>(Part {{ forloop.index }} {% if include.submission.broken_link %}{%- include icon.html icon="broken-link" class="fa-third-x text-muted external-link-icon"-%}{% else %}{%- include icon.html icon="up-right-from-square" class="fa-third-x text-muted external-link-icon"-%}){% endif %}</a> 
+					<a href="{{ link }}"{% if include.submission.broken_link %}class="broken_link"{% endif %}>(Part {{ forloop.index }} {% if include.submission.broken_link %}{%- include icon.html icon="broken-link" class="fa-third-x text-muted external-link-icon"-%}{% else %}{%- include icon.html icon="up-right-from-square" class="fa-third-x text-muted external-link-icon"-%}{% endif %})</a> 
 					{% endfor %}
 				</h4>
 			{% else %}

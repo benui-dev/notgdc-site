@@ -2,7 +2,12 @@
 title: "Frequently Asked Questions"
 permalink: /faq/
 layout: single
+redirect_from:
+- /about
+- /about/
 ---
+
+# FAQ
 
 ### What is #notGDC?
 
@@ -102,12 +107,16 @@ Yes! We encourage submissions in any language.
 - Tell your friends!
 
 
+## Do you have a presskit?
+
+You betcha, here's the [Presskit]({% link _pages/presskit.md %}).
+
+
 ## Who runs #notGDC?
 
-#notGDC is maintained by volunteers, for the full history check out the [About page]({% link _pages/about.md %}). 
+#notGDC is maintained by volunteers, for the full history check out the details on each of the year-by-year pages. 
 
 
 ## I have more questions! Who do I contact?
 
 You can ask us questions on [{%- include icon.html icon="bluesky" -%}Bluesky](https://bsky.app/profile/notgdc.bsky.social), [{%- include icon.html icon="mastodon" -%}Mastodon](https://mastodon.gamedev.place/@notGDC) or send us an email at [notgdc@notgdc.io](mailto:notgdc@notgdc.io).
-

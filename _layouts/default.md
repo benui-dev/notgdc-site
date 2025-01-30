@@ -44,7 +44,7 @@
 </div>
 {% endif %}
 <p class="text-center text-muted small no-margin-bottom">#notGDC is an informal event run entirely by volunteers. Huge thanks to everyone
-who has given their time to help bring it to life. <a href="{% link _pages/about.md %}">Full history of #notGDC</a>.</p>
+who has given their time to help bring it to life.</p>
 <p class="text-center text-muted small no-margin-bottom">Powered by Jekyll. Hosted on <a href="https://github.com/benui-dev/notgdc-site">GitHub</a>. Analytics by <a href="https://plausible.io/notgdc.io">Plausible.io</a>.</p>
 
 <script src="{%- include minified_path.html file='/assets/js/tags' ext='js' -%}"></script>
