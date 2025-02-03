@@ -1271,85 +1271,153 @@ $logo-tertiary: #000;
 .logo
 {
 	//transform: skew(-5deg, 0deg);
-	.banner
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	flex-wrap: nowrap;
+	//justify-content: center;
+	//align-items: center;
+	clear: both;
+	cursor: default;
+	.banner-row
 	{
-		border: $logo-border-thickness solid var(--logo-tertiary);
-		border-radius: $logo-border-radius;
-		background-color: var(--logo-primary);
-		box-shadow: -$logo-shadow-offset $logo-shadow-offset 0 0 $logo-tertiary;
-		margin: 0;
-		display: inline-block;
-		h1.name
-		{
-			margin: .15em .8em;
-			color: var(--logo-tertiary);
-			text-stroke: $text-outline-size var(--logo-secondary);
-			-webkit-text-stroke: $text-outline-size $logo-secondary;
-			paint-order: stroke fill;
-			font-size: 6em;
-			font-family: "Fredoka";
-			font-weight: 600;
+			display: flex;
+			flex-direction: row;
+			text-align: center;
+			flex-wrap: nowrap;
+			justify-content: center;
+			align-items: center;
+	
+			.banner {
+				border: $logo-border-thickness solid var(--logo-tertiary);
+				border-radius: $logo-border-radius;
+				background-color: var(--logo-primary);
+				box-shadow: -$logo-shadow-offset $logo-shadow-offset 0 0 $logo-tertiary;
+				margin: 0;
+				display: inline-block;
+
+				transform: skew(-5deg, 0deg);
+
+				background-image: url(/assets/img/2024/noise_texture_a.webp), url(/assets/img/2024/noise_texture_a.webp);
+				background-repeat: repeat;
+				background-blend-mode: multiply;
+				background-size: 500px;
+			}
+
+			h1.name {
+				margin: .1em .5em;
+				color: var(--logo-tertiary);
+				text-stroke: $text-outline-size var(--logo-secondary);
+				-webkit-text-stroke: $text-outline-size $logo-secondary;
+				paint-order: stroke fill;
+				font-size: 6em;
+				font-family: "Fredoka";
+				font-weight: 600;
+				//z-index: 2;
+				//position: absolute;
+				isolation: isolate;
+			}
+	
+			/*
+			.banner::before {
+				content: '';
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				left: 0;
+				top: 0;
+				z-index: 1;
+				background-color: green;
+				mix-blend-mode: multiply;
+			}
+			*/
+
+	
+			.layer1
+			{
+				//content: '';
+				//display: inline-block;
+				//display: flex;
+				//align-items: stretch;
+				//width: 100%;
+				//flex-direction: column;
+				//position: relative;
+				//top: 0;
+				//left: 0;
+				//height: 100%;
+			}
+			.layer2
+			{
+				background-image: url(/assets/img/2024/noise_texture_b.webp);
+				background-repeat: repeat;
+				mix-blend-mode: multiply;
+				//content: '';
+				//display: inline-block;
+				//display: flex;
+				//align-items: stretch;
+				//width: 100%;
+				//flex-direction: column;
+				//position: relative;
+				//top: 0;
+				//left: 0;
+				//height: 100%;
+			}
+			/*
+			.banner::after
+			{
+				background-image: url(/assets/img/2024/noise_texture_b.webp);
+				background-repeat: repeat;
+				mix-blend-mode: multiply;
+				content: '';
+				display: inline-block;
+				width: calc(100%);
+				height: calc(100%);
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			*/
+			.right {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+	
+				h2.logo-year {
+					background-color: $logo-tertiary;
+					color: $logo-secondary;
+					font-size: 4.8em;
+					clip-path: polygon((-$logo-shadow-offset) -10px,
+							calc(100%) -10px,
+							calc(100%) 5px,
+							calc(100% - 10px) 50%,
+							calc(100%) calc(100% - 5px),
+							calc(100%) calc(100% + 10px),
+							-10px calc(100% + 10px));
+					outline: auto solid $logo-tertiary;
+					border-radius: $flag-border-radius;
+					box-shadow: -$logo-shadow-offset $logo-shadow-offset 0 0 var(--highlight-color);
+					font-family: "Fredoka";
+					font-weight: 600;
+					display: inline-block;
+					vertical-align: top;
+					padding: 0.15rem .9em;
+					transform: translateX(-20px) translateY(-15px);
+				}
+	
+				h3.date {
+					color: $logo-tertiary;
+					vertical-align: bottom;
+					font-weight: 700;
+					margin: 0;
+					padding: 0;
+					.date-icon
+					{
+						color: $logo-primary;
+						margin: 0 0.2em;
+					}
+				}
+			}
 		}
-	}
-	.banner::before
-	{
-		background-image: url(/assets/img/2024/noise_texture_a.webp);
-		background-repeat: repeat;
-		mix-blend-mode: multiply;
-		content: '';
-		//display: inline-block;
-		display: flex;
-		align-items: stretch;
-		//width: 100%;
-		height: 100%;
-		flex-direction: column;
-		//position: absolute;
-		//top: 0;
-		//left: 0;
-	}
-	/*
-	.banner::after
-	{
-		background-image: url(/assets/img/2024/noise_texture_b.webp);
-		background-repeat: repeat;
-		mix-blend-mode: multiply;
-		content: '';
-		display: inline-block;
-		width: calc(100%);
-		height: calc(100%);
-		position: absolute;
-		top: 0;
-		left: 0;
-	}
-	*/
-	h2.logo-year
-	{
-		background-color: $logo-tertiary;
-		color: $logo-secondary;
-		font-size: 4.8em;
-		clip-path: polygon( (-$logo-shadow-offset) -10px,
-			calc(100%) -10px,
-			calc(100%) 5px,
-			calc(100% - 10px) 50%,
-			calc(100%) calc(100% - 5px),
-			calc(100%) calc(100% + 10px),
-			-10px calc(100% + 10px));
-		outline: auto solid $logo-tertiary;
-		border-radius: $flag-border-radius;
-		box-shadow: -$logo-shadow-offset $logo-shadow-offset 0 0 var(--highlight-color);
-		font-family: "Fredoka";
-		font-weight: 600;
-		display: inline-block;
-		vertical-align: top;
-		padding: 0.15rem .9em;
-		transform: translateX(-20px) translateY(-15px);
-	}
-	h3.date
-	{
-		color: $logo-tertiary;
-		vertical-align: bottom;
-		font-weight: 700;
-	}
 	h3.subtitle
 	{
 		font-family: "Fredoka";
