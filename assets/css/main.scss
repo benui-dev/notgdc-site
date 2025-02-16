@@ -38,7 +38,7 @@ body
 	--bg-dark-color-hover: #1d2124;
 	--bg-light-color: #f3f1f9;
 
-	$text-color: #000;
+	$text-color: #212529;
 	--text-color: #{$text-color};
 	--text-light-color: color.scale(#{$text-color}, $lightness: 60%);
 
@@ -47,7 +47,42 @@ body
 
 .theme-2025
 {
-	$highlight-color: #99ff00;
+	$highlight-color: #25F9E1;
+	--highlight-color: #{$highlight-color};
+	$highlight-color-light: color.scale($highlight-color, $lightness: 20%);
+	--highlight-color-light: #{$highlight-color-light};
+ 	$highlight-color-lightest: color.scale($highlight-color, $lightness: 80%);
+ 	--highlight-color-lightest: #{$highlight-color-lightest};
+
+	$link-color: #25F9E1;
+	--link-color: #{$link-color};
+	$link-color-hover: color.scale($link-color, $lightness: 10%);
+	--link-color-hover: #{$link-color-hover};
+	$header-link-color: #343a40;
+	--header-link-color: #{$header-link-color};
+
+	--bg-dark-color: #22E5D1;
+	--bg-dark-text-color: 
+	--bg-dark-color-hover: #1d2124;
+	--bg-light-color: #f3f1f9;
+
+	--logo-primary: #22E5D1;
+	--logo-secondary: #fff;
+	--logo-tertiary: #000;
+
+	--masthead-background-image: url(/assets/img/repeatingbg.webp);
+	--masthead-background-repeat: repeat;
+	--masthead-background-position: center;
+
+	// Only needed for new-style themeable logo
+	--logo-primary: #25F9E1;
+	--logo-secondary: #fff;
+	--logo-tertiary: #000;
+}
+
+.theme-2023-2024
+{
+	$highlight-color: #db4468;
 	--highlight-color: #{$highlight-color};
 	$highlight-color-light: color.scale($highlight-color, $lightness: 20%);
 	--highlight-color-light: #{$highlight-color-light};
@@ -58,37 +93,26 @@ body
 	--link-color: #{$link-color};
 	$link-color-hover: color.scale($link-color, $lightness: 10%);
 	--link-color-hover: #{$link-color-hover};
+	$header-link-color: #343a40;
+	--header-link-color: #{$header-link-color};
 
-	--masthead-background-image: url(/assets/img/repeatingbg.webp);
-	--masthead-background-repeat: repeat;
-	--masthead-background-position: center;
-}
-
-.theme-2024
-{
-	--logo-primary: #db4468;
-	--logo-secondary: #fff;
-	--logo-tertiary: #000;
-}
-
-.theme-2023
-{
-	--logo-primary: #00ff00;
-	--logo-secondary: #ff00ff;
-	--logo-tertiary: #0000ff;
-	--button-bg: ;
-	--button-outline:
-
-	--masthead-background-image: url(/assets/img/repeatingbg.webp);
-	--masthead-background-repeat: repeat;
-	--masthead-background-position: center;
-
+	/*
 	--btn-primary-bg: #57cba3;
 	--btn-primary-border-color: #2becaa;
 	--btn-primary-text-color: #fff;
 
 	--btn-secondary-bg: #ba9106;
 	--btn-secondary-border-color: #ba9106;
+	*/
+
+	--masthead-background-image: url(/assets/img/repeatingbg.webp);
+	--masthead-background-repeat: repeat;
+	--masthead-background-position: center;
+
+	// Only needed for new-style themeable logo
+	--logo-primary: #db4468;
+	--logo-secondary: #fff;
+	--logo-tertiary: #000;
 }
 
 .theme-2022
@@ -118,12 +142,17 @@ body
 	--bg-dark-color: #0d0d0d;
 	--bg-dark-color-hover: #1d2124;
 	--bg-light-color: #1a1a1a;
+
+	$text-color: #fff;
+	--text-color: #{$text-color};
 }
 
+/*
 body.theme-2022
 {
 	color: #fff;
 }
+*/
 
 .theme-2020
 {
@@ -282,7 +311,7 @@ body {
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
-	color: #212529;
+	color: var(--text-color);
 	text-align: left;
 	background-color: var(--bg-color);
 }
@@ -320,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
 	color: inherit;
 	a {
-		color: #343a40;
+		color: var(--header-link-color);
 	}
 }
 
@@ -674,7 +703,7 @@ a.text-light:focus {
 .bg-dark {
 	background-color: var(--bg-dark-color) !important;
 	background-image: var(--bg-dark-image) !important;
-	text-shadow: 2px 2px 2px maroon;
+	//text-shadow: 2px 2px 2px maroon;
 }
 
 .svg-bg-dark {
@@ -1264,10 +1293,6 @@ $logo-shadow-offset: 10px;
 $text-outline-size: 20px;
 $flag-border-radius: 10px;
 
-$logo-primary: #db4468;
-$logo-secondary: #fff;
-$logo-tertiary: #000;
-
 .logo
 {
 	//transform: skew(-5deg, 0deg);
@@ -1292,7 +1317,7 @@ $logo-tertiary: #000;
 				border: $logo-border-thickness solid var(--logo-tertiary);
 				border-radius: $logo-border-radius;
 				background-color: var(--logo-primary);
-				box-shadow: -$logo-shadow-offset $logo-shadow-offset 0 0 $logo-tertiary;
+				box-shadow: -$logo-shadow-offset $logo-shadow-offset 0 0 var(--logo-tertiary);
 				margin: 0;
 				display: inline-block;
 
@@ -1308,7 +1333,7 @@ $logo-tertiary: #000;
 				margin: .1em .5em;
 				color: var(--logo-tertiary);
 				text-stroke: $text-outline-size var(--logo-secondary);
-				-webkit-text-stroke: $text-outline-size $logo-secondary;
+				-webkit-text-stroke: $text-outline-size var(--logo-secondary);
 				paint-order: stroke fill;
 				font-size: 6em;
 				font-family: "Fredoka";
@@ -1384,7 +1409,7 @@ $logo-tertiary: #000;
 	
 				h2.logo-year {
 					background-color: $logo-tertiary;
-					color: $logo-secondary;
+					color: var(--logo-secondary);
 					font-size: 4.8em;
 					clip-path: polygon((-$logo-shadow-offset) -10px,
 							calc(100%) -10px,
@@ -1405,14 +1430,14 @@ $logo-tertiary: #000;
 				}
 	
 				h3.date {
-					color: $logo-tertiary;
+					color: var(--logo-tertiary);
 					vertical-align: bottom;
 					font-weight: 700;
 					margin: 0;
 					padding: 0;
 					.date-icon
 					{
-						color: $logo-primary;
+						color: var(--logo-primary);
 						margin: 0 0.2em;
 					}
 				}

@@ -129,7 +129,7 @@ defaults:
   - scope:
       path: ""
     values:
-      theme: default
+      theme: 2025
       hide_title: false
 
 # Sass/SCSS
