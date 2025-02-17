@@ -101,7 +101,7 @@ Yes! We encourage submissions in any language.
 ## How else can I participate beyond submitting something? 
 
 - Join the [#notGDC {%- include icon.html icon="discord" -%}Discord](https://discord.notgdc.io/)
-- Check out submissions at [#notGDC 2024](https://notgdc.io/2024/)
+- Check out submissions at [#notGDC 2025](https://notgdc.io/2025/)
 - Follow along on [{%- include icon.html icon="bluesky" -%}Bluesky](https://bsky.app/search?q=%23notGDC) and {%- include icon.html icon="mastodon" -%}Mastodon by following the hashtag #notGDC
 - Help with the [site on GitHub](https://github.com/benui-dev/notgdc-site/)
 - Tell your friends!
