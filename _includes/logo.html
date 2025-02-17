@@ -1,4 +1,7 @@
+{% assign theme = page.theme %}
+{% if include.theme %}
 {% assign theme = include.theme %}
+{% endif %}
 
 {% assign year = '2025' %}
 {% if include.year %}

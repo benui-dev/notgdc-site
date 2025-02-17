@@ -124,6 +124,7 @@ defaults:
       path: "_pages"
       type: pages
     values:
+      theme: 2025
       layout: default
   # global defaults
   - scope:

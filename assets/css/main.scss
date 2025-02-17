@@ -15,6 +15,11 @@
 $title-font: "Lexend", sans-serif;
 $body-font: "Lexend", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
+$breakpoint-xlarge: 1200px;
+$breakpoint-large: 992px;
+$breakpoint-medium: 768px;
+$breakpoint-small: 576px;
+
 // The reason we want to define both css style --variables and sass style $variables
 // is to be able to use color.scale
 // Must use #{$var} around sass variables to interpolate them to be used in css variables.
@@ -48,17 +53,14 @@ body
 
 .theme-2025
 {
-	blah: #613AFF;
-	foo: #5259FF;
-
-	$highlight-color: #25F9E1;
+	$highlight-color: #11D1C8; //25F9E1;
 	--highlight-color: #{$highlight-color};
 	$highlight-color-light: color.scale($highlight-color, $lightness: 20%);
 	--highlight-color-light: #{$highlight-color-light};
  	$highlight-color-lightest: color.scale($highlight-color, $lightness: 80%);
  	--highlight-color-lightest: #{$highlight-color-lightest};
 
-	$link-color: #25F9E1;
+	$link-color: #03C1AB;
 	--link-color: #{$link-color};
 	$link-color-hover: color.scale($link-color, $lightness: 10%);
 	--link-color-hover: #{$link-color-hover};
@@ -76,8 +78,10 @@ body
 
 	// Buttons
 	--btn-light-text: #212529;
-	--btn-special-bg: #f9b641;
-	--btn-special-bg-hover: #ffd34e;
+	$btn-special-bg: #38f9e2;
+	--btn-special-bg: #{$btn-special-bg};
+	$btn-special-bg-hover: color.scale($btn-special-bg, $lightness: 20%);
+	--btn-special-bg-hover: #{$btn-special-bg-hover};
 
 	--masthead-text-color: #000;
 	--masthead-background-image: url(/assets/img/repeatingbg.webp);
@@ -85,7 +89,7 @@ body
 	--masthead-background-position: center;
 
 	// Only needed for new-style themeable logo
-	--logo-primary: #25F9E1;
+	--logo-primary: #11D1C8;
 	--logo-secondary: #fff;
 	--logo-tertiary: #000;
 }
@@ -453,15 +457,6 @@ a:not([href]):not([tabindex]):focus {
 }
 */
 
-.btn-dark {
-	color: #fff !important;
-}
-
-.btn {
-	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-	font-weight: 700;
-}
-
 .btn-special {
 	background-color: var(--btn-special-bg) !important;
 }
@@ -473,9 +468,9 @@ a:not([href]):not([tabindex]):focus {
 .btn {
 	font-family: $body-font;
 	background-color: var(--highlight-color);
-	border: 1px solid var(--highlight-color-light);
+	border: 1px solid var(--highlight-color-lightest);
 	border-radius: var(--border-radius);
-	color: #fff;
+	color: #fff; //var(--btn-light-text);
 	vertical-align: middle;
 	text-shadow: 1px 1px hsl(159, 24%, 25%);
 	font-weight: 700;
@@ -628,7 +623,7 @@ textarea {
 	font-size: 1.2rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: $breakpoint-large) {
 	.portfolio-item {
 		max-width: none;
 		margin: 0;
@@ -795,7 +790,7 @@ button.bg-dark:focus {
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: $breakpoint-large) {
 	.screen-fill {
 		min-height: 100vh;
 	}
@@ -805,7 +800,7 @@ button.bg-dark:focus {
 	}
 }
 
-@media (max-width: 576px) {
+@media (max-width: $breakpoint-small) {
 	.masthead {
 		h1 {
 			font-size: 8em;
@@ -887,25 +882,25 @@ label {
 	margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: $breakpoint-small) {
 	.ngdc-container {
 		max-width: 540px;
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-medium) {
 	.ngdc-container {
 		max-width: 720px;
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: $breakpoint-large) {
 	.ngdc-container {
 		max-width: 960px;
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $breakpoint-xlarge) {
 	.ngdc-container {
 		max-width: 1140px;
 	}
@@ -956,7 +951,7 @@ label {
 	max-width: 100%;
 }
 
-@media (min-width: 992px) {
+@media (min-width: $breakpoint-large) {
 	.padding-y-small-screen {
 		padding-top: unset;
 		padding-bottom: unset;
@@ -1075,7 +1070,7 @@ hr.ngdc-small-line {
 	flex-direction: row-reverse;
 }
 
-@media (max-width: 992px) {
+@media (max-width: $breakpoint-large) {
 	.submission-entry
 	{
 		flex-wrap: wrap-reverse;
@@ -1250,7 +1245,7 @@ a.tag-link:hover {
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: $breakpoint-small) {
 	.tag-entry-show,.tag-entry-hide {
 		transition: unset;
 	}
@@ -1293,159 +1288,140 @@ $flag-border-radius: 10px;
 
 .logo
 {
-	//transform: skew(-5deg, 0deg);
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	flex-wrap: nowrap;
-	//justify-content: center;
-	//align-items: center;
-	clear: both;
+	//clear: both;
 	cursor: default;
+}
+.banner-row
+{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	flex-wrap: nowrap;
+	//justify-content: stretch;
+	//align-items: center;
+}
+.banner {
+	border: $logo-border-thickness solid var(--logo-tertiary);
+	border-radius: $logo-border-radius;
+	background-color: var(--logo-primary);
+	box-shadow: -$logo-shadow-offset $logo-shadow-offset 0 0 var(--logo-tertiary);
+	margin: 0;
+	display: inline-block;
+	transform: skew(-5deg, 0deg);
+}
+
+h1.name {
+	margin: .1em .5em;
+	color: var(--logo-tertiary);
+	text-stroke: $text-outline-size var(--logo-secondary);
+	-webkit-text-stroke: $text-outline-size var(--logo-secondary);
+	paint-order: stroke fill;
+	font-size: 4rem;
+	font-family: "Fredoka";
+	font-weight: 600;
+	isolation: isolate;
+}
+.right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+h2.logo-year {
+	background-color: var(--logo-tertiary);
+	color: var(--logo-secondary);
+	font-size: 3rem;
+	clip-path: polygon((-$logo-shadow-offset) -10px,
+			calc(100%) -10px,
+			calc(100%) 5px,
+			calc(100% - 10px) 50%,
+			calc(100%) calc(100% - 5px),
+			calc(100%) calc(100% + 10px),
+			-10px calc(100% + 10px));
+	outline: auto solid var(--logo-tertiary);
+	border-radius: $flag-border-radius;
+	box-shadow: -$logo-shadow-offset $logo-shadow-offset 0 0 var(--logo-primary);
+	font-family: "Fredoka";
+	font-weight: 600;
+	display: inline-block;
+	//vertical-align: top;
+	padding: 0.15rem .9em;
+	margin-top: 0.5rem;
+	align-self: flex-end;
+	transform: translateX(0.5rem) translateY(-1rem);
+}
+
+h3.date {
+	color: var(--logo-tertiary);
+	vertical-align: bottom;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+	font-size: 1.6rem;
+	align-self: center;
+	.date-icon
+	{
+		color: var(--logo-primary);
+		margin: 0 0.2em;
+	}
+}
+
+h3.subtitle
+{
+	font-family: "Fredoka";
+	font-weight: 300;
+	font-size: 1.4rem;
+}
+
+@media (min-width: $breakpoint-medium) {
 	.banner-row
 	{
-			display: flex;
-			flex-direction: row;
-			text-align: center;
-			flex-wrap: nowrap;
-			justify-content: center;
-			align-items: center;
-	
-			.banner {
-				border: $logo-border-thickness solid var(--logo-tertiary);
-				border-radius: $logo-border-radius;
-				background-color: var(--logo-primary);
-				box-shadow: -$logo-shadow-offset $logo-shadow-offset 0 0 var(--logo-tertiary);
-				margin: 0;
-				display: inline-block;
+		justify-content: center;
+		flex-direction: row;
+	}
 
-				transform: skew(-5deg, 0deg);
+	h1.name {
+		font-size: 5rem;
+		margin: .1em .5em
+	}
 
-				//background-image: url(/assets/img/2024/noise_texture_a.webp), url(/assets/img/2024/noise_texture_a.webp);
-				//background-repeat: repeat;
-				//background-blend-mode: multiply;
-				//background-size: 500px;
-			}
+	h2.logo-year {
+		font-size: 4rem;
+		transform: translateX(-1rem) translateY(-2rem);
+		margin-top: 0;
+	}
 
-			h1.name {
-				margin: .1em .5em;
-				color: var(--logo-tertiary);
-				text-stroke: $text-outline-size var(--logo-secondary);
-				-webkit-text-stroke: $text-outline-size var(--logo-secondary);
-				paint-order: stroke fill;
-				font-size: 6em;
-				font-family: "Fredoka";
-				font-weight: 600;
-				//z-index: 2;
-				//position: absolute;
-				isolation: isolate;
-			}
-	
-			/*
-			.banner::before {
-				content: '';
-				width: 100%;
-				height: 100%;
-				position: absolute;
-				left: 0;
-				top: 0;
-				z-index: 1;
-				background-color: green;
-				mix-blend-mode: multiply;
-			}
-			*/
+	h3.date {
+		font-size: 2rem;
+	}
 
-	
-			.layer1
-			{
-				//content: '';
-				//display: inline-block;
-				//display: flex;
-				//align-items: stretch;
-				//width: 100%;
-				//flex-direction: column;
-				//position: relative;
-				//top: 0;
-				//left: 0;
-				//height: 100%;
-			}
-			.layer2
-			{
-				background-image: url(/assets/img/2024/noise_texture_b.webp);
-				background-repeat: repeat;
-				mix-blend-mode: multiply;
-				//content: '';
-				//display: inline-block;
-				//display: flex;
-				//align-items: stretch;
-				//width: 100%;
-				//flex-direction: column;
-				//position: relative;
-				//top: 0;
-				//left: 0;
-				//height: 100%;
-			}
-			/*
-			.banner::after
-			{
-				background-image: url(/assets/img/2024/noise_texture_b.webp);
-				background-repeat: repeat;
-				mix-blend-mode: multiply;
-				content: '';
-				display: inline-block;
-				width: calc(100%);
-				height: calc(100%);
-				position: absolute;
-				top: 0;
-				left: 0;
-			}
-			*/
-			.right {
-				display: flex;
-				flex-direction: column;
-				align-items: flex-start;
-	
-				h2.logo-year {
-					background-color: var(--logo-tertiary);
-					color: var(--logo-secondary);
-					font-size: 4.8em;
-					clip-path: polygon((-$logo-shadow-offset) -10px,
-							calc(100%) -10px,
-							calc(100%) 5px,
-							calc(100% - 10px) 50%,
-							calc(100%) calc(100% - 5px),
-							calc(100%) calc(100% + 10px),
-							-10px calc(100% + 10px));
-					outline: auto solid var(--logo-tertiary);
-					border-radius: $flag-border-radius;
-					box-shadow: -$logo-shadow-offset $logo-shadow-offset 0 0 var(--highlight-color);
-					font-family: "Fredoka";
-					font-weight: 600;
-					display: inline-block;
-					vertical-align: top;
-					padding: 0.15rem .9em;
-					transform: translateX(-20px) translateY(-15px);
-				}
-	
-				h3.date {
-					color: var(--logo-tertiary);
-					vertical-align: bottom;
-					font-weight: 700;
-					margin: 0;
-					padding: 0;
-					.date-icon
-					{
-						color: var(--logo-primary);
-						margin: 0 0.2em;
-					}
-				}
-			}
-		}
 	h3.subtitle
 	{
-		font-family: "Fredoka";
-		font-weight: 300;
-		font-size: 2em;
+		font-size: 1.6rem;
+	}
+}
+
+@media (min-width: $breakpoint-large) {
+	h1.name {
+		font-size: 6rem;
+		margin: .1em .5em
+	}
+
+	h2.logo-year {
+		font-size: 4.8rem;
+	}
+
+	h3.date {
+		font-size: 2.60rem;
+	}
+
+	h3.subtitle
+	{
+		font-size: 2rem;
 	}
 }
 
