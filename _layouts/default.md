@@ -25,24 +25,9 @@
 <meta content="#ff517b" data-react-helmet="true" name="theme-color" />
 </head>
 
-<body id="page-top">
+<body id="page-top" class="theme-{{ page.theme }}">
 
 {{ content }}
-
-<!--      Navigation
-    <a class="menu-toggle rounded" href="#">
-      <i class="far fa-bars"></i>
-    </a>
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#page-top">#notGDC</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#page-top">Coming Soon</a>
-        </li>
-      </ul>
-    </nav> -->
 
 <section class="content-section bg-light" id="footer">
 <div class="ngdc-container">
@@ -59,26 +44,9 @@
 </div>
 {% endif %}
 <p class="text-center text-muted small no-margin-bottom">#notGDC is an informal event run entirely by volunteers. Huge thanks to everyone
-who has given their time to help bring it to life. <a href="{% link _pages/about.md %}">Full history of #notGDC</a>.</p>
+who has given their time to help bring it to life.</p>
 <p class="text-center text-muted small no-margin-bottom">Powered by Jekyll. Hosted on <a href="https://github.com/benui-dev/notgdc-site">GitHub</a>. Analytics by <a href="https://plausible.io/notgdc.io">Plausible.io</a>.</p>
 
-{% comment %}
-<!-- Scroll to Top Button-->
-<a class="scroll-to-top rounded " href="#page-top" aria-label="Scroll to top">
-  {%- include icon.html icon="angles-up" -%}
-</a>
-
-<!-- Bootstrap core JavaScript -->
-<script src="{{ '/assets/vendor/jquery/jquery.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
-
-<!-- Plugin JavaScript -->
-<!-- Removing this to try just using CSS -->
-<script src="{{ '/assets/vendor/jquery-easing/jquery.easing.min.js' | relative_url }}"></script>
-
-<!-- Custom scripts for this template -->
-<script src="{%- include minified_path.html file='/assets/js/stylish-portfolio' ext='js' -%}"></script>
-{% endcomment %}
 <script src="{%- include minified_path.html file='/assets/js/tags' ext='js' -%}"></script>
 
 </body>

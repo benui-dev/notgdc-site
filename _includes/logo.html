@@ -1,0 +1,26 @@
+{% assign theme = page.theme %}
+{% if include.theme %}
+{% assign theme = include.theme %}
+{% endif %}
+
+{% assign year = '2025' %}
+{% if include.year %}
+{% assign year = include.year %}
+{% endif %}
+
+{% assign date = 'march 10&ndash;14' %}
+{% if include.date %}
+{% assign date = include.date %}
+{% endif %}
+
+<div class="logo logo-{{ theme }}">
+	<div class="banner-row">
+		<!--<div class="banner"><div class="layer1"><div class="layer2"><h1 class="name">#notGDC</h1></div></div></div>-->
+		<div class="banner"><h1 class="name">#notGDC</h1></div>
+		<div class="right">
+			<h2 class="logo-year">{{ year }}</h2>
+			<h3 class="date">{%- include icon.html icon="calendar" class="date-icon" -%}{{ date }}</h3>
+		</div>
+	</div>
+	<h3 class="subtitle">a game development non-conference, for <strong>everyone!</strong></h3>
+</div>

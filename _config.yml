@@ -1,13 +1,9 @@
 title: "#notGDC"
 email: notgdc@notgdc.io
 description: >-
-  A game development non-conference, for everyone!
+  a game development non-conference, for everyone!
 baseurl: ""
 url: "https://notgdc.io"
-bsky:
-  username: "https://bsky.app/profile/notgdc.bsky.social/"
-mastodon:
-  username: "@notgdc@mastodon.gamedev.place"
 
 # Site Settings
 locale: "en"
@@ -77,7 +73,7 @@ footer:
   links:
     - label: "Bluesky"
       icon: "bluesky"
-      url: "https://bsky.app/profile/notgdc.bsky.social/"
+      url: "https://bsky.app/profile/notgdc.io/"
     - label: "Mastodon"
       icon: "mastodon"
       url: "https://mastodon.gamedev.place/@notGDC"
@@ -91,17 +87,35 @@ footer:
       icon: "twitch"
       url: "https://www.twitch.tv/notGDC"
 
+navigation:
+  - display: Home
+    path: index.html
+  - display: FAQ
+    path: _pages/faq.md
+  - display: All Years
+    path: _pages/archive.md
+  - display: 2025
+    path: _pages/2025.md
+  - display: 2024
+    path: _pages/2024.md
+  - display: 2023
+    path: _pages/2023.md
+  - display: 2022
+    path: _pages/2022.md
+  - display: 2020
+    path: _pages/2020.md
+  - display: 2019
+    path: _pages/2019.md
+  - display: 2018
+    path: _pages/2018.md
+  - display: 2017
+    path: _pages/2017.md
+
 # Collections
 collections:
   tags:
     output: true
     permalink: /:collection/:path/
-    order:
-     - industries-of-titan.md
-     - vampyr.md
-     - monster-boy.md
-     - nova-111.md
-     - ia-vt.md
 
 
 # Defaults
@@ -111,7 +125,14 @@ defaults:
       path: "_pages"
       type: pages
     values:
+      theme: 2025
       layout: default
+  # global defaults
+  - scope:
+      path: ""
+    values:
+      theme: 2025
+      hide_title: false
 
 # Sass/SCSS
 sass:

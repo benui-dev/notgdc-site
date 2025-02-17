@@ -23,11 +23,11 @@
 			{% if include.submission.links.size > 1 %}
 				<h4>{{ include.submission.title }}
 					{% for link in include.submission.links %}
-					<a href="{{ link }}">(Part {{ forloop.index }} {%- include icon.html icon="up-right-from-square" class="fa-third-x text-muted external-link-icon"-%})</a> 
+					<a href="{{ link }}"{% if include.submission.broken_link %}class="broken_link"{% endif %}>(Part {{ forloop.index }} {% if include.submission.broken_link %}{%- include icon.html icon="broken-link" class="fa-third-x text-muted external-link-icon"-%}{% else %}{%- include icon.html icon="up-right-from-square" class="fa-third-x text-muted external-link-icon"-%}{% endif %})</a> 
 					{% endfor %}
 				</h4>
 			{% else %}
-				<h4><a class="portfolio-item" href="{{ include.submission.links }}">{{ include.submission.title }} {%- include icon.html icon="up-right-from-square"  class="fa-third-x text-muted external-link-icon"-%}</a></h4>
+				<h4><a class="portfolio-item{% if include.submission.broken_link %} broken_link{% endif %}" href="{{ include.submission.links }}">{{ include.submission.title }} {% if include.submission.broken_link %}{%- include icon.html icon="broken-link" class="fa-third-x text-muted external-link-icon"-%}{% else %}{%- include icon.html icon="up-right-from-square" class="fa-third-x text-muted external-link-icon"-%}{% endif %}</a></h4>
 			{% endif %}
         <p> by 
 		{% for author in include.submission.authors %}

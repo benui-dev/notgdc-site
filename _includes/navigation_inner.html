@@ -1,0 +1,16 @@
+<div class="ngdc-row">
+<div class="ngdc-col">
+{% for entry in site.navigation %}
+{%- capture pathlink %}{% link {{ entry.path }} %}{% endcapture -%}
+{% assign should_skip = false %}
+{% if pathlink == "/" %}
+{% if page.url == "/" %}
+{% assign should_skip = true %}
+{% endif %}
+{% endif %}
+{% unless should_skip %}
+<a class="btn{% if page.url == pathlink %} current_page{% endif %}" href="{% link {{ entry.path }}  %}">{{ entry.display }}</a>
+{% endunless %}
+{% endfor %}
+</div>
+</div>

@@ -1,0 +1,32 @@
+---
+layout: none
+---
+{
+ 	{% assign all_submissions = "" %}
+
+	{% assign sorted_submissions = site.data.submissions.submissions | sort: "year" %}
+
+	{% for entry in sorted_submissions %}
+		{% unless entry.broken_link %}
+{%- capture submission_text -%}
+#notGDC submission from {{ entry.year }}:
+"{{ entry.title }}" by {% for author in entry.authors -%}{{ author.name | replace: "@", "" }}{% if forloop.last == false %}, {% endif %}{%- endfor %}
+{{ entry.links.first }}
+{%- endcapture -%}
+
+	{% assign submission_text = submission_text | replace: "#", "\\#" %}
+
+	{% assign all_submissions = all_submissions | append: submission_text | append: "|" %}
+	{% endunless %}
+	{% endfor %}
+
+	{% assign all_array = all_submissions | split: "|" | shuffle: 1 %}
+    "origin": [
+        "#notgdc#"
+    ],
+	"notgdc": [
+    {%- for entry in all_array -%}
+    {{ entry | jsonify }}{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+	]
+}
