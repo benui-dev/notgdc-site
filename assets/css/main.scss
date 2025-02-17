@@ -15,7 +15,9 @@
 $title-font: "Lexend", sans-serif;
 $body-font: "Lexend", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-// Must use #{$var} around sass variables to interpolate them
+// The reason we want to define both css style --variables and sass style $variables
+// is to be able to use color.scale
+// Must use #{$var} around sass variables to interpolate them to be used in css variables.
 
 /** Each year has its own theme. When creating a new year, copy a previous year and change any variables. */
 body
@@ -24,7 +26,6 @@ body
 	--logo-secondary: #fff;
 	--logo-tertiary: #000;
 	--button-bg: #ff00ff;
-	--button-border: #00ff00;
 	--bg-color: #f3f1f9;
 
 	$highlight-color: #ff517b;
@@ -47,6 +48,9 @@ body
 
 .theme-2025
 {
+	blah: #613AFF;
+	foo: #5259FF;
+
 	$highlight-color: #25F9E1;
 	--highlight-color: #{$highlight-color};
 	$highlight-color-light: color.scale($highlight-color, $lightness: 20%);
@@ -62,7 +66,7 @@ body
 	--header-link-color: #{$header-link-color};
 
 	--bg-dark-color: #22E5D1;
-	--bg-dark-text-color: 
+	--bg-dark-text-color: #000;
 	--bg-dark-color-hover: #1d2124;
 	--bg-light-color: #f3f1f9;
 
@@ -70,6 +74,12 @@ body
 	--logo-secondary: #fff;
 	--logo-tertiary: #000;
 
+	// Buttons
+	--btn-light-text: #212529;
+	--btn-special-bg: #f9b641;
+	--btn-special-bg-hover: #ffd34e;
+
+	--masthead-text-color: #000;
 	--masthead-background-image: url(/assets/img/repeatingbg.webp);
 	--masthead-background-repeat: repeat;
 	--masthead-background-position: center;
@@ -96,15 +106,12 @@ body
 	$header-link-color: #343a40;
 	--header-link-color: #{$header-link-color};
 
-	/*
-	--btn-primary-bg: #57cba3;
-	--btn-primary-border-color: #2becaa;
-	--btn-primary-text-color: #fff;
+	// Buttons
+	--btn-light-text: #212529;
+	--btn-special-bg: #f9b641;
+	--btn-special-bg-hover: #ffd34e;
 
-	--btn-secondary-bg: #ba9106;
-	--btn-secondary-border-color: #ba9106;
-	*/
-
+	--masthead-text-color: #000;
 	--masthead-background-image: url(/assets/img/repeatingbg.webp);
 	--masthead-background-repeat: repeat;
 	--masthead-background-position: center;
@@ -129,11 +136,12 @@ body
 	$link-color-hover: color.scale($link-color, $lightness: 10%);
 	--link-color-hover: #{$link-color-hover};
 
-	--btn-light-text: #212529
-
+	// Buttons
+	--btn-light-text: #212529;
 	--btn-special-bg: #f9b641;
 	--btn-special-bg-hover: #ffd34e;
 
+	--masthead-text-color: #fff;
 	--masthead-background-image: url(/assets/img/2022/repeatingbg.webp);
 	--masthead-background-color: #0d0d0d;
 	--masthead-background-repeat: repeat;
@@ -146,13 +154,6 @@ body
 	$text-color: #fff;
 	--text-color: #{$text-color};
 }
-
-/*
-body.theme-2022
-{
-	color: #fff;
-}
-*/
 
 .theme-2020
 {
@@ -213,7 +214,9 @@ body.theme-2022
  	--highlight-color-lightest: #{$highlight-color-lightest};
 
 	--bg-dark-color: #383f76;
-	--link-color: #7a6ba2;
+	--link-color: #8C65F7; //#7a6ba2;
+
+	--masthead-text-color: #fff;
 	--masthead-background-image: url(/assets/img/2019/bg-masthead.webp);
 	--masthead-background-color: #3f608d;
 	--masthead-background-repeat: no-repeat;
@@ -256,7 +259,6 @@ body.theme-2022
 .theme-2017
 {
 	--button-bg: #564588;
-	--button-border: #b594f3;
 	--bg-dark-color: linear-gradient(#373737, #212121);
 	--bg-dark-image: linear-gradient(#373737, #212121);
 	--link-color: #007edf;
@@ -295,7 +297,6 @@ html {
 	width: 100%;
 	height: 100%;
 }
-
 
 @-ms-viewport {
 	width: device-width;
@@ -692,7 +693,7 @@ footer.footer .social-link:hover {
 }
 
 .text-light {
-	color: var(--bg-light-color) !important;
+	color: var(--text-light-color) !important;
 }
 
 a.text-light:hover,
@@ -704,10 +705,6 @@ a.text-light:focus {
 	background-color: var(--bg-dark-color) !important;
 	background-image: var(--bg-dark-image) !important;
 	//text-shadow: 2px 2px 2px maroon;
-}
-
-.svg-bg-dark {
-	filter:drop-shadow(2px 2px 2px rgba(128, 0, 0, 0.302));
 }
 
 a.bg-dark:hover,
@@ -759,6 +756,8 @@ button.bg-dark:focus {
 	background-position: var(--masthead-background-position);
 	background-size: var(--masthead-background-size);
 
+	color: var(--masthead-text-color);
+
 	//background-size: 100%, 400px;
 	img.masthead-logo {
 		max-width: 80%;
@@ -766,7 +765,7 @@ button.bg-dark:focus {
 	}
 
 	h1 {
-		color: #000;
+		//color: #000;
 		font-weight: 900;
 		font-size: 4rem;
 		margin: 0;
@@ -777,20 +776,19 @@ button.bg-dark:focus {
 	}
 
 	h2 {
-		color: #fff;
 		font-size: 6em;
 		font-weight: 700;
 	}
 
 	h3 {
-		color: #000;
+		//color: #000;
 		font-size: 3em;
 		font-weight: 700;
 		font-family: $body-font;
 	}
 
 	h4 {
-		color: #111;
+		//color: #111;
 		font-size: 2em;
 		font-weight: 400;
 		font-family: $body-font;
@@ -1323,10 +1321,10 @@ $flag-border-radius: 10px;
 
 				transform: skew(-5deg, 0deg);
 
-				background-image: url(/assets/img/2024/noise_texture_a.webp), url(/assets/img/2024/noise_texture_a.webp);
-				background-repeat: repeat;
-				background-blend-mode: multiply;
-				background-size: 500px;
+				//background-image: url(/assets/img/2024/noise_texture_a.webp), url(/assets/img/2024/noise_texture_a.webp);
+				//background-repeat: repeat;
+				//background-blend-mode: multiply;
+				//background-size: 500px;
 			}
 
 			h1.name {
@@ -1408,7 +1406,7 @@ $flag-border-radius: 10px;
 				align-items: flex-start;
 	
 				h2.logo-year {
-					background-color: $logo-tertiary;
+					background-color: var(--logo-tertiary);
 					color: var(--logo-secondary);
 					font-size: 4.8em;
 					clip-path: polygon((-$logo-shadow-offset) -10px,
@@ -1418,7 +1416,7 @@ $flag-border-radius: 10px;
 							calc(100%) calc(100% - 5px),
 							calc(100%) calc(100% + 10px),
 							-10px calc(100% + 10px));
-					outline: auto solid $logo-tertiary;
+					outline: auto solid var(--logo-tertiary);
 					border-radius: $flag-border-radius;
 					box-shadow: -$logo-shadow-offset $logo-shadow-offset 0 0 var(--highlight-color);
 					font-family: "Fredoka";
