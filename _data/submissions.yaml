@@ -9,6 +9,21 @@ submissions:
 #   broken_link: boolean optional
 
 ###############################################################################
+# 2025
+
+ - title: "Mip Flooding in Substance Designer"
+   authors: [ { name: "Hauke Thießen", link: "https://mastodon.gamedev.place/@haukethiessen" } ]
+   links: [ "https://www.artstation.com/blogs/haukethiessen/Bd1rz/mip-flooding-in-substance-designer" ]
+   tags: [ tech,art ]
+   year: 2025
+ - title: "Mocopi Meta Quest Mocap"
+   authors: [ { name: "Steven Harmon", link: "https://twitter.com/StevenJHarmon1" } ]
+   links: [ "https://youtu.be/Z9ZHHgvrqWU?si=h07ZhufNtM6GdUYy" ]
+   tags: [ vr,tech,art ]
+   year: 2025
+
+
+###############################################################################
 # 2024
 
  - title: "Adjusting Texture Sizes by Sharpness in Unreal"
