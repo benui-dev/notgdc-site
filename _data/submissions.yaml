@@ -19,7 +19,22 @@ submissions:
  - title: "Mocopi Meta Quest Mocap"
    authors: [ { name: "Steven Harmon", link: "https://twitter.com/StevenJHarmon1" } ]
    links: [ "https://youtu.be/Z9ZHHgvrqWU?si=h07ZhufNtM6GdUYy" ]
-   tags: [ vr,tech,art ]
+   tags: [ vr,tech,video ]
+   year: 2025
+ - title: "Meta in video games and its ethical implications"
+   authors: [ { name: "Pengyu Jiang", link: "https://universezo.itch.io/" } ]
+   links: [ "https://www.youtube.com/watch?v=2NaWMB4AOv4&t=3s" ]
+   tags: [ video,community,game-design ]
+   year: 2025
+ - title: "Comfort is a Weapon"
+   authors: [ { name: "Eric Merz", link: "https://mokkograd.net/" } ]
+   links: [ "https://mokkograd.net/posts/2023-11-30-Comfort-is-a-weapon" ]
+   tags: [ game-design ]
+   year: 2025
+ - title: "Powered by Abstraction - Thoughts about an incomplete RPG framework"
+   authors: [ { name: "Eric Merz", link: "https://mokkograd.net/" } ]
+   links: [ "https://mokkograd.net/posts/2025-01-01-Powered-by-Abstraction" ]
+   tags: [ game-design ]
    year: 2025
 
 
