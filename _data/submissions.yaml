@@ -36,6 +36,21 @@ submissions:
    links: [ "https://mokkograd.net/posts/2025-01-01-Powered-by-Abstraction" ]
    tags: [ game-design ]
    year: 2025
+ - title: "How to build an optimization toolbox"
+   authors: [ { name: "Lars Thießen", link: "https://mastodon.gamedev.place/@LarsThiessen" } ]
+   links: [ "https://larstofus.com/2024/12/30/how-to-build-an-optimization-toolbox/" ]
+   tags: [ tech,programming ]
+   year: 2025
+ - title: "Inclusive Workflow: Implementing Accessible Game Design"
+   authors: [ { name: "Jeremy Yanofsky", link: "https://jy-creative.weebly.com/about-me.html" } ]
+   links: [ "https://implementing-accessible-game-design.netlify.app/#/" ]
+   tags: [ game-design,accessibility ]
+   year: 2025
+ - title: "ENGAGE! | Portal 2 Level Editor"
+   authors: [ { name: "Jeremy Yanofsky", link: "https://jy-creative.weebly.com/about-me.html" } ]
+   links: [ "https://youtu.be/4jlQjZdzW40?si=ph240fsUcYeTGHMy" ]
+   tags: [ video,game-design ]
+   year: 2025
 
 
 ###############################################################################
