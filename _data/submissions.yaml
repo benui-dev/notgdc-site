@@ -51,6 +51,17 @@ submissions:
    links: [ "https://youtu.be/4jlQjZdzW40?si=ph240fsUcYeTGHMy" ]
    tags: [ video,game-design ]
    year: 2025
+   https://store.steampowered.com/app/2683150/Ale__Tale_Tavern/
+ - title: "On the importance to make games during the game engine’s development"
+   authors: [ { name: "Team Nutshell", link: "https://www.team-nutshell.dev/" } ]
+   links: [ "https://www.team-nutshell.dev/nutshellengine/articles/making-games-during-development.html" ]
+   tags: [ history,game-design ]
+   year: 2025
+ - title: "Flow-State in Helldivers 2"
+   authors: [ { name: "Eelwaffles", link: "https://www.tumblr.com/eelwaffles/778064716294717440/flow-state-in-helldivers-2?source=share" } ]
+   links: [ "https://www.tumblr.com/eelwaffles/778064716294717440/flow-state-in-helldivers-2?source=share" ]
+   tags: [ game-design ]
+   year: 2025
 
 
 ###############################################################################
