@@ -94,6 +94,8 @@ navigation:
     path: _pages/faq.md
   - display: All Years
     path: _pages/archive.md
+  - display: 2026
+    path: _pages/2026.md
   - display: 2025
     path: _pages/2025.md
   - display: 2024

@@ -123,3 +123,7 @@ year-2025:
   title: 2025
   background-color: "#ff517b"
   text-color: "#000"
+year-2026:
+  title: 2026
+  background-color: "#ffc90e"
+  text-color: "#000"
