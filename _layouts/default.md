@@ -22,7 +22,7 @@
 <!-- Custom CSS -->
 <link href="{%- include minified_path.html file='/assets/css/main' ext='css' -%}" rel="stylesheet">
 
-<meta content="#ff517b" data-react-helmet="true" name="theme-color" />
+<meta content="#fcff51" data-react-helmet="true" name="theme-color" />
 </head>
 
 <body id="page-top" class="theme-{{ page.theme }}">

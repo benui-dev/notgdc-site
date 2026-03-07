@@ -51,6 +51,44 @@ body
 	--border-radius: 5px;
 }
 
+.theme-2026
+{
+	$highlight-color: #7700ff;
+	--highlight-color: #{$highlight-color};
+	$highlight-color-light: color.scale($highlight-color, $lightness: 20%);
+	--highlight-color-light: #{$highlight-color-light};
+ 	$highlight-color-lightest: color.scale($highlight-color, $lightness: 80%);
+ 	--highlight-color-lightest: #{$highlight-color-lightest};
+
+	$link-color: #7700ff;
+	--link-color: #{$link-color};
+	$link-color-hover: color.scale($link-color, $lightness: 10%);
+	--link-color-hover: #{$link-color-hover};
+	$header-link-color: #343a40;
+	--header-link-color: #{$header-link-color};
+
+	--bg-dark-color: #af7de9;
+	--bg-dark-text-color: #000;
+	--bg-dark-color-hover: #1d2124;
+	--bg-light-color: #f3f1f9;
+
+	--logo-primary: #8221f1;
+	--logo-secondary: #fff;
+	--logo-tertiary: #000;
+
+	// Buttons
+	--btn-light-text: #212529;
+	$btn-special-bg: #b286e4;
+	--btn-special-bg: #{$btn-special-bg};
+	$btn-special-bg-hover: color.scale($btn-special-bg, $lightness: 20%);
+	--btn-special-bg-hover: #{$btn-special-bg-hover};
+
+	--masthead-text-color: #000;
+	--masthead-background-image: url(/assets/img/repeatingbg.webp);
+	--masthead-background-repeat: repeat;
+	--masthead-background-position: center;
+}
+
 .theme-2025
 {
 	$highlight-color: #11D1C8; //25F9E1;
@@ -87,11 +125,6 @@ body
 	--masthead-background-image: url(/assets/img/repeatingbg.webp);
 	--masthead-background-repeat: repeat;
 	--masthead-background-position: center;
-
-	// Only needed for new-style themeable logo
-	--logo-primary: #11D1C8;
-	--logo-secondary: #fff;
-	--logo-tertiary: #000;
 }
 
 .theme-2023-2024
