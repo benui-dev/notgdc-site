@@ -35,6 +35,16 @@ submissions:
    links: [ "https://clubclue.mataroa.blog/blog/chess-end-game-puzzle/" ]
    tags: [ game-design ]
    year: 2026
+ - title: "Narrative post-mortem of Sandwalkers"
+   authors: [ { name: "Léonard Bertos", link: "https://sites.google.com/view/leontroglodyteen/" } ]
+   links: [ "https://sites.google.com/view/leontroglodytefr/blog-pro/post-mortem-sandwalkers-partie-1" ]
+   tags: [ game-design ]
+   year: 2026
+ - title: "Developing Games for Devices with Batteries"
+   authors: [ { name: "Hauke Thiessen", link: "https://haukethiessen.com" } ]
+   links: [ "https://haukethiessen.com/developing-games-for-devices-with-batteries/" ]
+   tags: [ unreal,programming,tech ]
+   year: 2026
 
 
 ###############################################################################
